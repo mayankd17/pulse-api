@@ -1,24 +1,27 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-13 21:18:03 IST",
+    "ist_time": "2026-09-13 22:11:58 IST",
     "date_str": "2026-09-13",
     "is_open": false,
     "is_weekend": true,
-    "status_label": "MARKET CLOSED / OFF-HOURS",
-    "notice": "MARKET OFF TODAY: Exchange is closed. Utilizing verified last session settled figures with real-time weekend macro feeds & news."
+    "is_holiday": false,
+    "holiday_name": "",
+    "last_session_date": "2026-09-11",
+    "status_label": "MARKET CLOSED: WEEKEND",
+    "notice": "MARKET OFF TODAY (MARKET CLOSED: WEEKEND). Settlement figures frozen from 2026-09-11. News and global macro monitored continuously."
   },
   "speedometer": {
-    "score": 33.6,
-    "regime": "Fear",
+    "score": 42.6,
+    "regime": "Balanced Neutral",
     "en": {
-      "summary": "Nifty closed at 23398.1 (Exchange Status: MARKET CLOSED / OFF-HOURS). Volatility Index (VIX) is 12.29 with Put-Call Ratio of 0.771.",
-      "why": "FII index futures long ratio is extremely suppressed at 11.2% against Retail at 83.9%. Net institutional flow shows distribution of -245.5 Cr.",
-      "what_to_do": "Maintain 50% liquid capital. Calibrate opportunistic SIP multiplier to 1.16x."
+      "summary": "Nifty at 23398.1 (MARKET CLOSED: WEEKEND). Volatility Index is 12.29 with Put-Call Ratio of 0.771.",
+      "why": "FII index futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
+      "what_to_do": "Maintain 35% liquid cash. Set opportunistic SIP deployment factor to 1.07x."
     },
     "hi": {
-      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23398.1 \u092a\u0930 \u0939\u0948 (MARKET CLOSED / OFF-HOURS)\u0964 VIX 12.29 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
+      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23398.1 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: WEEKEND)\u0964 VIX 12.29 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.16x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.07x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -35,18 +38,18 @@
       "hi": "\u0938\u094d\u091f\u094d\u0930\u093e\u0907\u0915 23350 \u0915\u0947 \u0907\u0930\u094d\u0926-\u0917\u093f\u0930\u094d\u0926 \u0906\u092f\u0930\u0928 \u0915\u094b\u0902\u0921\u094b\u0930 \u092c\u0928\u093e\u090f\u0902\u0964"
     },
     "allocation_percentages": {
-      "cash_liquid_pct": 55,
-      "defensive_hedges_pct": 30,
-      "selective_equity_pct": 15
+      "cash_liquid_pct": 45,
+      "defensive_hedges_pct": 20,
+      "selective_equity_pct": 35
     },
-    "multiplier": 1.16
+    "multiplier": 1.07
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
     "en": {
       "explanation": "Retail holds 286353 long contracts vs FII holding 326134 shorts (Divergence: -0.727).",
-      "protect": "Never buy morning opening breakout spikes without sustained volume confirmation.",
-      "profit": "Enter short contracts when price breaks decisively below the first 15-minute low."
+      "protect": "Never buy morning breakout spikes without volume confirmation.",
+      "profit": "Enter short contracts when price breaks below the opening 15-minute low."
     },
     "hi": {
       "explanation": "\u0930\u093f\u091f\u0947\u0932 \u091f\u094d\u0930\u0947\u0921\u0930\u094d\u0938 \u092d\u093e\u0930\u0940 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u092e\u0947\u0902 \u0939\u0948\u0902 \u091c\u092c\u0915\u093f \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u0928\u093f\u0935\u0947\u0936\u0915 (FIIs) \u0939\u0947\u091c\u093f\u0902\u0917 \u0915\u0947 \u0932\u093f\u090f \u0936\u0949\u0930\u094d\u091f \u0915\u0930 \u0930\u0939\u0947 \u0939\u0948\u0902\u0964",
@@ -61,78 +64,78 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 31,
-      "verdict": "Consolidation & ATR Corridor",
+      "score": 40,
+      "verdict": "Consolidation Corridor",
       "target_range": "22949.1 - 23847.1",
-      "downside_prob_pct": 58,
-      "upside_prob_pct": 42,
+      "downside_prob_pct": 45,
+      "upside_prob_pct": 55,
       "en": {
-        "rationale": "ATR (179.61 pts) and Parkinson Volatility (5.99%) envelope.",
-        "action": "Avoid buying extended intraday spikes; sell premium out-of-the-money."
+        "rationale": "ATR (179.61 pts) and Parkinson (5.99%) volatility bounds.",
+        "action": "Avoid chasing breakout spikes; sell premium out-of-the-money."
       },
       "hi": {
-        "rationale": "14-\u0926\u093f\u0928 \u0915\u0947 ATR (179.61) \u0914\u0930 \u0935\u094b\u0932\u0948\u091f\u093f\u0932\u093f\u091f\u0940 \u0906\u0927\u093e\u0930\u093f\u0924 \u0926\u093e\u092f\u0930\u093e\u0964",
-        "action": "\u090a\u092a\u0930\u0940 \u091b\u094b\u0930 \u092a\u0930 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902; \u0938\u0916\u094d\u0924 \u0938\u094d\u091f\u0949\u092a\u0932\u0949\u0938 \u0930\u0916\u0947\u0902\u0964"
+        "rationale": "ATR (179.61) \u0906\u0927\u093e\u0930\u093f\u0924 \u0926\u093e\u092f\u0930\u093e\u0964",
+        "action": "\u090a\u092a\u0930\u0940 \u0938\u094d\u0924\u0930\u094b\u0902 \u092a\u0930 \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902\u0964"
       }
     },
     "30_days": {
-      "score": 36,
-      "verdict": "SMA-50 Mean Reversion Anchor",
+      "score": 45,
+      "verdict": "SMA-50 Mean Reversion",
       "target_range": "22579.2 - 24251.3",
       "downside_prob_pct": 45,
       "upside_prob_pct": 55,
       "en": {
-        "rationale": "Gravitational mean-reversion pull towards 50-day moving average (24153.42).",
+        "rationale": "Mean-reversion pull towards 50-day moving average (24153.42).",
         "action": "Rebalance high-beta equities if extension exceeds 3% from SMA-50."
       },
       "hi": {
-        "rationale": "50-\u0926\u093f\u0928 \u0915\u0947 \u092e\u0942\u0935\u093f\u0902\u0917 \u090f\u0935\u0930\u0947\u091c (24153.42) \u0915\u0940 \u0924\u0930\u092b \u0932\u094c\u091f\u0928\u0947 \u0915\u093e \u092e\u0949\u0921\u0932\u0964",
-        "action": "\u0914\u0938\u0924 \u0938\u0947 \u092c\u0939\u0941\u0924 \u0926\u0942\u0930 \u091c\u093e\u0928\u0947 \u092a\u0930 \u092e\u0941\u0928\u093e\u092b\u093e \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0915\u0930\u0947\u0902\u0964"
+        "rationale": "50-\u0926\u093f\u0928 \u0915\u0947 \u0914\u0938\u0924 (24153.42) \u0915\u0940 \u0924\u0930\u092b \u0932\u094c\u091f\u0928\u0947 \u0915\u093e \u0905\u0928\u0941\u092e\u093e\u0928\u0964",
+        "action": "\u0914\u0938\u0924 \u0938\u0947 \u092c\u0939\u0941\u0924 \u0926\u0942\u0930 \u091c\u093e\u0928\u0947 \u092a\u0930 \u092e\u0941\u0928\u093e\u092b\u093e \u092c\u093e\u0902\u0927\u0947\u0902\u0964"
       }
     },
     "3_months": {
       "score": 54,
-      "verdict": "Corporate EPS & Earnings Horizon",
+      "verdict": "Corporate EPS Horizon",
       "target_range": "21994.2 - 25153.0",
       "downside_prob_pct": 42,
       "upside_prob_pct": 58,
       "en": {
-        "rationale": "Modelled on corporate quarterly earnings growth expectations and institutional earnings yields.",
-        "action": "Accumulate heavyweight market leaders with robust free cash flow on dips."
+        "rationale": "Modelled on corporate quarterly earnings yield.",
+        "action": "Accumulate heavyweight leaders with strong free cash flow on dips."
       },
       "hi": {
-        "rationale": "\u0924\u093f\u092e\u093e\u0939\u0940 \u0928\u0924\u0940\u091c\u094b\u0902 \u0914\u0930 \u0915\u0949\u0930\u094d\u092a\u094b\u0930\u0947\u091f \u092e\u0941\u0928\u093e\u092b\u0947 \u0915\u093e \u091a\u0915\u094d\u0930\u0964",
-        "action": "\u092e\u091c\u092c\u0942\u0924 \u0915\u0948\u0936 \u092b\u094d\u0932\u094b \u0935\u093e\u0932\u0940 \u0926\u093f\u0917\u094d\u0917\u091c \u0915\u0902\u092a\u0928\u093f\u092f\u094b\u0902 \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f \u092a\u0930 \u0928\u093f\u0935\u0947\u0936 \u0915\u0930\u0947\u0902\u0964"
+        "rationale": "\u0924\u093f\u092e\u093e\u0939\u0940 \u0915\u0949\u0930\u094d\u092a\u094b\u0930\u0947\u091f \u0928\u0924\u0940\u091c\u094b\u0902 \u0915\u093e \u091a\u0915\u094d\u0930\u0964",
+        "action": "\u0926\u093f\u0917\u094d\u0917\u091c \u0915\u0902\u092a\u0928\u093f\u092f\u094b\u0902 \u092e\u0947\u0902 \u0917\u093f\u0930\u093e\u0935\u091f \u092a\u0930 \u0928\u093f\u0935\u0947\u0936 \u0915\u0930\u0947\u0902\u0964"
       }
     },
     "6_months": {
       "score": 58,
-      "verdict": "Monetary Policy & Yield Corridor",
+      "verdict": "Monetary Policy Corridor",
       "target_range": "21292.3 - 26556.8",
       "downside_prob_pct": 38,
       "upside_prob_pct": 62,
       "en": {
-        "rationale": "Evaluates RBI & US Fed rate cycle trajectories and sovereign bond yield curve stability.",
-        "action": "Hold core bluechips; dynamically rebalance debt/equity mix."
+        "rationale": "Evaluates RBI & US Fed rate cycle trajectories.",
+        "action": "Hold core compounders; rebalance debt/equity mix dynamically."
       },
       "hi": {
-        "rationale": "\u0906\u0930\u092c\u0940\u0906\u0908 \u0914\u0930 \u092b\u0947\u0921\u0930\u0932 \u0930\u093f\u091c\u0930\u094d\u0935 \u0915\u0940 \u092c\u094d\u092f\u093e\u091c \u0926\u0930\u094b\u0902 \u0915\u093e \u092a\u094d\u0930\u092d\u093e\u0935\u0964",
-        "action": "\u092c\u094d\u0932\u0942\u091a\u093f\u092a \u0936\u0947\u092f\u0930\u094b\u0902 \u092e\u0947\u0902 \u092c\u0928\u0947 \u0930\u0939\u0947\u0902 \u0914\u0930 \u0915\u0930\u094d\u091c \u0906\u0935\u0902\u091f\u0928 \u0938\u0902\u0924\u0941\u0932\u093f\u0924 \u0930\u0916\u0947\u0902\u0964"
+        "rationale": "\u092c\u094d\u092f\u093e\u091c \u0926\u0930\u094b\u0902 \u0915\u093e \u092a\u094d\u0930\u092d\u093e\u0935\u0964",
+        "action": "\u092c\u094d\u0932\u0942\u091a\u093f\u092a \u0936\u0947\u092f\u0930\u094b\u0902 \u092e\u0947\u0902 \u092c\u0928\u0947 \u0930\u0939\u0947\u0902\u0964"
       }
     },
     "1_year": {
       "score": 65,
-      "verdict": "Structural India GDP 6.5% + EPS Expansion",
+      "verdict": "Structural GDP 6.5% + EPS Expansion",
       "target_range": "20590.3 - 28545.7",
       "downside_prob_pct": 30,
       "upside_prob_pct": 70,
       "en": {
-        "rationale": "Anchored by India's 6.5% real GDP growth compounded with 12-14% corporate revenue expansion.",
-        "action": "Continue automated SIPs; ignore daily volatility noise."
+        "rationale": "Anchored by India's 6.5% real GDP growth trajectory.",
+        "action": "Continue automated SIPs; ignore noise."
       },
       "hi": {
-        "rationale": "\u092d\u093e\u0930\u0924 \u0915\u0940 6.5% GDP \u0935\u093f\u0915\u093e\u0938 \u0926\u0930 \u0914\u0930 \u0915\u0902\u092a\u0928\u093f\u092f\u094b\u0902 \u0915\u0940 12-14% \u0938\u093e\u0932\u093e\u0928\u093e \u092c\u0922\u093c\u0924\u0964",
-        "action": "\u0905\u0928\u0941\u0936\u093e\u0938\u093f\u0924 SIP \u091c\u093e\u0930\u0940 \u0930\u0916\u0947\u0902 \u0914\u0930 \u0930\u094b\u091c\u092e\u0930\u094d\u0930\u093e \u0915\u0947 \u0909\u0924\u093e\u0930-\u091a\u0922\u093c\u093e\u0935 \u0938\u0947 \u092c\u0947\u092b\u093f\u0915\u094d\u0930 \u0930\u0939\u0947\u0902\u0964"
+        "rationale": "\u092d\u093e\u0930\u0924 \u0915\u0940 6.5% GDP \u0935\u093f\u0915\u093e\u0938 \u0926\u0930 \u0915\u093e \u0906\u0927\u093e\u0930\u0964",
+        "action": "\u0905\u0928\u0941\u0936\u093e\u0938\u093f\u0924 SIP \u091c\u093e\u0930\u0940 \u0930\u0916\u0947\u0902\u0964"
       }
     }
   },
@@ -142,7 +145,7 @@
       "score": 48,
       "trend": "Bearish",
       "target": "20D SMA: 57284.23",
-      "why": "5-Day Relative Strength vs Nifty: -0.50%",
+      "why": "5D RS vs Nifty: -0.50%",
       "en_action": "Underperforming; hold defensive hedges",
       "hi_action": "\u0915\u092e\u091c\u094b\u0930\u0940 \u0939\u0948; \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902"
     },
@@ -151,7 +154,7 @@
       "score": 38,
       "trend": "Bearish",
       "target": "20D SMA: 30389.01",
-      "why": "5-Day Relative Strength vs Nifty: -3.24%",
+      "why": "5D RS vs Nifty: -3.24%",
       "en_action": "Underperforming; hold defensive hedges",
       "hi_action": "\u0915\u092e\u091c\u094b\u0930\u0940 \u0939\u0948; \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902"
     },
@@ -160,7 +163,7 @@
       "score": 52,
       "trend": "Bullish",
       "target": "20D SMA: 26796.58",
-      "why": "5-Day Relative Strength vs Nifty: +0.78%",
+      "why": "5D RS vs Nifty: +0.78%",
       "en_action": "Accretive momentum; buy shallow pullbacks",
       "hi_action": "\u092e\u091c\u092c\u0942\u0924 \u0930\u0941\u091d\u093e\u0928; \u0917\u093f\u0930\u093e\u0935\u091f \u092a\u0930 \u0916\u0930\u0940\u0926\u0947\u0902"
     },
@@ -169,7 +172,7 @@
       "score": 46,
       "trend": "Bearish",
       "target": "20D SMA: 12606.09",
-      "why": "5-Day Relative Strength vs Nifty: -0.97%",
+      "why": "5D RS vs Nifty: -0.97%",
       "en_action": "Underperforming; hold defensive hedges",
       "hi_action": "\u0915\u092e\u091c\u094b\u0930\u0940 \u0939\u0948; \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902"
     },
@@ -178,7 +181,7 @@
       "score": 49,
       "trend": "Bearish",
       "target": "20D SMA: 26619.81",
-      "why": "5-Day Relative Strength vs Nifty: -0.20%",
+      "why": "5D RS vs Nifty: -0.20%",
       "en_action": "Underperforming; hold defensive hedges",
       "hi_action": "\u0915\u092e\u091c\u094b\u0930\u0940 \u0939\u0948; \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902"
     },
@@ -187,7 +190,7 @@
       "score": 50,
       "trend": "Bearish",
       "target": "20D SMA: 49261.27",
-      "why": "5-Day Relative Strength vs Nifty: +0.21%",
+      "why": "5D RS vs Nifty: +0.21%",
       "en_action": "Underperforming; hold defensive hedges",
       "hi_action": "\u0915\u092e\u091c\u094b\u0930\u0940 \u0939\u0948; \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902"
     },
@@ -196,13 +199,13 @@
       "score": 51,
       "trend": "Bearish",
       "target": "20D SMA: 39555.91",
-      "why": "5-Day Relative Strength vs Nifty: +0.48%",
+      "why": "5D RS vs Nifty: +0.48%",
       "en_action": "Underperforming; hold defensive hedges",
       "hi_action": "\u0915\u092e\u091c\u094b\u0930\u0940 \u0939\u0948; \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902"
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.16,
+    "dynamic_sip_multiplier": 1.07,
     "lot_size": 25,
     "nifty_lot_value": 584952,
     "cascade_risk_pct": 95
@@ -229,14 +232,13 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": 0.9,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d773.5) + +0.90 = 33.6"
+    "news_vector_delta": 9.95,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d773.5) + +9.95 = 42.6"
   },
   "raw_scraped_data_feed": {
     "macro": {
       "nifty_close": 23398.1,
       "nifty_1d_pct": -0.34,
-      "nifty_5d_ret": -2.09,
       "nifty_50_sma": 24153.42,
       "nifty_200_sma": 24550.08,
       "atr_14": 179.61,
@@ -253,7 +255,7 @@
       "sp500_1d_pct": 0.86,
       "dxy_close": 99.12,
       "dxy_1d_pct": 0.03,
-      "last_active_session_date": "2026-09-13"
+      "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
       "is_live_nse": false,
@@ -264,7 +266,6 @@
       "client_long_contracts": 286353,
       "client_short_contracts": 54865,
       "pro_long_ratio": 0.524,
-      "fii_stock_futures_ratio": 0.442,
       "institutional_divergence": -0.727,
       "total_pe_oi": 37524000,
       "total_ce_oi": 48640000,
@@ -282,7 +283,6 @@
       "client_long_contracts": 286353,
       "client_short_contracts": 54865,
       "pro_long_ratio": 0.524,
-      "fii_stock_futures_ratio": 0.442,
       "institutional_divergence": -0.727,
       "total_pe_oi": 37524000,
       "total_ce_oi": 48640000,
@@ -319,8 +319,9 @@
         "published": "Sun, 13 Sep 2026 15:29:16 +0530",
         "summary": "Warren Buffett\u2019s $37 billion acquisition of Precision Castparts, once acknowledged as an expensive mistake, may finally be paying off. Supply shortages and GE Aerospace\u2019s rival acq",
         "is_rumor": false,
-        "credibility_weight": 0.9,
-        "effective_impact": -0.9
+        "credibility_weight": 0.95,
+        "beta_decay": 0.71,
+        "effective_impact": -0.679
       },
       {
         "title": "Oriental Insurance hopes to turn corner in FY27 assisted by NSE stake dilution ",
@@ -329,8 +330,9 @@
         "published": "Sun, 13 Sep 2026 15:03:23 +0530",
         "summary": "Looking ahead, Oriental Insurance Company projects a profitable turnaround by 2026-27, facilitated by a planned stake dilution in the National Stock Exchange through an upcoming IP",
         "is_rumor": false,
-        "credibility_weight": 0.9,
-        "effective_impact": 0.9
+        "credibility_weight": 0.95,
+        "beta_decay": 0.7,
+        "effective_impact": 0.665
       },
       {
         "title": "ETMarkets Smart Talk| From floor trading to AI algos: Why India\u2019s retail traders are entering the automation era, says Shruti Jain ",
@@ -339,7 +341,8 @@
         "published": "Sun, 13 Sep 2026 13:53:13 +0530",
         "summary": "AI-powered algorithmic trading is becoming increasingly accessible to Indian retail investors, driven by Sebi\u2019s regulatory framework, trading APIs and zero-code platforms. Arihant ",
         "is_rumor": false,
-        "credibility_weight": 0.9,
+        "credibility_weight": 0.95,
+        "beta_decay": 0.66,
         "effective_impact": 0.0
       },
       {
@@ -349,48 +352,53 @@
         "published": "Sun, 13 Sep 2026 13:49:11 +0530",
         "summary": "After nearly a decade of delays, NSE is finally set to enter the public markets with its IPO. The issue will be entirely an offer for sale, allowing existing shareholders to sell t",
         "is_rumor": false,
-        "credibility_weight": 0.9,
+        "credibility_weight": 0.95,
+        "beta_decay": 0.66,
         "effective_impact": 0.0
       },
       {
-        "title": "Sensex, Nifty wobbly; Hind Zinc, SBI, Force Motors most active",
-        "link": "http://www.moneycontrol.com/news/local-markets/sensex-nifty-wobbly-hind-zinc-sbi-force-motors-most-active_7577801.html",
-        "source": "Moneycontrol",
-        "published": "Wed, 05 Oct 2016 14:00:44 +0530",
-        "summary": " Asian Paints, SBI, Tata Motors, HUL and Maruti Suzuki are top gainers while ONGC, Axis Bank, MM, Bajaj Auto and Hero MotoCorp are major losers in the Sensex.",
+        "title": "Nifty may rebound to 23,800; Rupak De picks Apollo, Laurus Labs and Eternal for the week ",
+        "link": "https://economictimes.indiatimes.com/markets/expert-view/nifty-may-rebound-to-23800-rupak-de-picks-apollo-laurus-labs-and-eternal-for-the-week/articleshow/134186964.cms",
+        "source": "Economic Times",
+        "published": "Sun, 13 Sep 2026 13:22:31 +0530",
+        "summary": "Three stocks have emerged as top technical picks for the week, with Apollo, Laurus Labs and Eternal showing positive chart setups. Apollo is expected to move towards Rs 450 after a",
         "is_rumor": false,
-        "credibility_weight": 0.85,
-        "effective_impact": 0.85
-      },
-      {
-        "title": "Moneycontrol Exclusive: Govt plans overhaul of tax administration for smooth GST rollout",
-        "link": "http://www.moneycontrol.com/news/business/moneycontrol-exclusive-govt-plans-overhaultax-administration-for-smooth-gst-rollout_7578021.html",
-        "source": "Moneycontrol",
-        "published": "Wed, 05 Oct 2016 14:42:19 +0530",
-        "summary": " The government has readied plans for a major change in India\u00e2\u0080\u0099s tax administration structure, including overhauling the Central Board of Excise and Customs (CBEC) to ensure a gli",
-        "is_rumor": false,
-        "credibility_weight": 0.85,
+        "credibility_weight": 0.95,
+        "beta_decay": 0.64,
         "effective_impact": 0.0
       },
       {
-        "title": "Bond bull market may pause but is far from over: Expert",
-        "link": "http://www.moneycontrol.com/news/economy/bond-bull-market-may-pauseis-farover-expert_7575741.html",
-        "source": "Moneycontrol",
-        "published": "Wed, 05 Oct 2016 10:54:17 +0530",
-        "summary": " The benchmark 10-year government-security yield remained stuck in 8-7.5 percent range through all of 2015 and half of 2016, moving lower to sub-7 percent only when the RBI promise",
+        "title": "Dividends and stock splits: Hindustan Copper, Cochin Shipyard among 200+ stocks with record dates this week. Check full list ",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/dividends-and-stock-splits-hindustan-copper-cochin-shipyard-among-200-stocks-with-record-dates-this-week-check-full-list/articleshow/134185981.cms",
+        "source": "Economic Times",
+        "published": "Sun, 13 Sep 2026 13:01:47 +0530",
+        "summary": "Over 90 companies have fixed September 18 as the record date for dividends and other corporate actions. Victoria Mills leads with a Rs 50 per share dividend, followed by Sharda Mot",
         "is_rumor": false,
-        "credibility_weight": 0.85,
+        "credibility_weight": 0.95,
+        "beta_decay": 0.63,
+        "effective_impact": 0.601
+      },
+      {
+        "title": "Why it\u2019s getting harder for Tata Sons to resist an IPO ",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/why-its-getting-harder-for-tata-sons-to-resist-an-ipo/articleshow/134183425.cms",
+        "source": "Economic Times",
+        "published": "Sun, 13 Sep 2026 12:03:30 +0530",
+        "summary": "The RBI reportedly rejected Tata Sons\u2019 request for exemption from rules requiring upper-layer NBFCs to list publicly. The decision could intensify pressure on the Tata Group holdin",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "beta_decay": 0.6,
         "effective_impact": 0.0
       },
       {
-        "title": "Automation threatens 69% jobs in India: World Bank",
-        "link": "http://www.moneycontrol.com/news/current-affairs/automation-threatens-69-jobsindia-world-bank_7574441.html",
-        "source": "Moneycontrol",
-        "published": "Wed, 05 Oct 2016 08:00:04 +0530",
-        "summary": " \"In large parts of Africa, it is likely that technology could fundamentally disrupt this pattern. Research based on World Bank data has predicted that the proportion of jobs threa",
+        "title": "8 midcap stocks gave over 80% EBITDA growth in June quarter. Do you own any? ",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/8-midcap-stocks-clock-up-to-245-ebitda-growth-in-june-quarter-do-you-own-any/slideshow/134182581.cms",
+        "source": "Economic Times",
+        "published": "Sun, 13 Sep 2026 11:38:38 +0530",
+        "summary": " Eight NSE midcap stocks reported year-on-year EBITDA growth of more than 80% in the June 2026 quarter. Lloyds Metals & Energy led the list with a 245% surge, followed by Rail Vika",
         "is_rumor": false,
-        "credibility_weight": 0.85,
-        "effective_impact": 0.0
+        "credibility_weight": 0.95,
+        "beta_decay": 0.59,
+        "effective_impact": 0.56
       }
     ]
   }
