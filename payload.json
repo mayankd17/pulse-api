@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-13 22:11:58 IST",
+    "ist_time": "2026-09-13 22:21:24 IST",
     "date_str": "2026-09-13",
     "is_open": false,
     "is_weekend": true,
@@ -8,20 +8,20 @@
     "holiday_name": "",
     "last_session_date": "2026-09-11",
     "status_label": "MARKET CLOSED: WEEKEND",
-    "notice": "MARKET OFF TODAY (MARKET CLOSED: WEEKEND). Settlement figures frozen from 2026-09-11. News and global macro monitored continuously."
+    "notice": "MARKET OFF TODAY (MARKET CLOSED: WEEKEND). Baseline established from 2026-09-11 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 42.6,
-    "regime": "Balanced Neutral",
+    "score": 32.9,
+    "regime": "Fear",
     "en": {
       "summary": "Nifty at 23398.1 (MARKET CLOSED: WEEKEND). Volatility Index is 12.29 with Put-Call Ratio of 0.771.",
-      "why": "FII index futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 35% liquid cash. Set opportunistic SIP deployment factor to 1.07x."
+      "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.17x."
     },
     "hi": {
       "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23398.1 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: WEEKEND)\u0964 VIX 12.29 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.07x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.17x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -38,11 +38,11 @@
       "hi": "\u0938\u094d\u091f\u094d\u0930\u093e\u0907\u0915 23350 \u0915\u0947 \u0907\u0930\u094d\u0926-\u0917\u093f\u0930\u094d\u0926 \u0906\u092f\u0930\u0928 \u0915\u094b\u0902\u0921\u094b\u0930 \u092c\u0928\u093e\u090f\u0902\u0964"
     },
     "allocation_percentages": {
-      "cash_liquid_pct": 45,
-      "defensive_hedges_pct": 20,
-      "selective_equity_pct": 35
+      "cash_liquid_pct": 55,
+      "defensive_hedges_pct": 30,
+      "selective_equity_pct": 15
     },
-    "multiplier": 1.07
+    "multiplier": 1.17
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -64,11 +64,11 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 40,
+      "score": 30,
       "verdict": "Consolidation Corridor",
       "target_range": "22949.1 - 23847.1",
-      "downside_prob_pct": 45,
-      "upside_prob_pct": 55,
+      "downside_prob_pct": 58,
+      "upside_prob_pct": 42,
       "en": {
         "rationale": "ATR (179.61 pts) and Parkinson (5.99%) volatility bounds.",
         "action": "Avoid chasing breakout spikes; sell premium out-of-the-money."
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 45,
+      "score": 35,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "22579.2 - 24251.3",
       "downside_prob_pct": 45,
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.07,
+    "dynamic_sip_multiplier": 1.17,
     "lot_size": 25,
     "nifty_lot_value": 584952,
     "cascade_risk_pct": 95
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": 9.95,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d773.5) + +9.95 = 42.6"
+    "news_vector_delta": 0.18,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d773.5) + +0.18 = 32.9"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -313,6 +313,292 @@
     },
     "news_items": [
       {
+        "title": "Penny stock under  \u20b910: Nearly 170% up in 6 months \u2014 FMCG share declares expansion of overseas business",
+        "link": "https://www.livemint.com/market/stock-market-news/penny-stock-under-rs-10-nearly-170-up-in-6-months-fmcg-share-declares-expansion-of-overseas-business-11789311265556.html",
+        "source": "Livemint",
+        "published": "Sun, 13 Sep 2026 20:54:55 +0530",
+        "published_timestamp": "2026-09-13T20:54:55+05:30",
+        "summary": "Penny stock under 10 rupees has delivered over 125% YTD return",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Small-cap multibagger stock: 135% return in YTD | Defence subsidiary wins  \u20b933 crore aerospace order",
+        "link": "https://www.livemint.com/market/stock-market-news/smallcap-multibagger-stock-135-return-in-ytd-defence-subsidiary-wins-rs-33-crore-aerospace-order-11789305522331.html",
+        "source": "Livemint",
+        "published": "Sun, 13 Sep 2026 19:46:07 +0530",
+        "published_timestamp": "2026-09-13T19:46:07+05:30",
+        "summary": "Small-cap multibagger stock has surged from around  \u20b9425 to  \u20b91000 apiece levels on the NSE",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Vodafone Idea shares up over 60% in 6 months \u2014 Will stock soar more? Guide for stock market investors",
+        "link": "https://www.livemint.com/market/stock-market-news/vodafone-idea-shares-up-over-60-in-6-months-will-stock-soar-more-guide-for-stock-market-investors-11789299288345.html",
+        "source": "Livemint",
+        "published": "Sun, 13 Sep 2026 18:41:12 +0530",
+        "published_timestamp": "2026-09-13T18:41:12+05:30",
+        "summary": "Vodafone Idea share price has risen from  \u20b98.53 to  \u20b914.96 per share on the NSE in FY27",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Kamarajar Port invites bankers for  \u20b91,200 crore IPO",
+        "link": "https://www.livemint.com/market/ipo/kamarajar-port-invites-bankers-for-1-200-crore-ipo-11789280693928.html",
+        "source": "Livemint",
+        "published": "Sun, 13 Sep 2026 17:15:32 +0530",
+        "published_timestamp": "2026-09-13T17:15:32+05:30",
+        "summary": "Kamarajar Port has begun the process of appointing up to three bookrunning lead managers for its proposed IPO, which is likely to include a  \u20b91,200 crore offer for sale.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "BEML dividend 2026 record date soon: Over 33% returns in 6 months; now 246% dividend - Check amount per share, yield",
+        "link": "https://www.livemint.com/market/stock-market-news/beml-dividend-2026-record-date-soon-over-33-returns-in-6-months-now-246-dividend-check-amount-per-share-yield-11789295162458.html",
+        "source": "Livemint",
+        "published": "Sun, 13 Sep 2026 17:05:26 +0530",
+        "published_timestamp": "2026-09-13T17:05:26+05:30",
+        "summary": "BEML share price has gained 6.74% in a month and 33% in six months, suggesting a recovery in recent trading sessions.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "NSE IPO: SBI, BoB, LIC to New India Assurance Company | Top 10 selling shareholders earn up to 5,57,700% return",
+        "link": "https://www.livemint.com/market/ipo/nse-ipo-sbi-bob-lic-to-new-india-assurance-company-top-10-selling-shareholders-earn-up-to-5-57-700-return-11789293789157.html",
+        "source": "Livemint",
+        "published": "Sun, 13 Sep 2026 16:49:15 +0530",
+        "published_timestamp": "2026-09-13T16:49:15+05:30",
+        "summary": "NSE IPO: The weighted average cost of acquisition of the NSE shares for The New India Assurance Company and National Insurance Company is  \u20b90.32 per share",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Who will be new CEO of HDFC Bank? How the stock has performed since the saga began? What we know so far",
+        "link": "https://www.livemint.com/market/stock-market-news/who-will-be-new-ceo-of-hdfc-bank-how-the-stock-has-performed-since-the-saga-began-what-we-know-so-far-11789290031334.html",
+        "source": "Livemint",
+        "published": "Sun, 13 Sep 2026 15:40:55 +0530",
+        "published_timestamp": "2026-09-13T15:40:55+05:30",
+        "summary": "HDFC Bank share price have declined 0.54% over the past week and 2.85% in the last month, indicating continued weakness in the near term.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "NSE IPO GMP Today Price: Latest grey market premium rates after band announcement - Data details here",
+        "link": "https://www.livemint.com/market/ipo/nse-ipo-gmp-today-price-latest-grey-market-premium-rates-after-band-announcement-data-details-here-11789285660693.html",
+        "source": "Livemint",
+        "published": "Sun, 13 Sep 2026 14:22:46 +0530",
+        "published_timestamp": "2026-09-13T14:22:46+05:30",
+        "summary": "Based on grey market trends over the past 10 sessions, the current GMP of  \u20b9207 suggests a bearish sentiment. During this period, the GMP fluctuated between a low of  \u20b9192 and a high of  \u20b9310.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Amid super viral 1980s retro look ChatGPT photo prompt trend, Sam Altman confirms why no OpenAI IPO in 2026 - Details",
+        "link": "https://www.livemint.com/market/ipo/amid-super-viral-1980s-retro-look-chatgpt-photo-prompt-trend-sam-altman-confirms-why-no-openai-ipo-in-2026-details-11789282715935.html",
+        "source": "Livemint",
+        "published": "Sun, 13 Sep 2026 13:06:01 +0530",
+        "published_timestamp": "2026-09-13T13:06:01+05:30",
+        "summary": "OpenAI confidentially submitted paperwork for an IPO in June, although the company has indicated that the timing of a potential listing has not yet been finalised.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Top stocks to buy: BHEL, Hindustan Petroleum, Shriram Finance - Check stop-loss, target by Ganesh Dongre of Anand Rathi",
+        "link": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-bhel-hindustan-petroleum-shriram-finance-check-stop-loss-target-by-ganesh-dongre-of-anand-rathi-11789279012533.html",
+        "source": "Livemint",
+        "published": "Sun, 13 Sep 2026 12:00:34 +0530",
+        "published_timestamp": "2026-09-13T12:00:34+05:30",
+        "summary": "Indian stock market: Amid ongoing Middle East Tension, Ganesh Dongre of Anand Rathi recommends three stocks to buy on Monday. Check top stock picks by the market expert.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "SML Ltd weighing IPO within 2 to 3 years, eyes new chemical entity pipeline",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/sml-ltd-weighing-ipo-within-2-to-3-years-eyes-new-chemical-entity-pipeline/articleshow/134180833.cms",
+        "source": "Economic Times",
+        "published": "Sun, 13 Sep 2026 11:08:07 +0530",
+        "published_timestamp": "2026-09-13T11:08:07+05:30",
+        "summary": "SML Ltd, a leading agri-inputs manufacturer, is contemplating a stock market listing in the next two to three years. With significant cash reserves, the company plans to invest in developing new chemi",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "FPIs withdraw Rs 13,138 crore from equities in September so far amid global uncertainty",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-withdraw-rs-13138-crore-from-equities-in-september-so-far-amid-global-uncertainty/articleshow/134180766.cms",
+        "source": "Economic Times",
+        "published": "Sun, 13 Sep 2026 11:05:34 +0530",
+        "published_timestamp": "2026-09-13T11:05:34+05:30",
+        "summary": "During the first week of September, a massive outflow of Rs 13,138 crore from Indian equities occurred, marking a stark reversal after foreign investors had previously engaged in net buying during Jul",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Flipkart records highest-ever single day sale, grosses $200mn",
+        "link": "http://www.moneycontrol.com/news/business/flipkart-records-highest-ever-single-day-sale-grosses-36200mn_7577901.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 14:59:14 +0530",
+        "published_timestamp": "2016-10-05T14:59:14+05:30",
+        "summary": " This is the biggest ever single day sale for Bangalore-based Flipkart, since the time the company started in 2007.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.09
+      },
+      {
+        "title": "Subramanian Swamy seeks ban on import of cement from Pakistan",
+        "link": "http://www.moneycontrol.com/news/current-affairs/subramanian-swamy-seeks-banimportcementpakistan_7578201.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 14:50:10 +0530",
+        "published_timestamp": "2016-10-05T14:50:10+05:30",
+        "summary": " \"Allowing imports of cement from Pakistan, therefore, carried with it the additional risk in that it provides an effective cover for smuggling of contraband goods and harmful weapons and ammunition c",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Moneycontrol Exclusive: Govt plans overhaul of tax administration for smooth GST rollout",
+        "link": "http://www.moneycontrol.com/news/business/moneycontrol-exclusive-govt-plans-overhaultax-administration-for-smooth-gst-rollout_7578021.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 14:42:19 +0530",
+        "published_timestamp": "2016-10-05T14:42:19+05:30",
+        "summary": " The government has readied plans for a major change in India\u00e2\u0080\u0099s tax administration structure, including overhauling the Central Board of Excise and Customs (CBEC) to ensure a glitch-free roll-out of",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Sensex, Nifty wobbly; Hind Zinc, SBI, Force Motors most active",
+        "link": "http://www.moneycontrol.com/news/local-markets/sensex-nifty-wobbly-hind-zinc-sbi-force-motors-most-active_7577801.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 14:00:44 +0530",
+        "published_timestamp": "2016-10-05T14:00:44+05:30",
+        "summary": " Asian Paints, SBI, Tata Motors, HUL and Maruti Suzuki are top gainers while ONGC, Axis Bank, MM, Bajaj Auto and Hero MotoCorp are major losers in the Sensex.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.09
+      },
+      {
+        "title": "Workload in IT to come down due to AI; jobs to reduce: Genpact",
+        "link": "http://www.moneycontrol.com/news/business/workloadit-to-come-down-due-to-ai-jobs-to-reduce-genpact_7577361.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 13:39:13 +0530",
+        "published_timestamp": "2016-10-05T13:39:13+05:30",
+        "summary": " But along with that the employment growth rates have started to dip, NV 'Tiger' Tyagarajan says. The percentage addition of employees in India will not be same as past. And due to advancements, a wor",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.09
+      },
+      {
+        "title": "Bond bull market may pause but is far from over: Expert",
+        "link": "http://www.moneycontrol.com/news/economy/bond-bull-market-may-pauseis-farover-expert_7575741.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 10:54:17 +0530",
+        "published_timestamp": "2016-10-05T10:54:17+05:30",
+        "summary": " The benchmark 10-year government-security yield remained stuck in 8-7.5 percent range through all of 2015 and half of 2016, moving lower to sub-7 percent only when the RBI promised in April to reduce",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Scope for meaningful rate cuts going ahead: Neelkanth Mishra",
+        "link": "http://www.moneycontrol.com/news/market-outlook/scope-for-meaningful-rate-cuts-going-ahead-neelkanth-mishra_7575461.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 10:33:49 +0530",
+        "published_timestamp": "2016-10-05T10:33:49+05:30",
+        "summary": " Credit Suisse' Neelkanth Mishra expects repo rate to fall to a decade low in the coming quarters. He says that beginning December the market may see a robust and widespread pick-up which may boost in",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 0.1,
+        "effective_impact": -0.09
+      },
+      {
+        "title": "Endurance Technologies IPO opens: Should you subscribe?",
+        "link": "http://www.moneycontrol.com/news/ipo-tip/endurance-technologies-ipo-opens-should-you-subscribe_7575861.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 09:04:03 +0530",
+        "published_timestamp": "2016-10-05T09:04:03+05:30",
+        "summary": " The Aurangabad-based company aims to mop up nearly Rs 1,162 crore (at higher end of price band) by diluting 17.5 percent stake through the issue that will close on October 7. It already raised Rs 348",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.09
+      },
+      {
+        "title": "Cautiously optimistic on India; eyeing earnings revival: Sanger",
+        "link": "http://www.moneycontrol.com/news/fii-view/cautiously-optimisticindia-eyeing-earnings-revival-sanger_7574941.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 09:00:17 +0530",
+        "published_timestamp": "2016-10-05T09:00:17+05:30",
+        "summary": " Global liquidity tailwinds are unlikely to get any better from now and that makes Arvind Sanger, Managing Partner at Geosphere Capital Management \u00e2\u0080\u009ccautiously optimistic\u00e2\u0080\u009d on the Indian markets.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Automation threatens 69% jobs in India: World Bank",
+        "link": "http://www.moneycontrol.com/news/current-affairs/automation-threatens-69-jobsindia-world-bank_7574441.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 08:00:04 +0530",
+        "published_timestamp": "2016-10-05T08:00:04+05:30",
+        "summary": " \"In large parts of Africa, it is likely that technology could fundamentally disrupt this pattern. Research based on World Bank data has predicted that the proportion of jobs threatened in India by au",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.0
+      },
+      {
         "title": "How Warren Buffett's 'big error' may finally be paying off after a decade ",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/how-warren-buffetts-big-error-may-finally-be-paying-off-after-a-decade/articleshow/134192774.cms",
         "source": "Economic Times",
@@ -320,8 +606,8 @@
         "summary": "Warren Buffett\u2019s $37 billion acquisition of Precision Castparts, once acknowledged as an expensive mistake, may finally be paying off. Supply shortages and GE Aerospace\u2019s rival acq",
         "is_rumor": false,
         "credibility_weight": 0.95,
-        "beta_decay": 0.71,
-        "effective_impact": -0.679
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
       },
       {
         "title": "Oriental Insurance hopes to turn corner in FY27 assisted by NSE stake dilution ",
@@ -331,8 +617,8 @@
         "summary": "Looking ahead, Oriental Insurance Company projects a profitable turnaround by 2026-27, facilitated by a planned stake dilution in the National Stock Exchange through an upcoming IP",
         "is_rumor": false,
         "credibility_weight": 0.95,
-        "beta_decay": 0.7,
-        "effective_impact": 0.665
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
       },
       {
         "title": "ETMarkets Smart Talk| From floor trading to AI algos: Why India\u2019s retail traders are entering the automation era, says Shruti Jain ",
@@ -342,7 +628,7 @@
         "summary": "AI-powered algorithmic trading is becoming increasingly accessible to Indian retail investors, driven by Sebi\u2019s regulatory framework, trading APIs and zero-code platforms. Arihant ",
         "is_rumor": false,
         "credibility_weight": 0.95,
-        "beta_decay": 0.66,
+        "beta_decay": 1.0,
         "effective_impact": 0.0
       },
       {
@@ -353,7 +639,7 @@
         "summary": "After nearly a decade of delays, NSE is finally set to enter the public markets with its IPO. The issue will be entirely an offer for sale, allowing existing shareholders to sell t",
         "is_rumor": false,
         "credibility_weight": 0.95,
-        "beta_decay": 0.66,
+        "beta_decay": 1.0,
         "effective_impact": 0.0
       },
       {
@@ -364,7 +650,7 @@
         "summary": "Three stocks have emerged as top technical picks for the week, with Apollo, Laurus Labs and Eternal showing positive chart setups. Apollo is expected to move towards Rs 450 after a",
         "is_rumor": false,
         "credibility_weight": 0.95,
-        "beta_decay": 0.64,
+        "beta_decay": 1.0,
         "effective_impact": 0.0
       },
       {
@@ -375,8 +661,8 @@
         "summary": "Over 90 companies have fixed September 18 as the record date for dividends and other corporate actions. Victoria Mills leads with a Rs 50 per share dividend, followed by Sharda Mot",
         "is_rumor": false,
         "credibility_weight": 0.95,
-        "beta_decay": 0.63,
-        "effective_impact": 0.601
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
       },
       {
         "title": "Why it\u2019s getting harder for Tata Sons to resist an IPO ",
@@ -386,7 +672,7 @@
         "summary": "The RBI reportedly rejected Tata Sons\u2019 request for exemption from rules requiring upper-layer NBFCs to list publicly. The decision could intensify pressure on the Tata Group holdin",
         "is_rumor": false,
         "credibility_weight": 0.95,
-        "beta_decay": 0.6,
+        "beta_decay": 1.0,
         "effective_impact": 0.0
       },
       {
@@ -397,8 +683,8 @@
         "summary": " Eight NSE midcap stocks reported year-on-year EBITDA growth of more than 80% in the June 2026 quarter. Lloyds Metals & Energy led the list with a 245% surge, followed by Rail Vika",
         "is_rumor": false,
         "credibility_weight": 0.95,
-        "beta_decay": 0.59,
-        "effective_impact": 0.56
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
       }
     ]
   }
