@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-14 08:37:54 IST",
+    "ist_time": "2026-09-14 09:08:37 IST",
     "date_str": "2026-09-14",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Ganesh Chaturthi). Baseline established from 2026-09-11 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 30.1,
+    "score": 30.0,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 23398.1 (MARKET CLOSED: Ganesh Chaturthi). Volatility Index is 12.29 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 45.1,
       "S7_Order_Absorption": 42.5,
-      "S8_Lead_Lag_Gap": 44.9
+      "S8_Lead_Lag_Gap": 41.9
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": 0.28,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d744.9) + +0.28 = 30.1"
+    "news_vector_delta": 0.51,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d741.9) + +0.51 = 30.0"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 5.99,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 107.47,
-      "brent_1d_pct": 2.73,
+      "brent_crude_usd": 108.01,
+      "brent_1d_pct": 3.25,
       "usdinr": 95.54,
       "us_10y_yield": 4.97,
       "sp500_close": 7656.98,
       "sp500_1d_pct": 0.86,
-      "dxy_close": 99.25,
-      "dxy_1d_pct": 0.13,
+      "dxy_close": 99.3,
+      "dxy_1d_pct": 0.18,
       "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
@@ -304,14 +304,66 @@
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
-      "gap_bias": "Neutral Opening",
-      "expected_gap_points": -26,
-      "net_macro_lead_pct": -0.205,
+      "gap_bias": "Bearish Gap-Down",
+      "expected_gap_points": -41,
+      "net_macro_lead_pct": -0.326,
       "sp500_change_pct": 0.86,
-      "dxy_change_pct": 0.13,
-      "crude_change_pct": 2.73
+      "dxy_change_pct": 0.18,
+      "crude_change_pct": 3.25
     },
     "news_items": [
+      {
+        "title": "ETMarkets Smart Talk | Defence, power, EMS, AI proxies: Why FOMO is driving parts of the mid- and smallcap rally, says V Srivatsa",
+        "link": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-defence-power-ems-ai-proxies-why-fomo-is-driving-parts-of-the-mid-and-smallcap-rally-says-v-srivatsa/articleshow/134231631.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 08:52:55 +0530",
+        "published_timestamp": "2026-09-14T08:52:55+05:30",
+        "summary": "The valuation gap is becoming difficult to ignore. While the Nifty 50 is trading at around 21 times earnings, the Nifty Midcap and Smallcap indices are valued at roughly 33x and 32x earnings respectiv",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "ETMarkets AIF Talk | Aerospace, electronics, CDMO, auto ancillaries: Where Rajesh Kothari sees India\u2019s next growth opportunities",
+        "link": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-aif-talk-aerospace-electronics-cdmo-auto-ancillaries-where-rajesh-kothari-sees-indias-next-growth-opportunities/articleshow/134231477.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 08:40:01 +0530",
+        "published_timestamp": "2026-09-14T08:40:01+05:30",
+        "summary": "Rajesh Kothari, Founder and Managing Director at AlfAccurate Advisors, believes the investment opportunity in India is expanding at the sector and company level. His focus remains on businesses with s",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "ETMarkets Smart Talk | AI, defence, power: Investors need to be selective as valuations turn expensive, says Aditya Khemani",
+        "link": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-ai-defence-power-investors-need-to-be-selective-as-valuations-turn-expensive-says-aditya-khemani/articleshow/134231339.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 08:30:40 +0530",
+        "published_timestamp": "2026-09-14T08:30:40+05:30",
+        "summary": "Aditya Khemani, Head of Equities at Invesco Mutual Fund, believes investors need to be particularly selective at this stage. He cautions against confusing strong earnings momentum with business qualit",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "$100 crude is an irritant, not a deal-breaker for India: Harsh Gupta Madhusudan",
+        "link": "https://economictimes.indiatimes.com/markets/expert-view/100-crude-is-an-irritant-not-a-deal-breaker-for-india-harsh-gupta-madhusudan/articleshow/134231210.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 08:19:44 +0530",
+        "published_timestamp": "2026-09-14T08:19:44+05:30",
+        "summary": "While higher oil could pressure earnings and the rupee, he argues that the impact may be less severe than feared, with India\u2019s growth backdrop, valuations and external balances providing a buffer even",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "Important day today for South Korea stock markets - Timings changing from Monday | Know reason",
         "link": "https://www.livemint.com/market/stock-market-news/important-day-today-for-south-korea-stock-markets-timings-changing-from-monday-know-reason-11789351900615.html",
@@ -779,58 +831,6 @@
         "raw_sentiment": -1.0,
         "beta_decay": 1.0,
         "effective_impact": -0.9
-      },
-      {
-        "title": "NSE IPO GMP Today Price: Latest grey market premium rates after band announcement - Data details here",
-        "link": "https://www.livemint.com/market/ipo/nse-ipo-gmp-today-price-latest-grey-market-premium-rates-after-band-announcement-data-details-here-11789285660693.html",
-        "source": "Livemint",
-        "published": "Sun, 13 Sep 2026 14:22:46 +0530",
-        "published_timestamp": "2026-09-13T14:22:46+05:30",
-        "summary": "Based on grey market trends over the past 10 sessions, the current GMP of  \u20b9207 suggests a bearish sentiment. During this period, the GMP fluctuated between a low of  \u20b9192 and a high of  \u20b9310.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "Amid super viral 1980s retro look ChatGPT photo prompt trend, Sam Altman confirms why no OpenAI IPO in 2026 - Details",
-        "link": "https://www.livemint.com/market/ipo/amid-super-viral-1980s-retro-look-chatgpt-photo-prompt-trend-sam-altman-confirms-why-no-openai-ipo-in-2026-details-11789282715935.html",
-        "source": "Livemint",
-        "published": "Sun, 13 Sep 2026 13:06:01 +0530",
-        "published_timestamp": "2026-09-13T13:06:01+05:30",
-        "summary": "OpenAI confidentially submitted paperwork for an IPO in June, although the company has indicated that the timing of a potential listing has not yet been finalised.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Top stocks to buy: BHEL, Hindustan Petroleum, Shriram Finance - Check stop-loss, target by Ganesh Dongre of Anand Rathi",
-        "link": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-bhel-hindustan-petroleum-shriram-finance-check-stop-loss-target-by-ganesh-dongre-of-anand-rathi-11789279012533.html",
-        "source": "Livemint",
-        "published": "Sun, 13 Sep 2026 12:00:34 +0530",
-        "published_timestamp": "2026-09-13T12:00:34+05:30",
-        "summary": "Indian stock market: Amid ongoing Middle East Tension, Ganesh Dongre of Anand Rathi recommends three stocks to buy on Monday. Check top stock picks by the market expert.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
-      },
-      {
-        "title": "SML Ltd weighing IPO within 2 to 3 years, eyes new chemical entity pipeline",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/sml-ltd-weighing-ipo-within-2-to-3-years-eyes-new-chemical-entity-pipeline/articleshow/134180833.cms",
-        "source": "Economic Times",
-        "published": "Sun, 13 Sep 2026 11:08:07 +0530",
-        "published_timestamp": "2026-09-13T11:08:07+05:30",
-        "summary": "SML Ltd, a leading agri-inputs manufacturer, is contemplating a stock market listing in the next two to three years. With significant cash reserves, the company plans to invest in developing new chemi",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
       }
     ]
   }
