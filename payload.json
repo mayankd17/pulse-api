@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-14 13:15:44 IST",
+    "ist_time": "2026-09-14 13:39:07 IST",
     "date_str": "2026-09-14",
     "is_open": false,
     "is_weekend": false,
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 45.1,
       "S7_Order_Absorption": 42.5,
-      "S8_Lead_Lag_Gap": 42.7
+      "S8_Lead_Lag_Gap": 42.4
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": -0.14,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d742.7) + -0.14 = 29.5"
+    "news_vector_delta": -0.02,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d742.4) + -0.02 = 29.5"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 5.99,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 107.56,
-      "brent_1d_pct": 2.82,
+      "brent_crude_usd": 107.53,
+      "brent_1d_pct": 2.79,
       "usdinr": 95.54,
       "us_10y_yield": 4.97,
       "sp500_close": 7656.98,
       "sp500_1d_pct": 0.86,
-      "dxy_close": 99.45,
-      "dxy_1d_pct": 0.33,
+      "dxy_close": 99.5,
+      "dxy_1d_pct": 0.38,
       "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
@@ -305,13 +305,39 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bearish Gap-Down",
-      "expected_gap_points": -36,
-      "net_macro_lead_pct": -0.292,
+      "expected_gap_points": -38,
+      "net_macro_lead_pct": -0.304,
       "sp500_change_pct": 0.86,
-      "dxy_change_pct": 0.33,
-      "crude_change_pct": 2.82
+      "dxy_change_pct": 0.38,
+      "crude_change_pct": 2.79
     },
     "news_items": [
+      {
+        "title": "Hero Motors IPO GMP hints 29% listing gain ahead of opening | 10 key things to know",
+        "link": "https://www.livemint.com/market/ipo/hero-motors-ipo-gmp-hints-29-listing-gain-ahead-of-opening-10-key-things-to-know-11789369486697.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 13:14:09 +0530",
+        "published_timestamp": "2026-09-14T13:14:09+05:30",
+        "summary": "Hero Motors IPO opens for subscription on 16 September with anchor allocation on 15 September. The IPO price band ranges from  \u20b979 to  \u20b984, targeting a market cap of  \u20b93,815 crore, with a lot size of ",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Up 5,100% in one year! Breakwave Tanker Shipping ETF delivers highest returns on US-Iran war oil shock",
+        "link": "https://www.livemint.com/market/stock-market-news/up-5-100-in-one-year-breakwave-tanker-shipping-etf-delivers-highest-returns-on-us-iran-war-oil-shock-11789368593834.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 13:11:06 +0530",
+        "published_timestamp": "2026-09-14T13:11:06+05:30",
+        "summary": "The ETF has delivered 3,600% returns on year-to-date (YTD) basis, as per the Morningstar data.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "Up 5,100% in one year! This ETF delivers highest returns on US-Iran war oil shock",
         "link": "https://www.livemint.com/market/stock-market-news/up-5-100-in-one-year-this-etf-delivers-highest-returns-on-us-iran-war-oil-shock-11789368593834.html",
@@ -321,6 +347,19 @@
         "summary": "The ETF has delivered 3,600% returns on year-to-date (YTD) basis, as per the Morningstar data.",
         "is_rumor": false,
         "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Global Market: Yen speculators turn net long for first time since February",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-yen-speculators-turn-net-long-for-first-time-since-february/articleshow/134235763.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 13:02:46 +0530",
+        "published_timestamp": "2026-09-14T13:02:46+05:30",
+        "summary": "Speculators turned bullish on the yen for the first time since February as expectations of faster Bank of Japan rate hikes intensified. Futures positioning swung sharply from net short to net long, re",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
         "beta_decay": 1.0,
         "effective_impact": 0.0
@@ -787,45 +826,6 @@
         "published": "Wed, 05 Oct 2016 10:54:17 +0530",
         "published_timestamp": "2016-10-05T10:54:17+05:30",
         "summary": " The benchmark 10-year government-security yield remained stuck in 8-7.5 percent range through all of 2015 and half of 2016, moving lower to sub-7 percent only when the RBI promised in April to reduce",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.1,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Scope for meaningful rate cuts going ahead: Neelkanth Mishra",
-        "link": "http://www.moneycontrol.com/news/market-outlook/scope-for-meaningful-rate-cuts-going-ahead-neelkanth-mishra_7575461.html",
-        "source": "Moneycontrol",
-        "published": "Wed, 05 Oct 2016 10:33:49 +0530",
-        "published_timestamp": "2016-10-05T10:33:49+05:30",
-        "summary": " Credit Suisse' Neelkanth Mishra expects repo rate to fall to a decade low in the coming quarters. He says that beginning December the market may see a robust and widespread pick-up which may boost in",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.1,
-        "effective_impact": -0.09
-      },
-      {
-        "title": "Endurance Technologies IPO opens: Should you subscribe?",
-        "link": "http://www.moneycontrol.com/news/ipo-tip/endurance-technologies-ipo-opens-should-you-subscribe_7575861.html",
-        "source": "Moneycontrol",
-        "published": "Wed, 05 Oct 2016 09:04:03 +0530",
-        "published_timestamp": "2016-10-05T09:04:03+05:30",
-        "summary": " The Aurangabad-based company aims to mop up nearly Rs 1,162 crore (at higher end of price band) by diluting 17.5 percent stake through the issue that will close on October 7. It already raised Rs 348",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.1,
-        "effective_impact": 0.09
-      },
-      {
-        "title": "Cautiously optimistic on India; eyeing earnings revival: Sanger",
-        "link": "http://www.moneycontrol.com/news/fii-view/cautiously-optimisticindia-eyeing-earnings-revival-sanger_7574941.html",
-        "source": "Moneycontrol",
-        "published": "Wed, 05 Oct 2016 09:00:17 +0530",
-        "published_timestamp": "2016-10-05T09:00:17+05:30",
-        "summary": " Global liquidity tailwinds are unlikely to get any better from now and that makes Arvind Sanger, Managing Partner at Geosphere Capital Management \u00e2\u0080\u009ccautiously optimistic\u00e2\u0080\u009d on the Indian markets.",
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
