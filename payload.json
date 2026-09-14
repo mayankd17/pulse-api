@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-14 14:43:41 IST",
+    "ist_time": "2026-09-14 15:01:14 IST",
     "date_str": "2026-09-14",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Ganesh Chaturthi). Baseline established from 2026-09-11 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 29.5,
+    "score": 29.2,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 23398.1 (MARKET CLOSED: Ganesh Chaturthi). Volatility Index is 12.29 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 45.1,
       "S7_Order_Absorption": 42.5,
-      "S8_Lead_Lag_Gap": 40.0
+      "S8_Lead_Lag_Gap": 38.4
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": 0.16,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d740.0) + +0.16 = 29.5"
+    "news_vector_delta": -0.01,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d738.4) + -0.01 = 29.2"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 5.99,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 107.93,
-      "brent_1d_pct": 3.17,
+      "brent_crude_usd": 108.2,
+      "brent_1d_pct": 3.43,
       "usdinr": 95.54,
       "us_10y_yield": 4.97,
       "sp500_close": 7656.98,
       "sp500_1d_pct": 0.86,
-      "dxy_close": 99.56,
-      "dxy_1d_pct": 0.44,
+      "dxy_close": 99.59,
+      "dxy_1d_pct": 0.47,
       "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
@@ -305,13 +305,52 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bearish Gap-Down",
-      "expected_gap_points": -50,
-      "net_macro_lead_pct": -0.401,
+      "expected_gap_points": -58,
+      "net_macro_lead_pct": -0.464,
       "sp500_change_pct": 0.86,
-      "dxy_change_pct": 0.44,
-      "crude_change_pct": 3.17
+      "dxy_change_pct": 0.47,
+      "crude_change_pct": 3.43
     },
     "news_items": [
+      {
+        "title": "SoftBank share price tumbles 14%| What investors need to know",
+        "link": "https://www.livemint.com/market/stock-market-news/softbank-share-price-tumbles-14-what-investors-need-to-know-11789375972638.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 14:47:07 +0530",
+        "published_timestamp": "2026-09-14T14:47:07+05:30",
+        "summary": "SoftBank Group Corp shares fell over 14% in Tokyo amid investors' concerns about its significant AI investments. The decline follows cautious remarks from AI leaders and reflects worries over potentia",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "Global Market: Euronext, Deutsche Boerse shares rise on renewed merger talks",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-euronext-deutsche-boerse-shares-rise-on-renewed-merger-talks/articleshow/134237341.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 14:34:12 +0530",
+        "published_timestamp": "2026-09-14T14:34:12+05:30",
+        "summary": "Euronext and Deutsche Boerse shares rose around 2% after Euronext CEO Stephane Boujnah said a potential combination could make strategic sense. His comments revived merger speculation between Europe\u2019s",
+        "is_rumor": true,
+        "credibility_weight": 0.47,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Global Market | ECB may need more rate hikes as Iran war raises inflation risks: Kazaks",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-ecb-may-need-more-rate-hikes-as-iran-war-raises-inflation-risks-kazaks/articleshow/134237351.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 14:33:06 +0530",
+        "published_timestamp": "2026-09-14T14:33:06+05:30",
+        "summary": "The European Central Bank may need to raise interest rates further to contain inflation as higher fuel costs linked to the Iran conflict risk feeding into wages and consumer prices. Policymaker Martin",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
       {
         "title": "Amid mega NSE IPO, big question remains \u2014 Do big IPOs guarantee big returns? Performance of past heavy-sized IPOs",
         "link": "https://www.livemint.com/market/ipo/amid-mega-nse-ipo-big-question-remains-do-big-ipos-guarantee-big-returns-performance-of-past-heavy-sized-ipos-11789365387405.html",
@@ -324,6 +363,19 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.9
+      },
+      {
+        "title": "NSE is among 11 IPOs greeting investors this week. GMPs signal up to 32% returns",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/nse-is-among-11-ipos-greeting-investors-this-week-gmps-signal-up-to-32-returns/slideshow/134237329.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 14:23:05 +0530",
+        "published_timestamp": "2026-09-14T14:23:05+05:30",
+        "summary": "India\u2019s IPO market faces a busy week with 11 mainboard and SME issues opening for subscription. Grey market demand is uneven, led by SS Retail, Jindal Supreme and Hero Motors, while several smaller of",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
       },
       {
         "title": "Bitcoin holds near $77,700 as ETF outflows signal fading support at higher levels",
@@ -779,58 +831,6 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.9
-      },
-      {
-        "title": "US Stock Market: Wall Street braces for Fed hike as rising yields threaten stock rally",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stock-market-wall-street-braces-for-fed-hike-as-rising-yields-threaten-stock-rally/articleshow/134231906.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 09:14:23 +0530",
-        "published_timestamp": "2026-09-14T09:14:23+05:30",
-        "summary": "Wall Street investors are bracing for a potential Federal Reserve rate hike as rising Treasury yields add pressure to equities. Higher borrowing costs and shifting rate expectations could challenge th",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "Commodity Talk| \u201cThe conversation is shifting from \u2018Can I trade commodities?\u2019 to \u2018What role should commodities play?\u2019: Sunil Katke",
-        "link": "https://economictimes.indiatimes.com/markets/expert-view/commodity-talk-the-conversation-is-shifting-from-can-i-trade-commodities-to-what-role-should-commodities-play-sunil-katke/articleshow/134231738.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 09:07:08 +0530",
-        "published_timestamp": "2026-09-14T09:07:08+05:30",
-        "summary": "Gold has already established itself as a strategic asset for Indian investors, but the opportunity is increasingly extending to silver, copper and other critical commodities. At the same time, the tra",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "ETMarkets Smart Talk | Defence, power, EMS, AI proxies: Why FOMO is driving parts of the mid- and smallcap rally, says V Srivatsa",
-        "link": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-defence-power-ems-ai-proxies-why-fomo-is-driving-parts-of-the-mid-and-smallcap-rally-says-v-srivatsa/articleshow/134231631.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 08:52:55 +0530",
-        "published_timestamp": "2026-09-14T08:52:55+05:30",
-        "summary": "The valuation gap is becoming difficult to ignore. While the Nifty 50 is trading at around 21 times earnings, the Nifty Midcap and Smallcap indices are valued at roughly 33x and 32x earnings respectiv",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "Important day today for South Korea stock markets - Timings changing from Monday | Know reason",
-        "link": "https://www.livemint.com/market/stock-market-news/important-day-today-for-south-korea-stock-markets-timings-changing-from-monday-know-reason-11789351900615.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 08:10:33 +0530",
-        "published_timestamp": "2026-09-14T08:10:33+05:30",
-        "summary": "South Korea extends stock market trading hours to 8 p.m. starting 14 September, aiming to attract overseas investors. The Kospi index has risen nearly 99% over the past year, despite recent declines. ",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
       }
     ]
   }
