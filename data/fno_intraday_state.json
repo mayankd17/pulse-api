@@ -1,0 +1,37 @@
+{
+  "timestamp_ist": "2026-09-14 07:39:39",
+  "spot_reference": 23398.1,
+  "vix_reference": 12.29,
+  "market_breadth_nifty50": {
+    "is_live": false,
+    "advances": 25,
+    "declines": 25,
+    "unchanged": 0,
+    "ad_ratio": 1.0,
+    "breadth_bias": "SETTLED_NEUTRAL"
+  },
+  "intraday_execution": {
+    "vwap_anchor": 0.0,
+    "upper_band_1": 25.0,
+    "upper_band_2": 50.0,
+    "lower_band_1": -25.0,
+    "lower_band_2": -50.0,
+    "orb_high": 23270.9,
+    "orb_low": 23232.25,
+    "volume_surge_ratio": 0.0,
+    "execution_signal": "UPPER_BAND_REVERSAL_EXHAUSTION: Favour Scalp Puts/Shorts"
+  },
+  "derivatives_intelligence": {
+    "max_pain_strike": 23400,
+    "pcr_oi": 0.88,
+    "pcr_velocity_15m": 0.0,
+    "pin_gravity_delta": -2,
+    "atm_call_delta": 0.539,
+    "atm_put_delta": -0.461,
+    "atm_gamma": 0.0008,
+    "daily_theta_decay_pts": -9.01,
+    "smart_money_divergence": 0.727,
+    "squeeze_status": "CRITICAL: Retail trapped in long calls. FIIs holding short hedges.",
+    "recommended_strategy": "Bear Put Spread (Buy 23400 PE / Sell 23250 PE)"
+  }
+}
