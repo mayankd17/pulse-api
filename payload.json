@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-14 07:39:34 IST",
+    "ist_time": "2026-09-14 08:34:30 IST",
     "date_str": "2026-09-14",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Ganesh Chaturthi). Baseline established from 2026-09-11 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 30.4,
+    "score": 30.1,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 23398.1 (MARKET CLOSED: Ganesh Chaturthi). Volatility Index is 12.29 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 45.1,
       "S7_Order_Absorption": 42.5,
-      "S8_Lead_Lag_Gap": 47.9
+      "S8_Lead_Lag_Gap": 45.0
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": 0.3,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d747.9) + +0.30 = 30.4"
+    "news_vector_delta": 0.27,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d745.0) + +0.27 = 30.1"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 5.99,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 106.95,
-      "brent_1d_pct": 2.24,
+      "brent_crude_usd": 107.49,
+      "brent_1d_pct": 2.75,
       "usdinr": 95.54,
       "us_10y_yield": 4.97,
       "sp500_close": 7656.98,
       "sp500_1d_pct": 0.86,
-      "dxy_close": 99.19,
-      "dxy_1d_pct": 0.07,
+      "dxy_close": 99.23,
+      "dxy_1d_pct": 0.11,
       "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
@@ -305,13 +305,78 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Neutral Opening",
-      "expected_gap_points": -11,
-      "net_macro_lead_pct": -0.086,
+      "expected_gap_points": -25,
+      "net_macro_lead_pct": -0.202,
       "sp500_change_pct": 0.86,
-      "dxy_change_pct": 0.07,
-      "crude_change_pct": 2.24
+      "dxy_change_pct": 0.11,
+      "crude_change_pct": 2.75
     },
     "news_items": [
+      {
+        "title": "Important day today for South Korea stock markets - Timings changing from Monday | Know reason",
+        "link": "https://www.livemint.com/market/stock-market-news/important-day-today-for-south-korea-stock-markets-timings-changing-from-monday-know-reason-11789351900615.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 08:10:33 +0530",
+        "published_timestamp": "2026-09-14T08:10:33+05:30",
+        "summary": "South Korea extends stock market trading hours to 8 p.m. starting 14 September, aiming to attract overseas investors. The Kospi index has risen nearly 99% over the past year, despite recent declines. ",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Nifty oversold, IT poised for pullback: Anand James on what traders should do next",
+        "link": "https://economictimes.indiatimes.com/markets/expert-view/nifty-oversold-it-poised-for-pullback-anand-james-on-what-traders-should-do-next/articleshow/134230830.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 08:06:59 +0530",
+        "published_timestamp": "2026-09-14T08:06:59+05:30",
+        "summary": "Nifty continues to give the feeling of a range trading market, primarily because momentum has been absent on either side. ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Tata Sons IPO news | Why is it getting difficult for Tata Group's holding company to stay private?",
+        "link": "https://www.livemint.com/market/ipo/tata-sons-ipo-news-why-is-it-getting-difficult-for-tata-groups-holding-company-to-stay-private-11789349656909.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 08:06:55 +0530",
+        "published_timestamp": "2026-09-14T08:06:55+05:30",
+        "summary": "Tata Sons IPO News: Tata Group holding company faces mounting pressure to go public as the RBI rejects its plea to surrender its Core Investment Company registration",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Oil Price Today (September 14): Crude oil jumps 3% to near $108/barrel as Middle East tensions escalate. What are analysts warning?",
+        "link": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-september-14-crude-oil-jumps-3-to-near-108/barrel-as-middle-east-tensions-escalate-what-are-analysts-warning/articleshow/134230842.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 07:45:43 +0530",
+        "published_timestamp": "2026-09-14T07:45:43+05:30",
+        "summary": "Oil prices experienced a significant spike on Monday, approaching $108 per barrel, amid rising tensions in the Middle East. Recent attacks on vessels in the Gulf have left global energy markets uneasy",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Macquarie completes Maple InvIT stake buyout",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/macquarie-completes-maple-invit-stake-buyout/articleshow/134230644.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 07:34:58 +0530",
+        "published_timestamp": "2026-09-14T07:34:58+05:30",
+        "summary": "Following the transaction, MAM and La Caisse will jointly hold controlling stakes in Maple\u2019s investment manager and project manager. ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "Upcoming IPOs: GMP comparison | NSE IPO, SS Retail IPO to Hero Motors IPO - Grey market winner is?",
         "link": "https://www.livemint.com/market/ipo/upcoming-ipos-gmp-comparison-nse-ipo-ss-retail-ipo-to-hero-motors-ipo-grey-market-winner-is-11789348906997.html",
@@ -761,19 +826,6 @@
         "published": "Sun, 13 Sep 2026 11:08:07 +0530",
         "published_timestamp": "2026-09-13T11:08:07+05:30",
         "summary": "SML Ltd, a leading agri-inputs manufacturer, is contemplating a stock market listing in the next two to three years. With significant cash reserves, the company plans to invest in developing new chemi",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "FPIs withdraw Rs 13,138 crore from equities in September so far amid global uncertainty",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-withdraw-rs-13138-crore-from-equities-in-september-so-far-amid-global-uncertainty/articleshow/134180766.cms",
-        "source": "Economic Times",
-        "published": "Sun, 13 Sep 2026 11:05:34 +0530",
-        "published_timestamp": "2026-09-13T11:05:34+05:30",
-        "summary": "During the first week of September, a massive outflow of Rs 13,138 crore from Indian equities occurred, marking a stark reversal after foreign investors had previously engaged in net buying during Jul",
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
