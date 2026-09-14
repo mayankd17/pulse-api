@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-14 15:01:14 IST",
+    "ist_time": "2026-09-14 15:24:16 IST",
     "date_str": "2026-09-14",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Ganesh Chaturthi). Baseline established from 2026-09-11 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 29.2,
+    "score": 29.5,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 23398.1 (MARKET CLOSED: Ganesh Chaturthi). Volatility Index is 12.29 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 45.1,
       "S7_Order_Absorption": 42.5,
-      "S8_Lead_Lag_Gap": 38.4
+      "S8_Lead_Lag_Gap": 43.3
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": -0.01,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d738.4) + -0.01 = 29.2"
+    "news_vector_delta": -0.2,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d743.3) + -0.20 = 29.5"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 5.99,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 108.2,
-      "brent_1d_pct": 3.43,
+      "brent_crude_usd": 107.29,
+      "brent_1d_pct": 2.56,
       "usdinr": 95.54,
       "us_10y_yield": 4.97,
       "sp500_close": 7656.98,
       "sp500_1d_pct": 0.86,
-      "dxy_close": 99.59,
-      "dxy_1d_pct": 0.47,
+      "dxy_close": 99.53,
+      "dxy_1d_pct": 0.41,
       "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
@@ -304,14 +304,27 @@
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
-      "gap_bias": "Bearish Gap-Down",
-      "expected_gap_points": -58,
-      "net_macro_lead_pct": -0.464,
+      "gap_bias": "Neutral Opening",
+      "expected_gap_points": -34,
+      "net_macro_lead_pct": -0.268,
       "sp500_change_pct": 0.86,
-      "dxy_change_pct": 0.47,
-      "crude_change_pct": 3.43
+      "dxy_change_pct": 0.41,
+      "crude_change_pct": 2.56
     },
     "news_items": [
+      {
+        "title": "BofA turns bullish on Nifty after 2 years, cautious on small, midcaps. Here's what it expects now",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/bofa-turns-bullish-on-nifty-after-2-years-cautious-on-small-midcaps-heres-what-it-expects-now/articleshow/134237764.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 14:56:16 +0530",
+        "published_timestamp": "2026-09-14T14:56:16+05:30",
+        "summary": "BofA Securities has turned constructive on the Nifty after two years, seeing 12% upside to 26,200 by December 2026. The brokerage said five of eight earlier risks have played out, while primary market",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "SoftBank share price tumbles 14%| What investors need to know",
         "link": "https://www.livemint.com/market/stock-market-news/softbank-share-price-tumbles-14-what-investors-need-to-know-11789375972638.html",
@@ -324,6 +337,19 @@
         "raw_sentiment": -1.0,
         "beta_decay": 1.0,
         "effective_impact": -0.9
+      },
+      {
+        "title": "PMS tracker: 5 portfolios deliver double-digit returns in August",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/pms-tracker-5-portfolios-deliver-double-digit-returns-in-august/slideshow/134237719.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 14:40:44 +0530",
+        "published_timestamp": "2026-09-14T14:40:44+05:30",
+        "summary": " ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
       },
       {
         "title": "Global Market: Euronext, Deutsche Boerse shares rise on renewed merger talks",
@@ -805,32 +831,6 @@
         "raw_sentiment": -1.0,
         "beta_decay": 1.0,
         "effective_impact": -0.95
-      },
-      {
-        "title": "Global Market: South Korean shares fall as AI concerns weigh; won strengthens",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-korean-shares-fall-as-ai-concerns-weigh-won-strengthens/articleshow/134232032.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 09:23:49 +0530",
-        "published_timestamp": "2026-09-14T09:23:49+05:30",
-        "summary": "South Korean shares fell sharply on Monday, led by technology stocks, as concerns over the pace and risks of artificial intelligence development weighed on investor sentiment. Samsung Electronics and ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Dividend stocks this week, record date: Hindustan Copper, Cochin Shipyard, Balu Forge, IRCON, Karnataka Bank and more",
-        "link": "https://www.livemint.com/market/stock-market-news/dividend-stocks-this-week-record-date-hindustan-copper-cochin-shipyard-balu-forge-ircon-karnataka-bank-and-more-11789356047257.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 09:20:37 +0530",
-        "published_timestamp": "2026-09-14T09:20:37+05:30",
-        "summary": "Several companies, including Gujarat Alkalies, Cochin Shipyard, Chemicals and Blue Dart Express, have fixed their dividend record dates ranging from September 14 to 18. Check full list here",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
       }
     ]
   }
