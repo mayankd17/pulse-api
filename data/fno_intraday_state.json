@@ -1,109 +1,99 @@
 {
-  "as_of_ist": "2026-09-14 11:43:02 IST",
+  "as_of_ist": "2026-09-14 11:50:12 IST",
   "top_10_recommendations": [
     {
       "rank": 1,
-      "signal_id": "PULSE-OPT-2026-09-15-01",
+      "signal_id": "PULSE-2026-09-15-01",
       "symbol": "NIFTY",
-      "contract": "NIFTY 23400 PE",
-      "action": "INTRADAY NAKED BUY: NIFTY 23400 PE",
-      "entry": "\u20b958.9",
-      "capital": "\u20b91,473",
-      "target": "\u20b9122.9",
-      "profit": "\u20b91,600",
-      "stop_loss": "\u20b934.6",
-      "risk": "\u20b9609",
-      "win_prob": "40.1%",
-      "time": "14:31 IST"
+      "action": "SHORT NIFTY NEAR \u20b923,398.10",
+      "target": "\u20b923,317.28",
+      "profit": "\u20b92,020",
+      "stop_loss": "\u20b923,443.00",
+      "risk": "\u20b91,123",
+      "win_prob": "34.5%",
+      "time": "14:38 IST"
     },
     {
       "rank": 2,
-      "signal_id": "PULSE-OPT-2026-09-15-02",
+      "signal_id": "PULSE-2026-09-15-02",
       "symbol": "BANKNIFTY",
-      "contract": "BANKNIFTY 50800 PE",
-      "action": "INTRADAY NAKED BUY: BANKNIFTY 50800 PE",
-      "entry": "\u20b9125.9",
-      "capital": "\u20b91,888",
-      "target": "\u20b9263.7",
-      "profit": "\u20b92,067",
-      "stop_loss": "\u20b973.6",
-      "risk": "\u20b9784",
-      "win_prob": "40.1%",
-      "time": "14:31 IST"
+      "action": "SHORT BANKNIFTY NEAR \u20b956,606.55",
+      "target": "\u20b956,364.35",
+      "profit": "\u20b93,633",
+      "stop_loss": "\u20b956,741.11",
+      "risk": "\u20b92,018",
+      "win_prob": "34.5%",
+      "time": "14:38 IST"
+    },
+    {
+      "rank": 3,
+      "signal_id": "PULSE-2026-09-15-03",
+      "symbol": "HDFCBANK",
+      "action": "SHORT HDFCBANK NEAR \u20b9708.25",
+      "target": "\u20b9701.95",
+      "profit": "\u20b93,465",
+      "stop_loss": "\u20b9711.75",
+      "risk": "\u20b91,925",
+      "win_prob": "34.5%",
+      "time": "14:38 IST"
+    },
+    {
+      "rank": 4,
+      "signal_id": "PULSE-2026-09-15-04",
+      "symbol": "TCS",
+      "action": "SHORT TCS NEAR \u20b92,200.80",
+      "target": "\u20b92,175.46",
+      "profit": "\u20b94,435",
+      "stop_loss": "\u20b92,214.88",
+      "risk": "\u20b92,464",
+      "win_prob": "34.5%",
+      "time": "14:38 IST"
+    },
+    {
+      "rank": 5,
+      "signal_id": "PULSE-2026-09-15-05",
+      "symbol": "INFY",
+      "action": "SHORT INFY NEAR \u20b91,037.70",
+      "target": "\u20b91,024.70",
+      "profit": "\u20b95,200",
+      "stop_loss": "\u20b91,044.92",
+      "risk": "\u20b92,888",
+      "win_prob": "34.5%",
+      "time": "14:38 IST"
+    },
+    {
+      "rank": 6,
+      "signal_id": "PULSE-2026-09-15-06",
+      "symbol": "RELIANCE",
+      "action": "SHORT RELIANCE NEAR \u20b91,257.50",
+      "target": "\u20b91,247.51",
+      "profit": "\u20b92,498",
+      "stop_loss": "\u20b91,263.05",
+      "risk": "\u20b91,387",
+      "win_prob": "34.4%",
+      "time": "14:38 IST"
+    },
+    {
+      "rank": 7,
+      "signal_id": "PULSE-2026-09-15-07",
+      "symbol": "ICICIBANK",
+      "action": "SHORT ICICIBANK NEAR \u20b91,379.30",
+      "target": "\u20b91,369.19",
+      "profit": "\u20b97,077",
+      "stop_loss": "\u20b91,384.91",
+      "risk": "\u20b93,927",
+      "win_prob": "34.4%",
+      "time": "14:38 IST"
     }
   ],
   "master_search_list": [
-    "NIFTY",
-    "BANKNIFTY"
-  ],
-  "universe": {
-    "NIFTY": {
-      "symbol": "NIFTY",
-      "spot": 23398.1,
-      "vwap": 50000.0,
-      "atr": 233.98,
-      "is_fno": true,
-      "master_intraday_directive": {
-        "action": "SHORT NIFTY NEAR \u20b923,398.10",
-        "target_1": "\u20b923,292.81",
-        "stop_loss": "\u20b923,456.60",
-        "net_profit_lot": "\u20b92,632",
-        "net_risk_lot": "\u20b91,462",
-        "win_probability": "40.1%",
-        "expected_hit_time": "14:31 IST"
-      },
-      "greeks": {
-        "delta": -0.493,
-        "gamma": 0.00265,
-        "theta": -32.12,
-        "iv": 12.3
-      },
-      "master_fno_directive": {
-        "contract": "NIFTY 23400 PE",
-        "action": "INTRADAY NAKED BUY: NIFTY 23400 PE",
-        "entry": "\u20b958.9",
-        "capital": "\u20b91,473",
-        "target": "\u20b9122.9",
-        "profit": "\u20b91,600",
-        "stop_loss": "\u20b934.6",
-        "risk": "\u20b9609",
-        "win_prob": "40.1%",
-        "expected_hit_time": "14:31 IST"
-      }
-    },
-    "BANKNIFTY": {
-      "symbol": "BANKNIFTY",
-      "spot": 50800.0,
-      "vwap": 50000.0,
-      "atr": 508.0,
-      "is_fno": true,
-      "master_intraday_directive": {
-        "action": "SHORT BANKNIFTY NEAR \u20b950,800.00",
-        "target_1": "\u20b950,571.40",
-        "stop_loss": "\u20b950,927.00",
-        "net_profit_lot": "\u20b93,429",
-        "net_risk_lot": "\u20b91,905",
-        "win_probability": "40.1%",
-        "expected_hit_time": "14:31 IST"
-      },
-      "greeks": {
-        "delta": -0.488,
-        "gamma": 0.00122,
-        "theta": -69.76,
-        "iv": 12.3
-      },
-      "master_fno_directive": {
-        "contract": "BANKNIFTY 50800 PE",
-        "action": "INTRADAY NAKED BUY: BANKNIFTY 50800 PE",
-        "entry": "\u20b9125.9",
-        "capital": "\u20b91,888",
-        "target": "\u20b9263.7",
-        "profit": "\u20b92,067",
-        "stop_loss": "\u20b973.6",
-        "risk": "\u20b9784",
-        "win_prob": "40.1%",
-        "expected_hit_time": "14:31 IST"
-      }
-    }
-  }
+    "RELIANCE",
+    "HDFCBANK",
+    "TCS",
+    "INFY",
+    "ICICIBANK",
+    "SBIN",
+    "TATASTEEL",
+    "ZOMATO"
+  ]
 }
