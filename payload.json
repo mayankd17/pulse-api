@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-14 15:24:16 IST",
+    "ist_time": "2026-09-14 15:38:24 IST",
     "date_str": "2026-09-14",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Ganesh Chaturthi). Baseline established from 2026-09-11 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 29.5,
+    "score": 29.4,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 23398.1 (MARKET CLOSED: Ganesh Chaturthi). Volatility Index is 12.29 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 45.1,
       "S7_Order_Absorption": 42.5,
-      "S8_Lead_Lag_Gap": 43.3
+      "S8_Lead_Lag_Gap": 42.5
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": -0.2,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d743.3) + -0.20 = 29.5"
+    "news_vector_delta": -0.19,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d742.5) + -0.19 = 29.4"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 5.99,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 107.29,
-      "brent_1d_pct": 2.56,
+      "brent_crude_usd": 107.42,
+      "brent_1d_pct": 2.69,
       "usdinr": 95.54,
       "us_10y_yield": 4.97,
       "sp500_close": 7656.98,
       "sp500_1d_pct": 0.86,
-      "dxy_close": 99.53,
-      "dxy_1d_pct": 0.41,
+      "dxy_close": 99.54,
+      "dxy_1d_pct": 0.42,
       "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
@@ -304,14 +304,53 @@
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
-      "gap_bias": "Neutral Opening",
-      "expected_gap_points": -34,
-      "net_macro_lead_pct": -0.268,
+      "gap_bias": "Bearish Gap-Down",
+      "expected_gap_points": -37,
+      "net_macro_lead_pct": -0.298,
       "sp500_change_pct": 0.86,
-      "dxy_change_pct": 0.41,
-      "crude_change_pct": 2.56
+      "dxy_change_pct": 0.42,
+      "crude_change_pct": 2.69
     },
     "news_items": [
+      {
+        "title": "EaseMyTrip co-founder Nishant Pitti pledges 34.51 crore shares to Motilal Oswal; Check travel stock's performance",
+        "link": "https://www.livemint.com/market/stock-market-news/easemytrip-co-founder-nishant-pitti-pledges-34-51-crore-shares-to-motilal-oswal-check-travel-stocks-performance-11789377257232.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 15:37:21 +0530",
+        "published_timestamp": "2026-09-14T15:37:21+05:30",
+        "summary": "Easy Trip Planners co-founder Nishant Pitti pledged 34.51 crore shares worth  \u20b9212 crore, now representing 8.66% of the company's capital.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Can Rs 6.6 lakh crore in potential PSU divestments bring FPIs back to Indian markets? Axis Capital explains",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/can-rs-6-6-lakh-crore-in-potential-psu-divestments-bring-fpis-back-to-indian-markets-axis-capital-explains/articleshow/134238379.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 15:30:02 +0530",
+        "published_timestamp": "2026-09-14T15:30:02+05:30",
+        "summary": "Axis Capital says faster government divestments could expand India\u2019s investable equity pool, ease valuation pressures and limit foreign outflows. A 15% reduction in government ownership could raise ab",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "3,400% stock returns in 10 yrs; from  \u20b91 lakh to  \u20b935 lakh - Defence company announces business expansion in South Africa",
+        "link": "https://www.livemint.com/market/stock-market-news/3400-stock-returns-in-10-yrs-from-1-lakh-to-35-lakh-defence-company-announces-business-expansion-in-south-africa-11789376907765.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 15:26:51 +0530",
+        "published_timestamp": "2026-09-14T15:26:51+05:30",
+        "summary": "Solar Industries India has announced the acquisition of Omnia Holdings, aiming to strengthen its global presence in explosives and agricultural solutions. This move follows a remarkable 3,400% increas",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "BofA turns bullish on Nifty after 2 years, cautious on small, midcaps. Here's what it expects now",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/bofa-turns-bullish-on-nifty-after-2-years-cautious-on-small-midcaps-heres-what-it-expects-now/articleshow/134237764.cms",
@@ -792,45 +831,6 @@
         "raw_sentiment": -1.0,
         "beta_decay": 1.0,
         "effective_impact": -0.9
-      },
-      {
-        "title": "20 midcap funds, 20 multibaggers: What makes this category a wealth creation machine?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/20-midcap-funds-20-multibaggers-what-makes-this-category-a-wealth-creation-machine/articleshow/134232185.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 09:38:40 +0530",
-        "published_timestamp": "2026-09-14T09:38:40+05:30",
-        "summary": "Midcap mutual funds have delivered exceptional wealth creation over the past decade, with all 20 schemes boasting a full 10-year track record emerging as multibaggers. But can the category repeat that",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "Why can\u2019t NSE trade on its own platform after the IPO, and is it a big deal?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/why-cant-nse-trade-on-its-own-platform-after-the-ipo-and-is-it-a-big-deal/articleshow/134232116.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 09:32:54 +0530",
-        "published_timestamp": "2026-09-14T09:32:54+05:30",
-        "summary": "NSE MD Ashish Chauhan clarified that the exchange will not seek Sebi approval to list or trade its shares on its own platform. Under Sebi rules, a recognised exchange can list only on another exchange",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Global Market: Japan stocks fall as AI concerns hit tech shares; Nikkei down 1.6%",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-stocks-fall-as-ai-concerns-hit-tech-shares-nikkei-down-1-6/articleshow/134232052.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 09:26:49 +0530",
-        "published_timestamp": "2026-09-14T09:26:49+05:30",
-        "summary": "Japan\u2019s Nikkei fell 1.6% on Monday, dragged by technology and semiconductor stocks as concerns over the pace and risks of artificial intelligence development weighed on sentiment. Investors also remai",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
       }
     ]
   }
