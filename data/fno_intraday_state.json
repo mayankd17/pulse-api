@@ -1,257 +1,109 @@
 {
-  "as_of_ist": "2026-09-14 11:41:44 IST",
-  "top_10": [
+  "as_of_ist": "2026-09-14 11:43:02 IST",
+  "top_10_recommendations": [
     {
-      "symbol": "RELIANCE",
-      "lot": 250,
-      "spot": 1257.5,
-      "vwap": 1259.15,
-      "atr": 22.19,
-      "greeks": {
-        "delta": -0.608,
-        "gamma": 0.04671,
-        "theta": -1.72,
-        "iv": 12.5
-      },
-      "master_directive": {
-        "action": "BUY RELIANCE 1260 PE",
-        "entry": "\u20b94.5",
-        "capital": "\u20b91,138",
-        "target": "\u20b95.0",
-        "profit_lot": "\u20b9113",
-        "stop_loss": "\u20b94.3",
-        "risk_lot": "\u20b962",
-        "duration": "15 to 45 Minutes (Intraday)",
-        "win_prob": "39.8%"
-      },
-      "rank": 1
+      "rank": 1,
+      "signal_id": "PULSE-OPT-2026-09-15-01",
+      "symbol": "NIFTY",
+      "contract": "NIFTY 23400 PE",
+      "action": "INTRADAY NAKED BUY: NIFTY 23400 PE",
+      "entry": "\u20b958.9",
+      "capital": "\u20b91,473",
+      "target": "\u20b9122.9",
+      "profit": "\u20b91,600",
+      "stop_loss": "\u20b934.6",
+      "risk": "\u20b9609",
+      "win_prob": "40.1%",
+      "time": "14:31 IST"
     },
     {
-      "symbol": "BANK NIFTY",
-      "lot": 15,
-      "spot": 56606.55,
-      "vwap": 0.0,
-      "atr": 538.23,
-      "greeks": {
-        "delta": 0.519,
-        "gamma": 0.00108,
-        "theta": -79.02,
-        "iv": 12.5
-      },
-      "master_directive": {
-        "action": "BUY BANK NIFTY 56600 CE",
-        "entry": "\u20b9156.2",
-        "capital": "\u20b92,343",
-        "target": "\u20b9204.8",
-        "profit_lot": "\u20b9729",
-        "stop_loss": "\u20b9128.4",
-        "risk_lot": "\u20b9417",
-        "duration": "15 to 45 Minutes (Intraday)",
-        "win_prob": "30.7%"
-      },
-      "rank": 2
-    },
-    {
-      "symbol": "NIFTY 50",
-      "lot": 25,
-      "spot": 23398.1,
-      "vwap": 0.0,
-      "atr": 179.61,
-      "greeks": {
-        "delta": 0.507,
-        "gamma": 0.00261,
-        "theta": -32.65,
-        "iv": 12.5
-      },
-      "master_directive": {
-        "action": "BUY NIFTY 50 23400 CE",
-        "entry": "\u20b962.2",
-        "capital": "\u20b91,555",
-        "target": "\u20b974.8",
-        "profit_lot": "\u20b9315",
-        "stop_loss": "\u20b955.0",
-        "risk_lot": "\u20b9180",
-        "duration": "15 to 45 Minutes (Intraday)",
-        "win_prob": "29.5%"
-      },
-      "rank": 3
-    },
-    {
-      "symbol": "TCS",
-      "lot": 175,
-      "spot": 2200.8,
-      "vwap": 2210.3,
-      "atr": 56.31,
-      "greeks": {
-        "delta": -0.466,
-        "gamma": 0.0276,
-        "theta": -3.04,
-        "iv": 12.5
-      },
-      "master_directive": {
-        "action": "BUY TCS 2200 PE",
-        "entry": "\u20b95.2",
-        "capital": "\u20b9905",
-        "target": "\u20b96.7",
-        "profit_lot": "\u20b9268",
-        "stop_loss": "\u20b94.3",
-        "risk_lot": "\u20b9152",
-        "duration": "15 to 45 Minutes (Intraday)",
-        "win_prob": "25.4%"
-      },
-      "rank": 4
-    },
-    {
-      "symbol": "HDFC BANK",
-      "lot": 550,
-      "spot": 708.25,
-      "vwap": 694.41,
-      "atr": 14.01,
-      "greeks": {
-        "delta": 0.364,
-        "gamma": 0.08107,
-        "theta": -0.92,
-        "iv": 12.5
-      },
-      "master_directive": {
-        "action": "BUY HDFC BANK 710 CE",
-        "entry": "\u20b91.1",
-        "capital": "\u20b9632",
-        "target": "\u20b91.4",
-        "profit_lot": "\u20b9138",
-        "stop_loss": "\u20b91.0",
-        "risk_lot": "\u20b982",
-        "duration": "15 to 45 Minutes (Intraday)",
-        "win_prob": "16.7%"
-      },
-      "rank": 5
+      "rank": 2,
+      "signal_id": "PULSE-OPT-2026-09-15-02",
+      "symbol": "BANKNIFTY",
+      "contract": "BANKNIFTY 50800 PE",
+      "action": "INTRADAY NAKED BUY: BANKNIFTY 50800 PE",
+      "entry": "\u20b9125.9",
+      "capital": "\u20b91,888",
+      "target": "\u20b9263.7",
+      "profit": "\u20b92,067",
+      "stop_loss": "\u20b973.6",
+      "risk": "\u20b9784",
+      "win_prob": "40.1%",
+      "time": "14:31 IST"
     }
   ],
+  "master_search_list": [
+    "NIFTY",
+    "BANKNIFTY"
+  ],
   "universe": {
-    "NIFTY 50": {
-      "symbol": "NIFTY 50",
-      "lot": 25,
+    "NIFTY": {
+      "symbol": "NIFTY",
       "spot": 23398.1,
-      "vwap": 0.0,
-      "atr": 179.61,
+      "vwap": 50000.0,
+      "atr": 233.98,
+      "is_fno": true,
+      "master_intraday_directive": {
+        "action": "SHORT NIFTY NEAR \u20b923,398.10",
+        "target_1": "\u20b923,292.81",
+        "stop_loss": "\u20b923,456.60",
+        "net_profit_lot": "\u20b92,632",
+        "net_risk_lot": "\u20b91,462",
+        "win_probability": "40.1%",
+        "expected_hit_time": "14:31 IST"
+      },
       "greeks": {
-        "delta": 0.507,
-        "gamma": 0.00261,
-        "theta": -32.65,
-        "iv": 12.5
+        "delta": -0.493,
+        "gamma": 0.00265,
+        "theta": -32.12,
+        "iv": 12.3
       },
-      "master_directive": {
-        "action": "BUY NIFTY 50 23400 CE",
-        "entry": "\u20b962.2",
-        "capital": "\u20b91,555",
-        "target": "\u20b974.8",
-        "profit_lot": "\u20b9315",
-        "stop_loss": "\u20b955.0",
-        "risk_lot": "\u20b9180",
-        "duration": "15 to 45 Minutes (Intraday)",
-        "win_prob": "29.5%"
-      },
-      "rank": 3
+      "master_fno_directive": {
+        "contract": "NIFTY 23400 PE",
+        "action": "INTRADAY NAKED BUY: NIFTY 23400 PE",
+        "entry": "\u20b958.9",
+        "capital": "\u20b91,473",
+        "target": "\u20b9122.9",
+        "profit": "\u20b91,600",
+        "stop_loss": "\u20b934.6",
+        "risk": "\u20b9609",
+        "win_prob": "40.1%",
+        "expected_hit_time": "14:31 IST"
+      }
     },
-    "BANK NIFTY": {
-      "symbol": "BANK NIFTY",
-      "lot": 15,
-      "spot": 56606.55,
-      "vwap": 0.0,
-      "atr": 538.23,
+    "BANKNIFTY": {
+      "symbol": "BANKNIFTY",
+      "spot": 50800.0,
+      "vwap": 50000.0,
+      "atr": 508.0,
+      "is_fno": true,
+      "master_intraday_directive": {
+        "action": "SHORT BANKNIFTY NEAR \u20b950,800.00",
+        "target_1": "\u20b950,571.40",
+        "stop_loss": "\u20b950,927.00",
+        "net_profit_lot": "\u20b93,429",
+        "net_risk_lot": "\u20b91,905",
+        "win_probability": "40.1%",
+        "expected_hit_time": "14:31 IST"
+      },
       "greeks": {
-        "delta": 0.519,
-        "gamma": 0.00108,
-        "theta": -79.02,
-        "iv": 12.5
+        "delta": -0.488,
+        "gamma": 0.00122,
+        "theta": -69.76,
+        "iv": 12.3
       },
-      "master_directive": {
-        "action": "BUY BANK NIFTY 56600 CE",
-        "entry": "\u20b9156.2",
-        "capital": "\u20b92,343",
-        "target": "\u20b9204.8",
-        "profit_lot": "\u20b9729",
-        "stop_loss": "\u20b9128.4",
-        "risk_lot": "\u20b9417",
-        "duration": "15 to 45 Minutes (Intraday)",
-        "win_prob": "30.7%"
-      },
-      "rank": 2
-    },
-    "RELIANCE": {
-      "symbol": "RELIANCE",
-      "lot": 250,
-      "spot": 1257.5,
-      "vwap": 1259.15,
-      "atr": 22.19,
-      "greeks": {
-        "delta": -0.608,
-        "gamma": 0.04671,
-        "theta": -1.72,
-        "iv": 12.5
-      },
-      "master_directive": {
-        "action": "BUY RELIANCE 1260 PE",
-        "entry": "\u20b94.5",
-        "capital": "\u20b91,138",
-        "target": "\u20b95.0",
-        "profit_lot": "\u20b9113",
-        "stop_loss": "\u20b94.3",
-        "risk_lot": "\u20b962",
-        "duration": "15 to 45 Minutes (Intraday)",
-        "win_prob": "39.8%"
-      },
-      "rank": 1
-    },
-    "HDFC BANK": {
-      "symbol": "HDFC BANK",
-      "lot": 550,
-      "spot": 708.25,
-      "vwap": 694.41,
-      "atr": 14.01,
-      "greeks": {
-        "delta": 0.364,
-        "gamma": 0.08107,
-        "theta": -0.92,
-        "iv": 12.5
-      },
-      "master_directive": {
-        "action": "BUY HDFC BANK 710 CE",
-        "entry": "\u20b91.1",
-        "capital": "\u20b9632",
-        "target": "\u20b91.4",
-        "profit_lot": "\u20b9138",
-        "stop_loss": "\u20b91.0",
-        "risk_lot": "\u20b982",
-        "duration": "15 to 45 Minutes (Intraday)",
-        "win_prob": "16.7%"
-      },
-      "rank": 5
-    },
-    "TCS": {
-      "symbol": "TCS",
-      "lot": 175,
-      "spot": 2200.8,
-      "vwap": 2210.3,
-      "atr": 56.31,
-      "greeks": {
-        "delta": -0.466,
-        "gamma": 0.0276,
-        "theta": -3.04,
-        "iv": 12.5
-      },
-      "master_directive": {
-        "action": "BUY TCS 2200 PE",
-        "entry": "\u20b95.2",
-        "capital": "\u20b9905",
-        "target": "\u20b96.7",
-        "profit_lot": "\u20b9268",
-        "stop_loss": "\u20b94.3",
-        "risk_lot": "\u20b9152",
-        "duration": "15 to 45 Minutes (Intraday)",
-        "win_prob": "25.4%"
-      },
-      "rank": 4
+      "master_fno_directive": {
+        "contract": "BANKNIFTY 50800 PE",
+        "action": "INTRADAY NAKED BUY: BANKNIFTY 50800 PE",
+        "entry": "\u20b9125.9",
+        "capital": "\u20b91,888",
+        "target": "\u20b9263.7",
+        "profit": "\u20b92,067",
+        "stop_loss": "\u20b973.6",
+        "risk": "\u20b9784",
+        "win_prob": "40.1%",
+        "expected_hit_time": "14:31 IST"
+      }
     }
   }
 }
