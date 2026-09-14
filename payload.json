@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-14 12:05:10 IST",
+    "ist_time": "2026-09-14 12:26:52 IST",
     "date_str": "2026-09-14",
     "is_open": false,
     "is_weekend": false,
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 45.1,
       "S7_Order_Absorption": 42.5,
-      "S8_Lead_Lag_Gap": 46.9
+      "S8_Lead_Lag_Gap": 43.8
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": -0.29,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d746.9) + -0.29 = 29.7"
+    "news_vector_delta": -0.02,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d743.8) + -0.02 = 29.7"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 5.99,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 106.73,
-      "brent_1d_pct": 2.03,
+      "brent_crude_usd": 107.37,
+      "brent_1d_pct": 2.64,
       "usdinr": 95.54,
       "us_10y_yield": 4.97,
       "sp500_close": 7656.98,
       "sp500_1d_pct": 0.86,
-      "dxy_close": 99.42,
-      "dxy_1d_pct": 0.3,
+      "dxy_close": 99.43,
+      "dxy_1d_pct": 0.31,
       "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
@@ -305,13 +305,39 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Neutral Opening",
-      "expected_gap_points": -16,
-      "net_macro_lead_pct": -0.124,
+      "expected_gap_points": -31,
+      "net_macro_lead_pct": -0.249,
       "sp500_change_pct": 0.86,
-      "dxy_change_pct": 0.3,
-      "crude_change_pct": 2.03
+      "dxy_change_pct": 0.31,
+      "crude_change_pct": 2.64
     },
     "news_items": [
+      {
+        "title": "Indiabulls shares to be in focus on Tuesday | Here's why",
+        "link": "https://www.livemint.com/market/stock-market-news/indiabulls-shares-to-be-in-focus-on-tuesday-heres-why-11789364882823.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 12:22:52 +0530",
+        "published_timestamp": "2026-09-14T12:22:52+05:30",
+        "summary": "Indiabulls shares closed 5% higher on Friday, ending the session at  \u20b925.89 apiece on BSE.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Dividend stocks alert, record date: Last chance to buy - Blue Dart, Karnataka Bank, Aarti Pharma, ITDC | Full list",
+        "link": "https://www.livemint.com/market/stock-market-news/dividend-alert-last-chance-to-buy-blue-dart-karnataka-bank-aarti-pharma-itdc-and-others-for-dividends-full-list-11789365707462.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 12:06:51 +0530",
+        "published_timestamp": "2026-09-14T12:06:51+05:30",
+        "summary": "Shares of Blue Dart, Karnataka Bank, and others focus on their dividend record dates on September 15. Investors need to own stocks by this date for eligibility.&nbsp;",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
       {
         "title": "Global Market: Samsung, SK Hynix reject $18.7 billion upfront power payment proposal",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-samsung-sk-hynix-reject-18-7-billion-upfront-power-payment-proposal/articleshow/134234539.cms",
@@ -661,6 +687,136 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
         "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Flipkart records highest-ever single day sale, grosses $200mn",
+        "link": "http://www.moneycontrol.com/news/business/flipkart-records-highest-ever-single-day-sale-grosses-36200mn_7577901.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 14:59:14 +0530",
+        "published_timestamp": "2016-10-05T14:59:14+05:30",
+        "summary": " This is the biggest ever single day sale for Bangalore-based Flipkart, since the time the company started in 2007.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.09
+      },
+      {
+        "title": "Subramanian Swamy seeks ban on import of cement from Pakistan",
+        "link": "http://www.moneycontrol.com/news/current-affairs/subramanian-swamy-seeks-banimportcementpakistan_7578201.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 14:50:10 +0530",
+        "published_timestamp": "2016-10-05T14:50:10+05:30",
+        "summary": " \"Allowing imports of cement from Pakistan, therefore, carried with it the additional risk in that it provides an effective cover for smuggling of contraband goods and harmful weapons and ammunition c",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Moneycontrol Exclusive: Govt plans overhaul of tax administration for smooth GST rollout",
+        "link": "http://www.moneycontrol.com/news/business/moneycontrol-exclusive-govt-plans-overhaultax-administration-for-smooth-gst-rollout_7578021.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 14:42:19 +0530",
+        "published_timestamp": "2016-10-05T14:42:19+05:30",
+        "summary": " The government has readied plans for a major change in India\u00e2\u0080\u0099s tax administration structure, including overhauling the Central Board of Excise and Customs (CBEC) to ensure a glitch-free roll-out of",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Sensex, Nifty wobbly; Hind Zinc, SBI, Force Motors most active",
+        "link": "http://www.moneycontrol.com/news/local-markets/sensex-nifty-wobbly-hind-zinc-sbi-force-motors-most-active_7577801.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 14:00:44 +0530",
+        "published_timestamp": "2016-10-05T14:00:44+05:30",
+        "summary": " Asian Paints, SBI, Tata Motors, HUL and Maruti Suzuki are top gainers while ONGC, Axis Bank, MM, Bajaj Auto and Hero MotoCorp are major losers in the Sensex.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.09
+      },
+      {
+        "title": "Workload in IT to come down due to AI; jobs to reduce: Genpact",
+        "link": "http://www.moneycontrol.com/news/business/workloadit-to-come-down-due-to-ai-jobs-to-reduce-genpact_7577361.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 13:39:13 +0530",
+        "published_timestamp": "2016-10-05T13:39:13+05:30",
+        "summary": " But along with that the employment growth rates have started to dip, NV 'Tiger' Tyagarajan says. The percentage addition of employees in India will not be same as past. And due to advancements, a wor",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.09
+      },
+      {
+        "title": "Bond bull market may pause but is far from over: Expert",
+        "link": "http://www.moneycontrol.com/news/economy/bond-bull-market-may-pauseis-farover-expert_7575741.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 10:54:17 +0530",
+        "published_timestamp": "2016-10-05T10:54:17+05:30",
+        "summary": " The benchmark 10-year government-security yield remained stuck in 8-7.5 percent range through all of 2015 and half of 2016, moving lower to sub-7 percent only when the RBI promised in April to reduce",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Scope for meaningful rate cuts going ahead: Neelkanth Mishra",
+        "link": "http://www.moneycontrol.com/news/market-outlook/scope-for-meaningful-rate-cuts-going-ahead-neelkanth-mishra_7575461.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 10:33:49 +0530",
+        "published_timestamp": "2016-10-05T10:33:49+05:30",
+        "summary": " Credit Suisse' Neelkanth Mishra expects repo rate to fall to a decade low in the coming quarters. He says that beginning December the market may see a robust and widespread pick-up which may boost in",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 0.1,
+        "effective_impact": -0.09
+      },
+      {
+        "title": "Endurance Technologies IPO opens: Should you subscribe?",
+        "link": "http://www.moneycontrol.com/news/ipo-tip/endurance-technologies-ipo-opens-should-you-subscribe_7575861.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 09:04:03 +0530",
+        "published_timestamp": "2016-10-05T09:04:03+05:30",
+        "summary": " The Aurangabad-based company aims to mop up nearly Rs 1,162 crore (at higher end of price band) by diluting 17.5 percent stake through the issue that will close on October 7. It already raised Rs 348",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.09
+      },
+      {
+        "title": "Cautiously optimistic on India; eyeing earnings revival: Sanger",
+        "link": "http://www.moneycontrol.com/news/fii-view/cautiously-optimisticindia-eyeing-earnings-revival-sanger_7574941.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 09:00:17 +0530",
+        "published_timestamp": "2016-10-05T09:00:17+05:30",
+        "summary": " Global liquidity tailwinds are unlikely to get any better from now and that makes Arvind Sanger, Managing Partner at Geosphere Capital Management \u00e2\u0080\u009ccautiously optimistic\u00e2\u0080\u009d on the Indian markets.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.1,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Automation threatens 69% jobs in India: World Bank",
+        "link": "http://www.moneycontrol.com/news/current-affairs/automation-threatens-69-jobsindia-world-bank_7574441.html",
+        "source": "Moneycontrol",
+        "published": "Wed, 05 Oct 2016 08:00:04 +0530",
+        "published_timestamp": "2016-10-05T08:00:04+05:30",
+        "summary": " \"In large parts of Africa, it is likely that technology could fundamentally disrupt this pattern. Research based on World Bank data has predicted that the proportion of jobs threatened in India by au",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.1,
         "effective_impact": 0.0
       }
     ]
