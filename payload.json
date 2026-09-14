@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-14 10:25:44 IST",
+    "ist_time": "2026-09-14 10:35:30 IST",
     "date_str": "2026-09-14",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Ganesh Chaturthi). Baseline established from 2026-09-11 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 30.1,
+    "score": 30.2,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 23398.1 (MARKET CLOSED: Ganesh Chaturthi). Volatility Index is 12.29 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 45.1,
       "S7_Order_Absorption": 42.5,
-      "S8_Lead_Lag_Gap": 44.0
+      "S8_Lead_Lag_Gap": 44.6
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -233,7 +233,7 @@
       "w8_Lead_Lag_Gap": "10%"
     },
     "news_vector_delta": 0.36,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d744.0) + +0.36 = 30.1"
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d744.6) + +0.36 = 30.2"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 5.99,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 107.45,
-      "brent_1d_pct": 2.71,
+      "brent_crude_usd": 107.36,
+      "brent_1d_pct": 2.63,
       "usdinr": 95.54,
       "us_10y_yield": 4.97,
       "sp500_close": 7656.98,
       "sp500_1d_pct": 0.86,
-      "dxy_close": 99.36,
-      "dxy_1d_pct": 0.24,
+      "dxy_close": 99.34,
+      "dxy_1d_pct": 0.22,
       "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
@@ -305,13 +305,26 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Neutral Opening",
-      "expected_gap_points": -30,
-      "net_macro_lead_pct": -0.239,
+      "expected_gap_points": -27,
+      "net_macro_lead_pct": -0.216,
       "sp500_change_pct": 0.86,
-      "dxy_change_pct": 0.24,
-      "crude_change_pct": 2.71
+      "dxy_change_pct": 0.22,
+      "crude_change_pct": 2.63
     },
     "news_items": [
+      {
+        "title": "Suzlon share: Shareholders approve all resolutions at 31st AGM | What does it mean for renewable energy stock?",
+        "link": "https://www.livemint.com/market/stock-market-news/suzlon-share-shareholders-approve-all-resolutions-at-31st-agm-what-does-it-mean-for-renewable-energy-stock-11789358812887.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 10:26:19 +0530",
+        "published_timestamp": "2026-09-14T10:26:19+05:30",
+        "summary": "Suzlon share price is facing resistance at  \u20b946. Breaking above this hurdle decisively, would inject fresh upside movement, say experts",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "US Market: Goldman Sachs expects Fed to hike rates amid inflation fears",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-market-goldman-sachs-expects-fed-to-hike-rates-amid-inflation-fears/articleshow/134232349.cms",
@@ -818,19 +831,6 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.95
-      },
-      {
-        "title": "SP Group weighs Rs 3,500 crore debt repayment options",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/shapoorji-pallonji-weighs-options-to-refinance-rs-3500-crore-debt-due-this-month/articleshow/134229719.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 05:43:11 +0530",
-        "published_timestamp": "2026-09-14T05:43:11+05:30",
-        "summary": "Shapoorji Pallonji Group is exploring debt options for a \u20b93,500 crore repayment.  The central bank's Tata Sons listing mandate offers investors a clear repayment path.  This directive will build inves",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
       }
     ]
   }
