@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-14 12:59:23 IST",
+    "ist_time": "2026-09-14 13:15:44 IST",
     "date_str": "2026-09-14",
     "is_open": false,
     "is_weekend": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Ganesh Chaturthi). Baseline established from 2026-09-11 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 29.6,
+    "score": 29.5,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 23398.1 (MARKET CLOSED: Ganesh Chaturthi). Volatility Index is 12.29 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.2x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.21x."
     },
     "hi": {
       "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23398.1 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: Ganesh Chaturthi)\u0964 VIX 12.29 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.2x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.21x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.2
+    "multiplier": 1.21
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.2,
+    "dynamic_sip_multiplier": 1.21,
     "lot_size": 25,
     "nifty_lot_value": 584952,
     "cascade_risk_pct": 95
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 45.1,
       "S7_Order_Absorption": 42.5,
-      "S8_Lead_Lag_Gap": 44.0
+      "S8_Lead_Lag_Gap": 42.7
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": -0.15,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d744.0) + -0.15 = 29.6"
+    "news_vector_delta": -0.14,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d742.7) + -0.14 = 29.5"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 5.99,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 107.34,
-      "brent_1d_pct": 2.61,
+      "brent_crude_usd": 107.56,
+      "brent_1d_pct": 2.82,
       "usdinr": 95.54,
       "us_10y_yield": 4.97,
       "sp500_close": 7656.98,
       "sp500_1d_pct": 0.86,
-      "dxy_close": 99.42,
-      "dxy_1d_pct": 0.3,
+      "dxy_close": 99.45,
+      "dxy_1d_pct": 0.33,
       "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
@@ -304,14 +304,27 @@
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
-      "gap_bias": "Neutral Opening",
-      "expected_gap_points": -30,
-      "net_macro_lead_pct": -0.24,
+      "gap_bias": "Bearish Gap-Down",
+      "expected_gap_points": -36,
+      "net_macro_lead_pct": -0.292,
       "sp500_change_pct": 0.86,
-      "dxy_change_pct": 0.3,
-      "crude_change_pct": 2.61
+      "dxy_change_pct": 0.33,
+      "crude_change_pct": 2.82
     },
     "news_items": [
+      {
+        "title": "Up 5,100% in one year! This ETF delivers highest returns on US-Iran war oil shock",
+        "link": "https://www.livemint.com/market/stock-market-news/up-5-100-in-one-year-this-etf-delivers-highest-returns-on-us-iran-war-oil-shock-11789368593834.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 13:11:06 +0530",
+        "published_timestamp": "2026-09-14T13:11:06+05:30",
+        "summary": "The ETF has delivered 3,600% returns on year-to-date (YTD) basis, as per the Morningstar data.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "ETMarkets Smart Talk | Retail traders lost \u20b91.8 lakh crore in F&amp;O: Can algo trading change the game? Rakesh Pujara explains",
         "link": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-retail-traders-lost-1-8-lakh-crore-in-fo-can-algo-trading-change-the-game-rakesh-pujara-explains/articleshow/134235178.cms",
@@ -813,19 +826,6 @@
         "published": "Wed, 05 Oct 2016 09:00:17 +0530",
         "published_timestamp": "2016-10-05T09:00:17+05:30",
         "summary": " Global liquidity tailwinds are unlikely to get any better from now and that makes Arvind Sanger, Managing Partner at Geosphere Capital Management \u00e2\u0080\u009ccautiously optimistic\u00e2\u0080\u009d on the Indian markets.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.1,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Automation threatens 69% jobs in India: World Bank",
-        "link": "http://www.moneycontrol.com/news/current-affairs/automation-threatens-69-jobsindia-world-bank_7574441.html",
-        "source": "Moneycontrol",
-        "published": "Wed, 05 Oct 2016 08:00:04 +0530",
-        "published_timestamp": "2016-10-05T08:00:04+05:30",
-        "summary": " \"In large parts of Africa, it is likely that technology could fundamentally disrupt this pattern. Research based on World Bank data has predicted that the proportion of jobs threatened in India by au",
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
