@@ -1,744 +1,257 @@
 {
-  "as_of_ist": "2026-09-14 11:28:42 IST",
-  "target_session_date": "2026-09-15",
-  "market_breadth": {
-    "advances": 25,
-    "declines": 25,
-    "ad_ratio": 1.0,
-    "bias": "SETTLED"
-  },
-  "options_summary": {
-    "max_pain_strike": 23400,
-    "pcr_oi": 0.88
-  },
-  "scanners": {
-    "vwap_cross": [
-      "RELIANCE",
-      "ICICI BANK",
-      "STATE BANK OF INDIA"
-    ],
-    "volume_breakout": [
-      "RELIANCE",
-      "HDFC BANK",
-      "TCS",
-      "INFOSYS",
-      "ICICI BANK",
-      "STATE BANK OF INDIA",
-      "BHARTI AIRTEL"
-    ],
-    "orb_breakout": [],
-    "sma_50_cross": []
-  },
-  "top_10_recommendations": [
+  "as_of_ist": "2026-09-14 11:41:44 IST",
+  "top_10": [
     {
-      "rank": 1,
-      "signal_id": "PULSE-OPT-2026-09-15-01",
-      "symbol": "HDFC BANK",
-      "tv_symbol": "NSE:HDFCBANK",
-      "contract": "HDFC BANK 710 PE",
-      "action": "BUY HDFC BANK 710 PE",
-      "entry_premium": "₹2.7",
-      "capital_required": "₹1,485",
-      "target": "₹2.9",
-      "stop_loss": "₹2.6",
-      "net_profit_lot": "₹110",
-      "net_risk_lot": "₹55",
-      "win_probability": "75.5%",
-      "holding_duration": "30 to 90 Minutes (Intraday Only)",
-      "status": "ACTIVE_FOR_SESSION"
-    },
-    {
-      "rank": 2,
-      "signal_id": "PULSE-OPT-2026-09-15-02",
-      "symbol": "INFOSYS",
-      "tv_symbol": "NSE:INFY",
-      "contract": "INFOSYS 1040 PE",
-      "action": "BUY INFOSYS 1040 PE",
-      "entry_premium": "₹3.9",
-      "capital_required": "₹1,560",
-      "target": "₹4.4",
-      "stop_loss": "₹3.6",
-      "net_profit_lot": "₹200",
-      "net_risk_lot": "₹120",
-      "win_probability": "74.3%",
-      "holding_duration": "30 to 90 Minutes (Intraday Only)",
-      "status": "ACTIVE_FOR_SESSION"
-    },
-    {
-      "rank": 3,
-      "signal_id": "PULSE-OPT-2026-09-15-03",
       "symbol": "RELIANCE",
-      "tv_symbol": "NSE:RELIANCE",
-      "contract": "RELIANCE 1260 PE",
-      "action": "BUY RELIANCE 1260 PE",
-      "entry_premium": "₹4.5",
-      "capital_required": "₹1,125",
-      "target": "₹5.0",
-      "stop_loss": "₹4.2",
-      "net_profit_lot": "₹125",
-      "net_risk_lot": "₹75",
-      "win_probability": "73.1%",
-      "holding_duration": "30 to 90 Minutes (Intraday Only)",
-      "status": "ACTIVE_FOR_SESSION"
+      "lot": 250,
+      "spot": 1257.5,
+      "vwap": 1259.15,
+      "atr": 22.19,
+      "greeks": {
+        "delta": -0.608,
+        "gamma": 0.04671,
+        "theta": -1.72,
+        "iv": 12.5
+      },
+      "master_directive": {
+        "action": "BUY RELIANCE 1260 PE",
+        "entry": "\u20b94.5",
+        "capital": "\u20b91,138",
+        "target": "\u20b95.0",
+        "profit_lot": "\u20b9113",
+        "stop_loss": "\u20b94.3",
+        "risk_lot": "\u20b962",
+        "duration": "15 to 45 Minutes (Intraday)",
+        "win_prob": "39.8%"
+      },
+      "rank": 1
     },
     {
-      "rank": 4,
-      "signal_id": "PULSE-OPT-2026-09-15-04",
-      "symbol": "ICICI BANK",
-      "tv_symbol": "NSE:ICICIBANK",
-      "contract": "ICICI BANK 1380 PE",
-      "action": "BUY ICICI BANK 1380 PE",
-      "entry_premium": "₹3.8",
-      "capital_required": "₹2,660",
-      "target": "₹4.1",
-      "stop_loss": "₹3.6",
-      "net_profit_lot": "₹210",
-      "net_risk_lot": "₹140",
-      "win_probability": "65.1%",
-      "holding_duration": "30 to 90 Minutes (Intraday Only)",
-      "status": "ACTIVE_FOR_SESSION"
-    },
-    {
-      "rank": 5,
-      "signal_id": "PULSE-OPT-2026-09-15-05",
-      "symbol": "NIFTY 50",
-      "tv_symbol": "BSE:NIFTY50",
-      "contract": "NIFTY 50 23400 PE",
-      "action": "BUY NIFTY 50 23400 PE",
-      "entry_premium": "₹58.9",
-      "capital_required": "₹1,472",
-      "target": "₹71.5",
-      "stop_loss": "₹51.7",
-      "net_profit_lot": "₹315",
-      "net_risk_lot": "₹180",
-      "win_probability": "62.6%",
-      "holding_duration": "30 to 90 Minutes (Intraday Only)",
-      "status": "ACTIVE_FOR_SESSION"
-    },
-    {
-      "rank": 6,
-      "signal_id": "PULSE-OPT-2026-09-15-06",
-      "symbol": "TATA MOTORS",
-      "tv_symbol": "NSE:TATAMOTORS",
-      "contract": "TATA MOTORS 980 PE",
-      "action": "BUY TATA MOTORS 980 PE",
-      "entry_premium": "₹2.4",
-      "capital_required": "₹3,420",
-      "target": "₹2.5",
-      "stop_loss": "₹2.3",
-      "net_profit_lot": "₹143",
-      "net_risk_lot": "₹143",
-      "win_probability": "62.1%",
-      "holding_duration": "30 to 90 Minutes (Intraday Only)",
-      "status": "ACTIVE_FOR_SESSION"
-    },
-    {
-      "rank": 7,
-      "signal_id": "PULSE-OPT-2026-09-15-07",
       "symbol": "BANK NIFTY",
-      "tv_symbol": "BSE:NIFTYBANK",
-      "contract": "BANK NIFTY 56600 PE",
-      "action": "BUY BANK NIFTY 56600 PE",
-      "entry_premium": "₹137.1",
-      "capital_required": "₹2,056",
-      "target": "₹185.7",
-      "stop_loss": "₹109.3",
-      "net_profit_lot": "₹729",
-      "net_risk_lot": "₹417",
-      "win_probability": "61.4%",
-      "holding_duration": "30 to 90 Minutes (Intraday Only)",
-      "status": "ACTIVE_FOR_SESSION"
+      "lot": 15,
+      "spot": 56606.55,
+      "vwap": 0.0,
+      "atr": 538.23,
+      "greeks": {
+        "delta": 0.519,
+        "gamma": 0.00108,
+        "theta": -79.02,
+        "iv": 12.5
+      },
+      "master_directive": {
+        "action": "BUY BANK NIFTY 56600 CE",
+        "entry": "\u20b9156.2",
+        "capital": "\u20b92,343",
+        "target": "\u20b9204.8",
+        "profit_lot": "\u20b9729",
+        "stop_loss": "\u20b9128.4",
+        "risk_lot": "\u20b9417",
+        "duration": "15 to 45 Minutes (Intraday)",
+        "win_prob": "30.7%"
+      },
+      "rank": 2
     },
     {
-      "rank": 8,
-      "signal_id": "PULSE-OPT-2026-09-15-08",
+      "symbol": "NIFTY 50",
+      "lot": 25,
+      "spot": 23398.1,
+      "vwap": 0.0,
+      "atr": 179.61,
+      "greeks": {
+        "delta": 0.507,
+        "gamma": 0.00261,
+        "theta": -32.65,
+        "iv": 12.5
+      },
+      "master_directive": {
+        "action": "BUY NIFTY 50 23400 CE",
+        "entry": "\u20b962.2",
+        "capital": "\u20b91,555",
+        "target": "\u20b974.8",
+        "profit_lot": "\u20b9315",
+        "stop_loss": "\u20b955.0",
+        "risk_lot": "\u20b9180",
+        "duration": "15 to 45 Minutes (Intraday)",
+        "win_prob": "29.5%"
+      },
+      "rank": 3
+    },
+    {
       "symbol": "TCS",
-      "tv_symbol": "NSE:TCS",
-      "contract": "TCS 2200 PE",
-      "action": "BUY TCS 2200 PE",
-      "entry_premium": "₹5.1",
-      "capital_required": "₹892",
-      "target": "₹6.6",
-      "stop_loss": "₹4.2",
-      "net_profit_lot": "₹262",
-      "net_risk_lot": "₹157",
-      "win_probability": "59.9%",
-      "holding_duration": "30 to 90 Minutes (Intraday Only)",
-      "status": "ACTIVE_FOR_SESSION"
+      "lot": 175,
+      "spot": 2200.8,
+      "vwap": 2210.3,
+      "atr": 56.31,
+      "greeks": {
+        "delta": -0.466,
+        "gamma": 0.0276,
+        "theta": -3.04,
+        "iv": 12.5
+      },
+      "master_directive": {
+        "action": "BUY TCS 2200 PE",
+        "entry": "\u20b95.2",
+        "capital": "\u20b9905",
+        "target": "\u20b96.7",
+        "profit_lot": "\u20b9268",
+        "stop_loss": "\u20b94.3",
+        "risk_lot": "\u20b9152",
+        "duration": "15 to 45 Minutes (Intraday)",
+        "win_prob": "25.4%"
+      },
+      "rank": 4
     },
     {
-      "rank": 9,
-      "signal_id": "PULSE-OPT-2026-09-15-09",
-      "symbol": "BHARTI AIRTEL",
-      "tv_symbol": "NSE:BHARTIARTL",
-      "contract": "BHARTI AIRTEL 1830 PE",
-      "action": "BUY BHARTI AIRTEL 1830 PE",
-      "entry_premium": "₹4.0",
-      "capital_required": "₹3,800",
-      "target": "₹4.4",
-      "stop_loss": "₹3.8",
-      "net_profit_lot": "₹380",
-      "net_risk_lot": "₹190",
-      "win_probability": "58.5%",
-      "holding_duration": "30 to 90 Minutes (Intraday Only)",
-      "status": "ACTIVE_FOR_SESSION"
-    },
-    {
-      "rank": 10,
-      "signal_id": "PULSE-OPT-2026-09-15-10",
-      "symbol": "STATE BANK OF INDIA",
-      "tv_symbol": "NSE:SBIN",
-      "contract": "STATE BANK OF INDIA 995 PE",
-      "action": "BUY STATE BANK OF INDIA 995 PE",
-      "entry_premium": "₹2.1",
-      "capital_required": "₹1,575",
-      "target": "₹2.3",
-      "stop_loss": "₹2.0",
-      "net_profit_lot": "₹150",
-      "net_risk_lot": "₹75",
-      "win_probability": "57.9%",
-      "holding_duration": "30 to 90 Minutes (Intraday Only)",
-      "status": "ACTIVE_FOR_SESSION"
+      "symbol": "HDFC BANK",
+      "lot": 550,
+      "spot": 708.25,
+      "vwap": 694.41,
+      "atr": 14.01,
+      "greeks": {
+        "delta": 0.364,
+        "gamma": 0.08107,
+        "theta": -0.92,
+        "iv": 12.5
+      },
+      "master_directive": {
+        "action": "BUY HDFC BANK 710 CE",
+        "entry": "\u20b91.1",
+        "capital": "\u20b9632",
+        "target": "\u20b91.4",
+        "profit_lot": "\u20b9138",
+        "stop_loss": "\u20b91.0",
+        "risk_lot": "\u20b982",
+        "duration": "15 to 45 Minutes (Intraday)",
+        "win_prob": "16.7%"
+      },
+      "rank": 5
     }
   ],
   "universe": {
     "NIFTY 50": {
       "symbol": "NIFTY 50",
-      "type": "INDEX",
-      "step": 50,
       "lot": 25,
       "spot": 23398.1,
-      "vwap": 23398.1,
+      "vwap": 0.0,
       "atr": 179.61,
-      "tv_symbol": "BSE:NIFTY50",
-      "upper_2sigma": 23541.79,
-      "lower_2sigma": 23254.41,
       "greeks": {
-        "delta_ce": 0.507,
-        "delta_pe": -0.493,
-        "gamma": 0.00265,
-        "theta": -32.12,
-        "vega": 4.89,
-        "iv": 12.3
+        "delta": 0.507,
+        "gamma": 0.00261,
+        "theta": -32.65,
+        "iv": 12.5
       },
-      "master_intraday_directive": {
-        "action": "SHORT NIFTY 50 NEAR ₹23,398.10",
-        "trigger_window": "09:20 - 10:15 IST",
-        "target_1": "₹23,308.29",
-        "stop_loss": "₹23,443.00",
-        "net_profit_lot": "₹2,245",
-        "net_risk_lot": "₹1,123",
-        "target_square_off": "11:30 - 14:00 IST (Strict 15:15 IST Exit)",
-        "win_probability": "62.6%"
+      "master_directive": {
+        "action": "BUY NIFTY 50 23400 CE",
+        "entry": "\u20b962.2",
+        "capital": "\u20b91,555",
+        "target": "\u20b974.8",
+        "profit_lot": "\u20b9315",
+        "stop_loss": "\u20b955.0",
+        "risk_lot": "\u20b9180",
+        "duration": "15 to 45 Minutes (Intraday)",
+        "win_prob": "29.5%"
       },
-      "master_fno_directive": {
-        "contract_name": "NIFTY 50 23400 PE",
-        "action": "BUY NIFTY 50 23400 PE",
-        "entry_premium": "₹58.9",
-        "capital_required_lot": "₹1,472",
-        "target_1_premium": "₹71.5",
-        "stop_loss_premium": "₹51.7",
-        "net_profit_lot": "₹315",
-        "net_risk_lot": "₹180",
-        "holding_duration": "30 to 90 Minutes (Intraday Only)",
-        "win_probability": "62.6%"
-      },
-      "master_positional_directive": {
-        "strategy": "CREDIT SPREAD (Hedged against Theta)",
-        "action": "SELL 23400 PE & BUY 23350 PE",
-        "entry_premium": "Net Inflow ₹22.5",
-        "capital_required": "₹688",
-        "target_1": "Keep entire ₹562 at expiry",
-        "stop_loss": "Capped at ₹688",
-        "holding_duration": "Hold until Thursday 15:00 IST Expiry",
-        "win_probability": "73.3%",
-        "net_theta_edge": "+₹3212.0/lot edge"
-      }
+      "rank": 3
     },
     "BANK NIFTY": {
       "symbol": "BANK NIFTY",
-      "type": "INDEX",
-      "step": 100,
       "lot": 15,
       "spot": 56606.55,
-      "vwap": 56606.55,
+      "vwap": 0.0,
       "atr": 538.23,
-      "tv_symbol": "BSE:NIFTYBANK",
-      "upper_2sigma": 57037.13,
-      "lower_2sigma": 56175.97,
       "greeks": {
-        "delta_ce": 0.519,
-        "delta_pe": -0.481,
-        "gamma": 0.00109,
-        "theta": -77.76,
-        "vega": 11.81,
-        "iv": 12.3
+        "delta": 0.519,
+        "gamma": 0.00108,
+        "theta": -79.02,
+        "iv": 12.5
       },
-      "master_intraday_directive": {
-        "action": "SHORT BANK NIFTY NEAR ₹56,606.55",
-        "trigger_window": "09:20 - 10:15 IST",
-        "target_1": "₹56,337.44",
-        "stop_loss": "₹56,741.11",
-        "net_profit_lot": "₹4,037",
-        "net_risk_lot": "₹2,018",
-        "target_square_off": "11:30 - 14:00 IST (Strict 15:15 IST Exit)",
-        "win_probability": "61.4%"
+      "master_directive": {
+        "action": "BUY BANK NIFTY 56600 CE",
+        "entry": "\u20b9156.2",
+        "capital": "\u20b92,343",
+        "target": "\u20b9204.8",
+        "profit_lot": "\u20b9729",
+        "stop_loss": "\u20b9128.4",
+        "risk_lot": "\u20b9417",
+        "duration": "15 to 45 Minutes (Intraday)",
+        "win_prob": "30.7%"
       },
-      "master_fno_directive": {
-        "contract_name": "BANK NIFTY 56600 PE",
-        "action": "BUY BANK NIFTY 56600 PE",
-        "entry_premium": "₹137.1",
-        "capital_required_lot": "₹2,056",
-        "target_1_premium": "₹185.7",
-        "stop_loss_premium": "₹109.3",
-        "net_profit_lot": "₹729",
-        "net_risk_lot": "₹417",
-        "holding_duration": "30 to 90 Minutes (Intraday Only)",
-        "win_probability": "61.4%"
-      },
-      "master_positional_directive": {
-        "strategy": "CREDIT SPREAD (Hedged against Theta)",
-        "action": "SELL 56600 PE & BUY 56500 PE",
-        "entry_premium": "Net Inflow ₹44.9",
-        "capital_required": "₹826",
-        "target_1": "Keep entire ₹674 at expiry",
-        "stop_loss": "Capped at ₹826",
-        "holding_duration": "Hold until Thursday 15:00 IST Expiry",
-        "win_probability": "72.8%",
-        "net_theta_edge": "+₹4666.0/lot edge"
-      }
+      "rank": 2
     },
     "RELIANCE": {
       "symbol": "RELIANCE",
-      "type": "EQUITY",
-      "step": 20,
       "lot": 250,
       "spot": 1257.5,
       "vwap": 1259.15,
       "atr": 22.19,
-      "tv_symbol": "NSE:RELIANCE",
-      "upper_2sigma": 1276.9,
-      "lower_2sigma": 1241.4,
       "greeks": {
-        "delta_ce": 0.391,
-        "delta_pe": -0.609,
-        "gamma": 0.04745,
-        "theta": -1.64,
-        "vega": 0.25,
-        "iv": 12.3
+        "delta": -0.608,
+        "gamma": 0.04671,
+        "theta": -1.72,
+        "iv": 12.5
       },
-      "master_intraday_directive": {
-        "action": "SHORT RELIANCE NEAR ₹1,259.15",
-        "trigger_window": "09:20 - 10:15 IST",
-        "target_1": "₹1,246.40",
-        "stop_loss": "₹1,263.05",
-        "net_profit_lot": "₹2,775",
-        "net_risk_lot": "₹1,387",
-        "target_square_off": "11:30 - 14:00 IST (Strict 15:15 IST Exit)",
-        "win_probability": "73.1%"
-      },
-      "master_fno_directive": {
-        "contract_name": "RELIANCE 1260 PE",
+      "master_directive": {
         "action": "BUY RELIANCE 1260 PE",
-        "entry_premium": "₹4.5",
-        "capital_required_lot": "₹1,125",
-        "target_1_premium": "₹5.0",
-        "stop_loss_premium": "₹4.2",
-        "net_profit_lot": "₹125",
-        "net_risk_lot": "₹75",
-        "holding_duration": "30 to 90 Minutes (Intraday Only)",
-        "win_probability": "73.1%"
+        "entry": "\u20b94.5",
+        "capital": "\u20b91,138",
+        "target": "\u20b95.0",
+        "profit_lot": "\u20b9113",
+        "stop_loss": "\u20b94.3",
+        "risk_lot": "\u20b962",
+        "duration": "15 to 45 Minutes (Intraday)",
+        "win_prob": "39.8%"
       },
-      "master_positional_directive": {
-        "strategy": "CREDIT SPREAD (Hedged against Theta)",
-        "action": "SELL 1260 PE & BUY 1240 PE",
-        "entry_premium": "Net Inflow ₹6.3",
-        "capital_required": "₹3,425",
-        "target_1": "Keep entire ₹1,575 at expiry",
-        "stop_loss": "Capped at ₹3,425",
-        "holding_duration": "Hold until Thursday 15:00 IST Expiry",
-        "win_probability": "77.9%",
-        "net_theta_edge": "+₹1640.0/lot edge"
-      }
+      "rank": 1
     },
     "HDFC BANK": {
       "symbol": "HDFC BANK",
-      "type": "EQUITY",
-      "step": 10,
       "lot": 550,
       "spot": 708.25,
       "vwap": 694.41,
       "atr": 14.01,
-      "tv_symbol": "NSE:HDFCBANK",
-      "upper_2sigma": 705.62,
-      "lower_2sigma": 683.2,
       "greeks": {
-        "delta_ce": 0.362,
-        "delta_pe": -0.638,
-        "gamma": 0.08228,
-        "theta": -0.9,
-        "vega": 0.14,
-        "iv": 12.3
+        "delta": 0.364,
+        "gamma": 0.08107,
+        "theta": -0.92,
+        "iv": 12.5
       },
-      "master_intraday_directive": {
-        "action": "SHORT HDFC BANK NEAR ₹694.41",
-        "trigger_window": "09:20 - 10:15 IST",
-        "target_1": "₹701.25",
-        "stop_loss": "₹711.75",
-        "net_profit_lot": "₹3,850",
-        "net_risk_lot": "₹1,925",
-        "target_square_off": "11:30 - 14:00 IST (Strict 15:15 IST Exit)",
-        "win_probability": "75.5%"
+      "master_directive": {
+        "action": "BUY HDFC BANK 710 CE",
+        "entry": "\u20b91.1",
+        "capital": "\u20b9632",
+        "target": "\u20b91.4",
+        "profit_lot": "\u20b9138",
+        "stop_loss": "\u20b91.0",
+        "risk_lot": "\u20b982",
+        "duration": "15 to 45 Minutes (Intraday)",
+        "win_prob": "16.7%"
       },
-      "master_fno_directive": {
-        "contract_name": "HDFC BANK 710 PE",
-        "action": "BUY HDFC BANK 710 PE",
-        "entry_premium": "₹2.7",
-        "capital_required_lot": "₹1,485",
-        "target_1_premium": "₹2.9",
-        "stop_loss_premium": "₹2.6",
-        "net_profit_lot": "₹110",
-        "net_risk_lot": "₹55",
-        "holding_duration": "30 to 90 Minutes (Intraday Only)",
-        "win_probability": "75.5%"
-      },
-      "master_positional_directive": {
-        "strategy": "CREDIT SPREAD (Hedged against Theta)",
-        "action": "SELL 710 PE & BUY 700 PE",
-        "entry_premium": "Net Inflow ₹3.5",
-        "capital_required": "₹3,575",
-        "target_1": "Keep entire ₹1,925 at expiry",
-        "stop_loss": "Capped at ₹3,575",
-        "holding_duration": "Hold until Thursday 15:00 IST Expiry",
-        "win_probability": "79.0%",
-        "net_theta_edge": "+₹1980.0/lot edge"
-      }
+      "rank": 5
     },
     "TCS": {
       "symbol": "TCS",
-      "type": "EQUITY",
-      "step": 20,
       "lot": 175,
       "spot": 2200.8,
       "vwap": 2210.3,
       "atr": 56.31,
-      "tv_symbol": "NSE:TCS",
-      "upper_2sigma": 2255.35,
-      "lower_2sigma": 2165.25,
       "greeks": {
-        "delta_ce": 0.535,
-        "delta_pe": -0.465,
-        "gamma": 0.02807,
-        "theta": -3.02,
-        "vega": 0.46,
-        "iv": 12.3
+        "delta": -0.466,
+        "gamma": 0.0276,
+        "theta": -3.04,
+        "iv": 12.5
       },
-      "master_intraday_directive": {
-        "action": "SHORT TCS NEAR ₹2,210.30",
-        "trigger_window": "09:20 - 10:15 IST",
-        "target_1": "₹2,172.64",
-        "stop_loss": "₹2,214.88",
-        "net_profit_lot": "₹4,928",
-        "net_risk_lot": "₹2,464",
-        "target_square_off": "11:30 - 14:00 IST (Strict 15:15 IST Exit)",
-        "win_probability": "59.9%"
-      },
-      "master_fno_directive": {
-        "contract_name": "TCS 2200 PE",
+      "master_directive": {
         "action": "BUY TCS 2200 PE",
-        "entry_premium": "₹5.1",
-        "capital_required_lot": "₹892",
-        "target_1_premium": "₹6.6",
-        "stop_loss_premium": "₹4.2",
-        "net_profit_lot": "₹262",
-        "net_risk_lot": "₹157",
-        "holding_duration": "30 to 90 Minutes (Intraday Only)",
-        "win_probability": "59.9%"
+        "entry": "\u20b95.2",
+        "capital": "\u20b9905",
+        "target": "\u20b96.7",
+        "profit_lot": "\u20b9268",
+        "stop_loss": "\u20b94.3",
+        "risk_lot": "\u20b9152",
+        "duration": "15 to 45 Minutes (Intraday)",
+        "win_prob": "25.4%"
       },
-      "master_positional_directive": {
-        "strategy": "CREDIT SPREAD (Hedged against Theta)",
-        "action": "SELL 2200 PE & BUY 2180 PE",
-        "entry_premium": "Net Inflow ₹6.7",
-        "capital_required": "₹2,328",
-        "target_1": "Keep entire ₹1,172 at expiry",
-        "stop_loss": "Capped at ₹2,328",
-        "holding_duration": "Hold until Thursday 15:00 IST Expiry",
-        "win_probability": "72.2%",
-        "net_theta_edge": "+₹2114.0/lot edge"
-      }
-    },
-    "INFOSYS": {
-      "symbol": "INFOSYS",
-      "type": "EQUITY",
-      "step": 10,
-      "lot": 400,
-      "spot": 1037.7,
-      "vwap": 1039.77,
-      "atr": 28.89,
-      "tv_symbol": "NSE:INFY",
-      "upper_2sigma": 1062.88,
-      "lower_2sigma": 1016.66,
-      "greeks": {
-        "delta_ce": 0.377,
-        "delta_pe": -0.623,
-        "gamma": 0.0569,
-        "theta": -1.34,
-        "vega": 0.21,
-        "iv": 12.3
-      },
-      "master_intraday_directive": {
-        "action": "SHORT INFOSYS NEAR ₹1,039.77",
-        "trigger_window": "09:20 - 10:15 IST",
-        "target_1": "₹1,023.25",
-        "stop_loss": "₹1,044.92",
-        "net_profit_lot": "₹5,780",
-        "net_risk_lot": "₹2,888",
-        "target_square_off": "11:30 - 14:00 IST (Strict 15:15 IST Exit)",
-        "win_probability": "74.3%"
-      },
-      "master_fno_directive": {
-        "contract_name": "INFOSYS 1040 PE",
-        "action": "BUY INFOSYS 1040 PE",
-        "entry_premium": "₹3.9",
-        "capital_required_lot": "₹1,560",
-        "target_1_premium": "₹4.4",
-        "stop_loss_premium": "₹3.6",
-        "net_profit_lot": "₹200",
-        "net_risk_lot": "₹120",
-        "holding_duration": "30 to 90 Minutes (Intraday Only)",
-        "win_probability": "74.3%"
-      },
-      "master_positional_directive": {
-        "strategy": "CREDIT SPREAD (Hedged against Theta)",
-        "action": "SELL 1040 PE & BUY 1030 PE",
-        "entry_premium": "Net Inflow ₹4.0",
-        "capital_required": "₹2,400",
-        "target_1": "Keep entire ₹1,600 at expiry",
-        "stop_loss": "Capped at ₹2,400",
-        "holding_duration": "Hold until Thursday 15:00 IST Expiry",
-        "win_probability": "78.5%",
-        "net_theta_edge": "+₹2144.0/lot edge"
-      }
-    },
-    "ICICI BANK": {
-      "symbol": "ICICI BANK",
-      "type": "EQUITY",
-      "step": 10,
-      "lot": 700,
-      "spot": 1379.3,
-      "vwap": 1380.18,
-      "atr": 22.46,
-      "tv_symbol": "NSE:ICICIBANK",
-      "upper_2sigma": 1398.15,
-      "lower_2sigma": 1362.21,
-      "greeks": {
-        "delta_ce": 0.481,
-        "delta_pe": -0.519,
-        "gamma": 0.04491,
-        "theta": -1.89,
-        "vega": 0.29,
-        "iv": 12.3
-      },
-      "master_intraday_directive": {
-        "action": "SHORT ICICI BANK NEAR ₹1,380.18",
-        "trigger_window": "09:20 - 10:15 IST",
-        "target_1": "₹1,368.07",
-        "stop_loss": "₹1,384.91",
-        "net_profit_lot": "₹7,861",
-        "net_risk_lot": "₹3,927",
-        "target_square_off": "11:30 - 14:00 IST (Strict 15:15 IST Exit)",
-        "win_probability": "65.1%"
-      },
-      "master_fno_directive": {
-        "contract_name": "ICICI BANK 1380 PE",
-        "action": "BUY ICICI BANK 1380 PE",
-        "entry_premium": "₹3.8",
-        "capital_required_lot": "₹2,660",
-        "target_1_premium": "₹4.1",
-        "stop_loss_premium": "₹3.6",
-        "net_profit_lot": "₹210",
-        "net_risk_lot": "₹140",
-        "holding_duration": "30 to 90 Minutes (Intraday Only)",
-        "win_probability": "65.1%"
-      },
-      "master_positional_directive": {
-        "strategy": "CREDIT SPREAD (Hedged against Theta)",
-        "action": "SELL 1380 PE & BUY 1370 PE",
-        "entry_premium": "Net Inflow ₹3.9",
-        "capital_required": "₹4,270",
-        "target_1": "Keep entire ₹2,730 at expiry",
-        "stop_loss": "Capped at ₹4,270",
-        "holding_duration": "Hold until Thursday 15:00 IST Expiry",
-        "win_probability": "74.4%",
-        "net_theta_edge": "+₹5292.0/lot edge"
-      }
-    },
-    "STATE BANK OF INDIA": {
-      "symbol": "STATE BANK OF INDIA",
-      "type": "EQUITY",
-      "step": 5,
-      "lot": 750,
-      "spot": 995.7,
-      "vwap": 996.71,
-      "atr": 16.85,
-      "tv_symbol": "NSE:SBIN",
-      "upper_2sigma": 1010.19,
-      "lower_2sigma": 983.23,
-      "greeks": {
-        "delta_ce": 0.556,
-        "delta_pe": -0.444,
-        "gamma": 0.06167,
-        "theta": -1.36,
-        "vega": 0.21,
-        "iv": 12.3
-      },
-      "master_intraday_directive": {
-        "action": "SHORT STATE BANK OF INDIA NEAR ₹996.71",
-        "trigger_window": "09:20 - 10:15 IST",
-        "target_1": "₹987.28",
-        "stop_loss": "₹999.91",
-        "net_profit_lot": "₹6,315",
-        "net_risk_lot": "₹3,157",
-        "target_square_off": "11:30 - 14:00 IST (Strict 15:15 IST Exit)",
-        "win_probability": "57.9%"
-      },
-      "master_fno_directive": {
-        "contract_name": "STATE BANK OF INDIA 995 PE",
-        "action": "BUY STATE BANK OF INDIA 995 PE",
-        "entry_premium": "₹2.1",
-        "capital_required_lot": "₹1,575",
-        "target_1_premium": "₹2.3",
-        "stop_loss_premium": "₹2.0",
-        "net_profit_lot": "₹150",
-        "net_risk_lot": "₹75",
-        "holding_duration": "30 to 90 Minutes (Intraday Only)",
-        "win_probability": "57.9%"
-      },
-      "master_positional_directive": {
-        "strategy": "CREDIT SPREAD (Hedged against Theta)",
-        "action": "SELL 995 PE & BUY 990 PE",
-        "entry_premium": "Net Inflow ₹1.9",
-        "capital_required": "₹2,325",
-        "target_1": "Keep entire ₹1,425 at expiry",
-        "stop_loss": "Capped at ₹2,325",
-        "holding_duration": "Hold until Thursday 15:00 IST Expiry",
-        "win_probability": "71.3%",
-        "net_theta_edge": "+₹4080.0/lot edge"
-      }
-    },
-    "BHARTI AIRTEL": {
-      "symbol": "BHARTI AIRTEL",
-      "type": "EQUITY",
-      "step": 10,
-      "lot": 950,
-      "spot": 1831.1,
-      "vwap": 1843.21,
-      "atr": 34.63,
-      "tv_symbol": "NSE:BHARTIARTL",
-      "upper_2sigma": 1870.91,
-      "lower_2sigma": 1815.51,
-      "greeks": {
-        "delta_ce": 0.549,
-        "delta_pe": -0.451,
-        "gamma": 0.03361,
-        "theta": -2.51,
-        "vega": 0.38,
-        "iv": 12.3
-      },
-      "master_intraday_directive": {
-        "action": "SHORT BHARTI AIRTEL NEAR ₹1,843.21",
-        "trigger_window": "09:20 - 10:15 IST",
-        "target_1": "₹1,813.78",
-        "stop_loss": "₹1,839.76",
-        "net_profit_lot": "₹16,454",
-        "net_risk_lot": "₹8,227",
-        "target_square_off": "11:30 - 14:00 IST (Strict 15:15 IST Exit)",
-        "win_probability": "58.5%"
-      },
-      "master_fno_directive": {
-        "contract_name": "BHARTI AIRTEL 1830 PE",
-        "action": "BUY BHARTI AIRTEL 1830 PE",
-        "entry_premium": "₹4.0",
-        "capital_required_lot": "₹3,800",
-        "target_1_premium": "₹4.4",
-        "stop_loss_premium": "₹3.8",
-        "net_profit_lot": "₹380",
-        "net_risk_lot": "₹190",
-        "holding_duration": "30 to 90 Minutes (Intraday Only)",
-        "win_probability": "58.5%"
-      },
-      "master_positional_directive": {
-        "strategy": "CREDIT SPREAD (Hedged against Theta)",
-        "action": "SELL 1830 PE & BUY 1820 PE",
-        "entry_premium": "Net Inflow ₹3.8",
-        "capital_required": "₹5,890",
-        "target_1": "Keep entire ₹3,610 at expiry",
-        "stop_loss": "Capped at ₹5,890",
-        "holding_duration": "Hold until Thursday 15:00 IST Expiry",
-        "win_probability": "71.5%",
-        "net_theta_edge": "+₹9538.0/lot edge"
-      }
-    },
-    "TATA MOTORS": {
-      "symbol": "TATA MOTORS",
-      "type": "EQUITY",
-      "step": 10,
-      "lot": 1425,
-      "spot": 980.0,
-      "vwap": 980.0,
-      "atr": 11.76,
-      "tv_symbol": "NSE:TATAMOTORS",
-      "upper_2sigma": 989.41,
-      "lower_2sigma": 970.59,
-      "greeks": {
-        "delta_ce": 0.512,
-        "delta_pe": -0.488,
-        "gamma": 0.06325,
-        "theta": -1.35,
-        "vega": 0.2,
-        "iv": 12.3
-      },
-      "master_intraday_directive": {
-        "action": "SHORT TATA MOTORS NEAR ₹980.00",
-        "trigger_window": "09:20 - 10:15 IST",
-        "target_1": "₹974.12",
-        "stop_loss": "₹982.94",
-        "net_profit_lot": "₹8,379",
-        "net_risk_lot": "₹4,190",
-        "target_square_off": "11:30 - 14:00 IST (Strict 15:15 IST Exit)",
-        "win_probability": "62.1%"
-      },
-      "master_fno_directive": {
-        "contract_name": "TATA MOTORS 980 PE",
-        "action": "BUY TATA MOTORS 980 PE",
-        "entry_premium": "₹2.4",
-        "capital_required_lot": "₹3,420",
-        "target_1_premium": "₹2.5",
-        "stop_loss_premium": "₹2.3",
-        "net_profit_lot": "₹143",
-        "net_risk_lot": "₹143",
-        "holding_duration": "30 to 90 Minutes (Intraday Only)",
-        "win_probability": "62.1%"
-      },
-      "master_positional_directive": {
-        "strategy": "CREDIT SPREAD (Hedged against Theta)",
-        "action": "SELL 980 PE & BUY 970 PE",
-        "entry_premium": "Net Inflow ₹3.3",
-        "capital_required": "₹9,548",
-        "target_1": "Keep entire ₹4,702 at expiry",
-        "stop_loss": "Capped at ₹9,548",
-        "holding_duration": "Hold until Thursday 15:00 IST Expiry",
-        "win_probability": "73.1%",
-        "net_theta_edge": "+₹7695.0/lot edge"
-      }
+      "rank": 4
     }
-  },
-  "master_search_list": [
-    "RELIANCE.NS",
-    "HDFCBANK.NS",
-    "TCS.NS",
-    "INFY.NS",
-    "^NSEI",
-    "^NSEBANK"
-  ]
+  }
 }
