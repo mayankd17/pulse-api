@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-14 10:35:30 IST",
+    "ist_time": "2026-09-14 10:37:51 IST",
     "date_str": "2026-09-14",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Ganesh Chaturthi). Baseline established from 2026-09-11 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 30.2,
+    "score": 30.1,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 23398.1 (MARKET CLOSED: Ganesh Chaturthi). Volatility Index is 12.29 with Put-Call Ratio of 0.771.",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": 0.36,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d744.6) + +0.36 = 30.2"
+    "news_vector_delta": 0.27,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d744.6) + +0.27 = 30.1"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 5.99,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 107.36,
-      "brent_1d_pct": 2.63,
+      "brent_crude_usd": 107.34,
+      "brent_1d_pct": 2.61,
       "usdinr": 95.54,
       "us_10y_yield": 4.97,
       "sp500_close": 7656.98,
       "sp500_1d_pct": 0.86,
-      "dxy_close": 99.34,
-      "dxy_1d_pct": 0.22,
+      "dxy_close": 99.35,
+      "dxy_1d_pct": 0.23,
       "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
@@ -308,8 +308,8 @@
       "expected_gap_points": -27,
       "net_macro_lead_pct": -0.216,
       "sp500_change_pct": 0.86,
-      "dxy_change_pct": 0.22,
-      "crude_change_pct": 2.63
+      "dxy_change_pct": 0.23,
+      "crude_change_pct": 2.61
     },
     "news_items": [
       {
@@ -324,6 +324,19 @@
         "raw_sentiment": 0.0,
         "beta_decay": 1.0,
         "effective_impact": 0.0
+      },
+      {
+        "title": "India beats a hasty retreat from a crucial market reform",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/india-beats-a-hasty-retreat-from-a-crucial-market-reform/articleshow/134232570.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 10:11:23 +0530",
+        "published_timestamp": "2026-09-14T10:11:23+05:30",
+        "summary": "India\u2019s market-closing auction reform, designed by Sebi to curb price manipulation, has faced volatility and investor backlash within weeks. The regulator may weaken or abandon it, exposing deeper pro",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
       },
       {
         "title": "US Market: Goldman Sachs expects Fed to hike rates amid inflation fears",
@@ -818,19 +831,6 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.9
-      },
-      {
-        "title": "Gujarat surges ahead of UP in new investor additions, adds 2.3L in August",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/gujarat-surges-ahead-of-up-in-new-investor-additions-adds-2-3l-in-august/articleshow/134229790.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 05:53:35 +0530",
-        "published_timestamp": "2026-09-14T05:53:35+05:30",
-        "summary": "Gujarat led the charge in new investor registrations in August, surpassing all other states. It was trailed by Uttar Pradesh and Maharashtra, which also showcased impressive growth in investor numbers",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
       }
     ]
   }
