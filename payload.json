@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-14 16:23:26 IST",
+    "ist_time": "2026-09-14 19:08:37 IST",
     "date_str": "2026-09-14",
     "is_open": false,
     "is_weekend": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Ganesh Chaturthi). Baseline established from 2026-09-11 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 29.5,
+    "score": 26.6,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 23398.1 (MARKET CLOSED: Ganesh Chaturthi). Volatility Index is 12.29 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.21x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.23x."
     },
     "hi": {
       "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23398.1 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: Ganesh Chaturthi)\u0964 VIX 12.29 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.21x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.23x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.21
+    "multiplier": 1.23
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -64,7 +64,7 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 27,
+      "score": 24,
       "verdict": "Consolidation Corridor",
       "target_range": "22949.1 - 23847.1",
       "downside_prob_pct": 58,
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 32,
+      "score": 29,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "22579.2 - 24251.3",
       "downside_prob_pct": 45,
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.21,
+    "dynamic_sip_multiplier": 1.23,
     "lot_size": 25,
     "nifty_lot_value": 584952,
     "cascade_risk_pct": 95
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 45.1,
       "S7_Order_Absorption": 42.5,
-      "S8_Lead_Lag_Gap": 43.2
+      "S8_Lead_Lag_Gap": 16.7
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": -0.19,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d743.2) + -0.19 = 29.5"
+    "news_vector_delta": -0.45,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d716.7) + -0.45 = 26.6"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 5.99,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 107.24,
-      "brent_1d_pct": 2.51,
+      "brent_crude_usd": 108.85,
+      "brent_1d_pct": 4.05,
       "usdinr": 95.54,
-      "us_10y_yield": 4.97,
-      "sp500_close": 7656.98,
-      "sp500_1d_pct": 0.86,
-      "dxy_close": 99.57,
-      "dxy_1d_pct": 0.45,
+      "us_10y_yield": 4.98,
+      "sp500_close": 7599.58,
+      "sp500_1d_pct": -0.75,
+      "dxy_close": 99.65,
+      "dxy_1d_pct": 0.53,
       "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
@@ -304,14 +304,157 @@
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
-      "gap_bias": "Neutral Opening",
-      "expected_gap_points": -34,
-      "net_macro_lead_pct": -0.272,
-      "sp500_change_pct": 0.86,
-      "dxy_change_pct": 0.45,
-      "crude_change_pct": 2.51
+      "gap_bias": "Bearish Gap-Down",
+      "expected_gap_points": -167,
+      "net_macro_lead_pct": -1.333,
+      "sp500_change_pct": -0.75,
+      "dxy_change_pct": 0.53,
+      "crude_change_pct": 4.05
     },
     "news_items": [
+      {
+        "title": "AI slowdown trade hits Nvidia, SoftBank, SK Hynix as global tech stocks fall up to 10%",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-slowdown-trade-hits-nvidia-softbank-sk-hynix-as-global-tech-stocks-fall-up-to-10/articleshow/134241651.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 18:22:33 +0530",
+        "published_timestamp": "2026-09-14T18:22:33+05:30",
+        "summary": "Global tech and AI-linked stocks plummeted as investors reacted to growing safety concerns and calls from industry leaders like Anthropic\u2019s CEO to decelerate AI development, threatening the equity ral",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "Stock Market prediction tomorrow: Sensex, Nifty outlook for Tue | Kospi, Taiwan Index, Nikkei cues to watch | 15 Sept",
+        "link": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-tomorrow-sensex-nifty-outlook-for-tue-kospi-taiwan-index-nikkei-cues-to-watch-15-sept-11789387045689.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 18:20:37 +0530",
+        "published_timestamp": "2026-09-14T18:20:37+05:30",
+        "summary": "Indian stock market indices Sensex and Nifty 50 are expected to open flat as global markets face declines, particularly in AI stocks. Rising tensions in the Middle East and the upcoming US Federal Res",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "GMM Pfaudler share price target: Buy rating, 39% upside - Check rationale behind recommendation by InCred Equities",
+        "link": "https://www.livemint.com/market/stock-market-news/gmm-pfaudler-share-price-target-buy-rating-39-upside-check-rationale-behind-recommendation-by-incred-equities-11789387758447.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 17:48:04 +0530",
+        "published_timestamp": "2026-09-14T17:48:04+05:30",
+        "summary": "GMM Pfaudler Limited's stock is projected to rise 39% after a 77% increase in three months. Key factors include significant organizational changes, product diversification, and solid EBITDA growth. Ch",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Dow Jones| Nasdaq | S&amp;P 500 | US Stock Market Today |Live Updates: Nasdaq futures slide as AI warnings rattle markets; Nvidia, other chip stocks retreat",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-iran-israel-war-hormuz-deal-brent-crude-oil-fed-rate-inflation-earnings-forecast-nvidia-intel-amd-marvell-ai-stock-price-news-14th-september-2026/liveblog/134241082.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 17:41:56 +0530",
+        "published_timestamp": "2026-09-14T17:41:56+05:30",
+        "summary": " ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "Nifty 50 crashes over 10% YTD | Will it continue to bleed or green will be seen? Decoded",
+        "link": "https://www.livemint.com/market/stock-market-news/nifty-50-crashes-over-10-ytd-will-it-continue-to-bleed-or-green-will-be-seen-decoded-11789380725124.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 17:30:53 +0530",
+        "published_timestamp": "2026-09-14T17:30:53+05:30",
+        "summary": "Last time when the Nifty 50 delivered negative return was way abck in 2015, when the 50-stock index gave 3% negative return&nbsp;",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "US market prediction today: S&amp;P 500, Nasdaq futures fall up to 1.8% as AI fears hit Nvidia, Intel",
+        "link": "https://www.livemint.com/market/us-market-prediction-today-s-p-500-nasdaq-futures-fall-up-to-1-8-as-ai-fears-hit-nvidia-intel-11789383055242.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 17:26:47 +0530",
+        "published_timestamp": "2026-09-14T17:26:47+05:30",
+        "summary": "US stock futures fell on Monday as AI slowdown warnings from Anthropic's Dario Amodei hit chip stocks, Brent crude jumped 4% to $108.65 on Middle East tensions, and traders priced in a 90% chance of a",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "Gold and silver prices crash up to 2% on MCX- What is driving precious metals down?",
+        "link": "https://www.livemint.com/market/commodities/gold-and-silver-prices-crash-up-to-2-on-mcx-what-is-driving-precious-metals-down-11789385809322.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 17:17:01 +0530",
+        "published_timestamp": "2026-09-14T17:17:01+05:30",
+        "summary": "Gold and silver prices crashed up to 2% in the evening session on Monday, 14 September. MCX gold October futures were down 1.19% at  \u20b91,50,973 per 10 grams, while MCX silver December contracts were 1.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "Finolex Cables share price target 2026: Buy - 'Unlocking growth' | Check rationale behind rating",
+        "link": "https://www.livemint.com/market/finolex-cables-share-price-target-2026-buy-unlocking-growth-check-rationale-behind-rating-11789382900920.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 17:08:21 +0530",
+        "published_timestamp": "2026-09-14T17:08:21+05:30",
+        "summary": "Finolex Cables shares rose nearly 16% last week. InCred Equities maintains an 'Add' rating with a target price of  \u20b91,435.&nbsp;",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "GIFT City Unlocked: What investors need to know about accessing global markets",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/gift-city-unlocked-what-investors-need-to-know-about-accessing-global-markets/articleshow/134239959.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 16:53:45 +0530",
+        "published_timestamp": "2026-09-14T16:53:45+05:30",
+        "summary": "GIFT City is emerging as a gateway for Indian investors seeking global exposure, with new fund structures and financial products. The evolving opportunities, regulatory framework and practical conside",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "\u20b92.33 to  \u20b9279.70: Multibagger penny stock turns  \u20b91 lakh into  \u20b91.20 crore in four years",
+        "link": "https://www.livemint.com/market/stock-market-news/233-to-279-70-multibagger-penny-stock-cupid-turns-1-lakh-into-1-20-crore-in-four-years-11789378469222.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 16:48:03 +0530",
+        "published_timestamp": "2026-09-14T16:48:03+05:30",
+        "summary": "The multibagger stock has delivered over 165% return in YTD and near 575% return in one year.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Quote of the day by David Swensen: \"The underlying driving force behind market timing decisions seems to be emotional \u2014 fear, greed, chasing performance \u2014 buying something after it has gone up, disappointment, and sales after something has declined.\"",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/quote-of-the-day-by-david-swensen-the-underlying-driving-force-behind-market-timing-decisions-seems-to-be-emotional-fear-greed-chasing-performance-buying-something-after-it-has-gone-up-disappointment-and-sales-after-something-has-declined-/articleshow/134239482.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 16:24:15 +0530",
+        "published_timestamp": "2026-09-14T16:24:15+05:30",
+        "summary": "David Swensen emphasizes that emotional biases, such as fear, greed, and performance chasing, often drive poor market timing decisions. Investors should rely on disciplined, long-term strategies and f",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
       {
         "title": "Japanese stocks: Nikkei 225 sell-off deepens as AI slowdown concerns hits chip stocks; should investors worry?",
         "link": "https://www.livemint.com/market/stock-market-news/japanese-stocks-nikkei-225-sell-off-deepens-as-ai-slowdown-concerns-hits-chip-stocks-should-investors-worry-11789380854099.html",
@@ -683,149 +826,6 @@
         "published": "Mon, 14 Sep 2026 11:42:00 +0530",
         "published_timestamp": "2026-09-14T11:42:00+05:30",
         "summary": "China's mainland stocks traded mixed on Monday as AI and semiconductor shares fell, dragging the CSI AI Index down 1.2% and the STAR50 down 0.9%, even as banking stocks rose due to defensive buying. H",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Global Market: Japan inflation risks put BOJ rate path in focus",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-japan-inflation-risks-put-boj-rate-path-in-focus/articleshow/134234171.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 11:40:59 +0530",
-        "published_timestamp": "2026-09-14T11:40:59+05:30",
-        "summary": "Japan\u2019s inflation outlook is becoming increasingly sensitive to import costs, yen movements and supply shocks, raising concerns at the Bank of Japan. Policymakers are assessing whether these pressures",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Jefferies says Sebi's proposed CAS changes will remove uncertainty, but still remains negative on BSE. Here\u2019s why",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/jefferies-says-sebis-proposed-cas-changes-will-remove-uncertainty-but-still-remains-negative-on-bse-heres-why/articleshow/134233906.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 11:36:57 +0530",
-        "published_timestamp": "2026-09-14T11:36:57+05:30",
-        "summary": "Jefferies expects Sebi\u2019s proposed CAS changes to reduce expiry-day volatility and uncertainty but remains negative on BSE shares, citing limited options-industry growth, a ceiling in market-share gain",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "FIIs sell Indian shares worth Rs 14,475 crore in Sept; analyst warns soaring bond yields may deepen selloff",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-sell-indian-shares-worth-rs-14475-crore-in-sept-analyst-warns-soaring-bond-yields-may-deepen-selloff/articleshow/134233848.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 11:27:43 +0530",
-        "published_timestamp": "2026-09-14T11:27:43+05:30",
-        "summary": "Foreign investors sold Indian equities worth Rs 14,475 crore in September as oil prices and global bond yields surged amid escalating Middle East tensions. Analysts warned that further rises in US Tre",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Global Market: 5 key events to watch out for this week",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-5-key-events-to-watch-out-for-this-week/slideshow/134233828.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 11:19:45 +0530",
-        "published_timestamp": "2026-09-14T11:19:45+05:30",
-        "summary": " The Fed has kept rates unchanged throughout 2026. Expectations for a hike increased after new Fed Chair Kevin Warsh adopted a hawkish tone and August employment data came in stronger than expected. ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "PSU dividend kings: ONGC, BPCL, HPCL, Coal India, among top 8 PSU stocks with highest dividend yield | Crown goes to?",
-        "link": "https://www.livemint.com/market/stock-market-news/psu-dividend-kings-ongc-bpcl-hpcl-coal-india-among-top-8-psu-stocks-with-highest-dividend-yield-crown-goes-to-11789362315354.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 11:15:23 +0530",
-        "published_timestamp": "2026-09-14T11:15:23+05:30",
-        "summary": "In FY26, PSU stocks like Coal India and ONGC deliver notable dividend yields. MSTC, REC, and ONGC feature yields at 5.4%, 5.9%, and 5.7%. Check full list of top PSU stocks with highest dividend yield",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "Latest IPOs, GMPs, Subscription Status, Share Listing Price Prediction: Rentomojo, LCC Projects, Karamtara Engineering",
-        "link": "https://www.livemint.com/market/ipo/latest-ipos-gmps-subscription-status-share-listing-price-prediction-rentomojo-lcc-projects-karamtara-engineering-11789358059680.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 11:12:28 +0530",
-        "published_timestamp": "2026-09-14T11:12:28+05:30",
-        "summary": "Rentomojo IPO vs LCC Projects IPO vs Karamtara Engineering IPO: GMP signals strong listing. Here's IPO details, subscription status, GMP comparisons and listing price prediction.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "IPO GMPs: Kanohar Electricals IPO vs Glass Wall IPO vs Prasol Chemicals IPO | What grey market hints about listing pop?",
-        "link": "https://www.livemint.com/market/ipo/ipo-gmps-kanohar-electricals-ipo-vs-glass-wall-ipo-vs-prasol-chemicals-ipo-what-grey-market-hints-about-listing-pop-11789361443475.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 11:03:57 +0530",
-        "published_timestamp": "2026-09-14T11:03:57+05:30",
-        "summary": "Kanohar Electricals, Glass Wall Systems, and Prasol Chemicals IPOs are set to list on 16 September. Investor demand varied, with Kanohar oversubscribed 90.59 times. Grey market premiums suggest positi",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Some up, some down! What's happening in Nikkei, Kospi, Taiwan? Oil on boil, rude crude impacting gold - Latest update",
-        "link": "https://www.livemint.com/market/stock-market-news/some-up-some-down-whats-happening-in-nikkei-kospi-taiwan-oil-on-boil-rude-crude-impacting-gold-latest-update-11789360541093.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 11:00:18 +0530",
-        "published_timestamp": "2026-09-14T11:00:18+05:30",
-        "summary": "As geopolitical tensions escalate, the Nikkei and Kospi indices are sharply declining, driven by skyrocketing oil prices and inflation fears. With the U.S. Federal Reserve's interest rate decisions lo",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
-      },
-      {
-        "title": "HDFC Bank shares hit 52-week lows over consecutive sessions while analysts scream Buy. Has the stock hit its bottom?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-shares-hit-52-week-lows-over-consecutive-sessions-while-analysts-scream-buy-has-the-stock-hit-its-bottom/articleshow/134233328.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 10:56:50 +0530",
-        "published_timestamp": "2026-09-14T10:56:50+05:30",
-        "summary": "HDFC Bank shares have hit fresh 52-week lows despite continued \u2018Buy\u2019 calls from brokerages. Analysts cite attractive valuations and potential margin improvement, while technical indicators remain weak",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Is gold about to go on another rally? Standard Chartered's Gill thinks so.",
-        "link": "https://www.livemint.com/market/stock-market-news/gold-prices-rally-forecast-central-bank-buying-standard-chartered-5000-target-11789190493786.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 10:55:07 +0530",
-        "published_timestamp": "2026-09-14T10:55:07+05:30",
-        "summary": "Steady central bank buying may take gold higher, while silver prices are more linked to economic cycles, says Manpreet Gill of Standard Chartered. Gold prices may approach $5,000 over next six to 12 m",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "Microsoft to triple data centre capacity: What it means for investors",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/microsoft-to-triple-data-centre-capacity-what-it-means-for-investors/slideshow/134233857.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 10:46:29 +0530",
-        "published_timestamp": "2026-09-14T10:46:29+05:30",
-        "summary": "Microsoft is planning a major expansion of its global data centre capacity to meet rising AI and cloud demand. While its backlog and valuation metrics support the investment case, investors are watchi",
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
