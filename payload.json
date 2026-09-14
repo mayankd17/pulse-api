@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-14 12:42:10 IST",
+    "ist_time": "2026-09-14 12:59:23 IST",
     "date_str": "2026-09-14",
     "is_open": false,
     "is_weekend": false,
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 45.1,
       "S7_Order_Absorption": 42.5,
-      "S8_Lead_Lag_Gap": 42.4
+      "S8_Lead_Lag_Gap": 44.0
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": -0.02,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d742.4) + -0.02 = 29.6"
+    "news_vector_delta": -0.15,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d744.0) + -0.15 = 29.6"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 5.99,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 107.6,
-      "brent_1d_pct": 2.86,
+      "brent_crude_usd": 107.34,
+      "brent_1d_pct": 2.61,
       "usdinr": 95.54,
       "us_10y_yield": 4.97,
       "sp500_close": 7656.98,
       "sp500_1d_pct": 0.86,
-      "dxy_close": 99.46,
-      "dxy_1d_pct": 0.34,
+      "dxy_close": 99.42,
+      "dxy_1d_pct": 0.3,
       "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
@@ -304,14 +304,27 @@
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
-      "gap_bias": "Bearish Gap-Down",
-      "expected_gap_points": -38,
-      "net_macro_lead_pct": -0.304,
+      "gap_bias": "Neutral Opening",
+      "expected_gap_points": -30,
+      "net_macro_lead_pct": -0.24,
       "sp500_change_pct": 0.86,
-      "dxy_change_pct": 0.34,
-      "crude_change_pct": 2.86
+      "dxy_change_pct": 0.3,
+      "crude_change_pct": 2.61
     },
     "news_items": [
+      {
+        "title": "ETMarkets Smart Talk | Retail traders lost \u20b91.8 lakh crore in F&amp;O: Can algo trading change the game? Rakesh Pujara explains",
+        "link": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-retail-traders-lost-1-8-lakh-crore-in-fo-can-algo-trading-change-the-game-rakesh-pujara-explains/articleshow/134235178.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 12:32:25 +0530",
+        "published_timestamp": "2026-09-14T12:32:25+05:30",
+        "summary": "More than 90% of individual F&O traders lost money between FY22 and FY24, with retail losses reaching around \u20b91.8 lakh crore. With algorithmic trading now widespread, automation could help level the p",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
       {
         "title": "Indiabulls shares to be in focus on Tuesday | Here's why",
         "link": "https://www.livemint.com/market/stock-market-news/indiabulls-shares-to-be-in-focus-on-tuesday-heres-why-11789364882823.html",
