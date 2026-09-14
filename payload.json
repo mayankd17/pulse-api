@@ -1,10 +1,6 @@
 {
   "exchange_timing": {
-<<<<<<< Updated upstream
-    "ist_time": "2026-09-14 11:22:25 IST",
-=======
-    "ist_time": "2026-09-14 11:22:30 IST",
->>>>>>> Stashed changes
+    "ist_time": "2026-09-14 11:28:38 IST",
     "date_str": "2026-09-14",
     "is_open": false,
     "is_weekend": false,
@@ -224,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 45.1,
       "S7_Order_Absorption": 42.5,
-      "S8_Lead_Lag_Gap": 47.0
+      "S8_Lead_Lag_Gap": 48.4
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -236,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": -0.0,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d747.0) + -0.00 = 30.0"
+    "news_vector_delta": -0.2,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d748.4) + -0.20 = 30.0"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -251,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 5.99,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 106.87,
-      "brent_1d_pct": 2.16,
+      "brent_crude_usd": 106.61,
+      "brent_1d_pct": 1.91,
       "usdinr": 95.54,
       "us_10y_yield": 4.97,
       "sp500_close": 7656.98,
       "sp500_1d_pct": 0.86,
-      "dxy_close": 99.33,
-      "dxy_1d_pct": 0.21,
+      "dxy_close": 99.32,
+      "dxy_1d_pct": 0.2,
       "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
@@ -309,11 +305,11 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Neutral Opening",
-      "expected_gap_points": -15,
-      "net_macro_lead_pct": -0.119,
+      "expected_gap_points": -8,
+      "net_macro_lead_pct": -0.065,
       "sp500_change_pct": 0.86,
-      "dxy_change_pct": 0.21,
-      "crude_change_pct": 2.16
+      "dxy_change_pct": 0.2,
+      "crude_change_pct": 1.91
     },
     "news_items": [
       {
@@ -551,45 +547,6 @@
         "effective_impact": 0.95
       },
       {
-        "title": "ETMarkets AIF Talk | Aerospace, electronics, CDMO, auto ancillaries: Where Rajesh Kothari sees India\u2019s next growth opportunities",
-        "link": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-aif-talk-aerospace-electronics-cdmo-auto-ancillaries-where-rajesh-kothari-sees-indias-next-growth-opportunities/articleshow/134231477.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 08:40:01 +0530",
-        "published_timestamp": "2026-09-14T08:40:01+05:30",
-        "summary": "Rajesh Kothari, Founder and Managing Director at AlfAccurate Advisors, believes the investment opportunity in India is expanding at the sector and company level. His focus remains on businesses with s",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "ETMarkets Smart Talk | AI, defence, power: Investors need to be selective as valuations turn expensive, says Aditya Khemani",
-        "link": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-ai-defence-power-investors-need-to-be-selective-as-valuations-turn-expensive-says-aditya-khemani/articleshow/134231339.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 08:30:40 +0530",
-        "published_timestamp": "2026-09-14T08:30:40+05:30",
-        "summary": "Aditya Khemani, Head of Equities at Invesco Mutual Fund, believes investors need to be particularly selective at this stage. He cautions against confusing strong earnings momentum with business qualit",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "$100 crude is an irritant, not a deal-breaker for India: Harsh Gupta Madhusudan",
-        "link": "https://economictimes.indiatimes.com/markets/expert-view/100-crude-is-an-irritant-not-a-deal-breaker-for-india-harsh-gupta-madhusudan/articleshow/134231210.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 08:19:44 +0530",
-        "published_timestamp": "2026-09-14T08:19:44+05:30",
-        "summary": "While higher oil could pressure earnings and the rupee, he argues that the impact may be less severe than feared, with India\u2019s growth backdrop, valuations and external balances providing a buffer even",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
         "title": "Important day today for South Korea stock markets - Timings changing from Monday | Know reason",
         "link": "https://www.livemint.com/market/stock-market-news/important-day-today-for-south-korea-stock-markets-timings-changing-from-monday-know-reason-11789351900615.html",
         "source": "Livemint",
@@ -603,19 +560,6 @@
         "effective_impact": 0.0
       },
       {
-        "title": "Nifty oversold, IT poised for pullback: Anand James on what traders should do next",
-        "link": "https://economictimes.indiatimes.com/markets/expert-view/nifty-oversold-it-poised-for-pullback-anand-james-on-what-traders-should-do-next/articleshow/134230830.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 08:06:59 +0530",
-        "published_timestamp": "2026-09-14T08:06:59+05:30",
-        "summary": "Nifty continues to give the feeling of a range trading market, primarily because momentum has been absent on either side. ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
         "title": "Tata Sons IPO news | Why is it getting difficult for Tata Group's holding company to stay private?",
         "link": "https://www.livemint.com/market/ipo/tata-sons-ipo-news-why-is-it-getting-difficult-for-tata-groups-holding-company-to-stay-private-11789349656909.html",
         "source": "Livemint",
@@ -624,214 +568,6 @@
         "summary": "Tata Sons IPO News: Tata Group holding company faces mounting pressure to go public as the RBI rejects its plea to surrender its Core Investment Company registration",
         "is_rumor": false,
         "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Oil Price Today (September 14): Crude oil jumps 3% to near $108/barrel as Middle East tensions escalate. What are analysts warning?",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-september-14-crude-oil-jumps-3-to-near-108/barrel-as-middle-east-tensions-escalate-what-are-analysts-warning/articleshow/134230842.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 07:45:43 +0530",
-        "published_timestamp": "2026-09-14T07:45:43+05:30",
-        "summary": "Oil prices experienced a significant spike on Monday, approaching $108 per barrel, amid rising tensions in the Middle East. Recent attacks on vessels in the Gulf have left global energy markets uneasy",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Macquarie completes Maple InvIT stake buyout",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/macquarie-completes-maple-invit-stake-buyout/articleshow/134230644.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 07:34:58 +0530",
-        "published_timestamp": "2026-09-14T07:34:58+05:30",
-        "summary": "Following the transaction, MAM and La Caisse will jointly hold controlling stakes in Maple\u2019s investment manager and project manager. ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Upcoming IPOs: GMP comparison | NSE IPO, SS Retail IPO to Hero Motors IPO - Grey market winner is?",
-        "link": "https://www.livemint.com/market/ipo/upcoming-ipos-gmp-comparison-nse-ipo-ss-retail-ipo-to-hero-motors-ipo-grey-market-winner-is-11789348906997.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 07:32:37 +0530",
-        "published_timestamp": "2026-09-14T07:32:37+05:30",
-        "summary": "Upcoming IPOs: This week sees around five IPOs opening for subscription, with nearly 10 listings following. The NSE's IPO will start on 17 September, raising an estimated  \u20b921,494 crore to  \u20b922,569 cr",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Gold prices dip as oil-driven inflation concerns weigh",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-dip-as-oil-driven-inflation-concerns-weigh/articleshow/134230613.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 07:27:22 +0530",
-        "published_timestamp": "2026-09-14T07:27:22+05:30",
-        "summary": "Gold prices witnessed a slight decline, primarily driven by surging oil prices, raising inflation worries among traders. With an 86% probability of a US interest rate hike on the horizon, consumer pri",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Dollar steady, yen near 7-month high ahead of Fed, BOJ meetings",
-        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-steady-yen-near-7-month-high-ahead-of-fed-boj-meetings/articleshow/134230598.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 07:24:05 +0530",
-        "published_timestamp": "2026-09-14T07:24:05+05:30",
-        "summary": "The dollar maintained its stability as the yen approached a peak not seen in seven months this week. With key policymakers weighing potential interest rate hikes from both the Federal Reserve and the ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "Oil prices jump more than 2% after new strikes on Saudi, Strait of Hormuz",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-jump-more-than-2-after-new-strikes-on-saudi-strait-of-hormuz/articleshow/134230564.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 07:22:02 +0530",
-        "published_timestamp": "2026-09-14T07:22:02+05:30",
-        "summary": "Oil prices jumped over two percent on Monday, driven by fresh attacks from Houthi militants and Iranian forces. This escalation has heightened fears of supply disruptions after a crucial Saudi oil pip",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Gold prices dip as oil-driven inflation concerns weigh",
-        "link": "https://www.livemint.com/market/gold-prices-dip-as-oil-driven-inflation-concerns-weigh-11789350698466.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 07:21:38 +0530",
-        "published_timestamp": "2026-09-14T07:21:38+05:30",
-        "summary": "GLOBAL-PRECIOUS/:PRECIOUS-Gold prices dip as oil-driven inflation concerns weigh",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
-      },
-      {
-        "title": "Oversold Nifty could see a short-term rebound: Analysts",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/market-outlook-analysts-pick-key-levels-and-stocks-to-watch/articleshow/134230304.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 07:21:02 +0530",
-        "published_timestamp": "2026-09-14T07:21:02+05:30",
-        "summary": "Indian stock indices, Sensex and Nifty, have extended their losing streak for a fifth week. Analysts suggest the indices have entered oversold territory, indicating a potential short-term rebound. Tra",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "Australian shares inch higher as healthcare and staples gain",
-        "link": "https://www.livemint.com/market/australian-shares-inch-higher-as-healthcare-and-staples-gain-11789349782860.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 07:06:22 +0530",
-        "published_timestamp": "2026-09-14T07:06:22+05:30",
-        "summary": "AUSTRALIA-STOCKS/ MIDDAY:Australian shares inch higher as healthcare and staples gain",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "Can SS Retail IPO deliver long-term growth for high-risk investors?",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/can-ss-retail-ipo-deliver-long-term-growth-for-high-risk-investors/articleshow/134230144.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 06:50:31 +0530",
-        "published_timestamp": "2026-09-14T06:50:31+05:30",
-        "summary": "SS Retail plans a \u20b9360 crore IPO to fund expansion and working capital needs.  The company's revenue and profit saw significant annual growth between FY24 and FY26.  Geographic concentration in Mahara",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "Indian stock markets are closed today: NSE, BSE trading holiday on Ganesh Chaturthi 14 Sept Monday",
-        "link": "https://www.livemint.com/market/stock-market-news/indian-stock-markets-are-closed-today-nse-bse-trading-holiday-on-ganesh-chaturthi-14-sept-monday-11789345980940.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 06:43:04 +0530",
-        "published_timestamp": "2026-09-14T06:43:04+05:30",
-        "summary": "Indian stock markets are closed today: On 14 September 2026, the Indian stock exchanges, BSE and NSE, will observe a holiday for Ganesh Chaturthi. The markets, which ended lower this week, will reopen",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Anthropic's AI warning may weigh on chips, but trade seen intact",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-ai-warning-may-weigh-on-chips-but-trade-seen-intact/articleshow/134230086.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 06:40:58 +0530",
-        "published_timestamp": "2026-09-14T06:40:58+05:30",
-        "summary": "AI executives are calling for a deliberate slowdown in the pace of advanced model development. This plea may lead to short-term pressure on stocks of chipmakers and supply chains. However, experts sug",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "CAS set for a rework: What's up for change",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/cas-set-for-a-rework-whats-up-for-change/articleshow/134230014.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 06:34:55 +0530",
-        "published_timestamp": "2026-09-14T06:34:55+05:30",
-        "summary": "India's securities regulator is reviewing its new closing auction framework.  This review follows initial implementation challenges and market participant concerns.  Sebi proposes changes to derivativ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Gold Edges Lower as Hot US Inflation Bolsters Fed Rate-Hike Bets",
-        "link": "https://www.livemint.com/market/gold-edges-lower-as-hot-us-inflation-bolsters-fed-rate-hike-bets-11789347711493.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 06:31:50 +0530",
-        "published_timestamp": "2026-09-14T06:31:50+05:30",
-        "summary": "Gold edged lower, after hotter-than-expected US inflation data raised prospects that the Federal Reserve will hike interest rates later this week.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
-      },
-      {
-        "title": "Tata group stocks may pop after RBI decision",
-        "link": "https://www.livemint.com/market/stock-market-news/tata-sons-ipo-listing-impact-on-tata-group-stocks-11789296081226.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 06:30:22 +0530",
-        "published_timestamp": "2026-09-14T06:30:22+05:30",
-        "summary": "Tata Chemicals which holds a 2.5% stake in Tata Sons slated to outperform in short term as market anticipates a listing of Tata Sons after RBI turned down its plea to stay private",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Tata Sons listing to improve SP Group bond outlook; yields seen tightening",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/sp-group-bond-yields-set-to-tighten-as-tata-sons-listing-improves-repayment-visibility/articleshow/134229864.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 06:20:34 +0530",
-        "published_timestamp": "2026-09-14T06:20:34+05:30",
-        "summary": "Shapoorji Pallonji bond yields are expected to tighten significantly after the RBI rejected Tata Sons' application. The Reserve Bank of India's decision mandates the listing of Tata Sons, ending regul",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
         "beta_decay": 1.0,
         "effective_impact": 0.0
