@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-14 09:38:19 IST",
+    "ist_time": "2026-09-14 09:57:34 IST",
     "date_str": "2026-09-14",
     "is_open": false,
     "is_weekend": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Ganesh Chaturthi). Baseline established from 2026-09-11 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 33.4,
+    "score": 30.1,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 23398.1 (MARKET CLOSED: Ganesh Chaturthi). Volatility Index is 12.29 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.17x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.2x."
     },
     "hi": {
       "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23398.1 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: Ganesh Chaturthi)\u0964 VIX 12.29 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.17x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.2x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.17
+    "multiplier": 1.2
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -64,7 +64,7 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 31,
+      "score": 28,
       "verdict": "Consolidation Corridor",
       "target_range": "22949.1 - 23847.1",
       "downside_prob_pct": 58,
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 36,
+      "score": 33,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "22579.2 - 24251.3",
       "downside_prob_pct": 45,
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.17,
+    "dynamic_sip_multiplier": 1.2,
     "lot_size": 25,
     "nifty_lot_value": 584952,
     "cascade_risk_pct": 95
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 45.1,
       "S7_Order_Absorption": 42.5,
-      "S8_Lead_Lag_Gap": 73.5
+      "S8_Lead_Lag_Gap": 42.6
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": 0.74,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d773.5) + +0.74 = 33.4"
+    "news_vector_delta": 0.5,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d742.6) + +0.50 = 30.1"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 5.99,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 104.61,
-      "brent_1d_pct": -2.81,
+      "brent_crude_usd": 107.79,
+      "brent_1d_pct": 3.04,
       "usdinr": 95.54,
       "us_10y_yield": 4.97,
       "sp500_close": 7656.98,
       "sp500_1d_pct": 0.86,
-      "dxy_close": 99.12,
-      "dxy_1d_pct": 0.03,
+      "dxy_close": 99.33,
+      "dxy_1d_pct": 0.21,
       "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
@@ -304,14 +304,79 @@
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
-      "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 117,
-      "net_macro_lead_pct": 0.939,
+      "gap_bias": "Bearish Gap-Down",
+      "expected_gap_points": -37,
+      "net_macro_lead_pct": -0.295,
       "sp500_change_pct": 0.86,
-      "dxy_change_pct": 0.03,
-      "crude_change_pct": -2.81
+      "dxy_change_pct": 0.21,
+      "crude_change_pct": 3.04
     },
     "news_items": [
+      {
+        "title": "From US Fed rate decision to crude oil - 3 factors that may dictate Sensex, Nifty 50 this week",
+        "link": "https://www.livemint.com/market/stock-market-news/from-us-fed-rate-decision-to-crude-oil-3-factors-that-may-dictate-sensex-nifty-50-this-week-11789356774067.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 09:42:16 +0530",
+        "published_timestamp": "2026-09-14T09:42:16+05:30",
+        "summary": "Indian stock markets will reopen on 15 September after a holiday, with investors monitoring US interest rates, inflation data, and crude oil prices. The markets ended lower last week due to rising bon",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "20 midcap funds, 20 multibaggers: What makes this category a wealth creation machine?",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/20-midcap-funds-20-multibaggers-what-makes-this-category-a-wealth-creation-machine/articleshow/134232185.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 09:38:40 +0530",
+        "published_timestamp": "2026-09-14T09:38:40+05:30",
+        "summary": "Midcap mutual funds have delivered exceptional wealth creation over the past decade, with all 20 schemes boasting a full 10-year track record emerging as multibaggers. But can the category repeat that",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Why can\u2019t NSE trade on its own platform after the IPO, and is it a big deal?",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/why-cant-nse-trade-on-its-own-platform-after-the-ipo-and-is-it-a-big-deal/articleshow/134232116.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 09:32:54 +0530",
+        "published_timestamp": "2026-09-14T09:32:54+05:30",
+        "summary": "NSE MD Ashish Chauhan clarified that the exchange will not seek Sebi approval to list or trade its shares on its own platform. Under Sebi rules, a recognised exchange can list only on another exchange",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Global Market: Japan stocks fall as AI concerns hit tech shares; Nikkei down 1.6%",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-stocks-fall-as-ai-concerns-hit-tech-shares-nikkei-down-1-6/articleshow/134232052.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 09:26:49 +0530",
+        "published_timestamp": "2026-09-14T09:26:49+05:30",
+        "summary": "Japan\u2019s Nikkei fell 1.6% on Monday, dragged by technology and semiconductor stocks as concerns over the pace and risks of artificial intelligence development weighed on sentiment. Investors also remai",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "Global Market: South Korean shares fall as AI concerns weigh; won strengthens",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-korean-shares-fall-as-ai-concerns-weigh-won-strengthens/articleshow/134232032.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 09:23:49 +0530",
+        "published_timestamp": "2026-09-14T09:23:49+05:30",
+        "summary": "South Korean shares fell sharply on Monday, led by technology stocks, as concerns over the pace and risks of artificial intelligence development weighed on investor sentiment. Samsung Electronics and ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
       {
         "title": "Dividend stocks this week, record date: Hindustan Copper, Cochin Shipyard, Balu Forge, IRCON, Karnataka Bank and more",
         "link": "https://www.livemint.com/market/stock-market-news/dividend-stocks-this-week-record-date-hindustan-copper-cochin-shipyard-balu-forge-ircon-karnataka-bank-and-more-11789356047257.html",
@@ -761,71 +826,6 @@
         "published": "Mon, 14 Sep 2026 00:03:35 +0530",
         "published_timestamp": "2026-09-14T00:03:35+05:30",
         "summary": "Fed officials will also release updated projections covering US economic growth, inflation and the expected path of interest rates",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Bessent Doubles Down on House of the Rising Sun",
-        "link": "https://www.livemint.com/market/bessent-doubles-down-on-house-of-the-rising-sun-11789324052601.html",
-        "source": "Livemint",
-        "published": "Sun, 13 Sep 2026 23:57:32 +0530",
-        "published_timestamp": "2026-09-13T23:57:32+05:30",
-        "summary": "Treasury Secretary Scott Bessent describes himself as the top US bond salesman. He's rapidly becoming the top Japan salesman, as well. Not only does he profess to know what that country's central bank",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Penny stock under  \u20b910: Nearly 170% up in 6 months \u2014 FMCG share declares expansion of overseas business",
-        "link": "https://www.livemint.com/market/stock-market-news/penny-stock-under-rs-10-nearly-170-up-in-6-months-fmcg-share-declares-expansion-of-overseas-business-11789311265556.html",
-        "source": "Livemint",
-        "published": "Sun, 13 Sep 2026 20:54:55 +0530",
-        "published_timestamp": "2026-09-13T20:54:55+05:30",
-        "summary": "Penny stock under 10 rupees has delivered over 125% YTD return",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Small-cap multibagger stock: 135% return in YTD | Defence subsidiary wins  \u20b933 crore aerospace order",
-        "link": "https://www.livemint.com/market/stock-market-news/smallcap-multibagger-stock-135-return-in-ytd-defence-subsidiary-wins-rs-33-crore-aerospace-order-11789305522331.html",
-        "source": "Livemint",
-        "published": "Sun, 13 Sep 2026 19:46:07 +0530",
-        "published_timestamp": "2026-09-13T19:46:07+05:30",
-        "summary": "Small-cap multibagger stock has surged from around  \u20b9425 to  \u20b91000 apiece levels on the NSE",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "Vodafone Idea shares up over 60% in 6 months \u2014 Will stock soar more? Guide for stock market investors",
-        "link": "https://www.livemint.com/market/stock-market-news/vodafone-idea-shares-up-over-60-in-6-months-will-stock-soar-more-guide-for-stock-market-investors-11789299288345.html",
-        "source": "Livemint",
-        "published": "Sun, 13 Sep 2026 18:41:12 +0530",
-        "published_timestamp": "2026-09-13T18:41:12+05:30",
-        "summary": "Vodafone Idea share price has risen from  \u20b98.53 to  \u20b914.96 per share on the NSE in FY27",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Kamarajar Port invites bankers for  \u20b91,200 crore IPO",
-        "link": "https://www.livemint.com/market/ipo/kamarajar-port-invites-bankers-for-1-200-crore-ipo-11789280693928.html",
-        "source": "Livemint",
-        "published": "Sun, 13 Sep 2026 17:15:32 +0530",
-        "published_timestamp": "2026-09-13T17:15:32+05:30",
-        "summary": "Kamarajar Port has begun the process of appointing up to three bookrunning lead managers for its proposed IPO, which is likely to include a  \u20b91,200 crore offer for sale.",
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,

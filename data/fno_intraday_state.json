@@ -1,5 +1,5 @@
 {
-  "as_of_ist": "2026-09-14 09:38:22 IST",
+  "as_of_ist": "2026-09-14 09:57:38 IST",
   "target_session_date": "2026-09-15",
   "market_breadth": {
     "advances": 25,
@@ -15,7 +15,8 @@
   },
   "scanners": {
     "vwap_cross": [
-      "ICICI BANK"
+      "ICICI BANK",
+      "AXIS BANK"
     ],
     "volume_breakout": [
       "RELIANCE",
@@ -24,7 +25,12 @@
       "INFOSYS",
       "ICICI BANK",
       "STATE BANK OF INDIA",
-      "BHARTI AIRTEL"
+      "BHARTI AIRTEL",
+      "M&M",
+      "AXIS BANK",
+      "KOTAK BANK",
+      "L&T",
+      "ITC"
     ],
     "orb_breakout": [],
     "sma_50_cross": []
@@ -36,39 +42,39 @@
       "symbol": "NIFTY 50",
       "category": "F&O DERIVATIVES",
       "win_probability": "84%",
-      "recommended_action": "SELL 23400 PE & BUY PE at 23350",
-      "entry": "Credit Received Instantly",
-      "target_1": "Max Profit: ₹575/lot",
-      "stop_loss": "Wing Breach",
+      "recommended_action": "SELL 23400 CE & BUY CE at 23450",
+      "entry": "Net Credit Received: ₹24.2 (Total Inflow: ₹605/lot)",
+      "target_1": "Max Profit: Keep entire ₹605/lot at expiry",
+      "stop_loss": "Wing Breach (Max Loss Capped at ₹645/lot)",
       "holding_duration": "Expiry Week",
       "status": "ACTIVE_FOR_SESSION",
       "full_modes": {
         "aggressive": {
           "mode": "AGGRESSIVE (Naked Directional Option)",
-          "action": "BUY NIFTY 50 23400 CE",
-          "entry": "₹127.6 (Total: ₹3,190/lot)",
-          "t1": "₹185.0 (Profit: ₹1,436/lot)",
-          "sl": "₹82.9 (Risk: ₹1,116/lot)",
+          "action": "BUY NIFTY 50 23400 PE",
+          "entry": "₹142.8 (Total Required: ₹3,570/lot)",
+          "t1": "₹207.1 (Profit: ₹1,607/lot)",
+          "sl": "₹92.8 (Risk: ₹1,250/lot)",
           "horizon": "30 - 90 Mins",
-          "profile": "AI detected BULLISH TREND. Pure delta expansion play."
+          "profile": "AI detected BEARISH TREND. Pure delta expansion play."
         },
         "average": {
           "mode": "AVERAGE (Debit Spread)",
-          "action": "SPREAD: BUY 23400 CE & SELL CE at 23450",
-          "entry": "Net Debit: ₹24.2",
-          "t1": "Net Value: ₹37.51",
-          "sl": "Net Value: ₹10.89",
+          "action": "SPREAD: BUY 23400 PE & SELL PE at 23350",
+          "entry": "Net Debit: ₹23.0 (Capital: ₹575/lot)",
+          "t1": "Net Value: ₹35.65",
+          "sl": "Net Value: ₹10.35",
           "horizon": "Hold till Expiry",
-          "profile": "Neutralizes theta decay. Capped risk."
+          "profile": "Neutralizes theta decay. Strictly capped risk."
         },
         "defensive": {
           "mode": "DEFENSIVE (Credit Spread)",
-          "action": "SELL 23400 PE & BUY PE at 23350",
-          "entry": "Credit Received Instantly",
-          "t1": "Max Profit: ₹575/lot",
-          "sl": "Wing Breach",
+          "action": "SELL 23400 CE & BUY CE at 23450",
+          "entry": "Net Credit Received: ₹24.2 (Total Inflow: ₹605/lot)",
+          "t1": "Max Profit: Keep entire ₹605/lot at expiry",
+          "sl": "Wing Breach (Max Loss Capped at ₹645/lot)",
           "horizon": "Expiry Week",
-          "profile": "High win-rate. Theta works for you."
+          "profile": "High win-rate. Theta time-decay works for you."
         }
       }
     },
@@ -78,39 +84,39 @@
       "symbol": "BANK NIFTY",
       "category": "F&O DERIVATIVES",
       "win_probability": "84%",
-      "recommended_action": "SELL 56600 PE & BUY PE at 56500",
-      "entry": "Credit Received Instantly",
-      "target_1": "Max Profit: ₹692/lot",
-      "stop_loss": "Wing Breach",
+      "recommended_action": "SELL 56600 CE & BUY CE at 56700",
+      "entry": "Net Credit Received: ₹49.5 (Total Inflow: ₹742/lot)",
+      "target_1": "Max Profit: Keep entire ₹742/lot at expiry",
+      "stop_loss": "Wing Breach (Max Loss Capped at ₹758/lot)",
       "holding_duration": "Expiry Week",
       "status": "ACTIVE_FOR_SESSION",
       "full_modes": {
         "aggressive": {
           "mode": "AGGRESSIVE (Naked Directional Option)",
-          "action": "BUY BANK NIFTY 56600 CE",
-          "entry": "₹314.4 (Total: ₹4,716/lot)",
-          "t1": "₹455.9 (Profit: ₹2,122/lot)",
-          "sl": "₹204.4 (Risk: ₹1,651/lot)",
+          "action": "BUY BANK NIFTY 56600 PE",
+          "entry": "₹340.1 (Total Required: ₹5,102/lot)",
+          "t1": "₹493.1 (Profit: ₹2,296/lot)",
+          "sl": "₹221.1 (Risk: ₹1,786/lot)",
           "horizon": "30 - 90 Mins",
-          "profile": "AI detected BULLISH TREND. Pure delta expansion play."
+          "profile": "AI detected BEARISH TREND. Pure delta expansion play."
         },
         "average": {
           "mode": "AVERAGE (Debit Spread)",
-          "action": "SPREAD: BUY 56600 CE & SELL CE at 56700",
-          "entry": "Net Debit: ₹49.5",
-          "t1": "Net Value: ₹76.73",
-          "sl": "Net Value: ₹22.28",
+          "action": "SPREAD: BUY 56600 PE & SELL PE at 56500",
+          "entry": "Net Debit: ₹46.1 (Capital: ₹692/lot)",
+          "t1": "Net Value: ₹71.46",
+          "sl": "Net Value: ₹20.75",
           "horizon": "Hold till Expiry",
-          "profile": "Neutralizes theta decay. Capped risk."
+          "profile": "Neutralizes theta decay. Strictly capped risk."
         },
         "defensive": {
           "mode": "DEFENSIVE (Credit Spread)",
-          "action": "SELL 56600 PE & BUY PE at 56500",
-          "entry": "Credit Received Instantly",
-          "t1": "Max Profit: ₹692/lot",
-          "sl": "Wing Breach",
+          "action": "SELL 56600 CE & BUY CE at 56700",
+          "entry": "Net Credit Received: ₹49.5 (Total Inflow: ₹742/lot)",
+          "t1": "Max Profit: Keep entire ₹742/lot at expiry",
+          "sl": "Wing Breach (Max Loss Capped at ₹758/lot)",
           "horizon": "Expiry Week",
-          "profile": "High win-rate. Theta works for you."
+          "profile": "High win-rate. Theta time-decay works for you."
         }
       }
     },
@@ -120,34 +126,34 @@
       "symbol": "RELIANCE",
       "category": "INTRADAY CASH",
       "win_probability": "84%",
-      "recommended_action": "LIMIT ENTRY AT EXTREME (₹1285.97)",
+      "recommended_action": "LIMIT ENTRY AT EXTREME (₹1275.79)",
       "entry": "₹1259.15",
-      "target_1": "₹1259.15 (Profit: ₹6,705/lot)",
-      "stop_loss": "₹1293.12",
+      "target_1": "₹1259.15",
+      "stop_loss": "₹1280.23",
       "holding_duration": "Full Session",
       "status": "ACTIVE_FOR_SESSION",
       "full_modes": {
         "aggressive": {
           "mode": "AGGRESSIVE (High Momentum Breakout)",
-          "action": "SHORT ABOVE ₹1248.56",
-          "t1": "₹1232.47 (Profit: ₹4,023/lot)",
-          "sl": "₹1270.02 (Risk: ₹5,364/lot)",
+          "action": "SHORT ABOVE ₹1251.95",
+          "t1": "₹1241.97",
+          "sl": "₹1265.27",
           "horizon": "15 - 30 Mins",
           "profile": "Follows BEARISH TREND. Targets quick impulse."
         },
         "average": {
           "mode": "AVERAGE (Balanced VWAP Swing)",
           "action": "SELL NEAR VWAP (₹1259.15)",
-          "t1": "₹1243.06 (Profit: ₹4,023/lot)",
-          "sl": "₹1269.88 (Risk: ₹2,682/lot)",
+          "t1": "₹1249.16",
+          "sl": "₹1265.81",
           "horizon": "1 - 3 Hours",
           "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
         },
         "defensive": {
           "mode": "DEFENSIVE (Capital Preservation)",
-          "action": "LIMIT ENTRY AT EXTREME (₹1285.97)",
-          "t1": "₹1259.15 (Profit: ₹6,705/lot)",
-          "sl": "₹1293.12",
+          "action": "LIMIT ENTRY AT EXTREME (₹1275.79)",
+          "t1": "₹1259.15",
+          "sl": "₹1280.23",
           "horizon": "Full Session",
           "profile": "Tightest risk, buys only at exhaustion."
         }
@@ -159,34 +165,34 @@
       "symbol": "HDFC BANK",
       "category": "INTRADAY CASH",
       "win_probability": "84%",
-      "recommended_action": "LIMIT ENTRY AT EXTREME (₹679.65)",
+      "recommended_action": "LIMIT ENTRY AT EXTREME (₹704.92)",
       "entry": "₹694.41",
-      "target_1": "₹694.41 (Profit: ₹8,118/lot)",
-      "stop_loss": "₹675.71",
+      "target_1": "₹694.41",
+      "stop_loss": "₹707.72",
       "holding_duration": "Full Session",
       "status": "ACTIVE_FOR_SESSION",
       "full_modes": {
         "aggressive": {
           "mode": "AGGRESSIVE (High Momentum Breakout)",
-          "action": "BUY ABOVE ₹713.17",
-          "t1": "₹722.03 (Profit: ₹4,871/lot)",
-          "sl": "₹701.36 (Risk: ₹6,494/lot)",
+          "action": "SHORT ABOVE ₹704.75",
+          "t1": "₹698.44",
+          "sl": "₹713.15",
           "horizon": "15 - 30 Mins",
-          "profile": "Follows BULLISH TREND. Targets quick impulse."
+          "profile": "Follows BEARISH TREND. Targets quick impulse."
         },
         "average": {
           "mode": "AVERAGE (Balanced VWAP Swing)",
-          "action": "ACCUMULATE NEAR VWAP (₹694.41)",
-          "t1": "₹703.27 (Profit: ₹4,871/lot)",
-          "sl": "₹688.51 (Risk: ₹3,247/lot)",
+          "action": "SELL NEAR VWAP (₹694.41)",
+          "t1": "₹688.11",
+          "sl": "₹698.61",
           "horizon": "1 - 3 Hours",
           "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
         },
         "defensive": {
           "mode": "DEFENSIVE (Capital Preservation)",
-          "action": "LIMIT ENTRY AT EXTREME (₹679.65)",
-          "t1": "₹694.41 (Profit: ₹8,118/lot)",
-          "sl": "₹675.71",
+          "action": "LIMIT ENTRY AT EXTREME (₹704.92)",
+          "t1": "₹694.41",
+          "sl": "₹707.72",
           "horizon": "Full Session",
           "profile": "Tightest risk, buys only at exhaustion."
         }
@@ -198,34 +204,34 @@
       "symbol": "TCS",
       "category": "INTRADAY CASH",
       "win_probability": "84%",
-      "recommended_action": "LIMIT ENTRY AT EXTREME (₹2248.55)",
+      "recommended_action": "LIMIT ENTRY AT EXTREME (₹2252.53)",
       "entry": "₹2210.3",
-      "target_1": "₹2210.3 (Profit: ₹6,694/lot)",
-      "stop_loss": "₹2258.75",
+      "target_1": "₹2210.3",
+      "stop_loss": "₹2263.79",
       "holding_duration": "Full Session",
       "status": "ACTIVE_FOR_SESSION",
       "full_modes": {
         "aggressive": {
           "mode": "AGGRESSIVE (High Momentum Breakout)",
-          "action": "SHORT ABOVE ₹2188.05",
-          "t1": "₹2165.1 (Profit: ₹4,016/lot)",
-          "sl": "₹2218.65 (Risk: ₹5,355/lot)",
+          "action": "SHORT ABOVE ₹2186.72",
+          "t1": "₹2161.38",
+          "sl": "₹2220.51",
           "horizon": "15 - 30 Mins",
           "profile": "Follows BEARISH TREND. Targets quick impulse."
         },
         "average": {
           "mode": "AVERAGE (Balanced VWAP Swing)",
           "action": "SELL NEAR VWAP (₹2210.3)",
-          "t1": "₹2187.35 (Profit: ₹4,016/lot)",
-          "sl": "₹2225.6 (Risk: ₹2,678/lot)",
+          "t1": "₹2184.96",
+          "sl": "₹2227.19",
           "horizon": "1 - 3 Hours",
           "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
         },
         "defensive": {
           "mode": "DEFENSIVE (Capital Preservation)",
-          "action": "LIMIT ENTRY AT EXTREME (₹2248.55)",
-          "t1": "₹2210.3 (Profit: ₹6,694/lot)",
-          "sl": "₹2258.75",
+          "action": "LIMIT ENTRY AT EXTREME (₹2252.53)",
+          "t1": "₹2210.3",
+          "sl": "₹2263.79",
           "horizon": "Full Session",
           "profile": "Tightest risk, buys only at exhaustion."
         }
@@ -238,16 +244,16 @@
       "category": "F&O DERIVATIVES",
       "win_probability": "84%",
       "recommended_action": "SELL 1040 CE & BUY CE at 1050",
-      "entry": "Credit Received Instantly",
-      "target_1": "Max Profit: ₹1,440/lot",
-      "stop_loss": "Wing Breach",
+      "entry": "Net Credit Received: ₹3.6 (Total Inflow: ₹1,440/lot)",
+      "target_1": "Max Profit: Keep entire ₹1,440/lot at expiry",
+      "stop_loss": "Wing Breach (Max Loss Capped at ₹2,560/lot)",
       "holding_duration": "Expiry Week",
       "status": "ACTIVE_FOR_SESSION",
       "full_modes": {
         "aggressive": {
           "mode": "AGGRESSIVE (Naked Directional Option)",
           "action": "BUY INFOSYS 1040 PE",
-          "entry": "₹10.1 (Total: ₹4,040/lot)",
+          "entry": "₹10.1 (Total Required: ₹4,040/lot)",
           "t1": "₹14.6 (Profit: ₹1,818/lot)",
           "sl": "₹6.6 (Risk: ₹1,414/lot)",
           "horizon": "30 - 90 Mins",
@@ -256,57 +262,57 @@
         "average": {
           "mode": "AVERAGE (Debit Spread)",
           "action": "SPREAD: BUY 1040 PE & SELL PE at 1030",
-          "entry": "Net Debit: ₹4.4",
+          "entry": "Net Debit: ₹4.4 (Capital: ₹1,760/lot)",
           "t1": "Net Value: ₹6.82",
           "sl": "Net Value: ₹1.98",
           "horizon": "Hold till Expiry",
-          "profile": "Neutralizes theta decay. Capped risk."
+          "profile": "Neutralizes theta decay. Strictly capped risk."
         },
         "defensive": {
           "mode": "DEFENSIVE (Credit Spread)",
           "action": "SELL 1040 CE & BUY CE at 1050",
-          "entry": "Credit Received Instantly",
-          "t1": "Max Profit: ₹1,440/lot",
-          "sl": "Wing Breach",
+          "entry": "Net Credit Received: ₹3.6 (Total Inflow: ₹1,440/lot)",
+          "t1": "Max Profit: Keep entire ₹1,440/lot at expiry",
+          "sl": "Wing Breach (Max Loss Capped at ₹2,560/lot)",
           "horizon": "Expiry Week",
-          "profile": "High win-rate. Theta works for you."
+          "profile": "High win-rate. Theta time-decay works for you."
         }
       }
     },
     {
       "rank": 7,
       "signal_id": "PULSE-TOP10-2026-09-15-07",
-      "symbol": "BHARTI AIRTEL",
+      "symbol": "M&M",
       "category": "INTRADAY CASH",
       "win_probability": "84%",
-      "recommended_action": "LIMIT ENTRY AT EXTREME (₹1857.07)",
-      "entry": "₹1843.21",
-      "target_1": "₹1843.21 (Profit: ₹13,167/lot)",
-      "stop_loss": "₹1860.77",
+      "recommended_action": "LIMIT ENTRY AT EXTREME (₹3152.09)",
+      "entry": "₹3102.25",
+      "target_1": "₹3102.25",
+      "stop_loss": "₹3165.38",
       "holding_duration": "Full Session",
       "status": "ACTIVE_FOR_SESSION",
       "full_modes": {
         "aggressive": {
           "mode": "AGGRESSIVE (High Momentum Breakout)",
-          "action": "SHORT ABOVE ₹1826.48",
-          "t1": "₹1818.16 (Profit: ₹7,900/lot)",
-          "sl": "₹1837.57 (Risk: ₹10,534/lot)",
+          "action": "SHORT ABOVE ₹3090.39",
+          "t1": "₹3060.49",
+          "sl": "₹3130.26",
           "horizon": "15 - 30 Mins",
           "profile": "Follows BEARISH TREND. Targets quick impulse."
         },
         "average": {
           "mode": "AVERAGE (Balanced VWAP Swing)",
-          "action": "SELL NEAR VWAP (₹1843.21)",
-          "t1": "₹1834.89 (Profit: ₹7,900/lot)",
-          "sl": "₹1848.75 (Risk: ₹5,267/lot)",
+          "action": "SELL NEAR VWAP (₹3102.25)",
+          "t1": "₹3072.35",
+          "sl": "₹3122.18",
           "horizon": "1 - 3 Hours",
           "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
         },
         "defensive": {
           "mode": "DEFENSIVE (Capital Preservation)",
-          "action": "LIMIT ENTRY AT EXTREME (₹1857.07)",
-          "t1": "₹1843.21 (Profit: ₹13,167/lot)",
-          "sl": "₹1860.77",
+          "action": "LIMIT ENTRY AT EXTREME (₹3152.09)",
+          "t1": "₹3102.25",
+          "sl": "₹3165.38",
           "horizon": "Full Session",
           "profile": "Tightest risk, buys only at exhaustion."
         }
@@ -318,34 +324,34 @@
       "symbol": "ICICI BANK",
       "category": "INTRADAY CASH",
       "win_probability": "84%",
-      "recommended_action": "LIMIT ENTRY AT EXTREME (₹1391.07)",
+      "recommended_action": "LIMIT ENTRY AT EXTREME (₹1397.03)",
       "entry": "₹1380.18",
-      "target_1": "₹1380.18 (Profit: ₹7,623/lot)",
-      "stop_loss": "₹1393.97",
+      "target_1": "₹1380.18",
+      "stop_loss": "₹1401.52",
       "holding_duration": "Full Session",
       "status": "ACTIVE_FOR_SESSION",
       "full_modes": {
         "aggressive": {
           "mode": "AGGRESSIVE (High Momentum Breakout)",
-          "action": "SHORT ABOVE ₹1375.67",
-          "t1": "₹1369.14 (Profit: ₹4,574/lot)",
-          "sl": "₹1384.38 (Risk: ₹6,098/lot)",
+          "action": "SHORT ABOVE ₹1373.68",
+          "t1": "₹1363.58",
+          "sl": "₹1387.16",
           "horizon": "15 - 30 Mins",
           "profile": "Follows BEARISH TREND. Targets quick impulse."
         },
         "average": {
           "mode": "AVERAGE (Balanced VWAP Swing)",
           "action": "SELL NEAR VWAP (₹1380.18)",
-          "t1": "₹1373.65 (Profit: ₹4,574/lot)",
-          "sl": "₹1384.54 (Risk: ₹3,049/lot)",
+          "t1": "₹1370.07",
+          "sl": "₹1386.92",
           "horizon": "1 - 3 Hours",
           "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
         },
         "defensive": {
           "mode": "DEFENSIVE (Capital Preservation)",
-          "action": "LIMIT ENTRY AT EXTREME (₹1391.07)",
-          "t1": "₹1380.18 (Profit: ₹7,623/lot)",
-          "sl": "₹1393.97",
+          "action": "LIMIT ENTRY AT EXTREME (₹1397.03)",
+          "t1": "₹1380.18",
+          "sl": "₹1401.52",
           "horizon": "Full Session",
           "profile": "Tightest risk, buys only at exhaustion."
         }
@@ -358,16 +364,16 @@
       "category": "F&O DERIVATIVES",
       "win_probability": "84%",
       "recommended_action": "SELL 980 CE & BUY CE at 990",
-      "entry": "Credit Received Instantly",
-      "target_1": "Max Profit: ₹5,700/lot",
-      "stop_loss": "Wing Breach",
+      "entry": "Net Credit Received: ₹4.0 (Total Inflow: ₹5,700/lot)",
+      "target_1": "Max Profit: Keep entire ₹5,700/lot at expiry",
+      "stop_loss": "Wing Breach (Max Loss Capped at ₹8,550/lot)",
       "holding_duration": "Expiry Week",
       "status": "ACTIVE_FOR_SESSION",
       "full_modes": {
         "aggressive": {
           "mode": "AGGRESSIVE (Naked Directional Option)",
           "action": "BUY TATA MOTORS 980 PE",
-          "entry": "₹8.5 (Total: ₹12,112/lot)",
+          "entry": "₹8.5 (Total Required: ₹12,112/lot)",
           "t1": "₹12.3 (Profit: ₹5,451/lot)",
           "sl": "₹5.5 (Risk: ₹4,239/lot)",
           "horizon": "30 - 90 Mins",
@@ -376,20 +382,20 @@
         "average": {
           "mode": "AVERAGE (Debit Spread)",
           "action": "SPREAD: BUY 980 PE & SELL PE at 970",
-          "entry": "Net Debit: ₹4.1",
+          "entry": "Net Debit: ₹4.1 (Capital: ₹5,842/lot)",
           "t1": "Net Value: ₹6.35",
           "sl": "Net Value: ₹1.84",
           "horizon": "Hold till Expiry",
-          "profile": "Neutralizes theta decay. Capped risk."
+          "profile": "Neutralizes theta decay. Strictly capped risk."
         },
         "defensive": {
           "mode": "DEFENSIVE (Credit Spread)",
           "action": "SELL 980 CE & BUY CE at 990",
-          "entry": "Credit Received Instantly",
-          "t1": "Max Profit: ₹5,700/lot",
-          "sl": "Wing Breach",
+          "entry": "Net Credit Received: ₹4.0 (Total Inflow: ₹5,700/lot)",
+          "t1": "Max Profit: Keep entire ₹5,700/lot at expiry",
+          "sl": "Wing Breach (Max Loss Capped at ₹8,550/lot)",
           "horizon": "Expiry Week",
-          "profile": "High win-rate. Theta works for you."
+          "profile": "High win-rate. Theta time-decay works for you."
         }
       }
     },
@@ -399,34 +405,34 @@
       "symbol": "STATE BANK OF INDIA",
       "category": "INTRADAY CASH",
       "win_probability": "84%",
-      "recommended_action": "LIMIT ENTRY AT EXTREME (₹1004.05)",
+      "recommended_action": "LIMIT ENTRY AT EXTREME (₹1009.35)",
       "entry": "₹996.71",
-      "target_1": "₹996.71 (Profit: ₹5,501/lot)",
-      "stop_loss": "₹1006.0",
+      "target_1": "₹996.71",
+      "stop_loss": "₹1012.72",
       "holding_duration": "Full Session",
       "status": "ACTIVE_FOR_SESSION",
       "full_modes": {
         "aggressive": {
           "mode": "AGGRESSIVE (High Momentum Breakout)",
-          "action": "SHORT ABOVE ₹993.25",
-          "t1": "₹988.85 (Profit: ₹3,301/lot)",
-          "sl": "₹999.12 (Risk: ₹4,401/lot)",
+          "action": "SHORT ABOVE ₹991.49",
+          "t1": "₹983.91",
+          "sl": "₹1001.6",
           "horizon": "15 - 30 Mins",
           "profile": "Follows BEARISH TREND. Targets quick impulse."
         },
         "average": {
           "mode": "AVERAGE (Balanced VWAP Swing)",
           "action": "SELL NEAR VWAP (₹996.71)",
-          "t1": "₹992.31 (Profit: ₹3,301/lot)",
-          "sl": "₹999.64 (Risk: ₹2,200/lot)",
+          "t1": "₹989.13",
+          "sl": "₹1001.76",
           "horizon": "1 - 3 Hours",
           "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
         },
         "defensive": {
           "mode": "DEFENSIVE (Capital Preservation)",
-          "action": "LIMIT ENTRY AT EXTREME (₹1004.05)",
-          "t1": "₹996.71 (Profit: ₹5,501/lot)",
-          "sl": "₹1006.0",
+          "action": "LIMIT ENTRY AT EXTREME (₹1009.35)",
+          "t1": "₹996.71",
+          "sl": "₹1012.72",
           "horizon": "Full Session",
           "profile": "Tightest risk, buys only at exhaustion."
         }
@@ -440,13 +446,15 @@
       "step": 50,
       "lot": 25,
       "spot": 23398.1,
-      "vwap": 0.0,
-      "upper_2sigma": 224.62,
-      "lower_2sigma": -280.78,
-      "atr": 280.7772,
+      "vwap": 23398.1,
+      "upper_2sigma": 23541.79,
+      "lower_2sigma": 23254.41,
+      "atr": 179.61,
       "atm_strike": 23400,
       "atm_ce_price": 127.6,
       "atm_pe_price": 142.8,
+      "otm_ce_price": 103.4,
+      "otm_pe_price": 119.8,
       "greeks": {
         "delta_ce": 0.522,
         "delta_pe": -0.478,
@@ -458,25 +466,25 @@
         "intraday": {
           "aggressive": {
             "mode": "AGGRESSIVE (High Momentum Breakout)",
-            "action": "BUY ABOVE ₹23468.29",
-            "t1": "₹23594.64 (Profit: ₹3,159/lot)",
-            "sl": "₹23299.83 (Risk: ₹4,212/lot)",
+            "action": "SHORT ABOVE ₹23353.2",
+            "t1": "₹23272.37",
+            "sl": "₹23460.96",
             "horizon": "15 - 30 Mins",
-            "profile": "Follows BULLISH TREND. Targets quick impulse."
+            "profile": "Follows BEARISH TREND. Targets quick impulse."
           },
           "average": {
             "mode": "AVERAGE (Balanced VWAP Swing)",
-            "action": "ACCUMULATE NEAR VWAP (₹0.0)",
-            "t1": "₹126.35 (Profit: ₹3,159/lot)",
-            "sl": "₹-84.23 (Risk: ₹2,106/lot)",
+            "action": "SELL NEAR VWAP (₹23398.1)",
+            "t1": "₹23317.28",
+            "sl": "₹23451.98",
             "horizon": "1 - 3 Hours",
             "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
           },
           "defensive": {
             "mode": "DEFENSIVE (Capital Preservation)",
-            "action": "LIMIT ENTRY AT EXTREME (₹-210.58)",
-            "t1": "₹0.0 (Profit: ₹5,265/lot)",
-            "sl": "₹-266.74",
+            "action": "LIMIT ENTRY AT EXTREME (₹23532.81)",
+            "t1": "₹23398.1",
+            "sl": "₹23568.73",
             "horizon": "Full Session",
             "profile": "Tightest risk, buys only at exhaustion."
           }
@@ -484,30 +492,30 @@
         "fno": {
           "aggressive": {
             "mode": "AGGRESSIVE (Naked Directional Option)",
-            "action": "BUY NIFTY 50 23400 CE",
-            "entry": "₹127.6 (Total: ₹3,190/lot)",
-            "t1": "₹185.0 (Profit: ₹1,436/lot)",
-            "sl": "₹82.9 (Risk: ₹1,116/lot)",
+            "action": "BUY NIFTY 50 23400 PE",
+            "entry": "₹142.8 (Total Required: ₹3,570/lot)",
+            "t1": "₹207.1 (Profit: ₹1,607/lot)",
+            "sl": "₹92.8 (Risk: ₹1,250/lot)",
             "horizon": "30 - 90 Mins",
-            "profile": "AI detected BULLISH TREND. Pure delta expansion play."
+            "profile": "AI detected BEARISH TREND. Pure delta expansion play."
           },
           "average": {
             "mode": "AVERAGE (Debit Spread)",
-            "action": "SPREAD: BUY 23400 CE & SELL CE at 23450",
-            "entry": "Net Debit: ₹24.2",
-            "t1": "Net Value: ₹37.51",
-            "sl": "Net Value: ₹10.89",
+            "action": "SPREAD: BUY 23400 PE & SELL PE at 23350",
+            "entry": "Net Debit: ₹23.0 (Capital: ₹575/lot)",
+            "t1": "Net Value: ₹35.65",
+            "sl": "Net Value: ₹10.35",
             "horizon": "Hold till Expiry",
-            "profile": "Neutralizes theta decay. Capped risk."
+            "profile": "Neutralizes theta decay. Strictly capped risk."
           },
           "defensive": {
             "mode": "DEFENSIVE (Credit Spread)",
-            "action": "SELL 23400 PE & BUY PE at 23350",
-            "entry": "Credit Received Instantly",
-            "t1": "Max Profit: ₹575/lot",
-            "sl": "Wing Breach",
+            "action": "SELL 23400 CE & BUY CE at 23450",
+            "entry": "Net Credit Received: ₹24.2 (Total Inflow: ₹605/lot)",
+            "t1": "Max Profit: Keep entire ₹605/lot at expiry",
+            "sl": "Wing Breach (Max Loss Capped at ₹645/lot)",
             "horizon": "Expiry Week",
-            "profile": "High win-rate. Theta works for you."
+            "profile": "High win-rate. Theta time-decay works for you."
           }
         }
       }
@@ -518,13 +526,15 @@
       "step": 100,
       "lot": 15,
       "spot": 56606.55,
-      "vwap": 0.0,
-      "upper_2sigma": 487.68,
-      "lower_2sigma": -609.6,
-      "atr": 609.6,
+      "vwap": 56606.55,
+      "upper_2sigma": 57037.13,
+      "lower_2sigma": 56175.97,
+      "atr": 538.23,
       "atm_strike": 56600,
       "atm_ce_price": 314.4,
       "atm_pe_price": 340.1,
+      "otm_ce_price": 264.9,
+      "otm_pe_price": 294.0,
       "greeks": {
         "delta_ce": 0.528,
         "delta_pe": -0.472,
@@ -536,25 +546,25 @@
         "intraday": {
           "aggressive": {
             "mode": "AGGRESSIVE (High Momentum Breakout)",
-            "action": "BUY ABOVE ₹56758.95",
-            "t1": "₹57033.27 (Profit: ₹4,115/lot)",
-            "sl": "₹56393.19 (Risk: ₹5,486/lot)",
+            "action": "SHORT ABOVE ₹56471.99",
+            "t1": "₹56229.79",
+            "sl": "₹56794.93",
             "horizon": "15 - 30 Mins",
-            "profile": "Follows BULLISH TREND. Targets quick impulse."
+            "profile": "Follows BEARISH TREND. Targets quick impulse."
           },
           "average": {
             "mode": "AVERAGE (Balanced VWAP Swing)",
-            "action": "ACCUMULATE NEAR VWAP (₹0.0)",
-            "t1": "₹274.32 (Profit: ₹4,115/lot)",
-            "sl": "₹-182.88 (Risk: ₹2,743/lot)",
+            "action": "SELL NEAR VWAP (₹56606.55)",
+            "t1": "₹56364.35",
+            "sl": "₹56768.02",
             "horizon": "1 - 3 Hours",
             "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
           },
           "defensive": {
             "mode": "DEFENSIVE (Capital Preservation)",
-            "action": "LIMIT ENTRY AT EXTREME (₹-457.2)",
-            "t1": "₹0.0 (Profit: ₹6,858/lot)",
-            "sl": "₹-579.12",
+            "action": "LIMIT ENTRY AT EXTREME (₹57010.22)",
+            "t1": "₹56606.55",
+            "sl": "₹57117.87",
             "horizon": "Full Session",
             "profile": "Tightest risk, buys only at exhaustion."
           }
@@ -562,30 +572,30 @@
         "fno": {
           "aggressive": {
             "mode": "AGGRESSIVE (Naked Directional Option)",
-            "action": "BUY BANK NIFTY 56600 CE",
-            "entry": "₹314.4 (Total: ₹4,716/lot)",
-            "t1": "₹455.9 (Profit: ₹2,122/lot)",
-            "sl": "₹204.4 (Risk: ₹1,651/lot)",
+            "action": "BUY BANK NIFTY 56600 PE",
+            "entry": "₹340.1 (Total Required: ₹5,102/lot)",
+            "t1": "₹493.1 (Profit: ₹2,296/lot)",
+            "sl": "₹221.1 (Risk: ₹1,786/lot)",
             "horizon": "30 - 90 Mins",
-            "profile": "AI detected BULLISH TREND. Pure delta expansion play."
+            "profile": "AI detected BEARISH TREND. Pure delta expansion play."
           },
           "average": {
             "mode": "AVERAGE (Debit Spread)",
-            "action": "SPREAD: BUY 56600 CE & SELL CE at 56700",
-            "entry": "Net Debit: ₹49.5",
-            "t1": "Net Value: ₹76.73",
-            "sl": "Net Value: ₹22.28",
+            "action": "SPREAD: BUY 56600 PE & SELL PE at 56500",
+            "entry": "Net Debit: ₹46.1 (Capital: ₹692/lot)",
+            "t1": "Net Value: ₹71.46",
+            "sl": "Net Value: ₹20.75",
             "horizon": "Hold till Expiry",
-            "profile": "Neutralizes theta decay. Capped risk."
+            "profile": "Neutralizes theta decay. Strictly capped risk."
           },
           "defensive": {
             "mode": "DEFENSIVE (Credit Spread)",
-            "action": "SELL 56600 PE & BUY PE at 56500",
-            "entry": "Credit Received Instantly",
-            "t1": "Max Profit: ₹692/lot",
-            "sl": "Wing Breach",
+            "action": "SELL 56600 CE & BUY CE at 56700",
+            "entry": "Net Credit Received: ₹49.5 (Total Inflow: ₹742/lot)",
+            "t1": "Max Profit: Keep entire ₹742/lot at expiry",
+            "sl": "Wing Breach (Max Loss Capped at ₹758/lot)",
             "horizon": "Expiry Week",
-            "profile": "High win-rate. Theta works for you."
+            "profile": "High win-rate. Theta time-decay works for you."
           }
         }
       }
@@ -597,12 +607,14 @@
       "lot": 250,
       "spot": 1257.5,
       "vwap": 1259.15,
-      "upper_2sigma": 1287.76,
-      "lower_2sigma": 1223.39,
-      "atr": 35.76,
+      "upper_2sigma": 1276.9,
+      "lower_2sigma": 1241.4,
+      "atr": 22.19,
       "atm_strike": 1260,
       "atm_ce_price": 8.3,
       "atm_pe_price": 12.1,
+      "otm_ce_price": 2.1,
+      "otm_pe_price": 4.3,
       "greeks": {
         "delta_ce": 0.475,
         "delta_pe": -0.525,
@@ -614,25 +626,25 @@
         "intraday": {
           "aggressive": {
             "mode": "AGGRESSIVE (High Momentum Breakout)",
-            "action": "SHORT ABOVE ₹1248.56",
-            "t1": "₹1232.47 (Profit: ₹4,023/lot)",
-            "sl": "₹1270.02 (Risk: ₹5,364/lot)",
+            "action": "SHORT ABOVE ₹1251.95",
+            "t1": "₹1241.97",
+            "sl": "₹1265.27",
             "horizon": "15 - 30 Mins",
             "profile": "Follows BEARISH TREND. Targets quick impulse."
           },
           "average": {
             "mode": "AVERAGE (Balanced VWAP Swing)",
             "action": "SELL NEAR VWAP (₹1259.15)",
-            "t1": "₹1243.06 (Profit: ₹4,023/lot)",
-            "sl": "₹1269.88 (Risk: ₹2,682/lot)",
+            "t1": "₹1249.16",
+            "sl": "₹1265.81",
             "horizon": "1 - 3 Hours",
             "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
           },
           "defensive": {
             "mode": "DEFENSIVE (Capital Preservation)",
-            "action": "LIMIT ENTRY AT EXTREME (₹1285.97)",
-            "t1": "₹1259.15 (Profit: ₹6,705/lot)",
-            "sl": "₹1293.12",
+            "action": "LIMIT ENTRY AT EXTREME (₹1275.79)",
+            "t1": "₹1259.15",
+            "sl": "₹1280.23",
             "horizon": "Full Session",
             "profile": "Tightest risk, buys only at exhaustion."
           }
@@ -641,7 +653,7 @@
           "aggressive": {
             "mode": "AGGRESSIVE (Naked Directional Option)",
             "action": "BUY RELIANCE 1260 PE",
-            "entry": "₹12.1 (Total: ₹3,025/lot)",
+            "entry": "₹12.1 (Total Required: ₹3,025/lot)",
             "t1": "₹17.5 (Profit: ₹1,361/lot)",
             "sl": "₹7.9 (Risk: ₹1,059/lot)",
             "horizon": "30 - 90 Mins",
@@ -650,20 +662,20 @@
           "average": {
             "mode": "AVERAGE (Debit Spread)",
             "action": "SPREAD: BUY 1260 PE & SELL PE at 1240",
-            "entry": "Net Debit: ₹7.8",
+            "entry": "Net Debit: ₹7.8 (Capital: ₹1,950/lot)",
             "t1": "Net Value: ₹12.09",
             "sl": "Net Value: ₹3.51",
             "horizon": "Hold till Expiry",
-            "profile": "Neutralizes theta decay. Capped risk."
+            "profile": "Neutralizes theta decay. Strictly capped risk."
           },
           "defensive": {
             "mode": "DEFENSIVE (Credit Spread)",
             "action": "SELL 1260 CE & BUY CE at 1280",
-            "entry": "Credit Received Instantly",
-            "t1": "Max Profit: ₹1,550/lot",
-            "sl": "Wing Breach",
+            "entry": "Net Credit Received: ₹6.2 (Total Inflow: ₹1,550/lot)",
+            "t1": "Max Profit: Keep entire ₹1,550/lot at expiry",
+            "sl": "Wing Breach (Max Loss Capped at ₹3,450/lot)",
             "horizon": "Expiry Week",
-            "profile": "High win-rate. Theta works for you."
+            "profile": "High win-rate. Theta time-decay works for you."
           }
         }
       }
@@ -675,12 +687,14 @@
       "lot": 550,
       "spot": 708.25,
       "vwap": 694.41,
-      "upper_2sigma": 710.15,
-      "lower_2sigma": 674.73,
-      "atr": 19.68,
+      "upper_2sigma": 705.62,
+      "lower_2sigma": 683.2,
+      "atr": 14.01,
       "atm_strike": 710,
       "atm_ce_price": 4.5,
       "atm_pe_price": 7.0,
+      "otm_ce_price": 1.4,
+      "otm_pe_price": 2.9,
       "greeks": {
         "delta_ce": 0.465,
         "delta_pe": -0.535,
@@ -692,25 +706,25 @@
         "intraday": {
           "aggressive": {
             "mode": "AGGRESSIVE (High Momentum Breakout)",
-            "action": "BUY ABOVE ₹713.17",
-            "t1": "₹722.03 (Profit: ₹4,871/lot)",
-            "sl": "₹701.36 (Risk: ₹6,494/lot)",
+            "action": "SHORT ABOVE ₹704.75",
+            "t1": "₹698.44",
+            "sl": "₹713.15",
             "horizon": "15 - 30 Mins",
-            "profile": "Follows BULLISH TREND. Targets quick impulse."
+            "profile": "Follows BEARISH TREND. Targets quick impulse."
           },
           "average": {
             "mode": "AVERAGE (Balanced VWAP Swing)",
-            "action": "ACCUMULATE NEAR VWAP (₹694.41)",
-            "t1": "₹703.27 (Profit: ₹4,871/lot)",
-            "sl": "₹688.51 (Risk: ₹3,247/lot)",
+            "action": "SELL NEAR VWAP (₹694.41)",
+            "t1": "₹688.11",
+            "sl": "₹698.61",
             "horizon": "1 - 3 Hours",
             "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
           },
           "defensive": {
             "mode": "DEFENSIVE (Capital Preservation)",
-            "action": "LIMIT ENTRY AT EXTREME (₹679.65)",
-            "t1": "₹694.41 (Profit: ₹8,118/lot)",
-            "sl": "₹675.71",
+            "action": "LIMIT ENTRY AT EXTREME (₹704.92)",
+            "t1": "₹694.41",
+            "sl": "₹707.72",
             "horizon": "Full Session",
             "profile": "Tightest risk, buys only at exhaustion."
           }
@@ -718,30 +732,30 @@
         "fno": {
           "aggressive": {
             "mode": "AGGRESSIVE (Naked Directional Option)",
-            "action": "BUY HDFC BANK 710 CE",
-            "entry": "₹4.5 (Total: ₹2,475/lot)",
-            "t1": "₹6.5 (Profit: ₹1,114/lot)",
-            "sl": "₹2.9 (Risk: ₹866/lot)",
+            "action": "BUY HDFC BANK 710 PE",
+            "entry": "₹7.0 (Total Required: ₹3,850/lot)",
+            "t1": "₹10.2 (Profit: ₹1,732/lot)",
+            "sl": "₹4.5 (Risk: ₹1,347/lot)",
             "horizon": "30 - 90 Mins",
-            "profile": "AI detected BULLISH TREND. Pure delta expansion play."
+            "profile": "AI detected BEARISH TREND. Pure delta expansion play."
           },
           "average": {
             "mode": "AVERAGE (Debit Spread)",
-            "action": "SPREAD: BUY 710 CE & SELL CE at 720",
-            "entry": "Net Debit: ₹3.1",
-            "t1": "Net Value: ₹4.81",
-            "sl": "Net Value: ₹1.4",
+            "action": "SPREAD: BUY 710 PE & SELL PE at 700",
+            "entry": "Net Debit: ₹4.1 (Capital: ₹2,255/lot)",
+            "t1": "Net Value: ₹6.35",
+            "sl": "Net Value: ₹1.84",
             "horizon": "Hold till Expiry",
-            "profile": "Neutralizes theta decay. Capped risk."
+            "profile": "Neutralizes theta decay. Strictly capped risk."
           },
           "defensive": {
             "mode": "DEFENSIVE (Credit Spread)",
-            "action": "SELL 710 PE & BUY PE at 700",
-            "entry": "Credit Received Instantly",
-            "t1": "Max Profit: ₹2,255/lot",
-            "sl": "Wing Breach",
+            "action": "SELL 710 CE & BUY CE at 720",
+            "entry": "Net Credit Received: ₹3.1 (Total Inflow: ₹1,705/lot)",
+            "t1": "Max Profit: Keep entire ₹1,705/lot at expiry",
+            "sl": "Wing Breach (Max Loss Capped at ₹3,795/lot)",
             "horizon": "Expiry Week",
-            "profile": "High win-rate. Theta works for you."
+            "profile": "High win-rate. Theta time-decay works for you."
           }
         }
       }
@@ -753,12 +767,14 @@
       "lot": 175,
       "spot": 2200.8,
       "vwap": 2210.3,
-      "upper_2sigma": 2251.1,
-      "lower_2sigma": 2159.3,
-      "atr": 51.0,
+      "upper_2sigma": 2255.35,
+      "lower_2sigma": 2165.25,
+      "atr": 56.31,
       "atm_strike": 2200,
       "atm_ce_price": 17.0,
       "atm_pe_price": 18.6,
+      "otm_ce_price": 8.6,
+      "otm_pe_price": 10.5,
       "greeks": {
         "delta_ce": 0.527,
         "delta_pe": -0.473,
@@ -770,25 +786,25 @@
         "intraday": {
           "aggressive": {
             "mode": "AGGRESSIVE (High Momentum Breakout)",
-            "action": "SHORT ABOVE ₹2188.05",
-            "t1": "₹2165.1 (Profit: ₹4,016/lot)",
-            "sl": "₹2218.65 (Risk: ₹5,355/lot)",
+            "action": "SHORT ABOVE ₹2186.72",
+            "t1": "₹2161.38",
+            "sl": "₹2220.51",
             "horizon": "15 - 30 Mins",
             "profile": "Follows BEARISH TREND. Targets quick impulse."
           },
           "average": {
             "mode": "AVERAGE (Balanced VWAP Swing)",
             "action": "SELL NEAR VWAP (₹2210.3)",
-            "t1": "₹2187.35 (Profit: ₹4,016/lot)",
-            "sl": "₹2225.6 (Risk: ₹2,678/lot)",
+            "t1": "₹2184.96",
+            "sl": "₹2227.19",
             "horizon": "1 - 3 Hours",
             "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
           },
           "defensive": {
             "mode": "DEFENSIVE (Capital Preservation)",
-            "action": "LIMIT ENTRY AT EXTREME (₹2248.55)",
-            "t1": "₹2210.3 (Profit: ₹6,694/lot)",
-            "sl": "₹2258.75",
+            "action": "LIMIT ENTRY AT EXTREME (₹2252.53)",
+            "t1": "₹2210.3",
+            "sl": "₹2263.79",
             "horizon": "Full Session",
             "profile": "Tightest risk, buys only at exhaustion."
           }
@@ -797,7 +813,7 @@
           "aggressive": {
             "mode": "AGGRESSIVE (Naked Directional Option)",
             "action": "BUY TCS 2200 PE",
-            "entry": "₹18.6 (Total: ₹3,255/lot)",
+            "entry": "₹18.6 (Total Required: ₹3,255/lot)",
             "t1": "₹27.0 (Profit: ₹1,465/lot)",
             "sl": "₹12.1 (Risk: ₹1,139/lot)",
             "horizon": "30 - 90 Mins",
@@ -806,20 +822,20 @@
           "average": {
             "mode": "AVERAGE (Debit Spread)",
             "action": "SPREAD: BUY 2200 PE & SELL PE at 2180",
-            "entry": "Net Debit: ₹8.1",
+            "entry": "Net Debit: ₹8.1 (Capital: ₹1,418/lot)",
             "t1": "Net Value: ₹12.56",
             "sl": "Net Value: ₹3.65",
             "horizon": "Hold till Expiry",
-            "profile": "Neutralizes theta decay. Capped risk."
+            "profile": "Neutralizes theta decay. Strictly capped risk."
           },
           "defensive": {
             "mode": "DEFENSIVE (Credit Spread)",
             "action": "SELL 2200 CE & BUY CE at 2220",
-            "entry": "Credit Received Instantly",
-            "t1": "Max Profit: ₹1,470/lot",
-            "sl": "Wing Breach",
+            "entry": "Net Credit Received: ₹8.4 (Total Inflow: ₹1,470/lot)",
+            "t1": "Max Profit: Keep entire ₹1,470/lot at expiry",
+            "sl": "Wing Breach (Max Loss Capped at ₹2,030/lot)",
             "horizon": "Expiry Week",
-            "profile": "High win-rate. Theta works for you."
+            "profile": "High win-rate. Theta time-decay works for you."
           }
         }
       }
@@ -831,12 +847,14 @@
       "lot": 400,
       "spot": 1037.7,
       "vwap": 1039.77,
-      "upper_2sigma": 1057.24,
-      "lower_2sigma": 1017.93,
-      "atr": 21.84,
+      "upper_2sigma": 1062.88,
+      "lower_2sigma": 1016.66,
+      "atr": 28.89,
       "atm_strike": 1040,
       "atm_ce_price": 6.7,
       "atm_pe_price": 10.1,
+      "otm_ce_price": 3.1,
+      "otm_pe_price": 5.7,
       "greeks": {
         "delta_ce": 0.47,
         "delta_pe": -0.53,
@@ -848,25 +866,25 @@
         "intraday": {
           "aggressive": {
             "mode": "AGGRESSIVE (High Momentum Breakout)",
-            "action": "SHORT ABOVE ₹1032.24",
-            "t1": "₹1022.41 (Profit: ₹3,931/lot)",
-            "sl": "₹1045.34 (Risk: ₹5,242/lot)",
+            "action": "SHORT ABOVE ₹1030.48",
+            "t1": "₹1017.48",
+            "sl": "₹1047.81",
             "horizon": "15 - 30 Mins",
             "profile": "Follows BEARISH TREND. Targets quick impulse."
           },
           "average": {
             "mode": "AVERAGE (Balanced VWAP Swing)",
             "action": "SELL NEAR VWAP (₹1039.77)",
-            "t1": "₹1029.94 (Profit: ₹3,931/lot)",
-            "sl": "₹1046.32 (Risk: ₹2,621/lot)",
+            "t1": "₹1026.77",
+            "sl": "₹1048.44",
             "horizon": "1 - 3 Hours",
             "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
           },
           "defensive": {
             "mode": "DEFENSIVE (Capital Preservation)",
-            "action": "LIMIT ENTRY AT EXTREME (₹1056.15)",
-            "t1": "₹1039.77 (Profit: ₹6,552/lot)",
-            "sl": "₹1060.52",
+            "action": "LIMIT ENTRY AT EXTREME (₹1061.44)",
+            "t1": "₹1039.77",
+            "sl": "₹1067.22",
             "horizon": "Full Session",
             "profile": "Tightest risk, buys only at exhaustion."
           }
@@ -875,7 +893,7 @@
           "aggressive": {
             "mode": "AGGRESSIVE (Naked Directional Option)",
             "action": "BUY INFOSYS 1040 PE",
-            "entry": "₹10.1 (Total: ₹4,040/lot)",
+            "entry": "₹10.1 (Total Required: ₹4,040/lot)",
             "t1": "₹14.6 (Profit: ₹1,818/lot)",
             "sl": "₹6.6 (Risk: ₹1,414/lot)",
             "horizon": "30 - 90 Mins",
@@ -884,20 +902,20 @@
           "average": {
             "mode": "AVERAGE (Debit Spread)",
             "action": "SPREAD: BUY 1040 PE & SELL PE at 1030",
-            "entry": "Net Debit: ₹4.4",
+            "entry": "Net Debit: ₹4.4 (Capital: ₹1,760/lot)",
             "t1": "Net Value: ₹6.82",
             "sl": "Net Value: ₹1.98",
             "horizon": "Hold till Expiry",
-            "profile": "Neutralizes theta decay. Capped risk."
+            "profile": "Neutralizes theta decay. Strictly capped risk."
           },
           "defensive": {
             "mode": "DEFENSIVE (Credit Spread)",
             "action": "SELL 1040 CE & BUY CE at 1050",
-            "entry": "Credit Received Instantly",
-            "t1": "Max Profit: ₹1,440/lot",
-            "sl": "Wing Breach",
+            "entry": "Net Credit Received: ₹3.6 (Total Inflow: ₹1,440/lot)",
+            "t1": "Max Profit: Keep entire ₹1,440/lot at expiry",
+            "sl": "Wing Breach (Max Loss Capped at ₹2,560/lot)",
             "horizon": "Expiry Week",
-            "profile": "High win-rate. Theta works for you."
+            "profile": "High win-rate. Theta time-decay works for you."
           }
         }
       }
@@ -909,12 +927,14 @@
       "lot": 700,
       "spot": 1379.3,
       "vwap": 1380.18,
-      "upper_2sigma": 1391.8,
-      "lower_2sigma": 1365.66,
-      "atr": 14.52,
+      "upper_2sigma": 1398.15,
+      "lower_2sigma": 1362.21,
+      "atr": 22.46,
       "atm_strike": 1380,
       "atm_ce_price": 10.1,
       "atm_pe_price": 12.2,
+      "otm_ce_price": 5.8,
+      "otm_pe_price": 7.9,
       "greeks": {
         "delta_ce": 0.508,
         "delta_pe": -0.492,
@@ -926,25 +946,25 @@
         "intraday": {
           "aggressive": {
             "mode": "AGGRESSIVE (High Momentum Breakout)",
-            "action": "SHORT ABOVE ₹1375.67",
-            "t1": "₹1369.14 (Profit: ₹4,574/lot)",
-            "sl": "₹1384.38 (Risk: ₹6,098/lot)",
+            "action": "SHORT ABOVE ₹1373.68",
+            "t1": "₹1363.58",
+            "sl": "₹1387.16",
             "horizon": "15 - 30 Mins",
             "profile": "Follows BEARISH TREND. Targets quick impulse."
           },
           "average": {
             "mode": "AVERAGE (Balanced VWAP Swing)",
             "action": "SELL NEAR VWAP (₹1380.18)",
-            "t1": "₹1373.65 (Profit: ₹4,574/lot)",
-            "sl": "₹1384.54 (Risk: ₹3,049/lot)",
+            "t1": "₹1370.07",
+            "sl": "₹1386.92",
             "horizon": "1 - 3 Hours",
             "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
           },
           "defensive": {
             "mode": "DEFENSIVE (Capital Preservation)",
-            "action": "LIMIT ENTRY AT EXTREME (₹1391.07)",
-            "t1": "₹1380.18 (Profit: ₹7,623/lot)",
-            "sl": "₹1393.97",
+            "action": "LIMIT ENTRY AT EXTREME (₹1397.03)",
+            "t1": "₹1380.18",
+            "sl": "₹1401.52",
             "horizon": "Full Session",
             "profile": "Tightest risk, buys only at exhaustion."
           }
@@ -953,7 +973,7 @@
           "aggressive": {
             "mode": "AGGRESSIVE (Naked Directional Option)",
             "action": "BUY ICICI BANK 1380 PE",
-            "entry": "₹12.2 (Total: ₹8,540/lot)",
+            "entry": "₹12.2 (Total Required: ₹8,540/lot)",
             "t1": "₹17.7 (Profit: ₹3,843/lot)",
             "sl": "₹7.9 (Risk: ₹2,989/lot)",
             "horizon": "30 - 90 Mins",
@@ -962,20 +982,20 @@
           "average": {
             "mode": "AVERAGE (Debit Spread)",
             "action": "SPREAD: BUY 1380 PE & SELL PE at 1370",
-            "entry": "Net Debit: ₹4.3",
+            "entry": "Net Debit: ₹4.3 (Capital: ₹3,010/lot)",
             "t1": "Net Value: ₹6.66",
             "sl": "Net Value: ₹1.93",
             "horizon": "Hold till Expiry",
-            "profile": "Neutralizes theta decay. Capped risk."
+            "profile": "Neutralizes theta decay. Strictly capped risk."
           },
           "defensive": {
             "mode": "DEFENSIVE (Credit Spread)",
             "action": "SELL 1380 CE & BUY CE at 1390",
-            "entry": "Credit Received Instantly",
-            "t1": "Max Profit: ₹3,010/lot",
-            "sl": "Wing Breach",
+            "entry": "Net Credit Received: ₹4.3 (Total Inflow: ₹3,010/lot)",
+            "t1": "Max Profit: Keep entire ₹3,010/lot at expiry",
+            "sl": "Wing Breach (Max Loss Capped at ₹3,990/lot)",
             "horizon": "Expiry Week",
-            "profile": "High win-rate. Theta works for you."
+            "profile": "High win-rate. Theta time-decay works for you."
           }
         }
       }
@@ -987,12 +1007,14 @@
       "lot": 750,
       "spot": 995.7,
       "vwap": 996.71,
-      "upper_2sigma": 1004.53,
-      "lower_2sigma": 986.93,
-      "atr": 9.78,
+      "upper_2sigma": 1010.19,
+      "lower_2sigma": 983.23,
+      "atr": 16.85,
       "atm_strike": 995,
       "atm_ce_price": 7.9,
       "atm_pe_price": 8.3,
+      "otm_ce_price": 5.5,
+      "otm_pe_price": 6.1,
       "greeks": {
         "delta_ce": 0.535,
         "delta_pe": -0.465,
@@ -1004,25 +1026,25 @@
         "intraday": {
           "aggressive": {
             "mode": "AGGRESSIVE (High Momentum Breakout)",
-            "action": "SHORT ABOVE ₹993.25",
-            "t1": "₹988.85 (Profit: ₹3,301/lot)",
-            "sl": "₹999.12 (Risk: ₹4,401/lot)",
+            "action": "SHORT ABOVE ₹991.49",
+            "t1": "₹983.91",
+            "sl": "₹1001.6",
             "horizon": "15 - 30 Mins",
             "profile": "Follows BEARISH TREND. Targets quick impulse."
           },
           "average": {
             "mode": "AVERAGE (Balanced VWAP Swing)",
             "action": "SELL NEAR VWAP (₹996.71)",
-            "t1": "₹992.31 (Profit: ₹3,301/lot)",
-            "sl": "₹999.64 (Risk: ₹2,200/lot)",
+            "t1": "₹989.13",
+            "sl": "₹1001.76",
             "horizon": "1 - 3 Hours",
             "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
           },
           "defensive": {
             "mode": "DEFENSIVE (Capital Preservation)",
-            "action": "LIMIT ENTRY AT EXTREME (₹1004.05)",
-            "t1": "₹996.71 (Profit: ₹5,501/lot)",
-            "sl": "₹1006.0",
+            "action": "LIMIT ENTRY AT EXTREME (₹1009.35)",
+            "t1": "₹996.71",
+            "sl": "₹1012.72",
             "horizon": "Full Session",
             "profile": "Tightest risk, buys only at exhaustion."
           }
@@ -1031,7 +1053,7 @@
           "aggressive": {
             "mode": "AGGRESSIVE (Naked Directional Option)",
             "action": "BUY STATE BANK OF INDIA 995 PE",
-            "entry": "₹8.3 (Total: ₹6,225/lot)",
+            "entry": "₹8.3 (Total Required: ₹6,225/lot)",
             "t1": "₹12.0 (Profit: ₹2,801/lot)",
             "sl": "₹5.4 (Risk: ₹2,179/lot)",
             "horizon": "30 - 90 Mins",
@@ -1040,20 +1062,20 @@
           "average": {
             "mode": "AVERAGE (Debit Spread)",
             "action": "SPREAD: BUY 995 PE & SELL PE at 990",
-            "entry": "Net Debit: ₹2.2",
+            "entry": "Net Debit: ₹2.2 (Capital: ₹1,650/lot)",
             "t1": "Net Value: ₹3.41",
             "sl": "Net Value: ₹0.99",
             "horizon": "Hold till Expiry",
-            "profile": "Neutralizes theta decay. Capped risk."
+            "profile": "Neutralizes theta decay. Strictly capped risk."
           },
           "defensive": {
             "mode": "DEFENSIVE (Credit Spread)",
             "action": "SELL 995 CE & BUY CE at 1000",
-            "entry": "Credit Received Instantly",
-            "t1": "Max Profit: ₹1,800/lot",
-            "sl": "Wing Breach",
+            "entry": "Net Credit Received: ₹2.4 (Total Inflow: ₹1,800/lot)",
+            "t1": "Max Profit: Keep entire ₹1,800/lot at expiry",
+            "sl": "Wing Breach (Max Loss Capped at ₹1,950/lot)",
             "horizon": "Expiry Week",
-            "profile": "High win-rate. Theta works for you."
+            "profile": "High win-rate. Theta time-decay works for you."
           }
         }
       }
@@ -1065,12 +1087,14 @@
       "lot": 950,
       "spot": 1831.1,
       "vwap": 1843.21,
-      "upper_2sigma": 1857.99,
-      "lower_2sigma": 1824.73,
-      "atr": 18.48,
+      "upper_2sigma": 1870.91,
+      "lower_2sigma": 1815.51,
+      "atr": 34.63,
       "atm_strike": 1830,
       "atm_ce_price": 14.4,
       "atm_pe_price": 15.3,
+      "otm_ce_price": 9.7,
+      "otm_pe_price": 10.9,
       "greeks": {
         "delta_ce": 0.533,
         "delta_pe": -0.467,
@@ -1082,25 +1106,25 @@
         "intraday": {
           "aggressive": {
             "mode": "AGGRESSIVE (High Momentum Breakout)",
-            "action": "SHORT ABOVE ₹1826.48",
-            "t1": "₹1818.16 (Profit: ₹7,900/lot)",
-            "sl": "₹1837.57 (Risk: ₹10,534/lot)",
+            "action": "SHORT ABOVE ₹1822.44",
+            "t1": "₹1806.86",
+            "sl": "₹1843.22",
             "horizon": "15 - 30 Mins",
             "profile": "Follows BEARISH TREND. Targets quick impulse."
           },
           "average": {
             "mode": "AVERAGE (Balanced VWAP Swing)",
             "action": "SELL NEAR VWAP (₹1843.21)",
-            "t1": "₹1834.89 (Profit: ₹7,900/lot)",
-            "sl": "₹1848.75 (Risk: ₹5,267/lot)",
+            "t1": "₹1827.63",
+            "sl": "₹1853.6",
             "horizon": "1 - 3 Hours",
             "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
           },
           "defensive": {
             "mode": "DEFENSIVE (Capital Preservation)",
-            "action": "LIMIT ENTRY AT EXTREME (₹1857.07)",
-            "t1": "₹1843.21 (Profit: ₹13,167/lot)",
-            "sl": "₹1860.77",
+            "action": "LIMIT ENTRY AT EXTREME (₹1869.18)",
+            "t1": "₹1843.21",
+            "sl": "₹1876.11",
             "horizon": "Full Session",
             "profile": "Tightest risk, buys only at exhaustion."
           }
@@ -1109,7 +1133,7 @@
           "aggressive": {
             "mode": "AGGRESSIVE (Naked Directional Option)",
             "action": "BUY BHARTI AIRTEL 1830 PE",
-            "entry": "₹15.3 (Total: ₹14,535/lot)",
+            "entry": "₹15.3 (Total Required: ₹14,535/lot)",
             "t1": "₹22.2 (Profit: ₹6,541/lot)",
             "sl": "₹9.9 (Risk: ₹5,087/lot)",
             "horizon": "30 - 90 Mins",
@@ -1118,20 +1142,20 @@
           "average": {
             "mode": "AVERAGE (Debit Spread)",
             "action": "SPREAD: BUY 1830 PE & SELL PE at 1820",
-            "entry": "Net Debit: ₹4.4",
+            "entry": "Net Debit: ₹4.4 (Capital: ₹4,180/lot)",
             "t1": "Net Value: ₹6.82",
             "sl": "Net Value: ₹1.98",
             "horizon": "Hold till Expiry",
-            "profile": "Neutralizes theta decay. Capped risk."
+            "profile": "Neutralizes theta decay. Strictly capped risk."
           },
           "defensive": {
             "mode": "DEFENSIVE (Credit Spread)",
             "action": "SELL 1830 CE & BUY CE at 1840",
-            "entry": "Credit Received Instantly",
-            "t1": "Max Profit: ₹4,465/lot",
-            "sl": "Wing Breach",
+            "entry": "Net Credit Received: ₹4.7 (Total Inflow: ₹4,465/lot)",
+            "t1": "Max Profit: Keep entire ₹4,465/lot at expiry",
+            "sl": "Wing Breach (Max Loss Capped at ₹5,035/lot)",
             "horizon": "Expiry Week",
-            "profile": "High win-rate. Theta works for you."
+            "profile": "High win-rate. Theta time-decay works for you."
           }
         }
       }
@@ -1144,11 +1168,13 @@
       "spot": 980.0,
       "vwap": 980.0,
       "upper_2sigma": 989.41,
-      "lower_2sigma": 968.24,
+      "lower_2sigma": 970.59,
       "atr": 11.76,
       "atm_strike": 980,
       "atm_ce_price": 7.4,
       "atm_pe_price": 8.5,
+      "otm_ce_price": 3.4,
+      "otm_pe_price": 4.4,
       "greeks": {
         "delta_ce": 0.519,
         "delta_pe": -0.481,
@@ -1161,23 +1187,23 @@
           "aggressive": {
             "mode": "AGGRESSIVE (High Momentum Breakout)",
             "action": "SHORT ABOVE ₹977.06",
-            "t1": "₹971.77 (Profit: ₹7,541/lot)",
-            "sl": "₹984.12 (Risk: ₹10,055/lot)",
+            "t1": "₹971.77",
+            "sl": "₹984.12",
             "horizon": "15 - 30 Mins",
             "profile": "Follows BEARISH TREND. Targets quick impulse."
           },
           "average": {
             "mode": "AVERAGE (Balanced VWAP Swing)",
             "action": "SELL NEAR VWAP (₹980.0)",
-            "t1": "₹974.71 (Profit: ₹7,541/lot)",
-            "sl": "₹983.53 (Risk: ₹5,027/lot)",
+            "t1": "₹974.71",
+            "sl": "₹983.53",
             "horizon": "1 - 3 Hours",
             "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
           },
           "defensive": {
             "mode": "DEFENSIVE (Capital Preservation)",
             "action": "LIMIT ENTRY AT EXTREME (₹988.82)",
-            "t1": "₹980.0 (Profit: ₹12,568/lot)",
+            "t1": "₹980.0",
             "sl": "₹991.17",
             "horizon": "Full Session",
             "profile": "Tightest risk, buys only at exhaustion."
@@ -1187,7 +1213,7 @@
           "aggressive": {
             "mode": "AGGRESSIVE (Naked Directional Option)",
             "action": "BUY TATA MOTORS 980 PE",
-            "entry": "₹8.5 (Total: ₹12,112/lot)",
+            "entry": "₹8.5 (Total Required: ₹12,112/lot)",
             "t1": "₹12.3 (Profit: ₹5,451/lot)",
             "sl": "₹5.5 (Risk: ₹4,239/lot)",
             "horizon": "30 - 90 Mins",
@@ -1196,20 +1222,420 @@
           "average": {
             "mode": "AVERAGE (Debit Spread)",
             "action": "SPREAD: BUY 980 PE & SELL PE at 970",
-            "entry": "Net Debit: ₹4.1",
+            "entry": "Net Debit: ₹4.1 (Capital: ₹5,842/lot)",
             "t1": "Net Value: ₹6.35",
             "sl": "Net Value: ₹1.84",
             "horizon": "Hold till Expiry",
-            "profile": "Neutralizes theta decay. Capped risk."
+            "profile": "Neutralizes theta decay. Strictly capped risk."
           },
           "defensive": {
             "mode": "DEFENSIVE (Credit Spread)",
             "action": "SELL 980 CE & BUY CE at 990",
-            "entry": "Credit Received Instantly",
-            "t1": "Max Profit: ₹5,700/lot",
-            "sl": "Wing Breach",
+            "entry": "Net Credit Received: ₹4.0 (Total Inflow: ₹5,700/lot)",
+            "t1": "Max Profit: Keep entire ₹5,700/lot at expiry",
+            "sl": "Wing Breach (Max Loss Capped at ₹8,550/lot)",
             "horizon": "Expiry Week",
-            "profile": "High win-rate. Theta works for you."
+            "profile": "High win-rate. Theta time-decay works for you."
+          }
+        }
+      }
+    },
+    "M&M": {
+      "symbol": "M&M",
+      "type": "EQUITY",
+      "step": 10,
+      "lot": 700,
+      "spot": 3107.0,
+      "vwap": 3102.25,
+      "upper_2sigma": 3155.41,
+      "lower_2sigma": 3049.09,
+      "atr": 66.45,
+      "atm_strike": 3110,
+      "atm_ce_price": 21.9,
+      "atm_pe_price": 28.3,
+      "otm_ce_price": 17.4,
+      "otm_pe_price": 23.5,
+      "greeks": {
+        "delta_ce": 0.498,
+        "delta_pe": -0.502,
+        "gamma": 0.00713,
+        "theta": -3.06,
+        "iv": 21.5
+      },
+      "modes": {
+        "intraday": {
+          "aggressive": {
+            "mode": "AGGRESSIVE (High Momentum Breakout)",
+            "action": "SHORT ABOVE ₹3090.39",
+            "t1": "₹3060.49",
+            "sl": "₹3130.26",
+            "horizon": "15 - 30 Mins",
+            "profile": "Follows BEARISH TREND. Targets quick impulse."
+          },
+          "average": {
+            "mode": "AVERAGE (Balanced VWAP Swing)",
+            "action": "SELL NEAR VWAP (₹3102.25)",
+            "t1": "₹3072.35",
+            "sl": "₹3122.18",
+            "horizon": "1 - 3 Hours",
+            "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
+          },
+          "defensive": {
+            "mode": "DEFENSIVE (Capital Preservation)",
+            "action": "LIMIT ENTRY AT EXTREME (₹3152.09)",
+            "t1": "₹3102.25",
+            "sl": "₹3165.38",
+            "horizon": "Full Session",
+            "profile": "Tightest risk, buys only at exhaustion."
+          }
+        },
+        "fno": {
+          "aggressive": {
+            "mode": "AGGRESSIVE (Naked Directional Option)",
+            "action": "BUY M&M 3110 PE",
+            "entry": "₹28.3 (Total Required: ₹19,810/lot)",
+            "t1": "₹41.0 (Profit: ₹8,914/lot)",
+            "sl": "₹18.4 (Risk: ₹6,934/lot)",
+            "horizon": "30 - 90 Mins",
+            "profile": "AI detected BEARISH TREND. Pure delta expansion play."
+          },
+          "average": {
+            "mode": "AVERAGE (Debit Spread)",
+            "action": "SPREAD: BUY 3110 PE & SELL PE at 3100",
+            "entry": "Net Debit: ₹4.8 (Capital: ₹3,360/lot)",
+            "t1": "Net Value: ₹7.44",
+            "sl": "Net Value: ₹2.16",
+            "horizon": "Hold till Expiry",
+            "profile": "Neutralizes theta decay. Strictly capped risk."
+          },
+          "defensive": {
+            "mode": "DEFENSIVE (Credit Spread)",
+            "action": "SELL 3110 CE & BUY CE at 3120",
+            "entry": "Net Credit Received: ₹4.5 (Total Inflow: ₹3,150/lot)",
+            "t1": "Max Profit: Keep entire ₹3,150/lot at expiry",
+            "sl": "Wing Breach (Max Loss Capped at ₹3,850/lot)",
+            "horizon": "Expiry Week",
+            "profile": "High win-rate. Theta time-decay works for you."
+          }
+        }
+      }
+    },
+    "AXIS BANK": {
+      "symbol": "AXIS BANK",
+      "type": "EQUITY",
+      "step": 10,
+      "lot": 625,
+      "spot": 1246.0,
+      "vwap": 1246.07,
+      "upper_2sigma": 1265.22,
+      "lower_2sigma": 1226.92,
+      "atr": 23.94,
+      "atm_strike": 1250,
+      "atm_ce_price": 7.5,
+      "atm_pe_price": 12.8,
+      "otm_ce_price": 3.9,
+      "otm_pe_price": 8.1,
+      "greeks": {
+        "delta_ce": 0.449,
+        "delta_pe": -0.551,
+        "gamma": 0.01763,
+        "theta": -1.21,
+        "iv": 21.5
+      },
+      "modes": {
+        "intraday": {
+          "aggressive": {
+            "mode": "AGGRESSIVE (High Momentum Breakout)",
+            "action": "SHORT ABOVE ₹1240.02",
+            "t1": "₹1229.24",
+            "sl": "₹1254.38",
+            "horizon": "15 - 30 Mins",
+            "profile": "Follows BEARISH TREND. Targets quick impulse."
+          },
+          "average": {
+            "mode": "AVERAGE (Balanced VWAP Swing)",
+            "action": "SELL NEAR VWAP (₹1246.07)",
+            "t1": "₹1235.3",
+            "sl": "₹1253.25",
+            "horizon": "1 - 3 Hours",
+            "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
+          },
+          "defensive": {
+            "mode": "DEFENSIVE (Capital Preservation)",
+            "action": "LIMIT ENTRY AT EXTREME (₹1264.02)",
+            "t1": "₹1246.07",
+            "sl": "₹1268.81",
+            "horizon": "Full Session",
+            "profile": "Tightest risk, buys only at exhaustion."
+          }
+        },
+        "fno": {
+          "aggressive": {
+            "mode": "AGGRESSIVE (Naked Directional Option)",
+            "action": "BUY AXIS BANK 1250 PE",
+            "entry": "₹12.8 (Total Required: ₹8,000/lot)",
+            "t1": "₹18.6 (Profit: ₹3,600/lot)",
+            "sl": "₹8.3 (Risk: ₹2,800/lot)",
+            "horizon": "30 - 90 Mins",
+            "profile": "AI detected BEARISH TREND. Pure delta expansion play."
+          },
+          "average": {
+            "mode": "AVERAGE (Debit Spread)",
+            "action": "SPREAD: BUY 1250 PE & SELL PE at 1240",
+            "entry": "Net Debit: ₹4.7 (Capital: ₹2,938/lot)",
+            "t1": "Net Value: ₹7.29",
+            "sl": "Net Value: ₹2.12",
+            "horizon": "Hold till Expiry",
+            "profile": "Neutralizes theta decay. Strictly capped risk."
+          },
+          "defensive": {
+            "mode": "DEFENSIVE (Credit Spread)",
+            "action": "SELL 1250 CE & BUY CE at 1260",
+            "entry": "Net Credit Received: ₹3.6 (Total Inflow: ₹2,250/lot)",
+            "t1": "Max Profit: Keep entire ₹2,250/lot at expiry",
+            "sl": "Wing Breach (Max Loss Capped at ₹4,000/lot)",
+            "horizon": "Expiry Week",
+            "profile": "High win-rate. Theta time-decay works for you."
+          }
+        }
+      }
+    },
+    "KOTAK BANK": {
+      "symbol": "KOTAK BANK",
+      "type": "EQUITY",
+      "step": 10,
+      "lot": 400,
+      "spot": 419.0,
+      "vwap": 415.88,
+      "upper_2sigma": 421.69,
+      "lower_2sigma": 410.07,
+      "atr": 7.26,
+      "atm_strike": 420,
+      "atm_ce_price": 2.7,
+      "atm_pe_price": 4.1,
+      "otm_ce_price": 0.3,
+      "otm_pe_price": 0.8,
+      "greeks": {
+        "delta_ce": 0.467,
+        "delta_pe": -0.533,
+        "gamma": 0.05268,
+        "theta": -0.41,
+        "iv": 21.5
+      },
+      "modes": {
+        "intraday": {
+          "aggressive": {
+            "mode": "AGGRESSIVE (High Momentum Breakout)",
+            "action": "SHORT ABOVE ₹417.19",
+            "t1": "₹413.92",
+            "sl": "₹421.54",
+            "horizon": "15 - 30 Mins",
+            "profile": "Follows BEARISH TREND. Targets quick impulse."
+          },
+          "average": {
+            "mode": "AVERAGE (Balanced VWAP Swing)",
+            "action": "SELL NEAR VWAP (₹415.88)",
+            "t1": "₹412.61",
+            "sl": "₹418.06",
+            "horizon": "1 - 3 Hours",
+            "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
+          },
+          "defensive": {
+            "mode": "DEFENSIVE (Capital Preservation)",
+            "action": "LIMIT ENTRY AT EXTREME (₹421.32)",
+            "t1": "₹415.88",
+            "sl": "₹422.78",
+            "horizon": "Full Session",
+            "profile": "Tightest risk, buys only at exhaustion."
+          }
+        },
+        "fno": {
+          "aggressive": {
+            "mode": "AGGRESSIVE (Naked Directional Option)",
+            "action": "BUY KOTAK BANK 420 PE",
+            "entry": "₹4.1 (Total Required: ₹1,640/lot)",
+            "t1": "₹5.9 (Profit: ₹738/lot)",
+            "sl": "₹2.7 (Risk: ₹574/lot)",
+            "horizon": "30 - 90 Mins",
+            "profile": "AI detected BEARISH TREND. Pure delta expansion play."
+          },
+          "average": {
+            "mode": "AVERAGE (Debit Spread)",
+            "action": "SPREAD: BUY 420 PE & SELL PE at 410",
+            "entry": "Net Debit: ₹3.3 (Capital: ₹1,320/lot)",
+            "t1": "Net Value: ₹5.12",
+            "sl": "Net Value: ₹1.48",
+            "horizon": "Hold till Expiry",
+            "profile": "Neutralizes theta decay. Strictly capped risk."
+          },
+          "defensive": {
+            "mode": "DEFENSIVE (Credit Spread)",
+            "action": "SELL 420 CE & BUY CE at 430",
+            "entry": "Net Credit Received: ₹2.4 (Total Inflow: ₹960/lot)",
+            "t1": "Max Profit: Keep entire ₹960/lot at expiry",
+            "sl": "Wing Breach (Max Loss Capped at ₹3,040/lot)",
+            "horizon": "Expiry Week",
+            "profile": "High win-rate. Theta time-decay works for you."
+          }
+        }
+      }
+    },
+    "L&T": {
+      "symbol": "L&T",
+      "type": "EQUITY",
+      "step": 20,
+      "lot": 300,
+      "spot": 3930.7,
+      "vwap": 3915.49,
+      "upper_2sigma": 3962.15,
+      "lower_2sigma": 3868.83,
+      "atr": 58.32,
+      "atm_strike": 3940,
+      "atm_ce_price": 25.1,
+      "atm_pe_price": 38.7,
+      "otm_ce_price": 17.0,
+      "otm_pe_price": 28.9,
+      "greeks": {
+        "delta_ce": 0.467,
+        "delta_pe": -0.533,
+        "gamma": 0.00562,
+        "theta": -3.84,
+        "iv": 21.5
+      },
+      "modes": {
+        "intraday": {
+          "aggressive": {
+            "mode": "AGGRESSIVE (High Momentum Breakout)",
+            "action": "SHORT ABOVE ₹3916.12",
+            "t1": "₹3889.88",
+            "sl": "₹3951.11",
+            "horizon": "15 - 30 Mins",
+            "profile": "Follows BEARISH TREND. Targets quick impulse."
+          },
+          "average": {
+            "mode": "AVERAGE (Balanced VWAP Swing)",
+            "action": "SELL NEAR VWAP (₹3915.49)",
+            "t1": "₹3889.25",
+            "sl": "₹3932.99",
+            "horizon": "1 - 3 Hours",
+            "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
+          },
+          "defensive": {
+            "mode": "DEFENSIVE (Capital Preservation)",
+            "action": "LIMIT ENTRY AT EXTREME (₹3959.23)",
+            "t1": "₹3915.49",
+            "sl": "₹3970.89",
+            "horizon": "Full Session",
+            "profile": "Tightest risk, buys only at exhaustion."
+          }
+        },
+        "fno": {
+          "aggressive": {
+            "mode": "AGGRESSIVE (Naked Directional Option)",
+            "action": "BUY L&T 3940 PE",
+            "entry": "₹38.7 (Total Required: ₹11,610/lot)",
+            "t1": "₹56.1 (Profit: ₹5,225/lot)",
+            "sl": "₹25.2 (Risk: ₹4,064/lot)",
+            "horizon": "30 - 90 Mins",
+            "profile": "AI detected BEARISH TREND. Pure delta expansion play."
+          },
+          "average": {
+            "mode": "AVERAGE (Debit Spread)",
+            "action": "SPREAD: BUY 3940 PE & SELL PE at 3920",
+            "entry": "Net Debit: ₹9.8 (Capital: ₹2,940/lot)",
+            "t1": "Net Value: ₹15.19",
+            "sl": "Net Value: ₹4.41",
+            "horizon": "Hold till Expiry",
+            "profile": "Neutralizes theta decay. Strictly capped risk."
+          },
+          "defensive": {
+            "mode": "DEFENSIVE (Credit Spread)",
+            "action": "SELL 3940 CE & BUY CE at 3960",
+            "entry": "Net Credit Received: ₹8.1 (Total Inflow: ₹2,430/lot)",
+            "t1": "Max Profit: Keep entire ₹2,430/lot at expiry",
+            "sl": "Wing Breach (Max Loss Capped at ₹3,570/lot)",
+            "horizon": "Expiry Week",
+            "profile": "High win-rate. Theta time-decay works for you."
+          }
+        }
+      }
+    },
+    "ITC": {
+      "symbol": "ITC",
+      "type": "EQUITY",
+      "step": 5,
+      "lot": 1600,
+      "spot": 259.85,
+      "vwap": 260.59,
+      "upper_2sigma": 264.7,
+      "lower_2sigma": 256.48,
+      "atr": 5.14,
+      "atm_strike": 260,
+      "atm_ce_price": 1.9,
+      "atm_pe_price": 2.3,
+      "otm_ce_price": 0.4,
+      "otm_pe_price": 0.6,
+      "greeks": {
+        "delta_ce": 0.507,
+        "delta_pe": -0.493,
+        "gamma": 0.08522,
+        "theta": -0.26,
+        "iv": 21.5
+      },
+      "modes": {
+        "intraday": {
+          "aggressive": {
+            "mode": "AGGRESSIVE (High Momentum Breakout)",
+            "action": "SHORT ABOVE ₹258.56",
+            "t1": "₹256.25",
+            "sl": "₹261.65",
+            "horizon": "15 - 30 Mins",
+            "profile": "Follows BEARISH TREND. Targets quick impulse."
+          },
+          "average": {
+            "mode": "AVERAGE (Balanced VWAP Swing)",
+            "action": "SELL NEAR VWAP (₹260.59)",
+            "t1": "₹258.28",
+            "sl": "₹262.13",
+            "horizon": "1 - 3 Hours",
+            "profile": "Institutional mean-reversion setup. 1:1.5 R:R."
+          },
+          "defensive": {
+            "mode": "DEFENSIVE (Capital Preservation)",
+            "action": "LIMIT ENTRY AT EXTREME (₹264.44)",
+            "t1": "₹260.59",
+            "sl": "₹265.47",
+            "horizon": "Full Session",
+            "profile": "Tightest risk, buys only at exhaustion."
+          }
+        },
+        "fno": {
+          "aggressive": {
+            "mode": "AGGRESSIVE (Naked Directional Option)",
+            "action": "BUY ITC 260 PE",
+            "entry": "₹2.3 (Total Required: ₹3,680/lot)",
+            "t1": "₹3.3 (Profit: ₹1,656/lot)",
+            "sl": "₹1.5 (Risk: ₹1,288/lot)",
+            "horizon": "30 - 90 Mins",
+            "profile": "AI detected BEARISH TREND. Pure delta expansion play."
+          },
+          "average": {
+            "mode": "AVERAGE (Debit Spread)",
+            "action": "SPREAD: BUY 260 PE & SELL PE at 255",
+            "entry": "Net Debit: ₹1.7 (Capital: ₹2,720/lot)",
+            "t1": "Net Value: ₹2.63",
+            "sl": "Net Value: ₹0.76",
+            "horizon": "Hold till Expiry",
+            "profile": "Neutralizes theta decay. Strictly capped risk."
+          },
+          "defensive": {
+            "mode": "DEFENSIVE (Credit Spread)",
+            "action": "SELL 260 CE & BUY CE at 265",
+            "entry": "Net Credit Received: ₹1.5 (Total Inflow: ₹2,400/lot)",
+            "t1": "Max Profit: Keep entire ₹2,400/lot at expiry",
+            "sl": "Wing Breach (Max Loss Capped at ₹5,600/lot)",
+            "horizon": "Expiry Week",
+            "profile": "High win-rate. Theta time-decay works for you."
           }
         }
       }
