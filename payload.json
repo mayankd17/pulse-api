@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-14 15:38:24 IST",
+    "ist_time": "2026-09-14 15:56:33 IST",
     "date_str": "2026-09-14",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Ganesh Chaturthi). Baseline established from 2026-09-11 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 29.4,
+    "score": 29.2,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 23398.1 (MARKET CLOSED: Ganesh Chaturthi). Volatility Index is 12.29 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 45.1,
       "S7_Order_Absorption": 42.5,
-      "S8_Lead_Lag_Gap": 42.5
+      "S8_Lead_Lag_Gap": 41.0
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": -0.19,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d742.5) + -0.19 = 29.4"
+    "news_vector_delta": -0.28,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d741.0) + -0.28 = 29.2"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 5.99,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 107.42,
-      "brent_1d_pct": 2.69,
+      "brent_crude_usd": 107.69,
+      "brent_1d_pct": 2.94,
       "usdinr": 95.54,
       "us_10y_yield": 4.97,
       "sp500_close": 7656.98,
       "sp500_1d_pct": 0.86,
-      "dxy_close": 99.54,
-      "dxy_1d_pct": 0.42,
+      "dxy_close": 99.57,
+      "dxy_1d_pct": 0.45,
       "last_active_session_date": "2026-09-11"
     },
     "derivatives": {
@@ -305,13 +305,39 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bearish Gap-Down",
-      "expected_gap_points": -37,
-      "net_macro_lead_pct": -0.298,
+      "expected_gap_points": -45,
+      "net_macro_lead_pct": -0.358,
       "sp500_change_pct": 0.86,
-      "dxy_change_pct": 0.42,
-      "crude_change_pct": 2.69
+      "dxy_change_pct": 0.45,
+      "crude_change_pct": 2.94
     },
     "news_items": [
+      {
+        "title": "Gold Falls as Traders Eye Impact of Higher Oil on Fed Rate Path",
+        "link": "https://www.livemint.com/market/gold-falls-as-traders-eye-impact-of-higher-oil-on-fed-rate-path-11789381368276.html",
+        "source": "Livemint",
+        "published": "Mon, 14 Sep 2026 15:52:47 +0530",
+        "published_timestamp": "2026-09-14T15:52:47+05:30",
+        "summary": "Gold fell as continued disruptions to oil supplies from the Middle East reinforced bets on a series of Federal Reserve rate hikes this year.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Will Wall Street crash today? Nasdaq futures tumble nearly 2% as AI stocks plunge",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/will-wall-street-crash-today-nasdaq-futures-tumble-nearly-2-as-ai-stocks-plunge/articleshow/134238659.cms",
+        "source": "Economic Times",
+        "published": "Mon, 14 Sep 2026 15:42:46 +0530",
+        "published_timestamp": "2026-09-14T15:42:46+05:30",
+        "summary": "Nasdaq futures fell as OpenAI and Anthropic leaders urged slower AI development for safety. Investor Michael Burry criticized these warnings, labeling them self-serving hype intended to maintain incum",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
       {
         "title": "EaseMyTrip co-founder Nishant Pitti pledges 34.51 crore shares to Motilal Oswal; Check travel stock's performance",
         "link": "https://www.livemint.com/market/stock-market-news/easemytrip-co-founder-nishant-pitti-pledges-34-51-crore-shares-to-motilal-oswal-check-travel-stocks-performance-11789377257232.html",
@@ -805,32 +831,6 @@
         "raw_sentiment": -1.0,
         "beta_decay": 1.0,
         "effective_impact": -0.95
-      },
-      {
-        "title": "US Market: Goldman Sachs expects Fed to hike rates amid inflation fears",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-market-goldman-sachs-expects-fed-to-hike-rates-amid-inflation-fears/articleshow/134232349.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 09:55:12 +0530",
-        "published_timestamp": "2026-09-14T09:55:12+05:30",
-        "summary": "Goldman Sachs now expects the US Federal Reserve to raise interest rates by 25 basis points in September, reversing its earlier pause forecast. Rising oil prices, stronger producer inflation and shift",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "From US Fed rate decision to crude oil - 3 factors that may dictate Sensex, Nifty 50 this week",
-        "link": "https://www.livemint.com/market/stock-market-news/from-us-fed-rate-decision-to-crude-oil-3-factors-that-may-dictate-sensex-nifty-50-this-week-11789356774067.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 09:42:16 +0530",
-        "published_timestamp": "2026-09-14T09:42:16+05:30",
-        "summary": "Indian stock markets will reopen on 15 September after a holiday, with investors monitoring US interest rates, inflation data, and crude oil prices. The markets ended lower last week due to rising bon",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
       }
     ]
   }
