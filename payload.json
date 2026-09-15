@@ -1,41 +1,41 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-15 08:38:30 IST",
+    "ist_time": "2026-09-15 09:38:44 IST",
     "date_str": "2026-09-15",
-    "is_open": false,
+    "is_open": true,
     "is_weekend": false,
     "is_holiday": false,
     "holiday_name": "",
-    "last_session_date": "2026-09-11",
-    "status_label": "MARKET CLOSED: OFF-HOURS",
-    "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-09-11 session. Off-market news & global cues monitored with zero weekend decay."
+    "last_session_date": "2026-09-15",
+    "status_label": "LIVE TRADING SESSION",
+    "notice": "Trading is active."
   },
   "speedometer": {
-    "score": 28.2,
+    "score": 28.1,
     "regime": "Fear",
     "en": {
-      "summary": "Nifty at 23398.1 (MARKET CLOSED: OFF-HOURS). Volatility Index is 12.29 with Put-Call Ratio of 0.771.",
+      "summary": "Nifty at 23440.9 (LIVE TRADING SESSION). Volatility Index is 12.4 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
       "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.22x."
     },
     "hi": {
-      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23398.1 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 12.29 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
+      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23440.9 \u092a\u0930 \u0939\u0948 (LIVE TRADING SESSION)\u0964 VIX 12.4 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
       "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.22x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
     "falling_market_strategy": {
-      "en": "Deploy Bear Put Spreads targeting Max Pain 23350.",
-      "hi": "\u0938\u094d\u091f\u094d\u0930\u093e\u0907\u0915 23350 \u0915\u094b \u0932\u0915\u094d\u0937\u094d\u092f \u0915\u0930\u0924\u0947 \u0939\u0941\u090f \u092c\u0947\u092f\u0930 \u092a\u0941\u091f \u0938\u094d\u092a\u094d\u0930\u0947\u0921 \u0932\u0917\u093e\u090f\u0902\u0964"
+      "en": "Deploy Bear Put Spreads targeting Max Pain 23400.",
+      "hi": "\u0938\u094d\u091f\u094d\u0930\u093e\u0907\u0915 23400 \u0915\u094b \u0932\u0915\u094d\u0937\u094d\u092f \u0915\u0930\u0924\u0947 \u0939\u0941\u090f \u092c\u0947\u092f\u0930 \u092a\u0941\u091f \u0938\u094d\u092a\u094d\u0930\u0947\u0921 \u0932\u0917\u093e\u090f\u0902\u0964"
     },
     "rising_market_strategy": {
       "en": "Ride confirmed momentum with trailing stop under previous 15-min candle.",
       "hi": "15-\u092e\u093f\u0928\u091f \u0915\u0947 \u0915\u0948\u0902\u0921\u0932 \u0932\u094b \u092a\u0930 \u0938\u094d\u091f\u0949\u092a\u0932\u0949\u0938 \u0915\u0947 \u0938\u093e\u0925 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0915\u0930\u0947\u0902\u0964"
     },
     "sideways_market_strategy": {
-      "en": "Sell Iron Condors centered around Max Pain 23350.",
-      "hi": "\u0938\u094d\u091f\u094d\u0930\u093e\u0907\u0915 23350 \u0915\u0947 \u0907\u0930\u094d\u0926-\u0917\u093f\u0930\u094d\u0926 \u0906\u092f\u0930\u0928 \u0915\u094b\u0902\u0921\u094b\u0930 \u092c\u0928\u093e\u090f\u0902\u0964"
+      "en": "Sell Iron Condors centered around Max Pain 23400.",
+      "hi": "\u0938\u094d\u091f\u094d\u0930\u093e\u0907\u0915 23400 \u0915\u0947 \u0907\u0930\u094d\u0926-\u0917\u093f\u0930\u094d\u0926 \u0906\u092f\u0930\u0928 \u0915\u094b\u0902\u0921\u094b\u0930 \u092c\u0928\u093e\u090f\u0902\u0964"
     },
     "allocation_percentages": {
       "cash_liquid_pct": 55,
@@ -59,44 +59,44 @@
   },
   "institutional_microstructure_suite": {
     "large_deals_summary": "Net Flow: -245.5 Cr (Institutional Net Selling)",
-    "max_pain_gravity": "Options pin concentrated at strike 23350 (Gravity Delta: 48 pts)",
-    "order_absorption_status": "Wick-to-Body Skew: 0.7 | Amihud Ratio: 0.0001"
+    "max_pain_gravity": "Options pin concentrated at strike 23400 (Gravity Delta: 41 pts)",
+    "order_absorption_status": "Wick-to-Body Skew: 0.13 | Amihud Ratio: 0.0001"
   },
   "detailed_multi_horizon": {
     "7_days": {
       "score": 26,
       "verdict": "Consolidation Corridor",
-      "target_range": "22949.1 - 23847.1",
+      "target_range": "22996.2 - 23885.6",
       "downside_prob_pct": 58,
       "upside_prob_pct": 42,
       "en": {
-        "rationale": "ATR (179.61 pts) and Parkinson (5.99%) volatility bounds.",
+        "rationale": "ATR (177.88 pts) and Parkinson (6.03%) volatility bounds.",
         "action": "Avoid chasing breakout spikes; sell premium out-of-the-money."
       },
       "hi": {
-        "rationale": "ATR (179.61) \u0906\u0927\u093e\u0930\u093f\u0924 \u0926\u093e\u092f\u0930\u093e\u0964",
+        "rationale": "ATR (177.88) \u0906\u0927\u093e\u0930\u093f\u0924 \u0926\u093e\u092f\u0930\u093e\u0964",
         "action": "\u090a\u092a\u0930\u0940 \u0938\u094d\u0924\u0930\u094b\u0902 \u092a\u0930 \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902\u0964"
       }
     },
     "30_days": {
       "score": 31,
       "verdict": "SMA-50 Mean Reversion",
-      "target_range": "22579.2 - 24251.3",
+      "target_range": "22620.5 - 24263.0",
       "downside_prob_pct": 45,
       "upside_prob_pct": 55,
       "en": {
-        "rationale": "Mean-reversion pull towards 50-day moving average (24153.42).",
+        "rationale": "Mean-reversion pull towards 50-day moving average (24133.63).",
         "action": "Rebalance high-beta equities if extension exceeds 3% from SMA-50."
       },
       "hi": {
-        "rationale": "50-\u0926\u093f\u0928 \u0915\u0947 \u0914\u0938\u0924 (24153.42) \u0915\u0940 \u0924\u0930\u092b \u0932\u094c\u091f\u0928\u0947 \u0915\u093e \u0905\u0928\u0941\u092e\u093e\u0928\u0964",
+        "rationale": "50-\u0926\u093f\u0928 \u0915\u0947 \u0914\u0938\u0924 (24133.63) \u0915\u0940 \u0924\u0930\u092b \u0932\u094c\u091f\u0928\u0947 \u0915\u093e \u0905\u0928\u0941\u092e\u093e\u0928\u0964",
         "action": "\u0914\u0938\u0924 \u0938\u0947 \u092c\u0939\u0941\u0924 \u0926\u0942\u0930 \u091c\u093e\u0928\u0947 \u092a\u0930 \u092e\u0941\u0928\u093e\u092b\u093e \u092c\u093e\u0902\u0927\u0947\u0902\u0964"
       }
     },
     "3_months": {
       "score": 54,
       "verdict": "Corporate EPS Horizon",
-      "target_range": "21994.2 - 25153.0",
+      "target_range": "22034.4 - 25199.0",
       "downside_prob_pct": 42,
       "upside_prob_pct": 58,
       "en": {
@@ -111,7 +111,7 @@
     "6_months": {
       "score": 58,
       "verdict": "Monetary Policy Corridor",
-      "target_range": "21292.3 - 26556.8",
+      "target_range": "21331.2 - 26605.4",
       "downside_prob_pct": 38,
       "upside_prob_pct": 62,
       "en": {
@@ -126,7 +126,7 @@
     "1_year": {
       "score": 65,
       "verdict": "Structural GDP 6.5% + EPS Expansion",
-      "target_range": "20590.3 - 28545.7",
+      "target_range": "20628.0 - 28597.9",
       "downside_prob_pct": 30,
       "upside_prob_pct": 70,
       "en": {
@@ -142,64 +142,64 @@
   "sector_analysis": [
     {
       "sector": "BANK",
-      "score": 48,
+      "score": 47,
       "trend": "Bearish",
-      "target": "20D SMA: 57284.23",
-      "why": "5D RS vs Nifty: -0.50%",
+      "target": "20D SMA: 57230.48",
+      "why": "5D RS vs Nifty: -0.80%",
       "en_action": "Underperforming; hold defensive hedges",
       "hi_action": "\u0915\u092e\u091c\u094b\u0930\u0940 \u0939\u0948; \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902"
     },
     {
       "sector": "IT",
-      "score": 38,
+      "score": 54,
       "trend": "Bearish",
-      "target": "20D SMA: 30389.01",
-      "why": "5D RS vs Nifty: -3.24%",
+      "target": "20D SMA: 30365.76",
+      "why": "5D RS vs Nifty: +1.36%",
       "en_action": "Underperforming; hold defensive hedges",
       "hi_action": "\u0915\u092e\u091c\u094b\u0930\u0940 \u0939\u0948; \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902"
     },
     {
       "sector": "AUTO",
-      "score": 52,
+      "score": 59,
       "trend": "Bullish",
-      "target": "20D SMA: 26796.58",
-      "why": "5D RS vs Nifty: +0.78%",
+      "target": "20D SMA: 26834.87",
+      "why": "5D RS vs Nifty: +2.84%",
       "en_action": "Accretive momentum; buy shallow pullbacks",
       "hi_action": "\u092e\u091c\u092c\u0942\u0924 \u0930\u0941\u091d\u093e\u0928; \u0917\u093f\u0930\u093e\u0935\u091f \u092a\u0930 \u0916\u0930\u0940\u0926\u0947\u0902"
     },
     {
       "sector": "METAL",
-      "score": 46,
-      "trend": "Bearish",
-      "target": "20D SMA: 12606.09",
-      "why": "5D RS vs Nifty: -0.97%",
-      "en_action": "Underperforming; hold defensive hedges",
-      "hi_action": "\u0915\u092e\u091c\u094b\u0930\u0940 \u0939\u0948; \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902"
+      "score": 55,
+      "trend": "Bullish",
+      "target": "20D SMA: 12599.43",
+      "why": "5D RS vs Nifty: +1.48%",
+      "en_action": "Accretive momentum; buy shallow pullbacks",
+      "hi_action": "\u092e\u091c\u092c\u0942\u0924 \u0930\u0941\u091d\u093e\u0928; \u0917\u093f\u0930\u093e\u0935\u091f \u092a\u0930 \u0916\u0930\u0940\u0926\u0947\u0902"
     },
     {
       "sector": "PHARMA",
-      "score": 49,
+      "score": 43,
       "trend": "Bearish",
-      "target": "20D SMA: 26619.81",
-      "why": "5D RS vs Nifty: -0.20%",
+      "target": "20D SMA: 26622.59",
+      "why": "5D RS vs Nifty: -1.98%",
       "en_action": "Underperforming; hold defensive hedges",
       "hi_action": "\u0915\u092e\u091c\u094b\u0930\u0940 \u0939\u0948; \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902"
     },
     {
       "sector": "FMCG",
-      "score": 50,
+      "score": 26,
       "trend": "Bearish",
-      "target": "20D SMA: 49261.27",
-      "why": "5D RS vs Nifty: +0.21%",
+      "target": "20D SMA: 49052.78",
+      "why": "5D RS vs Nifty: -6.64%",
       "en_action": "Underperforming; hold defensive hedges",
       "hi_action": "\u0915\u092e\u091c\u094b\u0930\u0940 \u0939\u0948; \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902"
     },
     {
       "sector": "ENERGY",
-      "score": 51,
+      "score": 36,
       "trend": "Bearish",
-      "target": "20D SMA: 39555.91",
-      "why": "5D RS vs Nifty: +0.48%",
+      "target": "20D SMA: 39414.82",
+      "why": "5D RS vs Nifty: -3.95%",
       "en_action": "Underperforming; hold defensive hedges",
       "hi_action": "\u0915\u092e\u091c\u094b\u0930\u0940 \u0939\u0948; \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902"
     }
@@ -207,20 +207,20 @@
   "portfolio_gps": {
     "dynamic_sip_multiplier": 1.22,
     "lot_size": 25,
-    "nifty_lot_value": 584952,
+    "nifty_lot_value": 586022,
     "cascade_risk_pct": 95
   },
   "master_16_factor_audit": {
     "regime_mode": "Low-Vol Trending Regime",
     "sub_scores": {
       "S1_Derivatives": 13.2,
-      "S2_Volatility": 31.9,
-      "S3_Options_Gamma": 36.1,
+      "S2_Volatility": 29.2,
+      "S3_Options_Gamma": 36.5,
       "S4_Large_Deals": 25.4,
       "S5_Macro_Stress": 0.0,
-      "S6_Sector_Breadth": 45.1,
-      "S7_Order_Absorption": 42.5,
-      "S8_Lead_Lag_Gap": 28.4
+      "S6_Sector_Breadth": 39.0,
+      "S7_Order_Absorption": 71.8,
+      "S8_Lead_Lag_Gap": 36.5
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,30 +232,30 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": -0.0,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d731.9) + (0.1\u00d736.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d745.1) + (0.05\u00d742.5) + (0.1\u00d728.4) + -0.00 = 28.2"
+    "news_vector_delta": -0.6,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d729.2) + (0.1\u00d736.5) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d739.0) + (0.05\u00d771.8) + (0.1\u00d736.5) + -0.60 = 28.1"
   },
   "raw_scraped_data_feed": {
     "macro": {
-      "nifty_close": 23398.1,
-      "nifty_1d_pct": -0.34,
-      "nifty_50_sma": 24153.42,
-      "nifty_200_sma": 24550.08,
-      "atr_14": 179.61,
-      "india_vix": 12.29,
-      "vix_30d_mean": 11.49,
-      "vix_z_score_30d": 1.62,
-      "parkinson_volatility": 5.99,
+      "nifty_close": 23440.9,
+      "nifty_1d_pct": 0.18,
+      "nifty_50_sma": 24133.63,
+      "nifty_200_sma": 24536.95,
+      "atr_14": 177.88,
+      "india_vix": 12.4,
+      "vix_30d_mean": 11.5,
+      "vix_z_score_30d": 1.74,
+      "parkinson_volatility": 6.03,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 107.15,
-      "brent_1d_pct": 2.43,
-      "usdinr": 95.54,
+      "brent_crude_usd": 105.68,
+      "brent_1d_pct": 1.02,
+      "usdinr": 95.81,
       "us_10y_yield": 4.96,
       "sp500_close": 7619.98,
       "sp500_1d_pct": -0.48,
-      "dxy_close": 99.58,
-      "dxy_1d_pct": 0.46,
-      "last_active_session_date": "2026-09-11"
+      "dxy_close": 99.46,
+      "dxy_1d_pct": 0.34,
+      "last_active_session_date": "2026-09-15"
     },
     "derivatives": {
       "is_live_nse": false,
@@ -271,8 +271,8 @@
       "total_ce_oi": 48640000,
       "pcr_oi": 0.771,
       "pcr_vol": 0.771,
-      "max_pain_strike": 23350,
-      "strike_gravity_delta": 48
+      "max_pain_strike": 23400,
+      "strike_gravity_delta": 41
     },
     "options_microstructure": {
       "is_live_nse": false,
@@ -288,8 +288,8 @@
       "total_ce_oi": 48640000,
       "pcr_oi": 0.771,
       "pcr_vol": 0.771,
-      "max_pain_strike": 23350,
-      "strike_gravity_delta": 48
+      "max_pain_strike": 23400,
+      "strike_gravity_delta": 41
     },
     "large_deals": {
       "net_institutional_flow_cr": -245.5,
@@ -299,19 +299,214 @@
       "recent_deals": []
     },
     "order_absorption": {
-      "wick_to_body_ratio": 0.7,
-      "candle_sign": 1.0,
+      "wick_to_body_ratio": 0.13,
+      "candle_sign": -1.0,
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
       "gap_bias": "Bearish Gap-Down",
-      "expected_gap_points": -108,
-      "net_macro_lead_pct": -0.863,
+      "expected_gap_points": -67,
+      "net_macro_lead_pct": -0.539,
       "sp500_change_pct": -0.48,
-      "dxy_change_pct": 0.46,
-      "crude_change_pct": 2.43
+      "dxy_change_pct": 0.34,
+      "crude_change_pct": 1.02
     },
     "news_items": [
+      {
+        "title": "BSE, Groww, other broking stocks in focus as SEBI proposes changes to CAS. What does it mean for investors?",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/bse-groww-other-broking-stocks-in-focus-as-sebi-proposes-changes-to-cas-what-does-it-mean-for-investors/articleshow/134251262.cms",
+        "source": "Economic Times",
+        "published": "Tue, 15 Sep 2026 09:23:45 +0530",
+        "published_timestamp": "2026-09-15T09:23:45+05:30",
+        "summary": "BSE, Groww, Angel One and Motilal Oswal are in focus after Sebi proposed changes to the Closing Auction Session and expiry-day settlement methodology. Jefferies remains bearish on BSE but sees Groww a",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "LIC Housing Finance among 5 F&amp;O stocks with sharp rise in futures open interest",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/lic-housing-finance-among-5-fampo-stocks-with-sharp-rise-in-futures-open-interest/slideshow/134251336.cms",
+        "source": "Economic Times",
+        "published": "Tue, 15 Sep 2026 09:20:05 +0530",
+        "published_timestamp": "2026-09-15T09:20:05+05:30",
+        "summary": "Five NSE F&O stocks recorded a rise of more than 5% in futures open interest on September 11. LIC Housing Finance led the list with a 20.39% increase, followed by PI Industries, Bank of Maharashtra, K",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.99,
+        "effective_impact": 0.944
+      },
+      {
+        "title": "Veegaland Developers IPO Day 3: GMP at 15%, subscription status 1.17x. Should you subscribe?",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/veegaland-developers-ipo-day-3-gmp-at-15-subscription-status-1-17x-should-you-subscribe/articleshow/134251231.cms",
+        "source": "Economic Times",
+        "published": "Tue, 15 Sep 2026 09:17:29 +0530",
+        "published_timestamp": "2026-09-15T09:17:29+05:30",
+        "summary": "Veegaland Developers\u2019 \u20b9210-crore IPO entered its final bidding day after being subscribed 1.17 times by Day 2, led by retail demand. A \u20b920 grey market premium suggests a potential 15% listing gain, wh",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.99,
+        "effective_impact": 0.943
+      },
+      {
+        "title": "HDFC Bank shares rise 3% as lender shortlists CEO candidates. Why Bernstein, Nomura, others see up to 62% upside",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-shares-in-focus-as-lender-shortlists-ceo-candidates-why-bernstein-nomura-others-see-up-to-62-upside/articleshow/134251201.cms",
+        "source": "Economic Times",
+        "published": "Tue, 15 Sep 2026 09:14:17 +0530",
+        "published_timestamp": "2026-09-15T09:14:17+05:30",
+        "summary": "HDFC Bank submitted two CEO candidates to the RBI, initiating the succession process. Brokerages maintain bullish calls for the stock, citing potential continuity and a cleaner slate. An internal cand",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.99,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "3 SME IPOs open today: Vama Wovenfab, Shakti Polytarp and Quanto Agroworld. Check GMP and key details",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/3-sme-ipos-open-today-vama-wovenfab-shakti-polytarp-and-quanto-agroworld-check-gmp-and-key-details/articleshow/134251176.cms",
+        "source": "Economic Times",
+        "published": "Tue, 15 Sep 2026 09:10:38 +0530",
+        "published_timestamp": "2026-09-15T09:10:38+05:30",
+        "summary": "Three SME IPOs: Vama Wovenfab, Shakti Polytarp and Quanto Agroworld\u2014open for subscription today, September 15, and will close on September 17. Vama Wovenfab commands a \u20b910 GMP, implying a ~3% premium,",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.99,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Gold, silver trade in a range on MCX amid a rise in US dollar, bond yields ahead of US Fed policy outcome",
+        "link": "https://www.livemint.com/market/commodities/gold-silver-trade-in-a-range-on-mcx-amid-a-rise-in-us-dollar-bond-yields-ahead-of-us-fed-policy-outcome-11789442832425.html",
+        "source": "Livemint",
+        "published": "Tue, 15 Sep 2026 09:08:07 +0530",
+        "published_timestamp": "2026-09-15T09:08:07+05:30",
+        "summary": "Gold and silver trade in a range on MCX amid a rise in the US dollar and bond yields ahead of the US Fed policy decision. MCX gold October futures were 0.15% up at  \u20b91,51,450 per 10 grams, while MCX s",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.99,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Market prediction: What Gift Nifty says for opening; Vaishali Parekh gives 3 stocks - HDFC Bank, Cochin Shipyard, Waaree",
+        "link": "https://www.livemint.com/market/stock-market-news/market-prediction-what-gift-nifty-says-for-opening-vaishali-parekh-gives-3-stocks-hdfc-bank-cochin-shipyard-waaree-11789441055807.html",
+        "source": "Livemint",
+        "published": "Tue, 15 Sep 2026 09:03:19 +0530",
+        "published_timestamp": "2026-09-15T09:03:19+05:30",
+        "summary": "Stock market prediction: Vaishali Parekh has predicted a gap-up opening, as the Gift Nifty live chart is trading above the previous spot Nifty 50 close and its previous close",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.99,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "PhysicsWallah among 5 Nifty500 stocks flashing bullish signals",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/physicswallah-among-5-nifty500-stocks-flashing-bullish-signals/slideshow/134251140.cms",
+        "source": "Economic Times",
+        "published": "Tue, 15 Sep 2026 08:56:01 +0530",
+        "published_timestamp": "2026-09-15T08:56:01+05:30",
+        "summary": "Five Nifty500 stocks appeared on the White Marubozu bullish scanner on September 11, according to StockEdge technical scan data. The pattern indicates strong buying pressure, with prices moving from t",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.99,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Dividend record date alert: Last chance to buy today for cash reward; Hindustan Copper, Bajaj Steel, VST Tillers, others",
+        "link": "https://www.livemint.com/market/stock-market-news/dividend-record-date-alert-last-chance-to-buy-today-for-dividend-hindustan-copper-bajaj-steel-vst-tillers-among-oth-11789440884559.html",
+        "source": "Livemint",
+        "published": "Tue, 15 Sep 2026 08:51:45 +0530",
+        "published_timestamp": "2026-09-15T08:51:45+05:30",
+        "summary": "Over 37 companies, including Hindustan Copper and Bajaj Steel are likely to remain in focus on Tuesday, which is the last day to qualify for dividend payouts set for September 16.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.98,
+        "effective_impact": 0.886
+      },
+      {
+        "title": "LCC Projects IPO allotment to be out today. Issue subscribed 48.51x. GMP at  \u20b963 | Step-by-step guide",
+        "link": "https://www.livemint.com/market/ipo/lcc-projects-ipo-allotment-to-be-out-today-issue-subscribed-48-51x-gmp-at-rs-63-step-by-step-guide-11789439274923.html",
+        "source": "Livemint",
+        "published": "Tue, 15 Sep 2026 08:51:04 +0530",
+        "published_timestamp": "2026-09-15T08:51:04+05:30",
+        "summary": "LCC Projects IPO share allotment will be finalized on 15 September. Investors can check their allotment status via Kfin Technologies. The IPO was 48.51 times subscribed, and shares will be credited to",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.98,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Rentomojo IPO: Allotment today; check status online | 72.88x subscription - GMP signals 39% listing gains",
+        "link": "https://www.livemint.com/market/ipo/rentomojo-ipo-allotment-today-check-status-online-72-88x-subscription-gmp-signals-39-listing-gains-11789439343667.html",
+        "source": "Livemint",
+        "published": "Tue, 15 Sep 2026 08:50:23 +0530",
+        "published_timestamp": "2026-09-15T08:50:23+05:30",
+        "summary": "Applicants can check the Rentomojo IPO allotment status on the official websites of BSE, NSE and KFin Technologies, the registrar to the issue.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.98,
+        "effective_impact": 0.886
+      },
+      {
+        "title": "Yes Bank among 4 stocks showing RSI trending up",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/yes-bank-among-4-stocks-showing-rsi-trending-up/slideshow/134251031.cms",
+        "source": "Economic Times",
+        "published": "Tue, 15 Sep 2026 08:47:30 +0530",
+        "published_timestamp": "2026-09-15T08:47:30+05:30",
+        "summary": "Four Nifty500 stocks that gained over 4% on September 11 were highlighted in the RSI Trending Up scan, based on data from StockEdge. Yes Bank, Indus Towers, Sun TV Network and Authum Investment & Infr",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.98,
+        "effective_impact": 0.934
+      },
+      {
+        "title": "Rs 80,000 crore digital ad pie: Karan Taurani spots a hidden profit lever in new-age stocks",
+        "link": "https://economictimes.indiatimes.com/markets/expert-view/rs-80000-crore-digital-ad-pie-karan-taurani-spots-a-hidden-profit-lever-in-new-age-stocks/articleshow/134250790.cms",
+        "source": "Economic Times",
+        "published": "Tue, 15 Sep 2026 08:40:08 +0530",
+        "published_timestamp": "2026-09-15T08:40:08+05:30",
+        "summary": "India\u2019s new-age internet companies may be sitting on a profit engine that investors are still not fully pricing in: advertising. ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.98,
+        "effective_impact": 0.932
+      },
+      {
+        "title": "Manika Plastech IPO Day 2: GMP signals 26% listing gains. Check subscription and key details",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/manika-plastech-ipo-day-2-gmp-signals-26-listing-gains-check-subscription-and-key-details/articleshow/134250822.cms",
+        "source": "Economic Times",
+        "published": "Tue, 15 Sep 2026 08:36:11 +0530",
+        "published_timestamp": "2026-09-15T08:36:11+05:30",
+        "summary": "The Manika Plastech IPO entered its second day of bidding with the issue subscribed 1.46 times on Day 1. The IPO is commanding a 26% grey-market premium, while retail investors showed stronger demand.",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.98,
+        "effective_impact": 0.93
+      },
+      {
+        "title": "Tech Mahindra Share Price Live Updates: Tech Mahindra Shares Rise Significantly",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tech-mahindra-share-price-live-15-sep-2026/liveblog/134250776.cms",
+        "source": "Economic Times",
+        "published": "Tue, 15 Sep 2026 08:31:03 +0530",
+        "published_timestamp": "2026-09-15T08:31:03+05:30",
+        "summary": " ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.98,
+        "effective_impact": 0.0
+      },
       {
         "title": "Landmark NSE IPO threatens to hollow out India shadow market",
         "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/landmark-nse-ipo-threatens-to-hollow-out-india-shadow-market/articleshow/134250443.cms",
@@ -322,7 +517,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
+        "beta_decay": 0.97,
         "effective_impact": 0.0
       },
       {
@@ -335,8 +530,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
+        "beta_decay": 0.97,
+        "effective_impact": 0.921
       },
       {
         "title": "Apana Logistics shares to list today: Check GMP and other key details",
@@ -348,7 +543,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
+        "beta_decay": 0.97,
         "effective_impact": 0.0
       },
       {
@@ -361,7 +556,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
+        "beta_decay": 0.97,
         "effective_impact": 0.0
       },
       {
@@ -374,8 +569,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
+        "beta_decay": 0.96,
+        "effective_impact": 0.867
       },
       {
         "title": "Positive Breakout: These 6 stocks cross above their 200 DMAs",
@@ -387,8 +582,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
+        "beta_decay": 0.96,
+        "effective_impact": 0.914
       },
       {
         "title": "Oil Price Today (September 15): Crude oil rises to $107 as Saudi energy infra attacks raise supply fears. What are experts saying?",
@@ -400,8 +595,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
+        "beta_decay": 0.96,
+        "effective_impact": -0.914
       },
       {
         "title": "Central banks turn hawkish again as oil shock stokes inflation",
@@ -413,8 +608,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
+        "beta_decay": 0.96,
+        "effective_impact": 0.913
       },
       {
         "title": "Dollar near two-week high as oil surge lifts yields, Fed hike bets",
@@ -426,8 +621,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
+        "beta_decay": 0.96,
+        "effective_impact": 0.913
       },
       {
         "title": "Volatility Surges in First After-Hours Session on Korea Exchange",
@@ -439,8 +634,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
+        "beta_decay": 0.96,
+        "effective_impact": 0.864
       },
       {
         "title": "Gold slips as oil gains strengthen case for elevated interest rates",
@@ -452,8 +647,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
+        "beta_decay": 0.96,
+        "effective_impact": -0.912
       },
       {
         "title": "Oil prices rise as Saudi pipeline outage, fresh attacks raise supply concerns",
@@ -465,7 +660,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
+        "beta_decay": 0.96,
         "effective_impact": 0.0
       },
       {
@@ -478,7 +673,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
+        "beta_decay": 0.96,
         "effective_impact": 0.0
       },
       {
@@ -491,7 +686,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
+        "beta_decay": 0.96,
         "effective_impact": 0.0
       },
       {
@@ -504,7 +699,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
+        "beta_decay": 0.96,
         "effective_impact": 0.0
       },
       {
@@ -517,7 +712,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
+        "beta_decay": 0.95,
         "effective_impact": 0.0
       },
       {
@@ -530,7 +725,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
+        "beta_decay": 0.94,
         "effective_impact": 0.0
       },
       {
@@ -543,8 +738,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
+        "beta_decay": 0.94,
+        "effective_impact": 0.848
       },
       {
         "title": "Nifty stretched on the downside: Key reasons why a bounce back may be due",
@@ -556,8 +751,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
+        "beta_decay": 0.94,
+        "effective_impact": -0.842
       },
       {
         "title": "NSE IPO's steep valuation discount to BSE based on FY26 earnings is misleading",
@@ -569,7 +764,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
+        "beta_decay": 0.93,
         "effective_impact": 0.0
       },
       {
@@ -582,8 +777,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
+        "beta_decay": 0.74,
+        "effective_impact": -0.7
       },
       {
         "title": "Stock Market prediction tomorrow: Sensex, Nifty outlook for Tue | Kospi, Taiwan Index, Nikkei cues to watch | 15 Sept",
@@ -595,7 +790,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
+        "beta_decay": 0.74,
         "effective_impact": 0.0
       },
       {
@@ -608,8 +803,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
+        "beta_decay": 0.73,
+        "effective_impact": 0.656
       },
       {
         "title": "Dow Jones| Nasdaq | S&amp;P 500 | US Stock Market Today |Live Updates: Nasdaq futures slide as AI warnings rattle markets; Nvidia, other chip stocks retreat",
@@ -621,8 +816,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
+        "beta_decay": 0.73,
+        "effective_impact": -0.691
       },
       {
         "title": "Nifty 50 crashes over 10% YTD | Will it continue to bleed or green will be seen? Decoded",
@@ -634,203 +829,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
-      },
-      {
-        "title": "US market prediction today: S&amp;P 500, Nasdaq futures fall up to 1.8% as AI fears hit Nvidia, Intel",
-        "link": "https://www.livemint.com/market/us-market-prediction-today-s-p-500-nasdaq-futures-fall-up-to-1-8-as-ai-fears-hit-nvidia-intel-11789383055242.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 17:26:47 +0530",
-        "published_timestamp": "2026-09-14T17:26:47+05:30",
-        "summary": "US stock futures fell on Monday as AI slowdown warnings from Anthropic's Dario Amodei hit chip stocks, Brent crude jumped 4% to $108.65 on Middle East tensions, and traders priced in a 90% chance of a",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
-      },
-      {
-        "title": "Gold and silver prices crash up to 2% on MCX- What is driving precious metals down?",
-        "link": "https://www.livemint.com/market/commodities/gold-and-silver-prices-crash-up-to-2-on-mcx-what-is-driving-precious-metals-down-11789385809322.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 17:17:01 +0530",
-        "published_timestamp": "2026-09-14T17:17:01+05:30",
-        "summary": "Gold and silver prices crashed up to 2% in the evening session on Monday, 14 September. MCX gold October futures were down 1.19% at  \u20b91,50,973 per 10 grams, while MCX silver December contracts were 1.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
-      },
-      {
-        "title": "Finolex Cables share price target 2026: Buy - 'Unlocking growth' | Check rationale behind rating",
-        "link": "https://www.livemint.com/market/finolex-cables-share-price-target-2026-buy-unlocking-growth-check-rationale-behind-rating-11789382900920.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 17:08:21 +0530",
-        "published_timestamp": "2026-09-14T17:08:21+05:30",
-        "summary": "Finolex Cables shares rose nearly 16% last week. InCred Equities maintains an 'Add' rating with a target price of  \u20b91,435.&nbsp;",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "GIFT City Unlocked: What investors need to know about accessing global markets",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/gift-city-unlocked-what-investors-need-to-know-about-accessing-global-markets/articleshow/134239959.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 16:53:45 +0530",
-        "published_timestamp": "2026-09-14T16:53:45+05:30",
-        "summary": "GIFT City is emerging as a gateway for Indian investors seeking global exposure, with new fund structures and financial products. The evolving opportunities, regulatory framework and practical conside",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "\u20b92.33 to  \u20b9279.70: Multibagger penny stock turns  \u20b91 lakh into  \u20b91.20 crore in four years",
-        "link": "https://www.livemint.com/market/stock-market-news/233-to-279-70-multibagger-penny-stock-cupid-turns-1-lakh-into-1-20-crore-in-four-years-11789378469222.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 16:48:03 +0530",
-        "published_timestamp": "2026-09-14T16:48:03+05:30",
-        "summary": "The multibagger stock has delivered over 165% return in YTD and near 575% return in one year.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Quote of the day by David Swensen: \"The underlying driving force behind market timing decisions seems to be emotional \u2014 fear, greed, chasing performance \u2014 buying something after it has gone up, disappointment, and sales after something has declined.\"",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/quote-of-the-day-by-david-swensen-the-underlying-driving-force-behind-market-timing-decisions-seems-to-be-emotional-fear-greed-chasing-performance-buying-something-after-it-has-gone-up-disappointment-and-sales-after-something-has-declined-/articleshow/134239482.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 16:24:15 +0530",
-        "published_timestamp": "2026-09-14T16:24:15+05:30",
-        "summary": "David Swensen emphasizes that emotional biases, such as fear, greed, and performance chasing, often drive poor market timing decisions. Investors should rely on disciplined, long-term strategies and f",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Japanese stocks: Nikkei 225 sell-off deepens as AI slowdown concerns hits chip stocks; should investors worry?",
-        "link": "https://www.livemint.com/market/stock-market-news/japanese-stocks-nikkei-225-sell-off-deepens-as-ai-slowdown-concerns-hits-chip-stocks-should-investors-worry-11789380854099.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 16:15:04 +0530",
-        "published_timestamp": "2026-09-14T16:15:04+05:30",
-        "summary": "Japanese stocks dropped significantly on September 14, influenced by global market weakness and rising oil prices. The Nikkei 225 fell 0.9%, led by declines in AI-related stocks amid calls for a slowd",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
-      },
-      {
-        "title": "Expert view: See long-term potential across AI, data infra, manufacturing, healthcare, says VSURE MD, CEO",
-        "link": "https://www.livemint.com/market/stock-market-news/expert-view-see-long-term-potential-across-ai-data-infra-manufacturing-healthcare-says-vsure-md-ceo-11789381143848.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 16:00:57 +0530",
-        "published_timestamp": "2026-09-14T16:00:57+05:30",
-        "summary": "Expert view: Anish Maheshwari, MD and CEO, VSURE Investment Affairs, sees substantial long-term potential across AI and data infrastructure, manufacturing, healthcare, logistics and supply chains, fin",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
-      },
-      {
-        "title": "Gold Falls as Traders Eye Impact of Higher Oil on Fed Rate Path",
-        "link": "https://www.livemint.com/market/gold-falls-as-traders-eye-impact-of-higher-oil-on-fed-rate-path-11789381368276.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 15:52:47 +0530",
-        "published_timestamp": "2026-09-14T15:52:47+05:30",
-        "summary": "Gold fell as continued disruptions to oil supplies from the Middle East reinforced bets on a series of Federal Reserve rate hikes this year.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Will Wall Street crash today? Nasdaq futures tumble nearly 2% as AI stocks plunge",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/will-wall-street-crash-today-nasdaq-futures-tumble-nearly-2-as-ai-stocks-plunge/articleshow/134238659.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 15:42:46 +0530",
-        "published_timestamp": "2026-09-14T15:42:46+05:30",
-        "summary": "Nasdaq futures fell as OpenAI and Anthropic leaders urged slower AI development for safety. Investor Michael Burry criticized these warnings, labeling them self-serving hype intended to maintain incum",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "EaseMyTrip co-founder Nishant Pitti pledges 34.51 crore shares to Motilal Oswal; Check travel stock's performance",
-        "link": "https://www.livemint.com/market/stock-market-news/easemytrip-co-founder-nishant-pitti-pledges-34-51-crore-shares-to-motilal-oswal-check-travel-stocks-performance-11789377257232.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 15:37:21 +0530",
-        "published_timestamp": "2026-09-14T15:37:21+05:30",
-        "summary": "Easy Trip Planners co-founder Nishant Pitti pledged 34.51 crore shares worth  \u20b9212 crore, now representing 8.66% of the company's capital.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Can Rs 6.6 lakh crore in potential PSU divestments bring FPIs back to Indian markets? Axis Capital explains",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/can-rs-6-6-lakh-crore-in-potential-psu-divestments-bring-fpis-back-to-indian-markets-axis-capital-explains/articleshow/134238379.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 15:30:02 +0530",
-        "published_timestamp": "2026-09-14T15:30:02+05:30",
-        "summary": "Axis Capital says faster government divestments could expand India\u2019s investable equity pool, ease valuation pressures and limit foreign outflows. A 15% reduction in government ownership could raise ab",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "3,400% stock returns in 10 yrs; from  \u20b91 lakh to  \u20b935 lakh - Defence company announces business expansion in South Africa",
-        "link": "https://www.livemint.com/market/stock-market-news/3400-stock-returns-in-10-yrs-from-1-lakh-to-35-lakh-defence-company-announces-business-expansion-in-south-africa-11789376907765.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 15:26:51 +0530",
-        "published_timestamp": "2026-09-14T15:26:51+05:30",
-        "summary": "Solar Industries India has announced the acquisition of Omnia Holdings, aiming to strengthen its global presence in explosives and agricultural solutions. This move follows a remarkable 3,400% increas",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "BofA turns bullish on Nifty after 2 years, cautious on small, midcaps. Here's what it expects now",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/bofa-turns-bullish-on-nifty-after-2-years-cautious-on-small-midcaps-heres-what-it-expects-now/articleshow/134237764.cms",
-        "source": "Economic Times",
-        "published": "Mon, 14 Sep 2026 14:56:16 +0530",
-        "published_timestamp": "2026-09-14T14:56:16+05:30",
-        "summary": "BofA Securities has turned constructive on the Nifty after two years, seeing 12% upside to 26,200 by December 2026. The brokerage said five of eight earlier risks have played out, while primary market",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "SoftBank share price tumbles 14%| What investors need to know",
-        "link": "https://www.livemint.com/market/stock-market-news/softbank-share-price-tumbles-14-what-investors-need-to-know-11789375972638.html",
-        "source": "Livemint",
-        "published": "Mon, 14 Sep 2026 14:47:07 +0530",
-        "published_timestamp": "2026-09-14T14:47:07+05:30",
-        "summary": "SoftBank Group Corp shares fell over 14% in Tokyo amid investors' concerns about its significant AI investments. The decline follows cautious remarks from AI leaders and reflects worries over potentia",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
+        "beta_decay": 0.72,
+        "effective_impact": -0.652
       }
     ]
   }
