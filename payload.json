@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-15 15:39:45 IST",
+    "ist_time": "2026-09-15 15:56:57 IST",
     "date_str": "2026-09-15",
     "is_open": false,
     "is_weekend": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-09-15 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 25.3,
+    "score": 25.6,
     "regime": "Fear",
     "en": {
-      "summary": "Nifty at 23118.6 (MARKET CLOSED: OFF-HOURS). Volatility Index is 13.34 with Put-Call Ratio of 0.771.",
+      "summary": "Nifty at 23118.6 (MARKET CLOSED: OFF-HOURS). Volatility Index is 13.43 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.25x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.24x."
     },
     "hi": {
-      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23118.6 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 13.34 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
+      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23118.6 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 13.43 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.25x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.24x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.25
+    "multiplier": 1.24
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.25,
+    "dynamic_sip_multiplier": 1.24,
     "lot_size": 25,
     "nifty_lot_value": 577965,
     "cascade_risk_pct": 95
@@ -214,13 +214,13 @@
     "regime_mode": "Balanced Equilibrium Regime",
     "sub_scores": {
       "S1_Derivatives": 13.2,
-      "S2_Volatility": 1.1,
+      "S2_Volatility": 0.0,
       "S3_Options_Gamma": 35.1,
       "S4_Large_Deals": 25.4,
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 36.8,
       "S7_Order_Absorption": 74.0,
-      "S8_Lead_Lag_Gap": 58.3
+      "S8_Lead_Lag_Gap": 58.8
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": -1.19,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d71.1) + (0.15\u00d735.1) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d736.8) + (0.1\u00d774.0) + (0.05\u00d758.3) + -1.19 = 25.3"
+    "news_vector_delta": -0.73,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d70.0) + (0.15\u00d735.1) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d736.8) + (0.1\u00d774.0) + (0.05\u00d758.8) + -0.73 = 25.6"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -242,13 +242,13 @@
       "nifty_50_sma": 24127.18,
       "nifty_200_sma": 24535.34,
       "atr_14": 197.84,
-      "india_vix": 13.34,
+      "india_vix": 13.43,
       "vix_30d_mean": 11.54,
-      "vix_z_score_30d": 3.03,
+      "vix_z_score_30d": 3.12,
       "parkinson_volatility": 7.3,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 102.5,
-      "brent_1d_pct": -3.01,
+      "brent_crude_usd": 102.39,
+      "brent_1d_pct": -3.11,
       "usdinr": 95.96,
       "us_10y_yield": 4.96,
       "sp500_close": 7619.98,
@@ -305,13 +305,39 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 42,
-      "net_macro_lead_pct": 0.333,
+      "expected_gap_points": 44,
+      "net_macro_lead_pct": 0.353,
       "sp500_change_pct": -0.48,
       "dxy_change_pct": 0.15,
-      "crude_change_pct": -3.01
+      "crude_change_pct": -3.11
     },
     "news_items": [
+      {
+        "title": "IPO GMP: NSE IPO vs Hero Motors IPO - Which one has more listing potential? GMP, valuation and analyst views",
+        "link": "https://www.livemint.com/market/ipo/ipo-gmp-nse-ipo-vs-hero-motors-ipo-which-one-has-more-listing-potential-gmp-valuation-and-analyst-views-11789465574311.html",
+        "source": "Livemint",
+        "published": "Tue, 15 Sep 2026 15:38:10 +0530",
+        "published_timestamp": "2026-09-15T15:38:10+05:30",
+        "summary": "Two significant IPOs are set for September 2026: NSE and Hero Motors. NSE enjoys strong analyst backing due to its market dominance, despite the latter showing a higher grey-market value. Investors mu",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Afcons Infra stock surges on Tata Sons listing hopes. Is a re-rating on the cards?",
+        "link": "https://www.livemint.com/market/mark-to-market/afcons-infrastructure-share-price-tata-sons-listing-11789459737661.html",
+        "source": "Livemint",
+        "published": "Tue, 15 Sep 2026 15:37:06 +0530",
+        "published_timestamp": "2026-09-15T15:37:06+05:30",
+        "summary": "A potential Tata Sons listing could help promoter Shapoorji Pallonji ease Afcons\u2019s high interest burden, paving the way for a stock re-rating backed by a strong  \u20b943,300-crore order book.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
       {
         "title": "Global Market: Bank of Korea signals caution ahead after split rate vote",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-bank-of-korea-signals-caution-ahead-after-split-rate-vote/articleshow/134258330.cms",
@@ -570,7 +596,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.95,
-        "effective_impact": 0.859
+        "effective_impact": 0.854
       },
       {
         "title": "From borrowed rules to a bespoke rulebook: Can IFSCA create an international market conduct regime?",
@@ -596,7 +622,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.95,
-        "effective_impact": 0.906
+        "effective_impact": 0.901
       },
       {
         "title": "Broadening inflation, Fed prompts traders to ramp up October India rate hike bets",
@@ -609,7 +635,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
         "beta_decay": 0.95,
-        "effective_impact": -0.904
+        "effective_impact": -0.899
       },
       {
         "title": "Tata Sons IPO: How 7 group stocks performed in 3 months and their stake in Tata Sons",
@@ -634,7 +660,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.95,
+        "beta_decay": 0.94,
         "effective_impact": 0.0
       },
       {
@@ -647,8 +673,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.95,
-        "effective_impact": -0.9
+        "beta_decay": 0.94,
+        "effective_impact": -0.895
       },
       {
         "title": "Hexaware Technologies stock gains 5% on Project NANDA Fellowship collaboration to advance AI agents",
@@ -674,7 +700,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.94,
-        "effective_impact": 0.848
+        "effective_impact": 0.844
       },
       {
         "title": "Zensar Technologies share price jumps over 13% amid stock market rally. Do you own?",
@@ -686,8 +712,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.94,
-        "effective_impact": 0.844
+        "beta_decay": 0.93,
+        "effective_impact": 0.84
       },
       {
         "title": "ICICI Securities says buy this NBFC stock, sees 59% upside after an 80% jump in 6 months - Check target price",
@@ -699,8 +725,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.94,
-        "effective_impact": 0.844
+        "beta_decay": 0.93,
+        "effective_impact": 0.839
       },
       {
         "title": "NSE IPO set to open on September 17; GMP signals 11% listing gain",
@@ -712,8 +738,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.94,
-        "effective_impact": 0.891
+        "beta_decay": 0.93,
+        "effective_impact": 0.886
       },
       {
         "title": "Bond market turmoil puts Fed Rate decision under spotlight",
@@ -725,8 +751,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.94,
-        "effective_impact": -0.889
+        "beta_decay": 0.93,
+        "effective_impact": -0.884
       },
       {
         "title": "Firstsource Solutions share price jumps 18% after 7-day losing streak | What triggered the comeback?",
@@ -739,7 +765,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.93,
-        "effective_impact": 0.841
+        "effective_impact": 0.836
       },
       {
         "title": "Hero Motors IPO: Can EV momentum offset muted revenue growth and capacity drag?",
@@ -778,7 +804,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
         "beta_decay": 0.93,
-        "effective_impact": -0.885
+        "effective_impact": -0.88
       },
       {
         "title": "Is unlisted investing a lottery? The story of a NSE investor who bought shares at Rs 1,827",
@@ -791,7 +817,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.93,
-        "effective_impact": 0.884
+        "effective_impact": 0.879
       },
       {
         "title": "Solar Industries shares crash 9% after acquisition of South Africa\u2019s Omnia Holdings for Rs 12,951 crore",
@@ -803,34 +829,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.93,
-        "effective_impact": -0.882
-      },
-      {
-        "title": "Solar Industries, Bharat Electronics, and CG Power shares fall up to 10% today: What\u2019s driving the sell-off?",
-        "link": "https://www.livemint.com/market/stock-market-news/solar-industries-bharat-electronics-and-cg-power-shares-fall-up-to-10-today-what-s-driving-the-selloff-11789452059197.html",
-        "source": "Livemint",
-        "published": "Tue, 15 Sep 2026 11:54:35 +0530",
-        "published_timestamp": "2026-09-15T11:54:35+05:30",
-        "summary": "Indian equities faced hurdles on Tuesday amid concerns over crude oil prices and global bond yields. Solar Industries saw volatility due to its acquisition announcement, and Bharat Electronics' stock ",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.93,
-        "effective_impact": -0.835
-      },
-      {
-        "title": "How to trade HDFC Bank shares? Here\u2019s what technical analysts are saying as lender hunts for new CEO",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/how-to-trade-hdfc-bank-shares-heres-what-technical-analysts-are-saying-as-lender-hunts-for-new-ceo/articleshow/134253984.cms",
-        "source": "Economic Times",
-        "published": "Tue, 15 Sep 2026 11:52:01 +0530",
-        "published_timestamp": "2026-09-15T11:52:01+05:30",
-        "summary": "HDFC Bank shares rose after the lender submitted two CEO candidates to the RBI, formally starting the succession process for Sashidhar Jagdishan. The stock has faced sustained pressure this year, with",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.0
+        "beta_decay": 0.92,
+        "effective_impact": -0.877
       }
     ]
   }

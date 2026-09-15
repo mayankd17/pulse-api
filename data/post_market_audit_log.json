@@ -1,5 +1,30 @@
 [
   {
+    "timestamp": "2026-09-15 15:57:05",
+    "audit_data": {
+      "date": "2026-09-15",
+      "morning_predictions": {
+        "mood_score": 25.6,
+        "expected_opening_gap_bias": "Bullish Gap-Up",
+        "expected_gap_points": 44,
+        "options_max_pain_pin_target": 23050,
+        "trap_warning_flagged": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)"
+      },
+      "actual_market_outcome": {
+        "actual_session_high": 23592.85,
+        "actual_session_low": 23118.6,
+        "actual_session_close": 23118.6,
+        "net_session_change_pts": 0.0
+      }
+    },
+    "ai_evaluation": {
+      "audit_verdict": "PARTIAL_DEVIATION",
+      "root_cause_analysis": "Settlement occurred near Max Pain gravity strike with controlled intraday volatility.",
+      "institutional_divergence_summary": "Retail longs were absorbed by institutional limit order queues near the upper boundary.",
+      "adaptive_parameter_adjustment": "Maintain balanced 6-factor weighting with standard VWAP bands."
+    }
+  },
+  {
     "timestamp": "2026-09-15 15:39:55",
     "audit_data": {
       "date": "2026-09-15",
@@ -707,31 +732,6 @@
         "mood_score": 29.2,
         "expected_opening_gap_bias": "Bearish Gap-Down",
         "expected_gap_points": -58,
-        "options_max_pain_pin_target": 23350,
-        "trap_warning_flagged": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)"
-      },
-      "actual_market_outcome": {
-        "actual_session_high": 23438.1,
-        "actual_session_low": 23358.1,
-        "actual_session_close": 23398.1,
-        "net_session_change_pts": 0.0
-      }
-    },
-    "ai_evaluation": {
-      "audit_verdict": "PARTIAL_DEVIATION",
-      "root_cause_analysis": "Settlement occurred near Max Pain gravity strike with controlled intraday volatility.",
-      "institutional_divergence_summary": "Retail longs were absorbed by institutional limit order queues near the upper boundary.",
-      "adaptive_parameter_adjustment": "Maintain balanced 6-factor weighting with standard VWAP bands."
-    }
-  },
-  {
-    "timestamp": "2026-09-14 14:43:48",
-    "audit_data": {
-      "date": "2026-09-14",
-      "morning_predictions": {
-        "mood_score": 29.5,
-        "expected_opening_gap_bias": "Bearish Gap-Down",
-        "expected_gap_points": -50,
         "options_max_pain_pin_target": 23350,
         "trap_warning_flagged": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)"
       },
