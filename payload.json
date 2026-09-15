@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-15 16:11:32 IST",
+    "ist_time": "2026-09-15 16:23:00 IST",
     "date_str": "2026-09-15",
     "is_open": false,
     "is_weekend": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-09-15 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 25.5,
+    "score": 25.7,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 23118.6 (MARKET CLOSED: OFF-HOURS). Volatility Index is 13.43 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.25x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.24x."
     },
     "hi": {
       "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23118.6 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 13.43 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.25x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.24x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.25
+    "multiplier": 1.24
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.25,
+    "dynamic_sip_multiplier": 1.24,
     "lot_size": 25,
     "nifty_lot_value": 577965,
     "cascade_risk_pct": 95
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 36.8,
       "S7_Order_Absorption": 74.0,
-      "S8_Lead_Lag_Gap": 59.4
+      "S8_Lead_Lag_Gap": 61.6
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -233,7 +233,7 @@
       "w8_Lead_Lag_Gap": "5%"
     },
     "news_vector_delta": -0.79,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d70.0) + (0.15\u00d735.1) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d736.8) + (0.1\u00d774.0) + (0.05\u00d759.4) + -0.79 = 25.5"
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d70.0) + (0.15\u00d735.1) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d736.8) + (0.1\u00d774.0) + (0.05\u00d761.6) + -0.79 = 25.7"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,8 +247,8 @@
       "vix_z_score_30d": 3.12,
       "parkinson_volatility": 7.3,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 102.3,
-      "brent_1d_pct": -3.2,
+      "brent_crude_usd": 101.83,
+      "brent_1d_pct": -3.64,
       "usdinr": 95.96,
       "us_10y_yield": 4.96,
       "sp500_close": 7619.98,
@@ -305,11 +305,11 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 47,
-      "net_macro_lead_pct": 0.375,
+      "expected_gap_points": 58,
+      "net_macro_lead_pct": 0.463,
       "sp500_change_pct": -0.48,
       "dxy_change_pct": 0.14,
-      "crude_change_pct": -3.2
+      "crude_change_pct": -3.64
     },
     "news_items": [
       {
@@ -635,7 +635,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.94,
-        "effective_impact": 0.85
+        "effective_impact": 0.847
       },
       {
         "title": "From borrowed rules to a bespoke rulebook: Can IFSCA create an international market conduct regime?",
@@ -661,7 +661,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.94,
-        "effective_impact": 0.897
+        "effective_impact": 0.893
       },
       {
         "title": "Broadening inflation, Fed prompts traders to ramp up October India rate hike bets",
@@ -674,7 +674,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
         "beta_decay": 0.94,
-        "effective_impact": -0.895
+        "effective_impact": -0.891
       },
       {
         "title": "Tata Sons IPO: How 7 group stocks performed in 3 months and their stake in Tata Sons",
@@ -712,8 +712,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.94,
-        "effective_impact": -0.89
+        "beta_decay": 0.93,
+        "effective_impact": -0.887
       },
       {
         "title": "Hexaware Technologies stock gains 5% on Project NANDA Fellowship collaboration to advance AI agents",
@@ -739,7 +739,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.93,
-        "effective_impact": 0.839
+        "effective_impact": 0.836
       },
       {
         "title": "Zensar Technologies share price jumps over 13% amid stock market rally. Do you own?",
@@ -751,8 +751,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.836
+        "beta_decay": 0.92,
+        "effective_impact": 0.832
       },
       {
         "title": "ICICI Securities says buy this NBFC stock, sees 59% upside after an 80% jump in 6 months - Check target price",
@@ -764,8 +764,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.835
+        "beta_decay": 0.92,
+        "effective_impact": 0.832
       },
       {
         "title": "NSE IPO set to open on September 17; GMP signals 11% listing gain",
@@ -777,8 +777,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.881
+        "beta_decay": 0.92,
+        "effective_impact": 0.878
       },
       {
         "title": "Bond market turmoil puts Fed Rate decision under spotlight",
@@ -790,8 +790,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.93,
-        "effective_impact": -0.88
+        "beta_decay": 0.92,
+        "effective_impact": -0.876
       },
       {
         "title": "Firstsource Solutions share price jumps 18% after 7-day losing streak | What triggered the comeback?",
@@ -804,7 +804,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.92,
-        "effective_impact": 0.832
+        "effective_impact": 0.829
       },
       {
         "title": "Hero Motors IPO: Can EV momentum offset muted revenue growth and capacity drag?",
