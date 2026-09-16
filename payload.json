@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-16 15:57:23 IST",
+    "ist_time": "2026-09-16 16:11:53 IST",
     "date_str": "2026-09-16",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-09-16 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 33.3,
+    "score": 33.1,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 23217.6 (MARKET CLOSED: OFF-HOURS). Volatility Index is 13.17 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 46.1,
       "S7_Order_Absorption": 100.0,
-      "S8_Lead_Lag_Gap": 50.2
+      "S8_Lead_Lag_Gap": 49.4
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 1.35,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d713.9) + (0.15\u00d735.2) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d746.1) + (0.1\u00d7100.0) + (0.05\u00d750.2) + +1.35 = 33.3"
+    "news_vector_delta": 1.21,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d713.9) + (0.15\u00d735.2) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d746.1) + (0.1\u00d7100.0) + (0.05\u00d749.4) + +1.21 = 33.1"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 2.41,
       "parkinson_volatility": 7.39,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 107.58,
-      "brent_1d_pct": -1.08,
+      "brent_crude_usd": 107.7,
+      "brent_1d_pct": -0.97,
       "usdinr": 95.94,
       "us_10y_yield": 5.0,
       "sp500_close": 7585.73,
       "sp500_1d_pct": -0.45,
-      "dxy_close": 99.66,
-      "dxy_1d_pct": 0.01,
+      "dxy_close": 99.69,
+      "dxy_1d_pct": 0.04,
       "last_active_session_date": "2026-09-16"
     },
     "derivatives": {
@@ -305,13 +305,26 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Neutral Opening",
-      "expected_gap_points": 1,
-      "net_macro_lead_pct": 0.01,
+      "expected_gap_points": -3,
+      "net_macro_lead_pct": -0.023,
       "sp500_change_pct": -0.45,
-      "dxy_change_pct": 0.01,
-      "crude_change_pct": -1.08
+      "dxy_change_pct": 0.04,
+      "crude_change_pct": -0.97
     },
     "news_items": [
+      {
+        "title": "\u20b965 dividend per share: Bajaj Holdings announces cash reward; check record date, stock performance, payment date",
+        "link": "https://www.livemint.com/market/stock-market-news/rs-65-dividend-per-share-bajaj-holdings-announces-cash-reward-check-record-date-stock-performance-payment-date-11789552105680.html",
+        "source": "Livemint",
+        "published": "Wed, 16 Sept 2026 16:01:36 +0530",
+        "published_timestamp": "2026-09-16T16:11:53.435264+05:30",
+        "summary": "Bajaj Holdings &amp; Investment Limited announced a  \u20b965 interim dividend for FY27, with a record date of September 21. Ba",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
       {
         "title": "Borosil Renewables' entry into the solar rooftop sector a significant positive, shares may see an upswing, say experts",
         "link": "https://www.livemint.com/market/stock-market-news/borosil-renewables-entry-into-the-solar-rooftop-sector-a-significant-positive-shares-may-see-an-upswing-say-experts-11789552595550.html",
@@ -324,6 +337,19 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.9
+      },
+      {
+        "title": "Rupee languishes at six-week low ahead of Fed outcome, RBI limits losses",
+        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-languishes-at-six-week-low-ahead-of-fed-outcome-rbi-limits-losses/articleshow/134284941.cms",
+        "source": "Economic Times",
+        "published": "Wed, 16 Sep 2026 15:52:43 +0530",
+        "published_timestamp": "2026-09-16T15:52:43+05:30",
+        "summary": "The Indian rupee has dropped to its lowest value since late July, driven by heightened demand for the dollar and expectations of U.S. Federal Reserve interest rate hikes. While the Reserve Bank of Ind",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
       },
       {
         "title": "NSE IPO GMP slips ahead of launch tomorrow, 17 September: Should you subscribe at IPO price of  \u20b91,785?",
@@ -569,8 +595,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.95,
-        "effective_impact": -0.899
+        "beta_decay": 0.94,
+        "effective_impact": -0.894
       },
       {
         "title": "Godavari Biorefineries share price rallies 13% after Chinese patent grant | Do you own?",
@@ -596,7 +622,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
         "beta_decay": 0.94,
-        "effective_impact": -0.895
+        "effective_impact": -0.891
       },
       {
         "title": "Domestic pharma market sustains growth momentum, but margins remain key",
@@ -622,7 +648,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.94,
-        "effective_impact": 0.893
+        "effective_impact": 0.889
       },
       {
         "title": "SEBI said to ease arbitrage fund rules to aid closing auctions",
@@ -634,7 +660,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.94,
+        "beta_decay": 0.93,
         "effective_impact": 0.0
       },
       {
@@ -647,7 +673,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.94,
+        "beta_decay": 0.93,
         "effective_impact": 0.0
       },
       {
@@ -660,8 +686,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.94,
-        "effective_impact": 0.844
+        "beta_decay": 0.93,
+        "effective_impact": 0.84
       },
       {
         "title": "PNC Infratech shares slump 17% to fresh 52-week low |  What\u2019s the reason?",
@@ -673,8 +699,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.94,
-        "effective_impact": -0.844
+        "beta_decay": 0.93,
+        "effective_impact": -0.84
       },
       {
         "title": "Nithin Kamath says new UPI charges on investing, broking don\u2019t make sense: 'I don't see how we can absorb this indefinitely'",
@@ -699,8 +725,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.836
+        "beta_decay": 0.92,
+        "effective_impact": 0.832
       },
       {
         "title": "\u201cBIGGEST CRASH IN HISTORY has started\u201d: Robert Kiyosaki warns investors as AI, war and debt fuel fears",
@@ -712,8 +738,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.93,
-        "effective_impact": -0.836
+        "beta_decay": 0.92,
+        "effective_impact": -0.832
       },
       {
         "title": "Chipotle stock slides 6%: What\u2019s behind the selloff?",
@@ -725,8 +751,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.93,
-        "effective_impact": -0.882
+        "beta_decay": 0.92,
+        "effective_impact": -0.878
       },
       {
         "title": "Raymond shares slump 6% after strong run | Key support levels to watch",
@@ -738,8 +764,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.836
+        "beta_decay": 0.92,
+        "effective_impact": 0.832
       },
       {
         "title": "US Market: Fed\u2019s Warsh faces tough rate call as inflation remains sticky",
@@ -751,8 +777,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.93,
-        "effective_impact": -0.882
+        "beta_decay": 0.92,
+        "effective_impact": -0.878
       },
       {
         "title": "Vedanta Power to Vedanta Iron &amp; Steel - Anil Agarwal-owned group stocks extend losses for second session. Here's why",
@@ -764,8 +790,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.93,
-        "effective_impact": -0.835
+        "beta_decay": 0.92,
+        "effective_impact": -0.831
       },
       {
         "title": "Solar Industries\u2019 defence share may fall to 22-25% by FY30 after Omnia deal: Jefferies",
@@ -777,7 +803,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
+        "beta_decay": 0.92,
         "effective_impact": 0.0
       },
       {
@@ -805,32 +831,6 @@
         "raw_sentiment": 0.0,
         "beta_decay": 0.92,
         "effective_impact": 0.0
-      },
-      {
-        "title": "Global Market: China, Hong Kong shares rise as tech stocks gain ahead of Fed decision",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-hong-kong-shares-rise-as-tech-stocks-gain-ahead-of-fed-decision/articleshow/134280040.cms",
-        "source": "Economic Times",
-        "published": "Wed, 16 Sep 2026 11:58:32 +0530",
-        "published_timestamp": "2026-09-16T11:58:32+05:30",
-        "summary": "Chinese and Hong Kong equities rose on Wednesday, led by technology stocks as investors awaited the US Federal Reserve\u2019s interest-rate decision. The Shanghai Composite gained around 0.6%, while the Ha",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.877
-      },
-      {
-        "title": "RIL, HUL, Nestle, Tata Consumer, Muthoot, Hyundai shares on the rise today | Key things to know",
-        "link": "https://www.livemint.com/market/stock-market-news/ril-hul-nestle-tata-consumer-muthoot-hyundai-shares-on-the-rise-today-key-things-to-know-11789539484574.html",
-        "source": "Livemint",
-        "published": "Wed, 16 Sep 2026 11:56:22 +0530",
-        "published_timestamp": "2026-09-16T11:56:22+05:30",
-        "summary": "Shares of Reliance Industries Limited, Hindustan Unilever, Tata Consumer, Hyundai Motor India, Muthoot Finance, etc &nbsp;emerged as top &nbsp;Nifty 100 gainers in the early hours of Wednesday\u2019s tradi",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.831
       }
     ]
   }
