@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-16 16:23:42 IST",
+    "ist_time": "2026-09-16 19:07:47 IST",
     "date_str": "2026-09-16",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-09-16 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 33.2,
+    "score": 33.1,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 23217.6 (MARKET CLOSED: OFF-HOURS). Volatility Index is 13.17 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 46.1,
       "S7_Order_Absorption": 100.0,
-      "S8_Lead_Lag_Gap": 50.3
+      "S8_Lead_Lag_Gap": 56.9
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 1.21,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d713.9) + (0.15\u00d735.2) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d746.1) + (0.1\u00d7100.0) + (0.05\u00d750.3) + +1.21 = 33.2"
+    "news_vector_delta": 0.83,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d713.9) + (0.15\u00d735.2) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d746.1) + (0.1\u00d7100.0) + (0.05\u00d756.9) + +0.83 = 33.1"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 2.41,
       "parkinson_volatility": 7.39,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 107.52,
-      "brent_1d_pct": -1.13,
+      "brent_crude_usd": 107.68,
+      "brent_1d_pct": -0.98,
       "usdinr": 95.94,
-      "us_10y_yield": 5.0,
-      "sp500_close": 7585.73,
-      "sp500_1d_pct": -0.45,
-      "dxy_close": 99.68,
-      "dxy_1d_pct": 0.03,
+      "us_10y_yield": 4.98,
+      "sp500_close": 7602.39,
+      "sp500_1d_pct": 0.22,
+      "dxy_close": 99.71,
+      "dxy_1d_pct": 0.06,
       "last_active_session_date": "2026-09-16"
     },
     "derivatives": {
@@ -305,13 +305,208 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Neutral Opening",
-      "expected_gap_points": 2,
-      "net_macro_lead_pct": 0.013,
-      "sp500_change_pct": -0.45,
-      "dxy_change_pct": 0.03,
-      "crude_change_pct": -1.13
+      "expected_gap_points": 34,
+      "net_macro_lead_pct": 0.274,
+      "sp500_change_pct": 0.22,
+      "dxy_change_pct": 0.06,
+      "crude_change_pct": -0.98
     },
     "news_items": [
+      {
+        "title": "FED Meeting Live | Dow Jones Futures | US Stock Market Live: US stock futures rise ahead of Fed rate decision, retail sales data",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/fed-meeting-live-updates-dow-jones-nasdaq-sp-500-us-stock-market-today-kevin-warsh-fomc-meet-rate-hike-iran-war-inflation-brent-crude-oil-intel-conocophillips-chevron-ai-chip-energy-stock-price-news-16th-sep/liveblog/134287797.cms",
+        "source": "Economic Times",
+        "published": "Wed, 16 Sep 2026 17:48:05 +0530",
+        "published_timestamp": "2026-09-16T17:48:05+05:30",
+        "summary": " ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Indian bonds rise on short covering before Fed decision",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-rise-on-short-covering-before-fed-decision/articleshow/134287734.cms",
+        "source": "Economic Times",
+        "published": "Wed, 16 Sep 2026 17:46:13 +0530",
+        "published_timestamp": "2026-09-16T17:46:13+05:30",
+        "summary": "Indian government bonds saw gains as crude oil prices retreated from recent highs. Traders squared short positions before the Federal Reserve's anticipated policy decision later today. Global debt mar",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "US Fed rate hike after 3 years? Here\u2019s what it could mean for Indian stock markets",
+        "link": "https://www.livemint.com/market/stock-market-news/us-fed-rate-hike-after-3-years-here-s-what-it-could-mean-for-indian-stock-markets-11789558809596.html",
+        "source": "Livemint",
+        "published": "Wed, 16 Sep 2026 17:43:30 +0530",
+        "published_timestamp": "2026-09-16T17:43:30+05:30",
+        "summary": "Amid rising inflation, the US Federal Reserve is likely to raise rates by 25 basis points today. Investors are eager for insights on future monetary policy, as this decision influences both global mar",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "ASF Group rents 4 lakh sq ft office space to Genpact in Gurugram",
+        "link": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/asf-group-rents-4-lakh-sq-ft-office-space-to-genpact-in-gurugram/articleshow/134287641.cms",
+        "source": "Economic Times",
+        "published": "Wed, 16 Sep 2026 17:42:08 +0530",
+        "published_timestamp": "2026-09-16T17:42:08+05:30",
+        "summary": "ASF Group has struck a major leasing agreement, providing Genpact with four lakh square feet at the prestigious ASF Insignia in Gurugram. This move marks a significant milestone, as Genpact will occup",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Ahead of US Fed rate hike impact prediction on American Treasuries: FOMC outcome likely effects decoded",
+        "link": "https://www.livemint.com/market/stock-market-news/ahead-of-us-fed-rate-hike-impact-prediction-on-american-treasuries-fomc-outcome-likely-effects-decoded-11789558513675.html",
+        "source": "Livemint",
+        "published": "Wed, 16 Sep 2026 17:37:55 +0530",
+        "published_timestamp": "2026-09-16T17:37:55+05:30",
+        "summary": "US Treasuries remained stable as traders awaited the Federal Reserve's interest-rate decision. The 10-year yield held at 5.004%, while the 2-year yield remained at 5.409%. Rising oil prices and inflat",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Dabur India shares: From Reduce to Add - What led to upgrade from Kotak Institutional Equities",
+        "link": "https://www.livemint.com/market/stock-market-news/dabur-india-shares-from-reduce-to-add-what-led-to-upgrade-from-kotak-institutional-equities-11789558937172.html",
+        "source": "Livemint",
+        "published": "Wed, 16 Sep 2026 17:17:00 +0530",
+        "published_timestamp": "2026-09-16T17:17:00+05:30",
+        "summary": "Dabur India shares fell slightly on Wednesday after earlier gains. The stock has corrected 20% in four months, presenting reasonable valuations.&nbsp;",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Sebi grants 1% unhedged leeway to arbitrage funds to boost closing auction participation",
+        "link": "https://www.livemint.com/market/sebi-grants-1-unhedged-leeway-to-arbitrage-funds-to-boost-cas-participation-11789554658156.html",
+        "source": "Livemint",
+        "published": "Wed, 16 Sep 2026 17:12:28 +0530",
+        "published_timestamp": "2026-09-16T17:12:28+05:30",
+        "summary": "The temporary relief aims to resolve execution hurdles during closing auctions, though fund managers doubt it will drive significant participation.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Maruti Suzuki among 8 large-cap stocks to hit 52-week lows and fall up to 12% in a month",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/maruti-suzuki-among-8-large-cap-stocks-to-hit-52-week-lows-and-fall-up-to-12-in-a-month/slideshow/134286817.cms",
+        "source": "Economic Times",
+        "published": "Wed, 16 Sep 2026 17:05:08 +0530",
+        "published_timestamp": "2026-09-16T17:05:08+05:30",
+        "summary": "Eight BSE 100 Largecap TMC stocks hit fresh 52-week lows despite the Sensex gaining 332 points on Wednesday. Shree Cement, Maruti Suzuki, IRFC, Britannia, Ambuja Cements, Godrej Consumer, Bank of Baro",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Market wrap: SBI, HDFC Life, TCS, Infosys top gainers and losers on Nifty and Sensex on Thursday",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-sbi-hdfc-life-tcs-infosys-top-gainers-and-losers-on-nifty-and-sensex-on-thursday/articleshow/134286572.cms",
+        "source": "Economic Times",
+        "published": "Wed, 16 Sep 2026 17:03:51 +0530",
+        "published_timestamp": "2026-09-16T17:03:51+05:30",
+        "summary": "Indian equities recovered on September 16, with Nifty and Sensex gaining over 0.4% as banking and heavyweight stocks attracted value buying. Broader markets remained weak, while FMCG and PSU banks adv",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Quote of the day by Edward Thorp: \"I think that we only get estimates of the distributions and that we can only be somewhat sure of the estimates. That makes the problems in the financial world much more difficult, I think, because you have these uncertainties in the distributions.\"",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/quote-of-the-day-by-edward-thorp-i-think-that-we-only-get-estimates-of-the-distributions-and-that-we-can-only-be-somewhat-sure-of-the-estimates-that-makes-the-problems-in-the-financial-world-much-more-difficult-i-think-because-you-have-these-uncertainties-in-the-distributions-/articleshow/134286305.cms",
+        "source": "Economic Times",
+        "published": "Wed, 16 Sep 2026 16:57:35 +0530",
+        "published_timestamp": "2026-09-16T16:57:35+05:30",
+        "summary": "Edward Thorp emphasizes that financial markets rely on uncertain probability estimates rather than certainties. Since models struggle with unexpected events, investors must prioritize risk management,",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "Expert view: What a booming IPO market means for Indian investors",
+        "link": "https://www.livemint.com/market/stock-market-news/expert-view-what-a-booming-ipo-market-means-for-indian-investors-11789556704448.html",
+        "source": "Livemint",
+        "published": "Wed, 16 Sep 2026 16:52:21 +0530",
+        "published_timestamp": "2026-09-16T16:52:21+05:30",
+        "summary": "India's IPO market is surging, raising  \u20b980,853.54 crores in September alone. With impending mega-issues like NSE's  \u20b926,000 crore IPO and Reliance Jio on the horizon, investors are drawn in.&nbsp;",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "1:5 stock split alert! Mukul Agrawal-portfolio stock nearing record date; delivers 400% return in 5 years | Do you own?",
+        "link": "https://www.livemint.com/market/stock-market-news/15-stock-split-alert-mukul-agrawal-portfolio-stock-nearing-record-date-delivers-400-return-in-5-years-do-you-own-11789555598323.html",
+        "source": "Livemint",
+        "published": "Wed, 16 Sep 2026 16:50:05 +0530",
+        "published_timestamp": "2026-09-16T16:50:05+05:30",
+        "summary": "TAAL Tech Limited shares rose 2% on September 16 ahead of a stock split record date. The 1:5 split increases liquidity, making shares more affordable. Investors must own stock before record date to qu",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "\u2018Biggest crash in history has begun\u2019: Rich Dad Poor Dad author Robert Kiyosaki sounds the alarm",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/biggest-crash-in-history-has-begun-rich-dad-poor-dad-author-robert-kiyosaki-sounds-the-alarm/articleshow/134286192.cms",
+        "source": "Economic Times",
+        "published": "Wed, 16 Sep 2026 16:48:32 +0530",
+        "published_timestamp": "2026-09-16T16:48:32+05:30",
+        "summary": "Robert Kiyosaki has warned of a potential historic stock and bond market crash, saying the downturn began in Europe and Japan and could spread globally. He cited AI speculation, war, debt and demograp",
+        "is_rumor": true,
+        "credibility_weight": 0.47,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.47
+      },
+      {
+        "title": "Penny stock under 10 rupees hits 5% upper circuit after this acquisition update",
+        "link": "https://www.livemint.com/market/stock-market-news/penny-stock-under-10-rupees-hits-5-upper-circuit-after-this-acquisition-update-11789554689805.html",
+        "source": "Livemint",
+        "published": "Wed, 16 Sep 2026 16:22:43 +0530",
+        "published_timestamp": "2026-09-16T16:22:43+05:30",
+        "summary": "The stock, Empower India, hit a 5% upper circuit of  \u20b92.50 but pared some gains to end 3.77% higher at  \u20b92.48 after it said it had signed a non-binding term sheet to acquire 100% of Valiance Engineers",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "AI, algorithms and human judgement: The future of portfolio management",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ai-algorithms-and-human-judgement-the-future-of-portfolio-management/articleshow/134285324.cms",
+        "source": "Economic Times",
+        "published": "Wed, 16 Sep 2026 16:12:11 +0530",
+        "published_timestamp": "2026-09-16T16:12:11+05:30",
+        "summary": "AI is moving beyond technology and reshaping how investors analyse markets, manage risk and construct portfolios. As algorithms become increasingly integrated into investment decisions, human judgemen",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "\u20b965 dividend per share: Bajaj Holdings announces cash reward; check record date, stock performance, payment date",
         "link": "https://www.livemint.com/market/stock-market-news/rs-65-dividend-per-share-bajaj-holdings-announces-cash-reward-check-record-date-stock-performance-payment-date-11789552105680.html",
@@ -324,6 +519,19 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.9
+      },
+      {
+        "title": "Bitcoin trades near $75,000 as CLARITY Act setback weighs, Fed decision in focus",
+        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-trades-near-75000-as-clarity-act-setback-weighs-fed-decision-in-focus/articleshow/134285423.cms",
+        "source": "Economic Times",
+        "published": "Wed, 16 Sep 2026 16:11:43 +0530",
+        "published_timestamp": "2026-09-16T16:11:43+05:30",
+        "summary": "Bitcoin fell below $75,000 to a September low after the US Senate rejected the CLARITY Act cloture vote 50-49. Ethereum and major altcoins also declined, while rising Treasury yields, regulatory uncer",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
       },
       {
         "title": "Borosil Renewables' entry into the solar rooftop sector a significant positive, shares may see an upswing, say experts",
@@ -595,8 +803,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.94,
-        "effective_impact": -0.891
+        "beta_decay": 0.89,
+        "effective_impact": -0.843
       },
       {
         "title": "Godavari Biorefineries share price rallies 13% after Chinese patent grant | Do you own?",
@@ -608,7 +816,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
+        "beta_decay": 0.88,
         "effective_impact": 0.0
       },
       {
@@ -621,216 +829,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.93,
-        "effective_impact": -0.887
-      },
-      {
-        "title": "Domestic pharma market sustains growth momentum, but margins remain key",
-        "link": "https://www.livemint.com/market/mark-to-market/indian-pharma-market-ipm-pharma-stocks-domestic-pharma-dr-reddy-s-laboratories-sun-pharma-ajanta-pharma-glenmark-11789538290089.html",
-        "source": "Livemint",
-        "published": "Wed, 16 Sep 2026 12:56:12 +0530",
-        "published_timestamp": "2026-09-16T12:56:12+05:30",
-        "summary": "Domestic pharma growth remained strong in August, led by price hikes and new launches, but weak volumes and US tariff uncertainty mean a sustained margin recovery will be crucial for sector performanc",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Global Market: Hong Kong unveils first five-year plan, targets bigger push into technology",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-hong-kong-unveils-first-five-year-plan-targets-bigger-push-into-technology/articleshow/134281079.cms",
-        "source": "Economic Times",
-        "published": "Wed, 16 Sep 2026 12:52:04 +0530",
-        "published_timestamp": "2026-09-16T12:52:04+05:30",
-        "summary": "Hong Kong has unveiled its first Five-Year Plan through 2030, targeting higher innovation spending and greater investment in AI, robotics, microelectronics and advanced manufacturing. The strategy als",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.885
-      },
-      {
-        "title": "SEBI said to ease arbitrage fund rules to aid closing auctions",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-said-to-ease-arbitrage-fund-rules-to-aid-closing-auctions/articleshow/134281134.cms",
-        "source": "Economic Times",
-        "published": "Wed, 16 Sep 2026 12:48:06 +0530",
-        "published_timestamp": "2026-09-16T12:48:06+05:30",
-        "summary": "SEBI has allowed arbitrage mutual funds to temporarily carry unhedged positions of up to 1% of their plans, aiming to improve liquidity in the struggling stock closing auction. Arbitrage funds held co",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "SEBI is said to ease arbitrage mutual fund rules to aid closing auction session",
-        "link": "https://www.livemint.com/market/stock-market-news/sebi-is-said-to-ease-arbitrage-mutual-fund-rules-to-aid-closing-auction-session-11789542014003.html",
-        "source": "Livemint",
-        "published": "Wed, 16 Sep 2026 12:45:34 +0530",
-        "published_timestamp": "2026-09-16T12:45:34+05:30",
-        "summary": "SEBI is said to allow arbitrage mutual funds to temporarily carry unhedged positions of as much as 1% of their plans worth a total of  \u20b93 lakh crore.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Newly listed MV Electrosystems shares soar 10%: Stock jumps from  \u20b9425 IPO price to  \u20b9848 \u2014 what\u2019s driving the rally?",
-        "link": "https://www.livemint.com/market/stock-market-news/newly-listed-mv-electrosystems-shares-soar-10-stock-jumps-from-rs-425-ipo-price-to-rs-848-what-s-driving-the-rally-11789541828646.html",
-        "source": "Livemint",
-        "published": "Wed, 16 Sep 2026 12:44:38 +0530",
-        "published_timestamp": "2026-09-16T12:44:38+05:30",
-        "summary": "MV Electrosystems stock has fallen 11% in one week but gained 39% in one month, nearly doubling since its IPO. Despite a reported loss, the company focuses on sustainable growth, innovating and improv",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.837
-      },
-      {
-        "title": "PNC Infratech shares slump 17% to fresh 52-week low |  What\u2019s the reason?",
-        "link": "https://www.livemint.com/market/stock-market-news/pnc-infratech-shares-slump-17-to-fresh-52-week-low-what-s-the-reason-11789541723254.html",
-        "source": "Livemint",
-        "published": "Wed, 16 Sep 2026 12:44:10 +0530",
-        "published_timestamp": "2026-09-16T12:44:10+05:30",
-        "summary": "PNC Infratech shares fell 17% on September 16, reaching a one-year low of  \u20b9116.25, totaling a two-day decline of 33.76%. The drop follows NHAI's extension of a three-year debarment on its subsidiary,",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.93,
-        "effective_impact": -0.836
-      },
-      {
-        "title": "Nithin Kamath says new UPI charges on investing, broking don\u2019t make sense: 'I don't see how we can absorb this indefinitely'",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/nithin-kamath-says-new-upi-charges-on-investing-broking-dont-make-sense-i-dont-see-how-we-can-absorb-this-indefinitely/articleshow/134280407.cms",
-        "source": "Economic Times",
-        "published": "Wed, 16 Sep 2026 12:23:46 +0530",
-        "published_timestamp": "2026-09-16T12:23:46+05:30",
-        "summary": "Zerodha CEO Nithin Kamath said the new UPI MDR framework may not make economic sense for investing and broking, where customers can transfer funds without trading. He said brokers may struggle to abso",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Zee Entertainment shares surge 8% after 4-day losses; can it rise more? Experts decode",
-        "link": "https://www.livemint.com/market/stock-market-news/zee-entertainment-shares-surge-8-after-4-day-losses-can-it-rise-more-experts-decode-11789540738234.html",
-        "source": "Livemint",
-        "published": "Wed, 16 Sep 2026 12:16:51 +0530",
-        "published_timestamp": "2026-09-16T12:16:51+05:30",
-        "summary": "Zee Entertainment shares opened at  \u20b977.80 against their previous close of  \u20b977.40 and jumped as much as 8% to an intraday high of  \u20b983.62, looking set to snap its four-day losing run.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.829
-      },
-      {
-        "title": "\u201cBIGGEST CRASH IN HISTORY has started\u201d: Robert Kiyosaki warns investors as AI, war and debt fuel fears",
-        "link": "https://www.livemint.com/market/stock-market-news/biggest-crash-in-history-has-started-robert-kiyosaki-warns-investors-of-market-crash-as-ai-war-and-debt-fuel-fears-11789539662627.html",
-        "source": "Livemint",
-        "published": "Wed, 16 Sep 2026 12:16:37 +0530",
-        "published_timestamp": "2026-09-16T12:16:37+05:30",
-        "summary": "Robert Kiyosaki warns that a significant stock and bond market crash has begun, influenced by factors like the AI frenzy and excessive debt. He emphasizes the need for financial preparedness, especial",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.92,
-        "effective_impact": -0.829
-      },
-      {
-        "title": "Chipotle stock slides 6%: What\u2019s behind the selloff?",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/chipotle-stock-slides-6-whats-behind-the-selloff/slideshow/134281001.cms",
-        "source": "Economic Times",
-        "published": "Wed, 16 Sep 2026 12:15:19 +0530",
-        "published_timestamp": "2026-09-16T12:15:19+05:30",
-        "summary": "Chipotle shares fell nearly 6% on Tuesday, underperforming major restaurant peers. Broader market weakness, concerns over restaurant traffic, consumer spending and profit-taking weighed on investor se",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.92,
-        "effective_impact": -0.875
-      },
-      {
-        "title": "Raymond shares slump 6% after strong run | Key support levels to watch",
-        "link": "https://www.livemint.com/market/stock-market-news/raymond-shares-slump-6-after-strong-run-key-support-levels-to-watch-11789539463468.html",
-        "source": "Livemint",
-        "published": "Wed, 16 Sep 2026 12:14:33 +0530",
-        "published_timestamp": "2026-09-16T12:14:33+05:30",
-        "summary": "Raymond shares fell around 6% on 16 September due to profit-taking after a recent rally. The stock opened at  \u20b9996.10 and hit a high of  \u20b91,060. Experts suggest the bullish trend will remain as long a",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.828
-      },
-      {
-        "title": "US Market: Fed\u2019s Warsh faces tough rate call as inflation remains sticky",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-market-feds-warsh-faces-tough-rate-call-as-inflation-remains-sticky/articleshow/134280309.cms",
-        "source": "Economic Times",
-        "published": "Wed, 16 Sep 2026 12:14:12 +0530",
-        "published_timestamp": "2026-09-16T12:14:12+05:30",
-        "summary": "Federal Reserve Chair Kevin Warsh is under pressure to balance persistent inflation with calls from President Donald Trump for lower or unchanged interest rates. Markets expect the Fed to raise rates ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.92,
-        "effective_impact": -0.874
-      },
-      {
-        "title": "Vedanta Power to Vedanta Iron &amp; Steel - Anil Agarwal-owned group stocks extend losses for second session. Here's why",
-        "link": "https://www.livemint.com/market/stock-market-news/vedanta-power-to-vedanta-iron-steel-anil-agarwal-owned-group-stocks-extend-losses-for-second-session-heres-why-11789537752902.html",
-        "source": "Livemint",
-        "published": "Wed, 16 Sep 2026 12:12:31 +0530",
-        "published_timestamp": "2026-09-16T12:12:31+05:30",
-        "summary": "Sterlite Technologies, a Vedanta Group company, hit 5% lower circuit for the second straight session.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.92,
-        "effective_impact": -0.828
-      },
-      {
-        "title": "Solar Industries\u2019 defence share may fall to 22-25% by FY30 after Omnia deal: Jefferies",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/solar-industries-defence-share-may-fall-to-22-25-by-fy30-after-omnia-deal-jefferies/articleshow/134280191.cms",
-        "source": "Economic Times",
-        "published": "Wed, 16 Sep 2026 12:08:54 +0530",
-        "published_timestamp": "2026-09-16T12:08:54+05:30",
-        "summary": "Solar Industries\u2019 Omnia acquisition could reduce the defence segment\u2019s revenue contribution to 22-25% by FY30, Jefferies said, while agriculture and explosives gain a larger share. The brokerage expec",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Global Market: Japan bond yields rise as inflation concerns build ahead of Fed decision",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-japan-bond-yields-rise-as-inflation-concerns-build-ahead-of-fed-decision/articleshow/134280079.cms",
-        "source": "Economic Times",
-        "published": "Wed, 16 Sep 2026 12:02:15 +0530",
-        "published_timestamp": "2026-09-16T12:02:15+05:30",
-        "summary": "Japanese government bond yields extended their rise as higher oil prices and Middle East tensions fuelled inflation concerns. Longer-dated JGB yields also climbed, while investors awaited the US Feder",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "UPI MDR explained for investors: How will new charges impact your mutual fund SIPs and stock investments?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/upi-mdr-explained-for-investors-how-will-new-charges-impact-your-mutual-fund-sips-and-stock-investments/articleshow/134280097.cms",
-        "source": "Economic Times",
-        "published": "Wed, 16 Sep 2026 12:01:37 +0530",
-        "published_timestamp": "2026-09-16T12:01:37+05:30",
-        "summary": "From October 15, MDR will apply to select UPI person-to-merchant payments above Rs 2,000, but not to all such transactions. UPI AutoPay and mandates will be treated separately, while mutual funds and ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.0
+        "beta_decay": 0.88,
+        "effective_impact": -0.84
       }
     ]
   }
