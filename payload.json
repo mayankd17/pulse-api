@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-17 15:38:40 IST",
+    "ist_time": "2026-09-17 15:56:12 IST",
     "date_str": "2026-09-17",
     "is_open": false,
     "is_weekend": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-09-17 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 37.7,
+    "score": 37.2,
     "regime": "Balanced Neutral",
     "en": {
-      "summary": "Nifty at 23270.6 (MARKET CLOSED: OFF-HOURS). Volatility Index is 12.16 with Put-Call Ratio of 0.771.",
+      "summary": "Nifty at 23270.6 (MARKET CLOSED: OFF-HOURS). Volatility Index is 12.29 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 35% liquid cash. Set opportunistic SIP deployment factor to 1.12x."
+      "what_to_do": "Maintain 35% liquid cash. Set opportunistic SIP deployment factor to 1.13x."
     },
     "hi": {
-      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23270.6 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 12.16 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
+      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23270.6 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 12.29 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.12x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.13x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 20,
       "selective_equity_pct": 35
     },
-    "multiplier": 1.12
+    "multiplier": 1.13
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.12,
+    "dynamic_sip_multiplier": 1.13,
     "lot_size": 25,
     "nifty_lot_value": 581765,
     "cascade_risk_pct": 95
@@ -214,13 +214,13 @@
     "regime_mode": "Low-Vol Trending Regime",
     "sub_scores": {
       "S1_Derivatives": 13.2,
-      "S2_Volatility": 47.0,
+      "S2_Volatility": 43.1,
       "S3_Options_Gamma": 35.0,
       "S4_Large_Deals": 25.4,
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 49.4,
       "S7_Order_Absorption": 56.2,
-      "S8_Lead_Lag_Gap": 74.0
+      "S8_Lead_Lag_Gap": 76.6
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": 1.84,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d747.0) + (0.1\u00d735.0) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d749.4) + (0.05\u00d756.2) + (0.1\u00d774.0) + +1.84 = 37.7"
+    "news_vector_delta": 1.47,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d743.1) + (0.1\u00d735.0) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d749.4) + (0.05\u00d756.2) + (0.1\u00d776.6) + +1.47 = 37.2"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -242,19 +242,19 @@
       "nifty_50_sma": 24091.33,
       "nifty_200_sma": 24508.56,
       "atr_14": 195.06,
-      "india_vix": 12.16,
-      "vix_30d_mean": 11.57,
-      "vix_z_score_30d": 0.88,
+      "india_vix": 12.29,
+      "vix_30d_mean": 11.58,
+      "vix_z_score_30d": 1.06,
       "parkinson_volatility": 7.44,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 99.86,
-      "brent_1d_pct": -5.64,
+      "brent_crude_usd": 99.4,
+      "brent_1d_pct": -6.08,
       "usdinr": 95.93,
       "us_10y_yield": 5.01,
       "sp500_close": 7551.81,
       "sp500_1d_pct": -0.45,
-      "dxy_close": 100.21,
-      "dxy_1d_pct": -0.1,
+      "dxy_close": 100.17,
+      "dxy_1d_pct": -0.14,
       "last_active_session_date": "2026-09-17"
     },
     "derivatives": {
@@ -305,13 +305,78 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 120,
-      "net_macro_lead_pct": 0.96,
+      "expected_gap_points": 133,
+      "net_macro_lead_pct": 1.063,
       "sp500_change_pct": -0.45,
-      "dxy_change_pct": -0.1,
-      "crude_change_pct": -5.64
+      "dxy_change_pct": -0.14,
+      "crude_change_pct": -6.08
     },
     "news_items": [
+      {
+        "title": "Tata Sons IPO soon? Listing approved by Board as Chairman N Chandrasekaran to stay on for 5 more years: Report",
+        "link": "https://www.livemint.com/market/ipo/tata-sons-ipo-soon-listing-approved-by-board-as-chairman-n-chandrasekaran-to-stay-on-for-5-more-years-report-11789640325693.html",
+        "source": "Livemint",
+        "published": "Thu, 17 Sep 2026 15:54:31 +0530",
+        "published_timestamp": "2026-09-17T15:54:31+05:30",
+        "summary": "Tata Sons Pvt. approved going public and asked Chairman Natarajan Chandrasekaran to extend his term for five more years. This decision comes amid internal disputes and regulatory pressure for an IPO, ",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Emami announces share buyback worth Rs 282 crore at 29% premium. Here's what you need to know",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/emami-announces-share-buyback-worth-rs-282-crore-at-29-premium-heres-what-you-need-to-know/articleshow/134308368.cms",
+        "source": "Economic Times",
+        "published": "Thu, 17 Sep 2026 15:43:21 +0530",
+        "published_timestamp": "2026-09-17T15:43:21+05:30",
+        "summary": "Emami announced a Rs 282 crore share buyback at Rs 475 per share, offering a premium to the previous close. The FMCG company will repurchase up to 59.36 lakh shares through the open market, marking it",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Polycab stock may get relief in Q2 amid rising competition fears",
+        "link": "https://www.livemint.com/market/mark-to-market/polycab-stock-may-get-relief-in-q2-amid-rising-competition-fears-11789636582681.html",
+        "source": "Livemint",
+        "published": "Thu, 17 Sep 2026 15:43:02 +0530",
+        "published_timestamp": "2026-09-17T15:43:02+05:30",
+        "summary": "Polycab may stay relatively insulated from Ultravolt\u2019s entry for now. Its cables-heavy mix limits the immediate competitive risk, while firm copper prices and advance purchases ahead of expected price",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "Stock Market prediction tomorrow: Sensex, Nifty outlook for Fri | Kospi, Taiwan Index, Nikkei cues to watch | 18 Sept",
+        "link": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-tomorrow-sensex-nifty-outlook-for-fri-kospi-taiwan-index-nikkei-cues-to-watch-18-sept-11789637497727.html",
+        "source": "Livemint",
+        "published": "Thu, 17 Sep 2026 15:40:10 +0530",
+        "published_timestamp": "2026-09-17T15:40:10+05:30",
+        "summary": "The Indian stock market saw modest gains despite the US Federal Reserve's rate hike, with the Nifty 50 closing up 0.23%. However, concerns arose over potential selling by overseas investors, and both ",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Global Market: European shares advance as investors await Bank of England decision",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-european-shares-advance-as-investors-await-bank-of-england-decision/articleshow/134308123.cms",
+        "source": "Economic Times",
+        "published": "Thu, 17 Sep 2026 15:35:03 +0530",
+        "published_timestamp": "2026-09-17T15:35:03+05:30",
+        "summary": "European shares rose on Thursday as falling crude oil prices and stabilising bond markets improved investor sentiment following the U.S. Federal Reserve\u2019s rate hike. The STOXX 600 and DAX gained 0.5%,",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "Up to 152X return! Rentomojo IPO delivers eye-popping gains to Nitish Mittersain, other early backers",
         "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/up-to-152x-return-rentomojo-ipo-delivers-eye-popping-gains-to-nitish-mittersain-other-early-backers/articleshow/134307877.cms",
@@ -582,8 +647,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.96,
-        "effective_impact": 0.909
+        "beta_decay": 0.95,
+        "effective_impact": 0.904
       },
       {
         "title": "Penny stock under 10 rupees hits 5% upper circuit following Indian stock market rebound",
@@ -595,8 +660,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.96,
-        "effective_impact": 0.861
+        "beta_decay": 0.95,
+        "effective_impact": 0.856
       },
       {
         "title": "Global Market: China broadens Yuan FX clearing in push for global currency use",
@@ -622,7 +687,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.95,
-        "effective_impact": 0.904
+        "effective_impact": 0.899
       },
       {
         "title": "This railway Navratna PSU stock rallies 5% after winning order from Prasar Bharti | Do you own?",
@@ -635,7 +700,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.95,
-        "effective_impact": 0.856
+        "effective_impact": 0.851
       },
       {
         "title": "Kanohar Electricals shares rocket 36% in two days after IPO debut. Buy, sell or hold the stock?",
@@ -647,8 +712,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.95,
-        "effective_impact": 0.903
+        "beta_decay": 0.94,
+        "effective_impact": 0.897
       },
       {
         "title": "Jindal Supreme IPO Day 2: Issue subscribed over 12.5x, GMP at 27% \u2014 Should you subscribe?",
@@ -660,7 +725,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.95,
+        "beta_decay": 0.94,
         "effective_impact": 0.0
       },
       {
@@ -673,8 +738,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.95,
-        "effective_impact": 0.898
+        "beta_decay": 0.94,
+        "effective_impact": 0.893
       },
       {
         "title": "Vodafone Idea share price snaps losing streak amid positive market | Is it time to book profits?",
@@ -687,7 +752,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.94,
-        "effective_impact": 0.849
+        "effective_impact": 0.844
       },
       {
         "title": "ETMarkets Smart Talk| India less vulnerable to US rate shocks, but expensive midcaps remain at risk: Amar K Ambani",
@@ -726,7 +791,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.94,
-        "effective_impact": 0.848
+        "effective_impact": 0.843
       },
       {
         "title": "Global Market: China, Hong Kong markets slip as Fed signals more rate hikes",
@@ -738,7 +803,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.94,
+        "beta_decay": 0.93,
         "effective_impact": 0.0
       },
       {
@@ -751,7 +816,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.94,
+        "beta_decay": 0.93,
         "effective_impact": 0.0
       },
       {
@@ -765,72 +830,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
         "beta_decay": 0.93,
-        "effective_impact": -0.841
-      },
-      {
-        "title": "Apollo Micro Systems share price jumps 3.5% after recent fall | technical experts flag key levels",
-        "link": "https://www.livemint.com/market/stock-market-news/apollo-micro-systems-share-price-jumps-3-5-after-recent-fall-technical-experts-flag-key-levels-11789626185762.html",
-        "source": "Livemint",
-        "published": "Thu, 17 Sep 2026 12:11:15 +0530",
-        "published_timestamp": "2026-09-17T12:11:15+05:30",
-        "summary": "Apollo Micro Systems shares rose 3.5% on September 17 despite recent downturns, with an 8.76% decline over the past week. Analysts warn that support levels may fail to prevent further price drops, alt",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.93,
-        "effective_impact": -0.84
-      },
-      {
-        "title": "Mukul Agrawal\u2019s portfolio: Top 5 stock holdings and their one-month performance",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/mukul-agrawals-portfolio-top-5-stock-holdings-and-their-one-month-performance/slideshow/134304099.cms",
-        "source": "Economic Times",
-        "published": "Thu, 17 Sep 2026 12:08:04 +0530",
-        "published_timestamp": "2026-09-17T12:08:04+05:30",
-        "summary": "He publicly holds 72 stocks with a net worth of nearly Rs 7,910 crore, according to Trendlyne data. ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Rentomojo shares jump 9% after listing at 19% premium over IPO price. Can the debut-day mojo last?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/rentomojo-shares-jump-9-after-listing-at-19-premium-over-ipo-price-can-the-debut-day-mojo-last/articleshow/134303672.cms",
-        "source": "Economic Times",
-        "published": "Thu, 17 Sep 2026 12:04:50 +0530",
-        "published_timestamp": "2026-09-17T12:04:50+05:30",
-        "summary": "Rentomojo shares surged 9% after a strong debut, taking gains to 30% above the IPO price. The stock listed at a 19% premium and rallied to Rs 526.70 within an hour. While analysts see long-term potent",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.885
-      },
-      {
-        "title": "Paras Defence, Data Patterns, BEL, HAL and more: Why are defence stocks on fire today? Check sector outlook",
-        "link": "https://www.livemint.com/market/stock-market-news/paras-defence-data-patterns-bel-hal-and-more-why-are-defence-stocks-on-fire-today-check-sector-outlook-11789625005479.html",
-        "source": "Livemint",
-        "published": "Thu, 17 Sep 2026 11:59:10 +0530",
-        "published_timestamp": "2026-09-17T11:59:10+05:30",
-        "summary": "Defence stocks gained on Thursday with investors focusing on long-term growth. Key players like Paras Defence and Data Patterns saw significant increases. The Defence Acquisition Council approved  \u20b91.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.836
-      },
-      {
-        "title": "A-One Steels fixes price band for Rs 405-crore IPO opening on September 24",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/a-one-steels-fixes-price-band-for-rs-405-crore-ipo-opening-on-september-24/articleshow/134303488.cms",
-        "source": "Economic Times",
-        "published": "Thu, 17 Sep 2026 11:55:07 +0530",
-        "published_timestamp": "2026-09-17T11:55:07+05:30",
-        "summary": "A-One Steels IPO has fixed its price band at Rs 385-405 per share and will open for subscription on September 24. The Rs 405 crore issue comprises a fresh issue and OFS, with proceeds primarily earmar",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.0
+        "effective_impact": -0.836
       }
     ]
   }
