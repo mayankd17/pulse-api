@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-18 15:55:37 IST",
+    "ist_time": "2026-09-18 16:08:57 IST",
     "date_str": "2026-09-18",
     "is_open": false,
     "is_weekend": false,
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 48.6,
       "S7_Order_Absorption": 100.0,
-      "S8_Lead_Lag_Gap": 90.8
+      "S8_Lead_Lag_Gap": 91.9
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": 0.65,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d771.3) + (0.1\u00d736.2) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d748.6) + (0.05\u00d7100.0) + (0.1\u00d790.8) + +0.65 = 42.8"
+    "news_vector_delta": 0.58,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d771.3) + (0.1\u00d736.2) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d748.6) + (0.05\u00d7100.0) + (0.1\u00d791.9) + +0.58 = 42.8"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,8 +247,8 @@
       "vix_z_score_30d": -0.24,
       "parkinson_volatility": 7.46,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 98.69,
-      "brent_1d_pct": -5.85,
+      "brent_crude_usd": 98.46,
+      "brent_1d_pct": -6.07,
       "usdinr": 95.87,
       "us_10y_yield": 4.95,
       "sp500_close": 7637.76,
@@ -305,13 +305,39 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 204,
-      "net_macro_lead_pct": 1.634,
+      "expected_gap_points": 210,
+      "net_macro_lead_pct": 1.678,
       "sp500_change_pct": 1.14,
       "dxy_change_pct": 0.14,
-      "crude_change_pct": -5.85
+      "crude_change_pct": -6.07
     },
     "news_items": [
+      {
+        "title": "Quote of the day by Fred C. Kelly: \"Vanity makes men sell good stocks and keep poor ones in times of distress. They don\u2019t mind disposing of gilt-edged stocks which show a profit \u2014 the very ones which might finally make up the losses on others\"",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/quote-of-the-day-by-fred-c-kelly-vanity-makes-men-sell-good-stocks-and-keep-poor-ones-in-times-of-distress-they-dont-mind-disposing-of-gilt-edged-stocks-which-show-a-profit-the-very-ones-which-might-finally-make-up-the-losses-on-others/articleshow/134332293.cms",
+        "source": "Economic Times",
+        "published": "Fri, 18 Sep 2026 15:50:35 +0530",
+        "published_timestamp": "2026-09-18T15:50:35+05:30",
+        "summary": "Fred C. Kelly highlights a common investing mistake: selling profitable, high-quality stocks during market distress while holding losing investments. The observation underscores how fear, regret and a",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Global Market: Foreign investors sell Asian bonds in August as global debt rout weighs",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-foreign-investors-sell-asian-bonds-in-august-as-global-debt-rout-weighs/articleshow/134332245.cms",
+        "source": "Economic Times",
+        "published": "Fri, 18 Sep 2026 15:49:21 +0530",
+        "published_timestamp": "2026-09-18T15:49:21+05:30",
+        "summary": "Foreign investors turned net sellers of Asian bonds in August, recording $457 million in outflows across South Korea, Malaysia, India, Indonesia and Thailand. Rising global yields, inflation concerns ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "Adani Energy vs CESC vs Tata Power vs NTPC vs Power Grid: Which stock has more upside? Target price by PL Capital",
         "link": "https://www.livemint.com/market/stock-market-news/adani-energy-vs-cesc-vs-tata-power-vs-ntpc-vs-power-grid-which-stock-has-more-upside-target-price-by-pl-capital-11789725460017.html",
@@ -504,8 +530,8 @@
         "is_rumor": true,
         "credibility_weight": 0.47,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.95,
-        "effective_impact": -0.446
+        "beta_decay": 0.94,
+        "effective_impact": -0.444
       },
       {
         "title": "Rising oil, borrowing costs fuel stagflation fears for global economy",
@@ -517,8 +543,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.95,
-        "effective_impact": -0.9
+        "beta_decay": 0.94,
+        "effective_impact": -0.896
       },
       {
         "title": "Park Medi World shares jump over 37% in 6 months; now launches this new program at Signature Hospital Gurugram",
@@ -530,8 +556,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.95,
-        "effective_impact": 0.852
+        "beta_decay": 0.94,
+        "effective_impact": 0.848
       },
       {
         "title": "Stock market prediction: Bulls may fancy Nifty 50 hitting 27,000 in CY2026 | Here's how",
@@ -582,8 +608,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.94,
-        "effective_impact": 0.891
+        "beta_decay": 0.93,
+        "effective_impact": 0.887
       },
       {
         "title": "US Market: SEC unveils five-year exemption for tokenized stock trading",
@@ -609,7 +635,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.93,
-        "effective_impact": 0.841
+        "effective_impact": 0.837
       },
       {
         "title": "14 stocks held by 100+ MFs in August surged up to 200%; 5 turned multibaggers in CY26",
@@ -622,7 +648,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.93,
-        "effective_impact": 0.887
+        "effective_impact": 0.883
       },
       {
         "title": "Can Fayuvi FDA approval lift RARE stock further?",
@@ -635,7 +661,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.93,
-        "effective_impact": 0.884
+        "effective_impact": 0.88
       },
       {
         "title": "MCX traders complain of commodity position prices not reflecting on Zerodha, broker blames delay in exchange reports",
@@ -660,8 +686,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.834
+        "beta_decay": 0.92,
+        "effective_impact": 0.83
       },
       {
         "title": "Chart beat: Preference for investing in new residential launches hits multi-year high",
@@ -673,8 +699,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.833
+        "beta_decay": 0.92,
+        "effective_impact": 0.829
       },
       {
         "title": "Lords Mark Industries share price hits upper circuit after this business update | All details here",
@@ -687,7 +713,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.92,
-        "effective_impact": 0.831
+        "effective_impact": 0.827
       },
       {
         "title": "Global Market: China stocks rally 1% as Trump-Xi meeting raises trade hopes",
@@ -700,7 +726,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.92,
-        "effective_impact": 0.876
+        "effective_impact": 0.873
       },
       {
         "title": "Lodha Developers share price gains over 4% on rate hike bets - Check how other realty stocks are performing today",
@@ -712,8 +738,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.827
+        "beta_decay": 0.91,
+        "effective_impact": 0.823
       },
       {
         "title": "Yatharth Hospital share price jumps 10%: What\u2019s driving the rally?",
@@ -738,8 +764,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.92,
-        "effective_impact": -0.871
+        "beta_decay": 0.91,
+        "effective_impact": -0.867
       },
       {
         "title": "Motilal Oswal sees surging steel prices to offset cost inflation for metal majors. Here are its top stock picks",
@@ -752,7 +778,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
         "beta_decay": 0.91,
-        "effective_impact": -0.866
+        "effective_impact": -0.862
       },
       {
         "title": "Metal stocks to buy: Tata Steel, JSW Steel among Motilal Oswal\u2019s top picks, up to 17% upside | Check target price",
@@ -778,7 +804,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
         "beta_decay": 0.91,
-        "effective_impact": -0.865
+        "effective_impact": -0.861
       },
       {
         "title": "Up over 65% from IPO price in just 3 days! What is driving Glass Wall Systems share price?",
@@ -791,7 +817,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.91,
-        "effective_impact": 0.819
+        "effective_impact": 0.816
       },
       {
         "title": "GPT Infraprojects shares surge 9% after securing Rs 484 crore railway order from RVNL",
@@ -804,33 +830,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.91,
-        "effective_impact": 0.864
-      },
-      {
-        "title": "Small cap stock RIR Power Electronics share price jumps around 8% today: Here\u2019s why the semiconductor stock is rallying",
-        "link": "https://www.livemint.com/market/stock-market-news/small-cap-stock-rir-power-electronics-share-price-jumps-around-8-today-here-s-why-the-semiconductor-stock-is-rallying-11789708403699.html",
-        "source": "Livemint",
-        "published": "Fri, 18 Sep 2026 11:07:32 +0530",
-        "published_timestamp": "2026-09-18T11:07:32+05:30",
-        "summary": "RIR Power Electronics shares rose 8% as the company completed installation of advanced SiC semiconductor manufacturing reactors in Odisha. This facility aims to become India's first vertically integra",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.91,
-        "effective_impact": 0.818
-      },
-      {
-        "title": "India bonds little changed, debt auction cutoff to guide",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-little-changed-debt-auction-cutoff-to-guide/articleshow/134326777.cms",
-        "source": "Economic Times",
-        "published": "Fri, 18 Sep 2026 10:55:08 +0530",
-        "published_timestamp": "2026-09-18T10:55:08+05:30",
-        "summary": "Indian government bonds maintained a steady performance as traders keenly monitored new debt supply cutoffs. In September, the Reserve Bank of India revealed plans for extensive open market debt sales",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.9,
-        "effective_impact": 0.0
+        "effective_impact": 0.86
       }
     ]
   }
