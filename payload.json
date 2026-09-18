@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-18 16:08:57 IST",
+    "ist_time": "2026-09-18 16:21:13 IST",
     "date_str": "2026-09-18",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-09-18 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 42.8,
+    "score": 43.0,
     "regime": "Balanced Neutral",
     "en": {
       "summary": "Nifty at 23346.4 (MARKET CLOSED: OFF-HOURS). Volatility Index is 11.39 with Put-Call Ratio of 0.771.",
@@ -64,7 +64,7 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 40,
+      "score": 41,
       "verdict": "Consolidation Corridor",
       "target_range": "22857.5 - 23835.3",
       "downside_prob_pct": 45,
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 45,
+      "score": 46,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "22529.3 - 24187.0",
       "downside_prob_pct": 45,
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 48.6,
       "S7_Order_Absorption": 100.0,
-      "S8_Lead_Lag_Gap": 91.9
+      "S8_Lead_Lag_Gap": 90.8
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": 0.58,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d771.3) + (0.1\u00d736.2) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d748.6) + (0.05\u00d7100.0) + (0.1\u00d791.9) + +0.58 = 42.8"
+    "news_vector_delta": 0.9,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d771.3) + (0.1\u00d736.2) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d748.6) + (0.05\u00d7100.0) + (0.1\u00d790.8) + +0.90 = 43.0"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": -0.24,
       "parkinson_volatility": 7.46,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 98.46,
-      "brent_1d_pct": -6.07,
+      "brent_crude_usd": 98.57,
+      "brent_1d_pct": -5.96,
       "usdinr": 95.87,
       "us_10y_yield": 4.95,
       "sp500_close": 7637.76,
       "sp500_1d_pct": 1.14,
-      "dxy_close": 100.36,
-      "dxy_1d_pct": 0.14,
+      "dxy_close": 100.43,
+      "dxy_1d_pct": 0.21,
       "last_active_session_date": "2026-09-18"
     },
     "derivatives": {
@@ -305,13 +305,91 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 210,
-      "net_macro_lead_pct": 1.678,
+      "expected_gap_points": 204,
+      "net_macro_lead_pct": 1.631,
       "sp500_change_pct": 1.14,
-      "dxy_change_pct": 0.14,
-      "crude_change_pct": -6.07
+      "dxy_change_pct": 0.21,
+      "crude_change_pct": -5.96
     },
     "news_items": [
+      {
+        "title": "This newly listed stock more than doubled investors' money in less than 2 months; HDFC Securities sees further upside",
+        "link": "https://www.livemint.com/market/stock-market-news/this-newly-listed-stock-more-than-doubled-investors-money-in-less-than-2-months-hdfc-securities-sees-further-upside-11789726391489.html",
+        "source": "Livemint",
+        "published": "Fri, 18 Sep 2026 16:15:15 +0530",
+        "published_timestamp": "2026-09-18T16:15:15+05:30",
+        "summary": "The stock debuted on the Indian bourses on 30 July this year. Currently, it is up almost 118% from its IPO price of  \u20b9485. The stock's record low is  \u20b9701, set on the listing day itself.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "ET Alpha Wealth Summit 2.0: Can SIFs become the bridge between mutual funds &amp; alternative investments?",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/et-alpha-wealth-summit-2-0-can-sifs-become-the-bridge-between-mutual-funds-alternative-investments/articleshow/134331470.cms",
+        "source": "Economic Times",
+        "published": "Fri, 18 Sep 2026 15:59:56 +0530",
+        "published_timestamp": "2026-09-18T15:59:56+05:30",
+        "summary": "SIFs are emerging as a new investment category for investors seeking sophisticated strategies within a regulated fund structure. At ET Alpha Wealth Summit 2.0, Radhika Gupta, MD & CEO of Edelweiss Mut",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Adani stocks soar up to 12% after Jefferies sees up to 53% upside in Adani Energy and others",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/adani-stocks-soar-up-to-12-after-jefferies-sees-up-to-53-upside-in-adani-energy-and-others/articleshow/134332474.cms",
+        "source": "Economic Times",
+        "published": "Fri, 18 Sep 2026 15:59:30 +0530",
+        "published_timestamp": "2026-09-18T15:59:30+05:30",
+        "summary": "Adani group stocks rallied on Friday after Jefferies highlighted growth prospects across energy, ports and power businesses. Adani Total Gas gained over 12%, while Adani Energy Solutions, Adani Green,",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Rupee logs weekly decline; traders expect losses to be capped near 96 against USD",
+        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-logs-weekly-decline-traders-expect-losses-to-be-capped-near-96-against-usd/articleshow/134332448.cms",
+        "source": "Economic Times",
+        "published": "Fri, 18 Sep 2026 15:57:39 +0530",
+        "published_timestamp": "2026-09-18T15:57:39+05:30",
+        "summary": "The Indian rupee witnessed a downturn this week, driven by expectations of rising global interest rates. Following fluctuations, oil prices stabilized amid ongoing tensions in the Middle East. Analyst",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "CAS chaos continues: Sensex indicative price tumbles nearly 1,000 points in seconds, closes in red but Nifty ends above 23,300",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/cas-chaos-continues-sensex-indicative-price-tumbles-nearly-1000-points-closes-in-red-but-nifty-ends-above-23300/articleshow/134332368.cms",
+        "source": "Economic Times",
+        "published": "Fri, 18 Sep 2026 15:55:20 +0530",
+        "published_timestamp": "2026-09-18T15:55:20+05:30",
+        "summary": "Indian stock markets showed divergence as Sensex closed lower and Nifty ended higher.  Sharp swings occurred during the closing auction session, impacting both indices significantly.  Broader markets,",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Bodal Chemicals among 5 commodities stocks that hit 52-week highs &amp; rallied up to 175% in a month",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/bodal-chemicals-among-5-commodities-stocks-that-hit-52-week-highs-amp-rallied-up-to-175-in-a-month/slideshow/134332435.cms",
+        "source": "Economic Times",
+        "published": "Fri, 18 Sep 2026 15:51:50 +0530",
+        "published_timestamp": "2026-09-18T15:51:50+05:30",
+        "summary": "Five listed BSE Commodities Index stocks touched fresh 52-week highs on Friday despite the Sensex closing 20 points lower. Bodal Chemicals led gains with a 174% monthly rise, followed by Valiant Organ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
       {
         "title": "Quote of the day by Fred C. Kelly: \"Vanity makes men sell good stocks and keep poor ones in times of distress. They don\u2019t mind disposing of gilt-edged stocks which show a profit \u2014 the very ones which might finally make up the losses on others\"",
         "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/quote-of-the-day-by-fred-c-kelly-vanity-makes-men-sell-good-stocks-and-keep-poor-ones-in-times-of-distress-they-dont-mind-disposing-of-gilt-edged-stocks-which-show-a-profit-the-very-ones-which-might-finally-make-up-the-losses-on-others/articleshow/134332293.cms",
@@ -531,7 +609,7 @@
         "credibility_weight": 0.47,
         "raw_sentiment": -1.0,
         "beta_decay": 0.94,
-        "effective_impact": -0.444
+        "effective_impact": -0.442
       },
       {
         "title": "Rising oil, borrowing costs fuel stagflation fears for global economy",
@@ -544,7 +622,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
         "beta_decay": 0.94,
-        "effective_impact": -0.896
+        "effective_impact": -0.892
       },
       {
         "title": "Park Medi World shares jump over 37% in 6 months; now launches this new program at Signature Hospital Gurugram",
@@ -557,7 +635,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.94,
-        "effective_impact": 0.848
+        "effective_impact": 0.845
       },
       {
         "title": "Stock market prediction: Bulls may fancy Nifty 50 hitting 27,000 in CY2026 | Here's how",
@@ -595,7 +673,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.94,
+        "beta_decay": 0.93,
         "effective_impact": 0.0
       },
       {
@@ -609,7 +687,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.93,
-        "effective_impact": 0.887
+        "effective_impact": 0.884
       },
       {
         "title": "US Market: SEC unveils five-year exemption for tokenized stock trading",
@@ -635,7 +713,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.93,
-        "effective_impact": 0.837
+        "effective_impact": 0.834
       },
       {
         "title": "14 stocks held by 100+ MFs in August surged up to 200%; 5 turned multibaggers in CY26",
@@ -648,7 +726,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.93,
-        "effective_impact": 0.883
+        "effective_impact": 0.879
       },
       {
         "title": "Can Fayuvi FDA approval lift RARE stock further?",
@@ -660,8 +738,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.88
+        "beta_decay": 0.92,
+        "effective_impact": 0.876
       },
       {
         "title": "MCX traders complain of commodity position prices not reflecting on Zerodha, broker blames delay in exchange reports",
@@ -673,7 +751,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
+        "beta_decay": 0.92,
         "effective_impact": 0.0
       },
       {
@@ -687,7 +765,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.92,
-        "effective_impact": 0.83
+        "effective_impact": 0.827
       },
       {
         "title": "Chart beat: Preference for investing in new residential launches hits multi-year high",
@@ -700,7 +778,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.92,
-        "effective_impact": 0.829
+        "effective_impact": 0.826
       },
       {
         "title": "Lords Mark Industries share price hits upper circuit after this business update | All details here",
@@ -713,7 +791,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.92,
-        "effective_impact": 0.827
+        "effective_impact": 0.824
       },
       {
         "title": "Global Market: China stocks rally 1% as Trump-Xi meeting raises trade hopes",
@@ -725,8 +803,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.873
+        "beta_decay": 0.91,
+        "effective_impact": 0.869
       },
       {
         "title": "Lodha Developers share price gains over 4% on rate hike bets - Check how other realty stocks are performing today",
@@ -739,7 +817,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.91,
-        "effective_impact": 0.823
+        "effective_impact": 0.82
       },
       {
         "title": "Yatharth Hospital share price jumps 10%: What\u2019s driving the rally?",
@@ -753,84 +831,6 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.9
-      },
-      {
-        "title": "Why CoreWeave is raising $3 billion; stock falls over 4%",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-coreweave-is-raising-3-billion-stock-falls-over-4/slideshow/134328153.cms",
-        "source": "Economic Times",
-        "published": "Fri, 18 Sep 2026 11:36:11 +0530",
-        "published_timestamp": "2026-09-18T11:36:11+05:30",
-        "summary": "CoreWeave shares fell after the AI cloud company announced a $3 billion convertible notes offering and plans to sell up to 35 million Class A shares, as its rapid infrastructure expansion drives subst",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.91,
-        "effective_impact": -0.867
-      },
-      {
-        "title": "Motilal Oswal sees surging steel prices to offset cost inflation for metal majors. Here are its top stock picks",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/motilal-oswal-sees-surging-steel-prices-to-offset-cost-inflation-for-metal-majors-here-are-its-top-stock-picks/articleshow/134327119.cms",
-        "source": "Economic Times",
-        "published": "Fri, 18 Sep 2026 11:18:46 +0530",
-        "published_timestamp": "2026-09-18T11:18:46+05:30",
-        "summary": "Motilal Oswal expects firm steel prices, lean inventories and resilient demand to support a shift toward pricing- and cost-led earnings growth for domestic steelmakers. The brokerage sees stronger rea",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.91,
-        "effective_impact": -0.862
-      },
-      {
-        "title": "Metal stocks to buy: Tata Steel, JSW Steel among Motilal Oswal\u2019s top picks, up to 17% upside | Check target price",
-        "link": "https://www.livemint.com/market/stock-market-news/metal-stocks-to-buy-tata-steel-jsw-steel-among-motilal-oswal-s-top-picks-up-to-17-upside-check-target-price-11789707590645.html",
-        "source": "Livemint",
-        "published": "Fri, 18 Sep 2026 11:16:05 +0530",
-        "published_timestamp": "2026-09-18T11:16:05+05:30",
-        "summary": "Tata Steel and JSW Steel emerged as top metal stock picks by Motilal Oswal. Jindal Steel and SAIL also receive 'Buy' ratings, with target prices indicating significant upside potential.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.91,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Even JPMorgan can\u2019t predict oil\u2019s next move as Iran war crosses more red lines",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/even-jpmorgan-cant-predict-oils-next-move-as-iran-war-crosses-more-red-lines/articleshow/134327059.cms",
-        "source": "Economic Times",
-        "published": "Fri, 18 Sep 2026 11:14:20 +0530",
-        "published_timestamp": "2026-09-18T11:14:20+05:30",
-        "summary": "JPMorgan says it no longer has a clear baseline for oil prices as Middle East tensions deepen supply risks. Brent remains above $100 a barrel, while lower demand and inventory buffers have helped the ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.91,
-        "effective_impact": -0.861
-      },
-      {
-        "title": "Up over 65% from IPO price in just 3 days! What is driving Glass Wall Systems share price?",
-        "link": "https://www.livemint.com/market/stock-market-news/up-over-65-from-ipo-price-in-just-3-days-what-is-driving-glass-wall-systems-share-price-11789709442937.html",
-        "source": "Livemint",
-        "published": "Fri, 18 Sep 2026 11:13:33 +0530",
-        "published_timestamp": "2026-09-18T11:13:33+05:30",
-        "summary": "Glass Wall Systems shares opened at  \u20b9267.15 on Friday against their previous close of  \u20b9258.40 and surged 18% to hit its record high of  \u20b9304.50 during the morning session. At this price, the stock i",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.91,
-        "effective_impact": 0.816
-      },
-      {
-        "title": "GPT Infraprojects shares surge 9% after securing Rs 484 crore railway order from RVNL",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/gpt-infraprojects-shares-surge-9-after-securing-rs-484-crore-railway-order-from-rvnl/articleshow/134326998.cms",
-        "source": "Economic Times",
-        "published": "Fri, 18 Sep 2026 11:10:20 +0530",
-        "published_timestamp": "2026-09-18T11:10:20+05:30",
-        "summary": "GPT Infraprojects shares rallied nearly 9% after the company secured a major railway bridge order from RVNL. The contract strengthened its order book to Rs 4,992 crore, while FY27 order inflows reache",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.91,
-        "effective_impact": 0.86
       }
     ]
   }
