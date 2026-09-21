@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-21 16:09:00 IST",
+    "ist_time": "2026-09-21 16:21:38 IST",
     "date_str": "2026-09-21",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-09-21 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 39.6,
+    "score": 40.0,
     "regime": "Balanced Neutral",
     "en": {
       "summary": "Nifty at 23429.0 (MARKET CLOSED: OFF-HOURS). Volatility Index is 11.22 with Put-Call Ratio of 0.771.",
@@ -64,11 +64,11 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 37,
+      "score": 38,
       "verdict": "Consolidation Corridor",
       "target_range": "22945.5 - 23912.5",
-      "downside_prob_pct": 58,
-      "upside_prob_pct": 42,
+      "downside_prob_pct": 45,
+      "upside_prob_pct": 55,
       "en": {
         "rationale": "ATR (193.42 pts) and Parkinson (7.56%) volatility bounds.",
         "action": "Avoid chasing breakout spikes; sell premium out-of-the-money."
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 42,
+      "score": 43,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "22609.0 - 24249.0",
       "downside_prob_pct": 45,
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 51.6,
       "S7_Order_Absorption": 38.5,
-      "S8_Lead_Lag_Gap": 85.4
+      "S8_Lead_Lag_Gap": 87.1
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": -0.26,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d776.2) + (0.1\u00d737.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d751.6) + (0.05\u00d738.5) + (0.1\u00d785.4) + -0.26 = 39.6"
+    "news_vector_delta": -0.03,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d776.2) + (0.1\u00d737.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d751.6) + (0.05\u00d738.5) + (0.1\u00d787.1) + -0.03 = 40.0"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": -0.46,
       "parkinson_volatility": 7.56,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 96.77,
-      "brent_1d_pct": -6.84,
+      "brent_crude_usd": 96.43,
+      "brent_1d_pct": -7.16,
       "usdinr": 95.81,
       "us_10y_yield": 5.0,
       "sp500_close": 7650.5,
       "sp500_1d_pct": 0.17,
-      "dxy_close": 100.3,
-      "dxy_1d_pct": 0.08,
+      "dxy_close": 100.29,
+      "dxy_1d_pct": 0.07,
       "last_active_session_date": "2026-09-21"
     },
     "derivatives": {
@@ -305,13 +305,39 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 177,
-      "net_macro_lead_pct": 1.417,
+      "expected_gap_points": 186,
+      "net_macro_lead_pct": 1.484,
       "sp500_change_pct": 0.17,
-      "dxy_change_pct": 0.08,
-      "crude_change_pct": -6.84
+      "dxy_change_pct": 0.07,
+      "crude_change_pct": -7.16
     },
     "news_items": [
+      {
+        "title": "Oriental Aromatics, Bodal Chemicals among 6 commodity stocks that hit 52-week highs &amp; rallied up to 150% in a month",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/oriental-aromatics-bodal-chemicals-among-6-commodity-stocks-that-hit-52-week-highs-amp-rallied-up-to-150-in-a-month/slideshow/134387647.cms",
+        "source": "Economic Times",
+        "published": "Mon, 21 Sep 2026 16:12:46 +0530",
+        "published_timestamp": "2026-09-21T16:12:46+05:30",
+        "summary": "Seven BSE Commodities Index stocks hit fresh 52-week highs on Monday as the Sensex gained 564 points. Bodal Chemicals led one-month gains at 150%, followed by Bhageria Industries and Oriental Aromatic",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Rupee ends marginally higher in subdued trade, forward premiums ease",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-ends-marginally-higher-in-subdued-trade-forward-premiums-ease/articleshow/134387037.cms",
+        "source": "Economic Times",
+        "published": "Mon, 21 Sep 2026 15:56:07 +0530",
+        "published_timestamp": "2026-09-21T15:56:07+05:30",
+        "summary": "Asian currencies were mostly range-bound, while regional equities advanced after oil prices fell 2%, as investors hoped for diplomatic progress on the Iran war due to this week's UN meeting, and eyed ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "Emami share price jumps 4% ahead of buyback: What should investors do? Check stop loss, target",
         "link": "https://www.livemint.com/market/stock-market-news/emami-share-price-jumps-4-ahead-of-buyback-what-should-investors-do-check-stop-loss-target-11789983617370.html",
@@ -543,7 +569,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.95,
+        "beta_decay": 0.94,
         "effective_impact": 0.0
       },
       {
@@ -557,7 +583,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
         "beta_decay": 0.94,
-        "effective_impact": -0.895
+        "effective_impact": -0.891
       },
       {
         "title": "125% rally in six months | Apparel stock retraces after hitting 52-week high",
@@ -570,7 +596,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.94,
-        "effective_impact": 0.847
+        "effective_impact": 0.843
       },
       {
         "title": "How to trade TCS, Tata Chemicals, other Tata stocks as boardroom battles could reach court",
@@ -583,7 +609,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.94,
-        "effective_impact": 0.893
+        "effective_impact": 0.89
       },
       {
         "title": "GAIL Gas begins process to appoint bankers for up to  \u20b93,100 crore IPO",
@@ -595,7 +621,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.94,
+        "beta_decay": 0.93,
         "effective_impact": 0.0
       },
       {
@@ -609,7 +635,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
         "beta_decay": 0.93,
-        "effective_impact": -0.84
+        "effective_impact": -0.837
       },
       {
         "title": "JSW Cement\u2019s regional diversification is comforting, but costs are more important now",
@@ -622,7 +648,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.93,
-        "effective_impact": 0.839
+        "effective_impact": 0.835
       },
       {
         "title": "Global Market: China tightens scrutiny of humanoid robot IPOs amid valuation concerns",
@@ -634,7 +660,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
+        "beta_decay": 0.92,
         "effective_impact": 0.0
       },
       {
@@ -647,8 +673,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.881
+        "beta_decay": 0.92,
+        "effective_impact": 0.877
       },
       {
         "title": "NMDC shares rally 2% after company sets target to achieve net-zero operational emissions by 2047",
@@ -660,8 +686,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.881
+        "beta_decay": 0.92,
+        "effective_impact": 0.877
       },
       {
         "title": "Top stocks to buy for short term: Jigar Patel recommends Castrol, HDFC Life, Gabriel - Check target price, stop loss",
@@ -700,7 +726,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.92,
-        "effective_impact": 0.828
+        "effective_impact": 0.825
       },
       {
         "title": "OFSS shares tumble 7%; Wipro, Coforge, Infosys shares down up to 2%. Why are IT stocks under pressure today?",
@@ -712,8 +738,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.92,
-        "effective_impact": -0.872
+        "beta_decay": 0.91,
+        "effective_impact": -0.868
       },
       {
         "title": "Global Markets: 5 key things to watch out for this week",
@@ -725,7 +751,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
+        "beta_decay": 0.91,
         "effective_impact": 0.0
       },
       {
@@ -738,7 +764,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
+        "beta_decay": 0.91,
         "effective_impact": 0.0
       },
       {
@@ -751,8 +777,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.92,
-        "effective_impact": -0.87
+        "beta_decay": 0.91,
+        "effective_impact": -0.867
       },
       {
         "title": "US Market: Fed's Kashkari says US inflation still too high despite rate hike",
@@ -764,7 +790,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
+        "beta_decay": 0.91,
         "effective_impact": 0.0
       },
       {
@@ -778,7 +804,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.91,
-        "effective_impact": 0.869
+        "effective_impact": 0.866
       },
       {
         "title": "Tata Capital, Tata Power, and more: Tata stocks fall as Tata Trusts-Tata Sons battle intensifies - Check the latest",
@@ -791,7 +817,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
         "beta_decay": 0.91,
-        "effective_impact": -0.822
+        "effective_impact": -0.819
       },
       {
         "title": "HEG Advanced Materials share price rises on new order from Indus Towers | Do you own?",
@@ -805,32 +831,6 @@
         "raw_sentiment": 0.0,
         "beta_decay": 0.91,
         "effective_impact": 0.0
-      },
-      {
-        "title": "Knowledge Marine shares jump 5% then drop 2% despite this work order update - What next? Tech experts decode",
-        "link": "https://www.livemint.com/market/stock-market-news/knowledge-marine-shares-jump-5-then-drop-2-despite-this-work-order-update-what-next-tech-experts-decode-11789968774263.html",
-        "source": "Livemint",
-        "published": "Mon, 21 Sep 2026 11:14:10 +0530",
-        "published_timestamp": "2026-09-21T11:14:10+05:30",
-        "summary": "Knowledge Marine share price witnessed strong volatility in morning trade on Monday, 21 September, even as the company announced the receipt of a work order from Mumbai Port Authority.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.91,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Global Market: China, Hong Kong stocks rise as investors await Trump-Xi meeting",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-hong-kong-stocks-rise-as-investors-await-trump-xi-meeting/articleshow/134380966.cms",
-        "source": "Economic Times",
-        "published": "Mon, 21 Sep 2026 11:12:46 +0530",
-        "published_timestamp": "2026-09-21T11:12:46+05:30",
-        "summary": "China and Hong Kong stocks rose on Monday led by technology, healthcare, and property shares. Investors parsed high-level talks between US and Chinese officials in New York ahead of a planned summit b",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.91,
-        "effective_impact": 0.861
       }
     ]
   }
