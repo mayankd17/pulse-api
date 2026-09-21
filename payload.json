@@ -1,25 +1,25 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-21 15:22:03 IST",
+    "ist_time": "2026-09-21 15:38:11 IST",
     "date_str": "2026-09-21",
-    "is_open": true,
+    "is_open": false,
     "is_weekend": false,
     "is_holiday": false,
     "holiday_name": "",
     "last_session_date": "2026-09-21",
-    "status_label": "LIVE TRADING SESSION",
-    "notice": "Trading is active."
+    "status_label": "MARKET CLOSED: OFF-HOURS",
+    "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-09-21 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 38.4,
+    "score": 38.3,
     "regime": "Balanced Neutral",
     "en": {
-      "summary": "Nifty at 23429.0 (LIVE TRADING SESSION). Volatility Index is 11.22 with Put-Call Ratio of 0.771.",
+      "summary": "Nifty at 23429.0 (MARKET CLOSED: OFF-HOURS). Volatility Index is 11.22 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
       "what_to_do": "Maintain 35% liquid cash. Set opportunistic SIP deployment factor to 1.12x."
     },
     "hi": {
-      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23429.0 \u092a\u0930 \u0939\u0948 (LIVE TRADING SESSION)\u0964 VIX 11.22 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
+      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23429.0 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 11.22 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
       "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.12x \u0930\u0916\u0947\u0902\u0964"
     }
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 51.6,
       "S7_Order_Absorption": 38.5,
-      "S8_Lead_Lag_Gap": 81.2
+      "S8_Lead_Lag_Gap": 82.8
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": -1.04,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d776.2) + (0.1\u00d737.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d751.6) + (0.05\u00d738.5) + (0.1\u00d781.2) + -1.04 = 38.4"
+    "news_vector_delta": -1.28,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d776.2) + (0.1\u00d737.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d751.6) + (0.05\u00d738.5) + (0.1\u00d782.8) + -1.28 = 38.3"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,8 +247,8 @@
       "vix_z_score_30d": -0.46,
       "parkinson_volatility": 7.56,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 97.6,
-      "brent_1d_pct": -6.04,
+      "brent_crude_usd": 97.28,
+      "brent_1d_pct": -6.34,
       "usdinr": 95.81,
       "us_10y_yield": 5.0,
       "sp500_close": 7650.5,
@@ -305,13 +305,26 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 156,
-      "net_macro_lead_pct": 1.25,
+      "expected_gap_points": 164,
+      "net_macro_lead_pct": 1.31,
       "sp500_change_pct": 0.17,
       "dxy_change_pct": 0.1,
-      "crude_change_pct": -6.04
+      "crude_change_pct": -6.34
     },
     "news_items": [
+      {
+        "title": "Global Market: Euro area bond yields fall as oil prices ease",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-euro-area-bond-yields-fall-as-oil-prices-ease/articleshow/134386398.cms",
+        "source": "Economic Times",
+        "published": "Mon, 21 Sep 2026 15:29:20 +0530",
+        "published_timestamp": "2026-09-21T15:29:20+05:30",
+        "summary": "Euro area government bond yields fell Monday as lower oil prices eased inflation concerns. Germany\u2019s 10-year Bund yield dropped 4.5 basis points to 3.48%. Investors focused on potential diplomatic pro",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
       {
         "title": "Energy dividend kings: ONGC, IOCL, BPCL, Castrol or IGL, which stock delivers the highest payout? Comparison",
         "link": "https://www.livemint.com/market/stock-market-news/energy-dividend-kings-ongc-iocl-bpcl-castrol-or-igl-which-stock-delivers-the-highest-payout-comparison-11789977009342.html",
@@ -322,8 +335,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.98,
-        "effective_impact": 0.886
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
       },
       {
         "title": "Tata Sons Listing: Even a shareholder having just one Tata Sons share may become a crorepati \u2014 Here's how",
@@ -335,7 +348,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.97,
+        "beta_decay": 1.0,
         "effective_impact": 0.0
       },
       {
@@ -374,8 +387,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.97,
-        "effective_impact": -0.92
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
       },
       {
         "title": "Trump\u2019s tariff tantrums return? Gokaldas Exports, other textile stocks drop up to 5% after Trump signs Russia sanctions bill",
@@ -387,8 +400,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.96,
-        "effective_impact": -0.916
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
       },
       {
         "title": "US Market:  Equity funds see fourth straight week of outflows as oil, rate hike concerns mount",
@@ -400,8 +413,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.96,
-        "effective_impact": -0.914
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
       },
       {
         "title": "Nearly 50% return in less than three months | Small-cap stock under  \u20b9100 hits 5% upper circuit",
@@ -413,7 +426,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.96,
+        "beta_decay": 1.0,
         "effective_impact": 0.0
       },
       {
@@ -426,8 +439,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.96,
-        "effective_impact": 0.863
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
       },
       {
         "title": "ESDS Software shares snap 3-day fall, hit 5% upper circuit. What should shareholders do?",
@@ -439,8 +452,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.96,
-        "effective_impact": -0.909
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
       },
       {
         "title": "Nifty Auto looks set to snap a 5-month winning streak - Should you buy the dip in auto, auto ancillary stocks?",
@@ -452,8 +465,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.95,
-        "effective_impact": 0.859
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
       },
       {
         "title": "Global Market: SoftBank launches $10 billion bonds to fund OpenAI investment",
@@ -478,8 +491,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.96,
-        "effective_impact": -0.909
+        "beta_decay": 0.95,
+        "effective_impact": -0.904
       },
       {
         "title": "125% rally in six months | Apparel stock retraces after hitting 52-week high",
@@ -491,8 +504,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.96,
-        "effective_impact": 0.86
+        "beta_decay": 0.95,
+        "effective_impact": 0.855
       },
       {
         "title": "How to trade TCS, Tata Chemicals, other Tata stocks as boardroom battles could reach court",
@@ -504,8 +517,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.96,
-        "effective_impact": 0.908
+        "beta_decay": 0.95,
+        "effective_impact": 0.903
       },
       {
         "title": "GAIL Gas begins process to appoint bankers for up to  \u20b93,100 crore IPO",
@@ -530,8 +543,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.95,
-        "effective_impact": -0.854
+        "beta_decay": 0.94,
+        "effective_impact": -0.849
       },
       {
         "title": "JSW Cement\u2019s regional diversification is comforting, but costs are more important now",
@@ -543,8 +556,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.95,
-        "effective_impact": 0.852
+        "beta_decay": 0.94,
+        "effective_impact": 0.847
       },
       {
         "title": "Global Market: China tightens scrutiny of humanoid robot IPOs amid valuation concerns",
@@ -570,7 +583,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.94,
-        "effective_impact": 0.895
+        "effective_impact": 0.89
       },
       {
         "title": "NMDC shares rally 2% after company sets target to achieve net-zero operational emissions by 2047",
@@ -583,7 +596,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.94,
-        "effective_impact": 0.895
+        "effective_impact": 0.89
       },
       {
         "title": "Top stocks to buy for short term: Jigar Patel recommends Castrol, HDFC Life, Gabriel - Check target price, stop loss",
@@ -595,7 +608,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.94,
+        "beta_decay": 0.93,
         "effective_impact": 0.0
       },
       {
@@ -608,7 +621,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.94,
+        "beta_decay": 0.93,
         "effective_impact": 0.0
       },
       {
@@ -622,7 +635,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.93,
-        "effective_impact": 0.841
+        "effective_impact": 0.837
       },
       {
         "title": "OFSS shares tumble 7%; Wipro, Coforge, Infosys shares down up to 2%. Why are IT stocks under pressure today?",
@@ -635,7 +648,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
         "beta_decay": 0.93,
-        "effective_impact": -0.886
+        "effective_impact": -0.881
       },
       {
         "title": "Global Markets: 5 key things to watch out for this week",
@@ -674,7 +687,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
         "beta_decay": 0.93,
-        "effective_impact": -0.884
+        "effective_impact": -0.879
       },
       {
         "title": "US Market: Fed's Kashkari says US inflation still too high despite rate hike",
@@ -686,7 +699,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
+        "beta_decay": 0.92,
         "effective_impact": 0.0
       },
       {
@@ -699,8 +712,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.883
+        "beta_decay": 0.92,
+        "effective_impact": 0.878
       },
       {
         "title": "Tata Capital, Tata Power, and more: Tata stocks fall as Tata Trusts-Tata Sons battle intensifies - Check the latest",
@@ -712,8 +725,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.93,
-        "effective_impact": -0.835
+        "beta_decay": 0.92,
+        "effective_impact": -0.831
       },
       {
         "title": "HEG Advanced Materials share price rises on new order from Indus Towers | Do you own?",
@@ -725,7 +738,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
+        "beta_decay": 0.92,
         "effective_impact": 0.0
       },
       {
@@ -752,7 +765,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.92,
-        "effective_impact": 0.874
+        "effective_impact": 0.87
       },
       {
         "title": "NSE IPO: Will there be a negative listing? But, should you still apply \u2014 if yes, then why | What experts suggest",
@@ -764,7 +777,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
+        "beta_decay": 0.91,
         "effective_impact": 0.0
       },
       {
@@ -778,7 +791,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.91,
-        "effective_impact": 0.869
+        "effective_impact": 0.864
       },
       {
         "title": "RIL selloff wipes off Rs 4 lakh crore from market value as shares drop 21% in 2026 so far. Should you buy now?",
@@ -791,7 +804,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
         "beta_decay": 0.91,
-        "effective_impact": -0.869
+        "effective_impact": -0.864
       },
       {
         "title": "Sensex jumps 400 points, Nifty nears 23,400 as oil prices cool down despite Middle East tensions. What lies ahead?",
@@ -804,7 +817,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.91,
-        "effective_impact": 0.868
+        "effective_impact": 0.863
       },
       {
         "title": "295% return in 5 years: Jaiprakash Power Ventures share price zooms 12% today - what's driving the rally?",
@@ -816,21 +829,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.91,
-        "effective_impact": 0.818
-      },
-      {
-        "title": "US economy enters higher-rate era as inflation, AI boom persist",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-economy-enters-higher-rate-era-as-inflation-ai-boom-persist/articleshow/134380268.cms",
-        "source": "Economic Times",
-        "published": "Mon, 21 Sep 2026 10:35:50 +0530",
-        "published_timestamp": "2026-09-21T10:35:50+05:30",
-        "summary": "The US economy may be entering a prolonged period of higher interest rates as persistent inflation, government borrowing and massive AI infrastructure investment lift demand for capital. Rising Treasu",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.91,
-        "effective_impact": 0.0
+        "beta_decay": 0.9,
+        "effective_impact": 0.814
       }
     ]
   }
