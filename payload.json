@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-21 15:55:43 IST",
+    "ist_time": "2026-09-21 16:09:00 IST",
     "date_str": "2026-09-21",
     "is_open": false,
     "is_weekend": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-09-21 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 38.9,
+    "score": 39.6,
     "regime": "Balanced Neutral",
     "en": {
       "summary": "Nifty at 23429.0 (MARKET CLOSED: OFF-HOURS). Volatility Index is 11.22 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 35% liquid cash. Set opportunistic SIP deployment factor to 1.11x."
+      "what_to_do": "Maintain 35% liquid cash. Set opportunistic SIP deployment factor to 1.1x."
     },
     "hi": {
       "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23429.0 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 11.22 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.11x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.1x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 20,
       "selective_equity_pct": 35
     },
-    "multiplier": 1.11
+    "multiplier": 1.1
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -64,7 +64,7 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 36,
+      "score": 37,
       "verdict": "Consolidation Corridor",
       "target_range": "22945.5 - 23912.5",
       "downside_prob_pct": 58,
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 41,
+      "score": 42,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "22609.0 - 24249.0",
       "downside_prob_pct": 45,
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.11,
+    "dynamic_sip_multiplier": 1.1,
     "lot_size": 25,
     "nifty_lot_value": 585725,
     "cascade_risk_pct": 95
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 51.6,
       "S7_Order_Absorption": 38.5,
-      "S8_Lead_Lag_Gap": 84.7
+      "S8_Lead_Lag_Gap": 85.4
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": -0.84,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d776.2) + (0.1\u00d737.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d751.6) + (0.05\u00d738.5) + (0.1\u00d784.7) + -0.84 = 38.9"
+    "news_vector_delta": -0.26,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d776.2) + (0.1\u00d737.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d751.6) + (0.05\u00d738.5) + (0.1\u00d785.4) + -0.26 = 39.6"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": -0.46,
       "parkinson_volatility": 7.56,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 96.9,
-      "brent_1d_pct": -6.71,
+      "brent_crude_usd": 96.77,
+      "brent_1d_pct": -6.84,
       "usdinr": 95.81,
       "us_10y_yield": 5.0,
       "sp500_close": 7650.5,
       "sp500_1d_pct": 0.17,
-      "dxy_close": 100.31,
-      "dxy_1d_pct": 0.09,
+      "dxy_close": 100.3,
+      "dxy_1d_pct": 0.08,
       "last_active_session_date": "2026-09-21"
     },
     "derivatives": {
@@ -305,11 +305,11 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 173,
-      "net_macro_lead_pct": 1.387,
+      "expected_gap_points": 177,
+      "net_macro_lead_pct": 1.417,
       "sp500_change_pct": 0.17,
-      "dxy_change_pct": 0.09,
-      "crude_change_pct": -6.71
+      "dxy_change_pct": 0.08,
+      "crude_change_pct": -6.84
     },
     "news_items": [
       {
@@ -337,6 +337,45 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.9
+      },
+      {
+        "title": "Concord Biotech bonus issue sparks rally! Pharma stock jumps 6% on maiden share reward - Top things to know",
+        "link": "https://www.livemint.com/market/stock-market-news/concord-biotech-bonus-issue-sparks-rally-pharma-stock-jumps-6-on-maiden-share-reward-top-things-to-know-11789984107486.html",
+        "source": "Livemint",
+        "published": "Mon, 21 Sep 2026 15:54:49 +0530",
+        "published_timestamp": "2026-09-21T15:54:49+05:30",
+        "summary": "Concord Biotech shares surged nearly 6% after announcing a bonus issue. The board will meet on September 23, 2026, to discuss issuing bonus shares to existing shareholders.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Bitcoin trades above $84,000 after regulatory developments boost market sentiment",
+        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-trades-above-84000-after-regulatory-developments-boost-market-sentiment/articleshow/134386892.cms",
+        "source": "Economic Times",
+        "published": "Mon, 21 Sep 2026 15:47:57 +0530",
+        "published_timestamp": "2026-09-21T15:47:57+05:30",
+        "summary": "Bitcoin climbed above $84,000 as regulatory developments boosted crypto sentiment, including an SEC exemption for tokenized-stock trading and CFTC proposals. Ethereum and major altcoins also gained, w",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "India becomes Asia\u2019s 4th-largest REIT market, overtakes Hong Kong: Cushman &amp; Wakefield",
+        "link": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/india-becomes-asias-4th-largest-reit-market-overtakes-hong-kong-cushman-wakefield/articleshow/134386772.cms",
+        "source": "Economic Times",
+        "published": "Mon, 21 Sep 2026 15:43:29 +0530",
+        "published_timestamp": "2026-09-21T15:43:29+05:30",
+        "summary": "India has overtaken Hong Kong to become Asia\u2019s fourth-largest REIT market, with market value rising 62% to $17.7 billion by March 2026, according to Cushman & Wakefield. New listings, strong office oc",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
       },
       {
         "title": "Global Market: Euro area bond yields fall as oil prices ease",
@@ -517,8 +556,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.95,
-        "effective_impact": -0.899
+        "beta_decay": 0.94,
+        "effective_impact": -0.895
       },
       {
         "title": "125% rally in six months | Apparel stock retraces after hitting 52-week high",
@@ -531,7 +570,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.94,
-        "effective_impact": 0.85
+        "effective_impact": 0.847
       },
       {
         "title": "How to trade TCS, Tata Chemicals, other Tata stocks as boardroom battles could reach court",
@@ -544,7 +583,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.94,
-        "effective_impact": 0.897
+        "effective_impact": 0.893
       },
       {
         "title": "GAIL Gas begins process to appoint bankers for up to  \u20b93,100 crore IPO",
@@ -569,8 +608,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.94,
-        "effective_impact": -0.844
+        "beta_decay": 0.93,
+        "effective_impact": -0.84
       },
       {
         "title": "JSW Cement\u2019s regional diversification is comforting, but costs are more important now",
@@ -582,8 +621,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.94,
-        "effective_impact": 0.842
+        "beta_decay": 0.93,
+        "effective_impact": 0.839
       },
       {
         "title": "Global Market: China tightens scrutiny of humanoid robot IPOs amid valuation concerns",
@@ -609,7 +648,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.93,
-        "effective_impact": 0.885
+        "effective_impact": 0.881
       },
       {
         "title": "NMDC shares rally 2% after company sets target to achieve net-zero operational emissions by 2047",
@@ -622,7 +661,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.93,
-        "effective_impact": 0.885
+        "effective_impact": 0.881
       },
       {
         "title": "Top stocks to buy for short term: Jigar Patel recommends Castrol, HDFC Life, Gabriel - Check target price, stop loss",
@@ -634,7 +673,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
+        "beta_decay": 0.92,
         "effective_impact": 0.0
       },
       {
@@ -647,7 +686,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
+        "beta_decay": 0.92,
         "effective_impact": 0.0
       },
       {
@@ -661,7 +700,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.92,
-        "effective_impact": 0.832
+        "effective_impact": 0.828
       },
       {
         "title": "OFSS shares tumble 7%; Wipro, Coforge, Infosys shares down up to 2%. Why are IT stocks under pressure today?",
@@ -674,7 +713,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
         "beta_decay": 0.92,
-        "effective_impact": -0.876
+        "effective_impact": -0.872
       },
       {
         "title": "Global Markets: 5 key things to watch out for this week",
@@ -713,7 +752,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
         "beta_decay": 0.92,
-        "effective_impact": -0.874
+        "effective_impact": -0.87
       },
       {
         "title": "US Market: Fed's Kashkari says US inflation still too high despite rate hike",
@@ -738,8 +777,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.873
+        "beta_decay": 0.91,
+        "effective_impact": 0.869
       },
       {
         "title": "Tata Capital, Tata Power, and more: Tata stocks fall as Tata Trusts-Tata Sons battle intensifies - Check the latest",
@@ -751,8 +790,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.92,
-        "effective_impact": -0.826
+        "beta_decay": 0.91,
+        "effective_impact": -0.822
       },
       {
         "title": "HEG Advanced Materials share price rises on new order from Indus Towers | Do you own?",
@@ -764,7 +803,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
+        "beta_decay": 0.91,
         "effective_impact": 0.0
       },
       {
@@ -791,46 +830,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.91,
-        "effective_impact": 0.864
-      },
-      {
-        "title": "NSE IPO: Will there be a negative listing? But, should you still apply \u2014 if yes, then why | What experts suggest",
-        "link": "https://www.livemint.com/market/ipo/nse-ipo-will-there-be-a-negative-listing-but-should-you-still-apply-if-yes-then-why-what-experts-suggest-11789965511769.html",
-        "source": "Livemint",
-        "published": "Mon, 21 Sep 2026 10:57:11 +0530",
-        "published_timestamp": "2026-09-21T10:57:11+05:30",
-        "summary": "NSE IPO GMP: According to market observers, NSE shares are available at a premium of  \u20b948 to  \u20b950 in the grey market today",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.91,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "HEG shares rally 5% after receiving Rs 217.56 crore order from Indus Towers for lithium-ion battery banks",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/heg-shares-rally-5-after-receiving-rs-217-56-crore-order-from-indus-towers-for-lithium-ion-battery-banks/articleshow/134380584.cms",
-        "source": "Economic Times",
-        "published": "Mon, 21 Sep 2026 10:55:08 +0530",
-        "published_timestamp": "2026-09-21T10:55:08+05:30",
-        "summary": "HEG shares rose sharply on Monday after subsidiary Replus Engitech received a Rs 217.56 crore order from Indus Towers for lithium-ion battery banks. The order is to be executed by March 31, 2027. The ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.9,
-        "effective_impact": 0.859
-      },
-      {
-        "title": "RIL selloff wipes off Rs 4 lakh crore from market value as shares drop 21% in 2026 so far. Should you buy now?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ril-selloff-wipes-off-rs-4-lakh-crore-from-market-value-as-shares-drop-21-in-2026-so-far-should-you-buy-now/articleshow/134380690.cms",
-        "source": "Economic Times",
-        "published": "Mon, 21 Sep 2026 10:53:59 +0530",
-        "published_timestamp": "2026-09-21T10:53:59+05:30",
-        "summary": "In 2026, Reliance Industries has seen a sharp decline of twenty-one percent in its share prices, wiping out an impressive four lakh crore rupees from its market worth. Analysts recommend that investor",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.9,
-        "effective_impact": -0.859
+        "effective_impact": 0.861
       }
     ]
   }
