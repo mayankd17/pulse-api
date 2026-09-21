@@ -1,5 +1,30 @@
 [
   {
+    "timestamp": "2026-09-21 11:09:35",
+    "audit_data": {
+      "date": "2026-09-21",
+      "morning_predictions": {
+        "mood_score": 37.7,
+        "expected_opening_gap_bias": "Bullish Gap-Up",
+        "expected_gap_points": 152,
+        "options_max_pain_pin_target": 23350,
+        "trap_warning_flagged": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)"
+      },
+      "actual_market_outcome": {
+        "actual_session_high": 23410.75,
+        "actual_session_low": 23314.8,
+        "actual_session_close": 23392.7,
+        "net_session_change_pts": -1.6
+      }
+    },
+    "ai_evaluation": {
+      "audit_verdict": "PARTIAL_DEVIATION",
+      "root_cause_analysis": "Settlement occurred near Max Pain gravity strike with controlled intraday volatility.",
+      "institutional_divergence_summary": "Retail longs were absorbed by institutional limit order queues near the upper boundary.",
+      "adaptive_parameter_adjustment": "Maintain balanced 6-factor weighting with standard VWAP bands."
+    }
+  },
+  {
     "timestamp": "2026-09-21 10:55:39",
     "audit_data": {
       "date": "2026-09-21",
@@ -715,31 +740,6 @@
         "actual_session_low": 23286.6,
         "actual_session_close": 23327.9,
         "net_session_change_pts": -0.1
-      }
-    },
-    "ai_evaluation": {
-      "audit_verdict": "PARTIAL_DEVIATION",
-      "root_cause_analysis": "Settlement occurred near Max Pain gravity strike with controlled intraday volatility.",
-      "institutional_divergence_summary": "Retail longs were absorbed by institutional limit order queues near the upper boundary.",
-      "adaptive_parameter_adjustment": "Maintain balanced 6-factor weighting with standard VWAP bands."
-    }
-  },
-  {
-    "timestamp": "2026-09-18 12:38:21",
-    "audit_data": {
-      "date": "2026-09-18",
-      "morning_predictions": {
-        "mood_score": 33.8,
-        "expected_opening_gap_bias": "Bullish Gap-Up",
-        "expected_gap_points": 117,
-        "options_max_pain_pin_target": 23300,
-        "trap_warning_flagged": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)"
-      },
-      "actual_market_outcome": {
-        "actual_session_high": 23360.55,
-        "actual_session_low": 23286.6,
-        "actual_session_close": 23333.3,
-        "net_session_change_pts": 1.7
       }
     },
     "ai_evaluation": {
