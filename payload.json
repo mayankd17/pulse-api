@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-09-22 15:56:51 IST",
+    "ist_time": "2026-09-22 16:10:50 IST",
     "date_str": "2026-09-22",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-09-22 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 42.7,
+    "score": 42.5,
     "regime": "Balanced Neutral",
     "en": {
       "summary": "Nifty at 23329.0 (MARKET CLOSED: OFF-HOURS). Volatility Index is 11.0 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 53.0,
       "S7_Order_Absorption": 59.2,
-      "S8_Lead_Lag_Gap": 79.5
+      "S8_Lead_Lag_Gap": 78.3
     },
     "active_weights": {
       "w1_Derivatives": "10%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "5%",
       "w8_Lead_Lag_Gap": "10%"
     },
-    "news_vector_delta": 1.43,
-    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d782.3) + (0.1\u00d737.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d753.0) + (0.05\u00d759.2) + (0.1\u00d779.5) + +1.43 = 42.7"
+    "news_vector_delta": 1.41,
+    "final_formula_proof": "Score = (0.1\u00d713.2) + (0.1\u00d782.3) + (0.1\u00d737.1) + (0.15\u00d725.4) + (0.15\u00d70.0) + (0.25\u00d753.0) + (0.05\u00d759.2) + (0.1\u00d778.3) + +1.41 = 42.5"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": -0.74,
       "parkinson_volatility": 7.64,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 97.88,
-      "brent_1d_pct": -2.45,
+      "brent_crude_usd": 98.1,
+      "brent_1d_pct": -2.23,
       "usdinr": 95.58,
       "us_10y_yield": 4.96,
       "sp500_close": 7764.7,
       "sp500_1d_pct": 1.49,
-      "dxy_close": 100.37,
-      "dxy_1d_pct": -0.06,
+      "dxy_close": 100.38,
+      "dxy_1d_pct": -0.05,
       "last_active_session_date": "2026-09-22"
     },
     "derivatives": {
@@ -305,11 +305,11 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 148,
-      "net_macro_lead_pct": 1.181,
+      "expected_gap_points": 142,
+      "net_macro_lead_pct": 1.134,
       "sp500_change_pct": 1.49,
-      "dxy_change_pct": -0.06,
-      "crude_change_pct": -2.45
+      "dxy_change_pct": -0.05,
+      "crude_change_pct": -2.23
     },
     "news_items": [
       {
@@ -347,6 +347,45 @@
         "summary": "On September 23, the primary market launches four IPOs\u2014ArMee Infotech, Swastika Infra, Adroit Industries, and Elevate Campuses\u2014seeking  \u20b92,700 crore over three days. Elevate Campuses aims for  \u20b92,100 ",
         "is_rumor": false,
         "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "LIC said to lead bidding in NSE\u2019s Rs 22,800 crore India IPO",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/lic-said-to-lead-bidding-in-nses-rs-22800-crore-india-ipo/articleshow/134409250.cms",
+        "source": "Economic Times",
+        "published": "Tue, 22 Sep 2026 15:37:57 +0530",
+        "published_timestamp": "2026-09-22T15:37:57+05:30",
+        "summary": "LIC emerged as the largest bidder in NSE\u2019s \u20b922,800 crore IPO with \u20b94,500 crore in bids, joined by ICICI Prudential and Quant Mutual Fund. Despite cautious retail participation (1.3x), strong instituti",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Sebi sees potential for Rs 2 lakh crore IPO fundraising as fresh capital gains prominence",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-sees-potential-for-rs-2-lakh-crore-ipo-fundraising-as-fresh-capital-gains-prominence/articleshow/134409191.cms",
+        "source": "Economic Times",
+        "published": "Tue, 22 Sep 2026 15:35:34 +0530",
+        "published_timestamp": "2026-09-22T15:35:34+05:30",
+        "summary": "SEBI Chairman Tuhin Kanta Pandey said India could raise up to Rs 2 lakh crore through IPOs, with substantial proceeds flowing directly to companies. He highlighted reforms simplifying market access, r",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "NSE pays 20 banks Rs 186 crore in fees for India IPO",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/nse-pays-20-banks-186-crore-rupees-in-fees-for-india-ipo/articleshow/134409071.cms",
+        "source": "Economic Times",
+        "published": "Tue, 22 Sep 2026 15:32:42 +0530",
+        "published_timestamp": "2026-09-22T15:32:42+05:30",
+        "summary": "The National Stock Exchange paid \u20b9186 crore to 20 advisory banks for its $2.4 billion IPO. At 0.82% of the total issue, the fee structure remains well below India\u2019s market average, despite the IPO dra",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
         "beta_decay": 1.0,
         "effective_impact": 0.0
@@ -570,7 +609,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.95,
-        "effective_impact": 0.902
+        "effective_impact": 0.898
       },
       {
         "title": "US stock market rally explained: Why did Nasdaq climb 2% to close at a fresh record high?",
@@ -583,7 +622,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.95,
-        "effective_impact": 0.902
+        "effective_impact": 0.898
       },
       {
         "title": "Bitcoin jumps nearly 5% to cross $85,000 as strong ETF inflows and institutional buying boost crypto momentum",
@@ -595,8 +634,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.95,
-        "effective_impact": 0.902
+        "beta_decay": 0.94,
+        "effective_impact": 0.897
       },
       {
         "title": "11 stocks added by more than 15 MF schemes in August; shares surge up to 240% in CY26",
@@ -608,8 +647,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.95,
-        "effective_impact": 0.898
+        "beta_decay": 0.94,
+        "effective_impact": 0.894
       },
       {
         "title": "Stocks to buy: JM Financial names 9 NBFC stocks as top picks amid rate hike cycle",
@@ -635,7 +674,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.94,
-        "effective_impact": 0.847
+        "effective_impact": 0.843
       },
       {
         "title": "IPO alert: Elevate Campuses\u2019 growth pitch faces a debt test",
@@ -647,7 +686,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.94,
+        "beta_decay": 0.93,
         "effective_impact": 0.0
       },
       {
@@ -660,8 +699,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.94,
-        "effective_impact": 0.842
+        "beta_decay": 0.93,
+        "effective_impact": 0.838
       },
       {
         "title": "Small-cap stock under  \u20b9100: Aastha Spintex declares bonus shares record date, share hits 10% upper circuit",
@@ -674,7 +713,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.93,
-        "effective_impact": 0.841
+        "effective_impact": 0.837
       },
       {
         "title": "Will Roadster reveal trigger a fresh rally in Tesla shares?",
@@ -687,7 +726,7 @@
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
         "beta_decay": 0.93,
-        "effective_impact": 0.886
+        "effective_impact": 0.882
       },
       {
         "title": "Volkswagen Warning Fails to Derail Optimism About Auto Stocks",
@@ -712,8 +751,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.882
+        "beta_decay": 0.92,
+        "effective_impact": 0.878
       },
       {
         "title": "BEML\u2019s mega bullet train order puts execution in spotlight",
@@ -725,7 +764,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
+        "beta_decay": 0.92,
         "effective_impact": 0.0
       },
       {
@@ -738,8 +777,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.834
+        "beta_decay": 0.92,
+        "effective_impact": 0.83
       },
       {
         "title": "HDFC Bank shares hit 7-week high as RBI weighs Anup Bagchi for CEO post. What lies ahead?",
@@ -751,8 +790,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.88
+        "beta_decay": 0.92,
+        "effective_impact": 0.876
       },
       {
         "title": "Stock at Heart of Turkish Fund Crisis Ejected From Top Indexes",
@@ -764,7 +803,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
+        "beta_decay": 0.92,
         "effective_impact": 0.0
       },
       {
@@ -778,7 +817,7 @@
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
         "beta_decay": 0.92,
-        "effective_impact": 0.832
+        "effective_impact": 0.829
       },
       {
         "title": "Indian bonds steady as RBI rate hike expectations strengthen",
@@ -789,45 +828,6 @@
         "summary": "Bond yields for Indian government securities showed little fluctuation as markets brace for ongoing liquidity withdrawals. Specifically, the yield for the benchmark 2036 bond settled at about 7.05% du",
         "is_rumor": false,
         "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "South Korean pension fund seeks India government bond investment licence: Report",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/south-korean-pension-fund-seeks-india-government-bond-investment-licence-report/articleshow/134404611.cms",
-        "source": "Economic Times",
-        "published": "Tue, 22 Sep 2026 12:00:21 +0530",
-        "published_timestamp": "2026-09-22T12:00:21+05:30",
-        "summary": "South Korea's significant pension fund is looking to invest in Indian government bonds, as India strives to enhance foreign capital influx via streamlined registration processes. This initiative enric",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "India's first blue bond set for launch next week: Report",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/indias-first-blue-bond-set-for-launch-next-week-report/articleshow/134404567.cms",
-        "source": "Economic Times",
-        "published": "Tue, 22 Sep 2026 11:57:42 +0530",
-        "published_timestamp": "2026-09-22T11:57:42+05:30",
-        "summary": "Sagarmala Finance Corporation plans its maiden blue bond issuance on September 28.  The company aims to raise six billion rupees for maritime sector projects.  These funds will support port developmen",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Tata Sons listing: How will it impact the Tata Group shareholders?",
-        "link": "https://www.livemint.com/market/stock-market-news/tata-sons-listing-how-will-it-impact-the-tata-group-shareholders-11790053625211.html",
-        "source": "Livemint",
-        "published": "Tue, 22 Sep 2026 11:54:50 +0530",
-        "published_timestamp": "2026-09-22T11:54:50+05:30",
-        "summary": "Tata Sons listing: According to experts, Tata Sons has a capital market valuation of around  \u20b912 lakh crore",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
         "beta_decay": 0.92,
         "effective_impact": 0.0
