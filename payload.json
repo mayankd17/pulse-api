@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-02 14:59:59 IST",
+    "ist_time": "2026-10-02 15:17:55 IST",
     "date_str": "2026-10-02",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Mahatma Gandhi Jayanti). Baseline established from 2026-10-01 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 24.8,
+    "score": 24.9,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 22421.95 (MARKET CLOSED: Mahatma Gandhi Jayanti). Volatility Index is 14.46 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 47.9,
       "S7_Order_Absorption": 19.2,
-      "S8_Lead_Lag_Gap": 69.0
+      "S8_Lead_Lag_Gap": 68.8
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.44,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d769.0) + +0.44 = 24.8"
+    "news_vector_delta": 0.54,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d768.8) + +0.54 = 24.9"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 2.48,
       "parkinson_volatility": 8.94,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 99.18,
-      "brent_1d_pct": -3.06,
+      "brent_crude_usd": 99.16,
+      "brent_1d_pct": -3.08,
       "usdinr": 96.3,
       "us_10y_yield": 5.24,
       "sp500_close": 7666.45,
       "sp500_1d_pct": 0.19,
-      "dxy_close": 101.92,
-      "dxy_1d_pct": -0.18,
+      "dxy_close": 101.95,
+      "dxy_1d_pct": -0.15,
       "last_active_session_date": "2026-10-01"
     },
     "derivatives": {
@@ -305,13 +305,26 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 95,
-      "net_macro_lead_pct": 0.761,
+      "expected_gap_points": 94,
+      "net_macro_lead_pct": 0.754,
       "sp500_change_pct": 0.19,
-      "dxy_change_pct": -0.18,
-      "crude_change_pct": -3.06
+      "dxy_change_pct": -0.15,
+      "crude_change_pct": -3.08
     },
     "news_items": [
+      {
+        "title": "Taiwan index ends at record high, surges 65% year-to-date - What\u2019s driving the rally?",
+        "link": "https://www.livemint.com/market/stock-market-news/taiwan-index-ends-at-record-high-surges-65-year-to-date-what-s-driving-the-rally-11790930484739.html",
+        "source": "Livemint",
+        "published": "Fri, 02 Oct 2026 15:07:35 +0530",
+        "published_timestamp": "2026-10-02T15:07:35+05:30",
+        "summary": "The Taiwan Weighted Index (TAIEX) has reached a fresh closing high, surging 65% year-to-date amid a booming AI and semiconductor market. From record exports to a tech-driven GDP growth, discover the c",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
       {
         "title": "Investors worried over bloodbath as Nifty 50 sees longest weekly losing streak in 25 yrs - Outlook for H2 from experts",
         "link": "https://www.livemint.com/market/stock-market-news/investors-worried-over-bloodbath-as-nifty-50-sees-longest-weekly-losing-streak-in-25-yrs-outlook-for-h2-from-experts-11790922247662.html",
@@ -818,19 +831,6 @@
         "raw_sentiment": -1.0,
         "beta_decay": 1.0,
         "effective_impact": -0.9
-      },
-      {
-        "title": "Stock market holiday: BSE, NSE closed today | Gandhi Jayanti, 2nd October 2026; how Sensex, Nifty fared on Thursday",
-        "link": "https://www.livemint.com/market/stock-market-news/stock-market-holiday-bse-nse-closed-today-gandhi-jayanti-2nd-october-2026-how-sensex-nifty-fared-on-thursday-11790875225418.html",
-        "source": "Livemint",
-        "published": "Cum, 02 Eki 2026 07:26:44 +0530",
-        "published_timestamp": "2026-10-02T08:38:56.258792+05:30",
-        "summary": "The Indian stock market will be closed on October 2 for Mahatma Gandhi Jayanti, with trading suspended in major segments including equity and derivatives. Upcoming holidays include Dussehra on October",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
       }
     ]
   }
