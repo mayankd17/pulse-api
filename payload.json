@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-02 12:46:51 IST",
+    "ist_time": "2026-10-02 13:11:46 IST",
     "date_str": "2026-10-02",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Mahatma Gandhi Jayanti). Baseline established from 2026-10-01 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 24.1,
+    "score": 24.0,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 22421.95 (MARKET CLOSED: Mahatma Gandhi Jayanti). Volatility Index is 14.46 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 47.9,
       "S7_Order_Absorption": 19.2,
-      "S8_Lead_Lag_Gap": 58.7
+      "S8_Lead_Lag_Gap": 59.0
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.28,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d758.7) + +0.28 = 24.1"
+    "news_vector_delta": 0.17,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d759.0) + +0.17 = 24.0"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -253,8 +253,8 @@
       "us_10y_yield": 5.24,
       "sp500_close": 7666.45,
       "sp500_1d_pct": 0.19,
-      "dxy_close": 101.92,
-      "dxy_1d_pct": -0.18,
+      "dxy_close": 101.89,
+      "dxy_1d_pct": -0.21,
       "last_active_session_date": "2026-10-01"
     },
     "derivatives": {
@@ -305,13 +305,65 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 44,
-      "net_macro_lead_pct": 0.349,
+      "expected_gap_points": 45,
+      "net_macro_lead_pct": 0.359,
       "sp500_change_pct": 0.19,
-      "dxy_change_pct": -0.18,
+      "dxy_change_pct": -0.21,
       "crude_change_pct": -1.0
     },
     "news_items": [
+      {
+        "title": "Experts' views: Can new HDFC Bank CEO-MD Anup Bagchi's appointment change fortunes of Sensex, Nifty, Bank Nifty indices?",
+        "link": "https://www.livemint.com/market/stock-market-news/experts-views-can-new-hdfc-bank-ceo-md-anup-bagchis-appointment-change-fortunes-of-sensex-nifty-bank-nifty-indices-11790919995601.html",
+        "source": "Livemint",
+        "published": "Fri, 02 Oct 2026 12:54:15 +0530",
+        "published_timestamp": "2026-10-02T12:54:15+05:30",
+        "summary": "HDFC Bank shares have a weightage of around 11% to 13% in the Nifty 50 index, and around 12.50% in the BSE Sensex",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Bitcoin leads crypto market rebound above $85K as short liquidations accelerate",
+        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-leads-crypto-market-rebound-above-85k-as-short-liquidations-accelerate/articleshow/134634234.cms",
+        "source": "Economic Times",
+        "published": "Fri, 02 Oct 2026 12:50:37 +0530",
+        "published_timestamp": "2026-10-02T12:50:37+05:30",
+        "summary": "Crypto markets rose on Friday as total market capitalisation reached $3.042 trillion, with Bitcoin reclaiming $85,000 amid easing Treasury yields and a short squeeze. Bitcoin gained about 2%, while Et",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "ETMarkets Smart Talk: Rupee under pressure, inflation sticky: Will RBI be forced to rethink rates? Ankita Pathak, Ionic Asset",
+        "link": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-rupee-under-pressure-inflation-sticky-will-rbi-be-forced-to-rethink-rates-ankita-pathak-ionic-asset/articleshow/134634188.cms",
+        "source": "Economic Times",
+        "published": "Fri, 02 Oct 2026 12:44:12 +0530",
+        "published_timestamp": "2026-10-02T12:44:12+05:30",
+        "summary": "With the Fed entering a tightening cycle, India faces a tougher monetary policy trade-off as the rupee remains under pressure and inflation shows signs of broadening. Ankita Pathak of Ionic Asset says",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "Danish brewing giant Carlsberg\u2019s India arm, 3 others get Sebi nod to float IPOs",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/danish-brewing-giant-carlsbergs-india-arm-3-others-get-sebi-nod-to-float-ipos/articleshow/134633869.cms",
+        "source": "Economic Times",
+        "published": "Fri, 02 Oct 2026 12:40:10 +0530",
+        "published_timestamp": "2026-10-02T12:40:10+05:30",
+        "summary": "In a significant move for India's market, Sebi has greenlit IPOs for Carlsberg's local entity, TMC Transformers, Ujin Pharma, and Matangi Rubber. TMC Transformers aims to raise Rs 550 crores via new e",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "Kotak Mahindra Bank shares: How new MD-CEO Anup Saha's appointment can impact the stock - PL Capital decodes",
         "link": "https://www.livemint.com/market/stock-market-news/kotak-mahindra-bank-shares-how-new-md-ceo-anup-sahas-appointment-can-impact-the-stock-pl-capital-decodes-11790920064102.html",
@@ -779,58 +831,6 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.95
-      },
-      {
-        "title": "Gold slips before US payrolls data, set for second weekly loss",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-slips-before-us-payrolls-data-set-for-second-weekly-loss/articleshow/134630500.cms",
-        "source": "Economic Times",
-        "published": "Fri, 02 Oct 2026 07:58:14 +0530",
-        "published_timestamp": "2026-10-02T07:58:14+05:30",
-        "summary": "Gold prices are poised for their second consecutive weekly decline, driven by the strengthening US dollar and escalating Treasury yields. Investors are keenly anticipating vital US payroll figures tha",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Global Markets: Asian shares fall after wild swings in bonds, FX before US jobs data",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-asian-shares-fall-after-wild-swings-in-bonds-fx-before-us-jobs-data/articleshow/134630424.cms",
-        "source": "Economic Times",
-        "published": "Fri, 02 Oct 2026 07:49:39 +0530",
-        "published_timestamp": "2026-10-02T07:49:39+05:30",
-        "summary": "Asian stock markets dipped as investors navigated through the turbulence of bond and currency fluctuations. Elevated oil prices, driven by military strains in the Gulf region, added to the market's un",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Japan government bond yields fall as global markets steady",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/japan-government-bond-yields-fall-as-global-markets-steady/articleshow/134630413.cms",
-        "source": "Economic Times",
-        "published": "Fri, 02 Oct 2026 07:46:30 +0530",
-        "published_timestamp": "2026-10-02T07:46:30+05:30",
-        "summary": "Japanese government bond yields saw a significant drop on Friday, as the 10-year yield fell to levels not recorded since mid-September. Global bond markets stabilizing and shifts in central bank polic",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Oil rises slightly as market weighs mixed supply signals",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/oil-rises-slightly-as-market-weighs-mixed-supply-signals/articleshow/134630396.cms",
-        "source": "Economic Times",
-        "published": "Fri, 02 Oct 2026 07:43:57 +0530",
-        "published_timestamp": "2026-10-02T07:43:57+05:30",
-        "summary": "Oil prices have seen a minor uptick due to China halting fuel exports and the rising American military involvement in the Middle East. The US plans to deploy more troops and aircraft carriers to the a",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
       }
     ]
   }
