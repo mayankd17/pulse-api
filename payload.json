@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-02 15:38:08 IST",
+    "ist_time": "2026-10-02 15:57:53 IST",
     "date_str": "2026-10-02",
     "is_open": false,
     "is_weekend": false,
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 47.9,
       "S7_Order_Absorption": 19.2,
-      "S8_Lead_Lag_Gap": 68.0
+      "S8_Lead_Lag_Gap": 65.4
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.45,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d768.0) + +0.45 = 24.8"
+    "news_vector_delta": 0.62,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d765.4) + +0.62 = 24.8"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 2.48,
       "parkinson_volatility": 8.94,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 99.37,
-      "brent_1d_pct": -2.87,
+      "brent_crude_usd": 99.76,
+      "brent_1d_pct": -2.49,
       "usdinr": 96.3,
       "us_10y_yield": 5.24,
       "sp500_close": 7666.45,
       "sp500_1d_pct": 0.19,
-      "dxy_close": 101.93,
-      "dxy_1d_pct": -0.17,
+      "dxy_close": 102.01,
+      "dxy_1d_pct": -0.09,
       "last_active_session_date": "2026-10-01"
     },
     "derivatives": {
@@ -305,13 +305,39 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 90,
-      "net_macro_lead_pct": 0.719,
+      "expected_gap_points": 77,
+      "net_macro_lead_pct": 0.615,
       "sp500_change_pct": 0.19,
-      "dxy_change_pct": -0.17,
-      "crude_change_pct": -2.87
+      "dxy_change_pct": -0.09,
+      "crude_change_pct": -2.49
     },
     "news_items": [
+      {
+        "title": "IPO News: 4 companies, including Carlsberg beer, get nod from SEBI \u2014what is the issue size for each?",
+        "link": "https://www.livemint.com/market/ipo/ipo-news-4-companies-including-carlsberg-beer-get-nod-from-sebi-what-is-the-issue-size-for-each-11790932544984.html",
+        "source": "Livemint",
+        "published": "Fri, 02 Oct 2026 15:49:19 +0530",
+        "published_timestamp": "2026-10-02T15:49:19+05:30",
+        "summary": "Four companies, including Carlsberg India's unit, have received regulatory observations from Sebi for their IPOs. This includes TMC Transformers, Ujin Pharma, and Matangi Rubber. The approvals mark a ",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Office leasing at record 66.4 mn sq ft in Jan-Sep across top 9 cities, driven by GCCs: CBRE",
+        "link": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/office-leasing-at-record-66-4-mn-sq-ft-in-jan-sep-across-top-9-cities-driven-by-gccs-cbre/articleshow/134636708.cms",
+        "source": "Economic Times",
+        "published": "Fri, 02 Oct 2026 15:37:58 +0530",
+        "published_timestamp": "2026-10-02T15:37:58+05:30",
+        "summary": "Leasing of office spaces in nine major Indian cities during January-September 2026 reached 66.4 million square feet. This represents an 8 percent year-on-year increase in demand for these spaces. Glob",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
       {
         "title": "RBI MPC Meeting October 2026: Repo rate hike soon? Date, announcement time, members, monetary policy review expectations",
         "link": "https://www.livemint.com/market/stock-market-news/rbi-mpc-meeting-october-2026-repo-rate-hike-soon-date-announcement-time-members-monetary-policy-review-expectations-11790931729661.html",
@@ -800,32 +826,6 @@
         "published": "Fri, 02 Oct 2026 08:47:47 +0530",
         "published_timestamp": "2026-10-02T08:47:47+05:30",
         "summary": "The yield on the 10-year Treasury note has surged past its 2007 high, now sitting at 5.34%. At the same time, 30-year US bonds have hit a 24-year peak this week. The rise in global sovereign debt is p",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "D-Street logs longest spell of week slump in 25 years",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/d-street-logs-longest-spell-of-week-slump-in-25-years/articleshow/134630946.cms",
-        "source": "Economic Times",
-        "published": "Fri, 02 Oct 2026 08:45:17 +0530",
-        "published_timestamp": "2026-10-02T08:45:17+05:30",
-        "summary": "Indian equity markets faced significant pressure as US bond yields surged, leading to a record selloff. The Sensex and Nifty experienced prolonged declines, surpassing previous downturns witnessed dur",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "Sri Lotus shares rally 29% in a month. Can luxury and redevelopment sustain the momentum?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sri-lotus-shares-rally-29-in-a-month-can-luxury-and-redevelopment-sustain-the-momentum/articleshow/134630924.cms",
-        "source": "Economic Times",
-        "published": "Fri, 02 Oct 2026 08:43:53 +0530",
-        "published_timestamp": "2026-10-02T08:43:53+05:30",
-        "summary": "Sri Lotus Developers & Realty has seen a remarkable 29% increase in shares, significantly outpacing the wider market. This boost is attributed to the anticipation surrounding their luxury initiatives ",
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
