@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-02 15:57:53 IST",
+    "ist_time": "2026-10-02 16:14:35 IST",
     "date_str": "2026-10-02",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Mahatma Gandhi Jayanti). Baseline established from 2026-10-01 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 24.8,
+    "score": 24.6,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 22421.95 (MARKET CLOSED: Mahatma Gandhi Jayanti). Volatility Index is 14.46 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 47.9,
       "S7_Order_Absorption": 19.2,
-      "S8_Lead_Lag_Gap": 65.4
+      "S8_Lead_Lag_Gap": 65.1
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.62,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d765.4) + +0.62 = 24.8"
+    "news_vector_delta": 0.43,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d765.1) + +0.43 = 24.6"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 2.48,
       "parkinson_volatility": 8.94,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 99.76,
-      "brent_1d_pct": -2.49,
+      "brent_crude_usd": 99.83,
+      "brent_1d_pct": -2.42,
       "usdinr": 96.3,
       "us_10y_yield": 5.24,
       "sp500_close": 7666.45,
       "sp500_1d_pct": 0.19,
-      "dxy_close": 102.01,
-      "dxy_1d_pct": -0.09,
+      "dxy_close": 102.0,
+      "dxy_1d_pct": -0.1,
       "last_active_session_date": "2026-10-01"
     },
     "derivatives": {
@@ -305,13 +305,39 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 77,
-      "net_macro_lead_pct": 0.615,
+      "expected_gap_points": 76,
+      "net_macro_lead_pct": 0.605,
       "sp500_change_pct": 0.19,
-      "dxy_change_pct": -0.09,
-      "crude_change_pct": -2.49
+      "dxy_change_pct": -0.1,
+      "crude_change_pct": -2.42
     },
     "news_items": [
+      {
+        "title": "IREDA share price falls from  \u20b9310 to  \u20b9111 | Govt decision on top management; what exchange filing said",
+        "link": "https://www.livemint.com/market/stock-market-news/ireda-share-price-falls-from-310-to-111-govt-decision-on-top-management-what-exchange-filing-said-11790935256296.html",
+        "source": "Livemint",
+        "published": "Fri, 02 Oct 2026 16:06:19 +0530",
+        "published_timestamp": "2026-10-02T16:06:19+05:30",
+        "summary": "Shares of Indian Renewable Energy Development Agency (IREDA) have been on a downtrend over the last two years, falling more than 60% from its all-time high of  \u20b9310, scaled on 15 July 2024.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Only 9% up since last MD but Jefferies sees 10% more in Kotak Mahindra Bank shares after Anup Saha's appointment",
+        "link": "https://www.livemint.com/market/stock-market-news/only-9-up-since-last-md-but-jefferies-sees-10-more-in-kotak-mahindra-bank-shares-after-anup-sahas-appointment-11790933668092.html",
+        "source": "Livemint",
+        "published": "Fri, 02 Oct 2026 16:01:54 +0530",
+        "published_timestamp": "2026-10-02T16:01:54+05:30",
+        "summary": "Kotak Mahindra Bank shares have rallied from  \u20b9381.62 apiece on NSE during the tenure of incumbent Ashok Vaswani",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "IPO News: 4 companies, including Carlsberg beer, get nod from SEBI \u2014what is the issue size for each?",
         "link": "https://www.livemint.com/market/ipo/ipo-news-4-companies-including-carlsberg-beer-get-nod-from-sebi-what-is-the-issue-size-for-each-11790932544984.html",
@@ -805,32 +831,6 @@
         "raw_sentiment": -1.0,
         "beta_decay": 1.0,
         "effective_impact": -0.9
-      },
-      {
-        "title": "Nifty valuations near post-Covid lows. Alchemy Capital\u2019s Alok Agarwal explains what investors should buy now",
-        "link": "https://economictimes.indiatimes.com/markets/expert-view/nifty-valuations-near-post-covid-lows-alchemy-capitals-alok-agarwal-explains-what-investors-should-buy-now/articleshow/134631194.cms",
-        "source": "Economic Times",
-        "published": "Fri, 02 Oct 2026 09:08:25 +0530",
-        "published_timestamp": "2026-10-02T09:08:25+05:30",
-        "summary": "Nifty valuations have reset sharply from 2024 levels and are now near post-Covid lows, says Alchemy Capital\u2019s Alok Agarwal. He sees the next phase of market growth broadening beyond large caps. Mid- a",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "US Treasury yield hits the Highest Since 2002 at 5.34%",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/us-treasury-yield-hits-the-highest-since-2002-at-5-34/articleshow/134631069.cms",
-        "source": "Economic Times",
-        "published": "Fri, 02 Oct 2026 08:47:47 +0530",
-        "published_timestamp": "2026-10-02T08:47:47+05:30",
-        "summary": "The yield on the 10-year Treasury note has surged past its 2007 high, now sitting at 5.34%. At the same time, 30-year US bonds have hit a 24-year peak this week. The rise in global sovereign debt is p",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
       }
     ]
   }
