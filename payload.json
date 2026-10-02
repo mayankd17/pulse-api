@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-02 14:25:50 IST",
+    "ist_time": "2026-10-02 14:39:53 IST",
     "date_str": "2026-10-02",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Mahatma Gandhi Jayanti). Baseline established from 2026-10-01 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 24.6,
+    "score": 24.7,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 22421.95 (MARKET CLOSED: Mahatma Gandhi Jayanti). Volatility Index is 14.46 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 47.9,
       "S7_Order_Absorption": 19.2,
-      "S8_Lead_Lag_Gap": 68.2
+      "S8_Lead_Lag_Gap": 68.7
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.27,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d768.2) + +0.27 = 24.6"
+    "news_vector_delta": 0.35,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d768.7) + +0.35 = 24.7"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 2.48,
       "parkinson_volatility": 8.94,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 99.28,
-      "brent_1d_pct": -2.96,
+      "brent_crude_usd": 99.24,
+      "brent_1d_pct": -3.0,
       "usdinr": 96.3,
       "us_10y_yield": 5.24,
       "sp500_close": 7666.45,
       "sp500_1d_pct": 0.19,
-      "dxy_close": 101.95,
-      "dxy_1d_pct": -0.15,
+      "dxy_close": 101.92,
+      "dxy_1d_pct": -0.18,
       "last_active_session_date": "2026-10-01"
     },
     "derivatives": {
@@ -305,13 +305,39 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 91,
-      "net_macro_lead_pct": 0.73,
+      "expected_gap_points": 94,
+      "net_macro_lead_pct": 0.749,
       "sp500_change_pct": 0.19,
-      "dxy_change_pct": -0.15,
-      "crude_change_pct": -2.96
+      "dxy_change_pct": -0.18,
+      "crude_change_pct": -3.0
     },
     "news_items": [
+      {
+        "title": "TCS, Wipro, Infosys, HCL Tech: Why experts see IT stocks' price jump on Monday \u2014 What's giving the boost?",
+        "link": "https://www.livemint.com/market/stock-market-news/tcs-wipro-infosys-hcl-tech-why-experts-see-it-stocks-price-jump-on-monday-whats-giving-the-boost-11790927191368.html",
+        "source": "Livemint",
+        "published": "Fri, 02 Oct 2026 14:25:11 +0530",
+        "published_timestamp": "2026-10-02T14:25:11+05:30",
+        "summary": "Accenture's better-than-expected results is a big positive development for the Indian IT majors, say experts",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "The macro manifesto: Decoding the new world order &amp; re-routing of smart money",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/the-macro-manifesto-decoding-the-new-world-order-re-routing-of-smart-money/articleshow/134635592.cms",
+        "source": "Economic Times",
+        "published": "Fri, 02 Oct 2026 14:24:21 +0530",
+        "published_timestamp": "2026-10-02T14:24:21+05:30",
+        "summary": "Transformations in the global economy are reshaping how investors allocate capital and devise strategies. Geopolitical conflicts and tech rivalries are challenging conventional wisdom, leading to heig",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "66% returns in 6 months, small-cap stock Rolex Rings gets Buy rating: InCred sees 32% upside - Check share price target",
         "link": "https://www.livemint.com/market/stock-market-news/66-returns-in-6-months-small-cap-stock-rolex-rings-gets-buy-rating-incred-sees-32-upside-check-share-price-target-11790927993426.html",
@@ -800,32 +826,6 @@
         "published": "Cum, 02 Eki 2026 06:00:42 +0530",
         "published_timestamp": "2026-10-02T08:38:56.258792+05:30",
         "summary": "While the National Payments Corporation of India (NPCI) has said UPI charges should not be passed on to consumers, the framework has left brokerages looking for ways to protect their margins regardles",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Where could PB Fintech share price be in the next five years?",
-        "link": "https://www.livemint.com/market/stock-market-news/where-could-pb-fintech-share-price-be-in-the-next-five-years-11790853370279.html",
-        "source": "Livemint",
-        "published": "Cum, 02 Eki 2026 06:00:42 +0530",
-        "published_timestamp": "2026-10-02T08:38:56.258792+05:30",
-        "summary": "In the last few days, the stock of PB Fintech has crashed after Irdai released a consultation paper proposing changes to insurance distribution economics. Here, we examine the implications and where t",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
-      },
-      {
-        "title": "Oil Extends Gains as US Weighs Sending Carrier to Middle East",
-        "link": "https://www.livemint.com/market/oil-extends-gains-as-us-weighs-sending-carrier-to-middle-east-11790897581331.html",
-        "source": "Livemint",
-        "published": "Cum, 02 Eki 2026 05:03:00 +0530",
-        "published_timestamp": "2026-10-02T08:38:56.258792+05:30",
-        "summary": "Oil climbed for a third day as the US mulled sending another aircraft carrier group to the Middle East, potentially escalating the war with Iran and threatening to hamper a recovery in energy flows fr",
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
