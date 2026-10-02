@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-02 13:11:46 IST",
+    "ist_time": "2026-10-02 13:26:30 IST",
     "date_str": "2026-10-02",
     "is_open": false,
     "is_weekend": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Mahatma Gandhi Jayanti). Baseline established from 2026-10-01 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 24.0,
+    "score": 24.6,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 22421.95 (MARKET CLOSED: Mahatma Gandhi Jayanti). Volatility Index is 14.46 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.26x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.25x."
     },
     "hi": {
       "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 22421.95 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: Mahatma Gandhi Jayanti)\u0964 VIX 14.46 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.26x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.25x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.26
+    "multiplier": 1.25
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.26,
+    "dynamic_sip_multiplier": 1.25,
     "lot_size": 25,
     "nifty_lot_value": 560548,
     "cascade_risk_pct": 95
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 47.9,
       "S7_Order_Absorption": 19.2,
-      "S8_Lead_Lag_Gap": 59.0
+      "S8_Lead_Lag_Gap": 60.5
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.17,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d759.0) + +0.17 = 24.0"
+    "news_vector_delta": 0.62,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d760.5) + +0.62 = 24.6"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 2.48,
       "parkinson_volatility": 8.94,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 101.29,
-      "brent_1d_pct": -1.0,
+      "brent_crude_usd": 100.96,
+      "brent_1d_pct": -1.32,
       "usdinr": 96.3,
       "us_10y_yield": 5.24,
       "sp500_close": 7666.45,
       "sp500_1d_pct": 0.19,
-      "dxy_close": 101.89,
-      "dxy_1d_pct": -0.21,
+      "dxy_close": 101.9,
+      "dxy_1d_pct": -0.2,
       "last_active_session_date": "2026-10-01"
     },
     "derivatives": {
@@ -305,13 +305,39 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 45,
-      "net_macro_lead_pct": 0.359,
+      "expected_gap_points": 52,
+      "net_macro_lead_pct": 0.419,
       "sp500_change_pct": 0.19,
-      "dxy_change_pct": -0.21,
-      "crude_change_pct": -1.0
+      "dxy_change_pct": -0.2,
+      "crude_change_pct": -1.32
     },
     "news_items": [
+      {
+        "title": "Emami\u2019s D2C bet faces a new test as buyback offers support",
+        "link": "https://www.livemint.com/market/mark-to-market/emamis-d2c-bet-faces-a-new-test-as-buyback-offers-support-11790923580043.html",
+        "source": "Livemint",
+        "published": "Fri, 02 Oct 2026 13:23:42 +0530",
+        "published_timestamp": "2026-10-02T13:23:42+05:30",
+        "summary": "Emami is betting on D2C brands and acquisitions to drive growth, but the bigger test is whether the portfolio can turn that growth into profits as the core business faces pressure.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Dividend, bonus, split, buyback, spin off in October: TCS, NMDC, PTC India, JSW Dulux among key corporate actions | List",
+        "link": "https://www.livemint.com/market/stock-market-news/dividend-bonus-split-buyback-spin-off-in-october-tcs-nmdc-ptc-india-jsw-dulux-among-key-corporate-actions-list-11790925015237.html",
+        "source": "Livemint",
+        "published": "Fri, 02 Oct 2026 13:15:20 +0530",
+        "published_timestamp": "2026-10-02T13:15:20+05:30",
+        "summary": "Corporate actions in October include spin-offs by Bhagyanagar India and Veranda Learning Solutions, dividends from TCS and NMDC, and stock splits by companies like Moldtek Technologies. Investors shou",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
       {
         "title": "Experts' views: Can new HDFC Bank CEO-MD Anup Bagchi's appointment change fortunes of Sensex, Nifty, Bank Nifty indices?",
         "link": "https://www.livemint.com/market/stock-market-news/experts-views-can-new-hdfc-bank-ceo-md-anup-bagchis-appointment-change-fortunes-of-sensex-nifty-bank-nifty-indices-11790919995601.html",
@@ -805,32 +831,6 @@
         "raw_sentiment": 0.0,
         "beta_decay": 1.0,
         "effective_impact": 0.0
-      },
-      {
-        "title": "Rupee sinks to 96.31, logs biggest fall in over 2 months",
-        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-sinks-to-96-31-logs-biggest-fall-in-over-2-months/articleshow/134630728.cms",
-        "source": "Economic Times",
-        "published": "Fri, 02 Oct 2026 08:22:20 +0530",
-        "published_timestamp": "2026-10-02T08:22:20+05:30",
-        "summary": "The Indian rupee has markedly dipped against the US dollar, hitting 96.3150. This decline is attributed to escalating US bond yields, which have exerted pressure on emerging market currencies. Additio",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "10-year bond yield breaches 7.20%; hits 2.5-year high",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/10-year-bond-yield-breaches-7-20-hits-2-5-year-high/articleshow/134630646.cms",
-        "source": "Economic Times",
-        "published": "Fri, 02 Oct 2026 08:18:15 +0530",
-        "published_timestamp": "2026-10-02T08:18:15+05:30",
-        "summary": "India's 10-year benchmark bond yields have surged to 7.21%, reaching their highest point in two and a half years. With oil prices continuing to soar and an anticipated rate hike, analysts predict thes",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
       }
     ]
   }
