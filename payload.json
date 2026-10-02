@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-02 09:58:50 IST",
+    "ist_time": "2026-10-02 10:15:43 IST",
     "date_str": "2026-10-02",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Mahatma Gandhi Jayanti). Baseline established from 2026-10-01 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 24.4,
+    "score": 24.3,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 22421.95 (MARKET CLOSED: Mahatma Gandhi Jayanti). Volatility Index is 14.46 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 47.9,
       "S7_Order_Absorption": 19.2,
-      "S8_Lead_Lag_Gap": 54.7
+      "S8_Lead_Lag_Gap": 53.8
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.74,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d754.7) + +0.74 = 24.4"
+    "news_vector_delta": 0.68,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d753.8) + +0.68 = 24.3"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,8 +247,8 @@
       "vix_z_score_30d": 2.48,
       "parkinson_volatility": 8.94,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 102.09,
-      "brent_1d_pct": -0.22,
+      "brent_crude_usd": 102.28,
+      "brent_1d_pct": -0.03,
       "usdinr": 96.3,
       "us_10y_yield": 5.24,
       "sp500_close": 7666.45,
@@ -305,13 +305,52 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Neutral Opening",
-      "expected_gap_points": 24,
-      "net_macro_lead_pct": 0.189,
+      "expected_gap_points": 19,
+      "net_macro_lead_pct": 0.151,
       "sp500_change_pct": 0.19,
       "dxy_change_pct": -0.17,
-      "crude_change_pct": -0.22
+      "crude_change_pct": -0.03
     },
     "news_items": [
+      {
+        "title": "Buy ONGC, Sell Oil India| Kotak raises FY27 oil price assumption to $90",
+        "link": "https://www.livemint.com/market/stock-market-news/buy-ongc-sell-oil-india-kotak-raises-fy27-oil-price-assumption-to-90-11790915589820.html",
+        "source": "Livemint",
+        "published": "Fri, 02 Oct 2026 10:12:51 +0530",
+        "published_timestamp": "2026-10-02T10:12:51+05:30",
+        "summary": "Kotak Institutional Equities maintains a BUY on ONGC with a revised fair value of  \u20b9355 and a SELL on Oil India at  \u20b9360, citing better production outlook and favorable pricing policies for upstream c",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "ESDS, Lumino, Purple Style Labs: 18 IPO stocks facing anchor lock-in expiry in October - Check full list",
+        "link": "https://www.livemint.com/market/stock-market-news/esds-lumino-purple-style-labs-18-ipo-stocks-facing-anchor-lock-in-expiry-in-october-check-full-list-11790912214456.html",
+        "source": "Livemint",
+        "published": "Fri, 02 Oct 2026 09:58:51 +0530",
+        "published_timestamp": "2026-10-02T09:58:51+05:30",
+        "summary": "Several companies, including Kusumgar and Laser Power &amp; Infra, are experiencing significant trading activity as shares become eligible for sale. With 14 firms facing 30-day expiries, many are trad",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Gold price today: Precious metal slips ahead of US Jobs data; MCX closed for Gandhi Jayanti",
+        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-today-precious-metal-slips-ahead-of-us-jobs-data-mcx-closed-for-gandhi-jayanti/articleshow/134631649.cms",
+        "source": "Economic Times",
+        "published": "Fri, 02 Oct 2026 09:50:28 +0530",
+        "published_timestamp": "2026-10-02T09:50:28+05:30",
+        "summary": "Gold prices fell 0.6% to $4,154.78 an ounce, heading for a second weekly decline as a stronger US dollar and elevated Treasury yields pressured bullion. Traders await US jobs data for Fed-rate clues. ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "Top 2 stocks to buy or sell for short-term: Laurus Labs, Canara Bank by Chandan Taparia - Check stop-loss, targets",
         "link": "https://www.livemint.com/market/stock-market-news/top-2-stocks-to-buy-or-sell-for-short-term-laurus-labs-canara-bank-by-chandan-taparia-check-stop-loss-targets-11790853898347.html",
@@ -792,45 +831,6 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.9
-      },
-      {
-        "title": "Ace investor Shankar Sharma decodes market performance, highlights where money-making opportunities lie",
-        "link": "https://www.livemint.com/market/stock-market-news/ace-investor-shankar-sharma-decodes-market-performance-highlights-where-money-making-opportunities-lie-11790853717563.html",
-        "source": "Livemint",
-        "published": "Thu, 01 Oct 2026 17:37:43 +0530",
-        "published_timestamp": "2026-10-01T17:37:43+05:30",
-        "summary": "Ace investor Shankar Sharma unpacks the Indian stock market's recent struggles, attributing its decline to a cycle of 'negligible returns' following strong performance. He urges investors to explore a",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "\u20b91 lakh to  \u20b940 lakh in 5 yrs! Small cap multibagger declares 2:1 bonus - Do you own? Record date, stock performance",
-        "link": "https://www.livemint.com/market/stock-market-news/rs-1-lakh-to-rs-40-lakh-in-5-yrs-small-cap-multibagger-declares-2-1-bonus-do-you-own-record-date-stock-performance-11790854289091.html",
-        "source": "Livemint",
-        "published": "Thu, 01 Oct 2026 17:22:57 +0530",
-        "published_timestamp": "2026-10-01T17:22:57+05:30",
-        "summary": "GTV Engineering Limited's shares dropped 1% on October 1, yet recorded solid weekly gains. A 2:1 bonus share issue has been approved, with the record date set for October 7, making October 6 the last ",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "Infosys, Wipro ADRs soar up to 8% as strong Accenture earnings forecast lifts mood",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/infosys-wipro-adrs-soar-up-to-8-as-strong-accenture-earnings-forecast-lifts-mood/articleshow/134617937.cms",
-        "source": "Economic Times",
-        "published": "Thu, 01 Oct 2026 17:17:36 +0530",
-        "published_timestamp": "2026-10-01T17:17:36+05:30",
-        "summary": "Infosys and Wipro ADRs rallied in US premarket trading after Accenture forecast stronger-than-expected annual revenue growth. Its upbeat outlook eased concerns over global technology spending, while s",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
       }
     ]
   }
