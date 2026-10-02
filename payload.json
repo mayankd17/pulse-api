@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-02 12:06:35 IST",
+    "ist_time": "2026-10-02 12:28:44 IST",
     "date_str": "2026-10-02",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Mahatma Gandhi Jayanti). Baseline established from 2026-10-01 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 24.0,
+    "score": 24.1,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 22421.95 (MARKET CLOSED: Mahatma Gandhi Jayanti). Volatility Index is 14.46 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 47.9,
       "S7_Order_Absorption": 19.2,
-      "S8_Lead_Lag_Gap": 57.4
+      "S8_Lead_Lag_Gap": 58.5
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -233,7 +233,7 @@
       "w8_Lead_Lag_Gap": "5%"
     },
     "news_vector_delta": 0.26,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d757.4) + +0.26 = 24.0"
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d758.5) + +0.26 = 24.1"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 2.48,
       "parkinson_volatility": 8.94,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 101.67,
-      "brent_1d_pct": -0.63,
+      "brent_crude_usd": 101.38,
+      "brent_1d_pct": -0.91,
       "usdinr": 96.3,
       "us_10y_yield": 5.24,
       "sp500_close": 7666.45,
       "sp500_1d_pct": 0.19,
-      "dxy_close": 101.86,
-      "dxy_1d_pct": -0.24,
+      "dxy_close": 101.9,
+      "dxy_1d_pct": -0.2,
       "last_active_session_date": "2026-10-01"
     },
     "derivatives": {
@@ -305,13 +305,52 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 37,
-      "net_macro_lead_pct": 0.295,
+      "expected_gap_points": 42,
+      "net_macro_lead_pct": 0.338,
       "sp500_change_pct": 0.19,
-      "dxy_change_pct": -0.24,
-      "crude_change_pct": -0.63
+      "dxy_change_pct": -0.2,
+      "crude_change_pct": -0.91
     },
     "news_items": [
+      {
+        "title": "Coal India, NTPC among 360 ONE Capital Research\u2019s 8 stock picks for October. Check full list with target prices",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/coal-india-ntpc-among-360-one-capital-researchs-8-stock-picks-for-october-check-full-list-with-target-prices/slideshow/134633712.cms",
+        "source": "Economic Times",
+        "published": "Fri, 02 Oct 2026 12:09:12 +0530",
+        "published_timestamp": "2026-10-02T12:09:12+05:30",
+        "summary": "360 ONE Capital Research has picked eight stocks for October, including Coal India, NTPC and ITC, with Buy ratings and target prices, citing earnings prospects and growth drivers.Coal India, NTPC amon",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "HDFC Bank shares: How stock fared since Atanu Chakraborty's exit till Anup Bagchi appointment- Performance data details",
+        "link": "https://www.livemint.com/market/stock-market-news/hdfc-bank-shares-how-stock-fared-since-atanu-chakrabortys-exit-till-anup-bagchi-appointment-performance-data-details-11790919261953.html",
+        "source": "Livemint",
+        "published": "Fri, 02 Oct 2026 12:07:17 +0530",
+        "published_timestamp": "2026-10-02T12:07:17+05:30",
+        "summary": "HDFC Bank shares struggled in 2026 due to leadership upheaval, dropping around 15% since March. The recent appointment of Anup Bagchi as CEO provides hope for recovery, but challenges like deposit mob",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "ETMarkets Smart Talk| \u2018Desi to Videsi\u2019: How GIFT City is changing the way Indians invest globally \u2014 Mustafa Pardiwala",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/etmarkets-smart-talk-desi-to-videsi-how-gift-city-is-changing-the-way-indians-invest-globally-mustafa-pardiwala/articleshow/134633325.cms",
+        "source": "Economic Times",
+        "published": "Fri, 02 Oct 2026 12:06:28 +0530",
+        "published_timestamp": "2026-10-02T12:06:28+05:30",
+        "summary": "GIFT City is emerging as a gateway for Indian investors seeking global diversification, offering access to US stocks, ETFs and sectors such as AI and semiconductors. Mustafa Pardiwala of Mirae Asset C",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "Hospital stocks: can strong demand offset regulatory risks?",
         "link": "https://www.livemint.com/market/mark-to-market/hospital-stocks-drug-pricing-supreme-court-medicine-mark-ups-hospital-margins-11790918545078.html",
@@ -792,45 +831,6 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.95
-      },
-      {
-        "title": "Stock market holiday today: Are NSE, BSE closed for Gandhi Jayanti? Check 2026 holiday list",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/stock-market-holiday-today-are-nse-bse-closed-for-gandhi-jayanti-check-2026-holiday-list/articleshow/134630179.cms",
-        "source": "Economic Times",
-        "published": "Fri, 02 Oct 2026 07:27:42 +0530",
-        "published_timestamp": "2026-10-02T07:27:42+05:30",
-        "summary": "Indian stock markets will remain closed on October 2 for Gandhi Jayanti, with trading resuming next week. MCX and NCDEX will also remain shut. The market holiday comes after the Sensex and Nifty exten",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "US stocks: US market rebounds to close higher as surging Treasury yields recede",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-rebounds-to-close-higher-as-surging-treasury-yields-recede/articleshow/134626994.cms",
-        "source": "Economic Times",
-        "published": "Fri, 02 Oct 2026 01:42:06 +0530",
-        "published_timestamp": "2026-10-02T01:42:06+05:30",
-        "summary": "US stocks recovered from earlier losses, with the S&P 500 bouncing back after a global bond selloff. The Labor Department reported a dip in weekly initial jobless claims, indicating a solid labor mark",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "45% YTD rally! Experts see up to 56% upside in these 3 stocks on China's export shift | Target, rationale",
-        "link": "https://www.livemint.com/market/stock-market-news/45-ytd-rally-experts-see-up-to-56-upside-in-these-3-stocks-on-chinas-export-shift-target-rationale-11790861349055.html",
-        "source": "Livemint",
-        "published": "Thu, 01 Oct 2026 19:04:02 +0530",
-        "published_timestamp": "2026-10-01T19:04:02+05:30",
-        "summary": "Chinese abrasive products are losing tax advantages, benefiting Indian competition. Monarch Networth Capital forecasts growth in Grindwell Norton, Carborundum Universal, and Wendt India.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
       }
     ]
   }
