@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-02 16:14:35 IST",
+    "ist_time": "2026-10-02 16:27:29 IST",
     "date_str": "2026-10-02",
     "is_open": false,
     "is_weekend": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Mahatma Gandhi Jayanti). Baseline established from 2026-10-01 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 24.6,
+    "score": 24.4,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 22421.95 (MARKET CLOSED: Mahatma Gandhi Jayanti). Volatility Index is 14.46 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.25x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.26x."
     },
     "hi": {
       "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 22421.95 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: Mahatma Gandhi Jayanti)\u0964 VIX 14.46 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.25x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.26x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.25
+    "multiplier": 1.26
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.25,
+    "dynamic_sip_multiplier": 1.26,
     "lot_size": 25,
     "nifty_lot_value": 560548,
     "cascade_risk_pct": 95
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.43,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d765.1) + +0.43 = 24.6"
+    "news_vector_delta": 0.26,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d765.1) + +0.26 = 24.4"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 2.48,
       "parkinson_volatility": 8.94,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 99.83,
-      "brent_1d_pct": -2.42,
+      "brent_crude_usd": 99.82,
+      "brent_1d_pct": -2.43,
       "usdinr": 96.3,
       "us_10y_yield": 5.24,
       "sp500_close": 7666.45,
       "sp500_1d_pct": 0.19,
-      "dxy_close": 102.0,
-      "dxy_1d_pct": -0.1,
+      "dxy_close": 102.01,
+      "dxy_1d_pct": -0.09,
       "last_active_session_date": "2026-10-01"
     },
     "derivatives": {
@@ -305,11 +305,11 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 76,
-      "net_macro_lead_pct": 0.605,
+      "expected_gap_points": 75,
+      "net_macro_lead_pct": 0.603,
       "sp500_change_pct": 0.19,
-      "dxy_change_pct": -0.1,
-      "crude_change_pct": -2.42
+      "dxy_change_pct": -0.09,
+      "crude_change_pct": -2.43
     },
     "news_items": [
       {
