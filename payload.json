@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-02 11:43:05 IST",
+    "ist_time": "2026-10-02 12:06:35 IST",
     "date_str": "2026-10-02",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Mahatma Gandhi Jayanti). Baseline established from 2026-10-01 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 23.9,
+    "score": 24.0,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 22421.95 (MARKET CLOSED: Mahatma Gandhi Jayanti). Volatility Index is 14.46 with Put-Call Ratio of 0.771.",
@@ -64,7 +64,7 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 21,
+      "score": 22,
       "verdict": "Consolidation Corridor",
       "target_range": "21811.3 - 23032.6",
       "downside_prob_pct": 58,
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 26,
+      "score": 27,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "21637.2 - 23608.9",
       "downside_prob_pct": 45,
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 47.9,
       "S7_Order_Absorption": 19.2,
-      "S8_Lead_Lag_Gap": 54.5
+      "S8_Lead_Lag_Gap": 57.4
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.28,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d754.5) + +0.28 = 23.9"
+    "news_vector_delta": 0.26,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d757.4) + +0.26 = 24.0"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 2.48,
       "parkinson_volatility": 8.94,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 102.18,
-      "brent_1d_pct": -0.13,
+      "brent_crude_usd": 101.67,
+      "brent_1d_pct": -0.63,
       "usdinr": 96.3,
       "us_10y_yield": 5.24,
       "sp500_close": 7666.45,
       "sp500_1d_pct": 0.19,
-      "dxy_close": 101.91,
-      "dxy_1d_pct": -0.19,
+      "dxy_close": 101.86,
+      "dxy_1d_pct": -0.24,
       "last_active_session_date": "2026-10-01"
     },
     "derivatives": {
@@ -304,14 +304,53 @@
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
-      "gap_bias": "Neutral Opening",
-      "expected_gap_points": 22,
-      "net_macro_lead_pct": 0.178,
+      "gap_bias": "Bullish Gap-Up",
+      "expected_gap_points": 37,
+      "net_macro_lead_pct": 0.295,
       "sp500_change_pct": 0.19,
-      "dxy_change_pct": -0.19,
-      "crude_change_pct": -0.13
+      "dxy_change_pct": -0.24,
+      "crude_change_pct": -0.63
     },
     "news_items": [
+      {
+        "title": "Hospital stocks: can strong demand offset regulatory risks?",
+        "link": "https://www.livemint.com/market/mark-to-market/hospital-stocks-drug-pricing-supreme-court-medicine-mark-ups-hospital-margins-11790918545078.html",
+        "source": "Livemint",
+        "published": "Fri, 02 Oct 2026 11:51:36 +0530",
+        "published_timestamp": "2026-10-02T11:51:36+05:30",
+        "summary": "The Supreme Court\u2019s scrutiny of medicine mark-ups has raised concerns over hospital margins, even as robust demand for tertiary care continues to support the sector.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Global Markets | Japan's Nikkei retreats from 6-week high as investors lock in gains",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-japans-nikkei-retreats-from-6-week-high-as-investors-lock-in-gains/articleshow/134633243.cms",
+        "source": "Economic Times",
+        "published": "Fri, 02 Oct 2026 11:43:31 +0530",
+        "published_timestamp": "2026-10-02T11:43:31+05:30",
+        "summary": "Japanese rubber futures saw a minor decline amid a slight pullback in Tokyo equities, yet they continue to show prospects for growth. The Osaka Exchange's rubber contract dropped due to concerns over ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Bajaj Finance to raise Rs 17,500 cr via QIP, pref issue",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/bajaj-finance-to-raise-rs-17500-cr-via-qip-pref-issue/articleshow/134632864.cms",
+        "source": "Economic Times",
+        "published": "Fri, 02 Oct 2026 11:35:44 +0530",
+        "published_timestamp": "2026-10-02T11:35:44+05:30",
+        "summary": "Bajaj Finance plans to raise up to Rs 17,500 crore through a Rs 11,700-crore QIP and Rs 5,800 crore warrant issue to promoter Bajaj Finserv. The fundraising requires shareholder approval; institutiona",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
       {
         "title": "Coal India shares | Nuvama upgrades to Buy, hikes target price on higher e-auction premium",
         "link": "https://www.livemint.com/market/stock-market-news/coal-india-shares-nuvama-upgrades-to-buy-hikes-target-price-on-higher-e-auction-premium-11790916869840.html",
@@ -787,45 +826,6 @@
         "published": "Thu, 01 Oct 2026 19:04:02 +0530",
         "published_timestamp": "2026-10-01T19:04:02+05:30",
         "summary": "Chinese abrasive products are losing tax advantages, benefiting Indian competition. Monarch Networth Capital forecasts growth in Grindwell Norton, Carborundum Universal, and Wendt India.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "Sebi asks stock brokers to display investor warnings on apps and websites",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-asks-stock-brokers-to-display-investor-warnings-on-apps-and-websites/articleshow/134620344.cms",
-        "source": "Economic Times",
-        "published": "Thu, 01 Oct 2026 18:42:28 +0530",
-        "published_timestamp": "2026-10-01T18:42:28+05:30",
-        "summary": "Sebi orders stock brokers to display investor awareness messages on websites and trading apps under Project Jagrook. From November 1, apps must show Sebi messages and risk disclosures on alternate day",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Carlsberg India IPO gets Sebi approval along with three other public offers. Check details",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/carlsberg-india-ipo-gets-sebi-approval-along-with-three-other-public-offers-check-details/articleshow/134620190.cms",
-        "source": "Economic Times",
-        "published": "Thu, 01 Oct 2026 18:40:55 +0530",
-        "published_timestamp": "2026-10-01T18:40:55+05:30",
-        "summary": "India\u2019s IPO pipeline expands as Sebi clears papers for Carlsberg India, Matangi Rubber, Ujin Pharma and TMC Transformer. The approvals come amid strong primary-market activity, with over 50 companies ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Azad Engineering share price: Up 86% in 6 months! Is more steam left in this defence stock? Experts' view, target price",
-        "link": "https://www.livemint.com/market/stock-market-news/azad-engineering-share-price-up-86-in-6-months-is-more-steam-left-in-this-defence-stock-experts-view-target-price-11790858341152.html",
-        "source": "Livemint",
-        "published": "Thu, 01 Oct 2026 18:33:51 +0530",
-        "published_timestamp": "2026-10-01T18:33:51+05:30",
-        "summary": "Azad Engineering shares closed down 3.5% on October 1, after a recent peak at a 52-week high of  \u20b93,126. The stock has gained 86% in six months, driven by strategic expansions and strong financial per",
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
