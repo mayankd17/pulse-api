@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-02 13:42:05 IST",
+    "ist_time": "2026-10-02 14:02:00 IST",
     "date_str": "2026-10-02",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Mahatma Gandhi Jayanti). Baseline established from 2026-10-01 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 24.5,
+    "score": 24.6,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 22421.95 (MARKET CLOSED: Mahatma Gandhi Jayanti). Volatility Index is 14.46 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 47.9,
       "S7_Order_Absorption": 19.2,
-      "S8_Lead_Lag_Gap": 62.8
+      "S8_Lead_Lag_Gap": 66.2
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.44,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d762.8) + +0.44 = 24.5"
+    "news_vector_delta": 0.36,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d766.2) + +0.36 = 24.6"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 2.48,
       "parkinson_volatility": 8.94,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 100.56,
-      "brent_1d_pct": -1.71,
+      "brent_crude_usd": 99.83,
+      "brent_1d_pct": -2.42,
       "usdinr": 96.3,
       "us_10y_yield": 5.24,
       "sp500_close": 7666.45,
       "sp500_1d_pct": 0.19,
-      "dxy_close": 101.86,
-      "dxy_1d_pct": -0.24,
+      "dxy_close": 101.87,
+      "dxy_1d_pct": -0.23,
       "last_active_session_date": "2026-10-01"
     },
     "derivatives": {
@@ -305,13 +305,26 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 64,
-      "net_macro_lead_pct": 0.512,
+      "expected_gap_points": 81,
+      "net_macro_lead_pct": 0.65,
       "sp500_change_pct": 0.19,
-      "dxy_change_pct": -0.24,
-      "crude_change_pct": -1.71
+      "dxy_change_pct": -0.23,
+      "crude_change_pct": -2.42
     },
     "news_items": [
+      {
+        "title": "Final touch underway for Jio Platforms IPO; latest GMP, expected launch date, size, valuation, shareholders quota",
+        "link": "https://www.livemint.com/market/ipo/final-touch-underway-for-jio-platforms-ipo-latest-gmp-expected-launch-date-size-valuation-shareholders-quota-11790924443524.html",
+        "source": "Livemint",
+        "published": "Fri, 02 Oct 2026 13:42:19 +0530",
+        "published_timestamp": "2026-10-02T13:42:19+05:30",
+        "summary": "Jio Platforms is finalising its IPO documents for what may be India's largest public offering, estimated at $3.8 billion. Led by Akash Ambani, the IPO marks Reliance's first offering since 2008 and ai",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "Nifty 500 stocks fall up to 70% from 52-week highs; why broad market recovery may remain elusive in short term",
         "link": "https://www.livemint.com/market/stock-market-news/nifty-500-stocks-fall-up-to-70-from-52-week-highs-why-broad-market-recovery-may-remain-elusive-in-short-term-11790910378791.html",
@@ -818,19 +831,6 @@
         "raw_sentiment": -1.0,
         "beta_decay": 1.0,
         "effective_impact": -0.9
-      },
-      {
-        "title": "Treasuries Surge as France\u2019s Fiscal Woes Boost Haven Demand",
-        "link": "https://www.livemint.com/market/treasuries-surge-as-france-s-fiscal-woes-boost-haven-demand-11790882315885.html",
-        "source": "Livemint",
-        "published": "Cum, 02 Eki 2026 00:48:35 +0530",
-        "published_timestamp": "2026-10-02T08:38:56.258792+05:30",
-        "summary": "US Treasuries rebounded from a bruising global bond selloff as pressure in European markets fueled demand for haven assets, pulling 10-year yields down from a 24-year high.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
       }
     ]
   }
