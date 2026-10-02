@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-02 13:26:30 IST",
+    "ist_time": "2026-10-02 13:42:05 IST",
     "date_str": "2026-10-02",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Mahatma Gandhi Jayanti). Baseline established from 2026-10-01 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 24.6,
+    "score": 24.5,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 22421.95 (MARKET CLOSED: Mahatma Gandhi Jayanti). Volatility Index is 14.46 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 47.9,
       "S7_Order_Absorption": 19.2,
-      "S8_Lead_Lag_Gap": 60.5
+      "S8_Lead_Lag_Gap": 62.8
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.62,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d760.5) + +0.62 = 24.6"
+    "news_vector_delta": 0.44,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d762.8) + +0.44 = 24.5"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 2.48,
       "parkinson_volatility": 8.94,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 100.96,
-      "brent_1d_pct": -1.32,
+      "brent_crude_usd": 100.56,
+      "brent_1d_pct": -1.71,
       "usdinr": 96.3,
       "us_10y_yield": 5.24,
       "sp500_close": 7666.45,
       "sp500_1d_pct": 0.19,
-      "dxy_close": 101.9,
-      "dxy_1d_pct": -0.2,
+      "dxy_close": 101.86,
+      "dxy_1d_pct": -0.24,
       "last_active_session_date": "2026-10-01"
     },
     "derivatives": {
@@ -305,13 +305,52 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 52,
-      "net_macro_lead_pct": 0.419,
+      "expected_gap_points": 64,
+      "net_macro_lead_pct": 0.512,
       "sp500_change_pct": 0.19,
-      "dxy_change_pct": -0.2,
-      "crude_change_pct": -1.32
+      "dxy_change_pct": -0.24,
+      "crude_change_pct": -1.71
     },
     "news_items": [
+      {
+        "title": "Nifty 500 stocks fall up to 70% from 52-week highs; why broad market recovery may remain elusive in short term",
+        "link": "https://www.livemint.com/market/stock-market-news/nifty-500-stocks-fall-up-to-70-from-52-week-highs-why-broad-market-recovery-may-remain-elusive-in-short-term-11790910378791.html",
+        "source": "Livemint",
+        "published": "Fri, 02 Oct 2026 13:39:28 +0530",
+        "published_timestamp": "2026-10-02T13:39:28+05:30",
+        "summary": "The Nifty 500 index has faced a significant downturn, with stocks plummeting by up to 70% from their 52-week highs. A blend of geopolitical tensions, escalating oil prices, and weak monsoon prediction",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "Inox Air Products files draft papers for initial offer",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/inox-air-products-files-draft-papers-for-initial-offer/articleshow/134634874.cms",
+        "source": "Economic Times",
+        "published": "Fri, 02 Oct 2026 13:35:21 +0530",
+        "published_timestamp": "2026-10-02T13:35:21+05:30",
+        "summary": "INOX Air Products, an integrated industrial, medical, electronic and specialty gases company, has filed DRHP with Sebi for launching an IPO. ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Carlsberg India unit, 3 other firms get Sebi nod to proceed with IPO plans",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/carlsberg-india-unit-3-other-firms-get-sebi-nod-to-proceed-with-ipo-plans/articleshow/134634784.cms",
+        "source": "Economic Times",
+        "published": "Fri, 02 Oct 2026 13:30:18 +0530",
+        "published_timestamp": "2026-10-02T13:30:18+05:30",
+        "summary": "Sebi has provided observations for the IPOs of Carlsberg India, Matangi Rubber, Ujin Pharma, and TMC Transformer. Carlsberg's filing is under wraps, with specifics to be announced later. Matangi Rubbe",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "Emami\u2019s D2C bet faces a new test as buyback offers support",
         "link": "https://www.livemint.com/market/mark-to-market/emamis-d2c-bet-faces-a-new-test-as-buyback-offers-support-11790923580043.html",
@@ -792,45 +831,6 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.9
-      },
-      {
-        "title": "Equities turn higher as Treasury yields drop from highs",
-        "link": "https://www.livemint.com/market/equities-turn-higher-as-treasury-yields-drop-from-highs-11790880604226.html",
-        "source": "Livemint",
-        "published": "Cum, 02 Eki 2026 00:20:03 +0530",
-        "published_timestamp": "2026-10-02T08:38:56.258792+05:30",
-        "summary": "USA-STOCKS/ (UPDATE 5, GRAPHICS):US STOCKS-Equities turn higher as Treasury yields drop from highs",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "FPIs pull record Rs 3 lakh crore from Indian equities in 9 months. More pain ahead?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-pull-record-rs-3-lakh-crore-from-indian-equities-in-9-months-more-pain-ahead/articleshow/134630889.cms",
-        "source": "Economic Times",
-        "published": "Fri, 02 Oct 2026 08:36:47 +0530",
-        "published_timestamp": "2026-10-02T08:36:47+05:30",
-        "summary": "In an unprecedented turn of events, foreign portfolio investors have divested a staggering amount exceeding \u20b93 lakh crore from Indian equities within the initial nine months of 2026. This marks a reco",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "Vishakha Renewables files IPO papers, eyes Rs 1,250 crore",
-        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/vishakha-renewables-files-ipo-papers-eyes-rs-1250-crore/articleshow/134630791.cms",
-        "source": "Economic Times",
-        "published": "Fri, 02 Oct 2026 08:26:37 +0530",
-        "published_timestamp": "2026-10-02T08:26:37+05:30",
-        "summary": "Vishakha Renewables, a company founded by Gautam Adani that specializes in solar components, has submitted its Draft Red Herring Prospectus. The firm aims to secure \u20b91,250 crore through an initial pub",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
       }
     ]
   }
