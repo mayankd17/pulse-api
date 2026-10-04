@@ -1,25 +1,25 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-04 16:53:33 IST",
-    "date_str": "2026-10-04",
+    "ist_time": "2026-10-05 01:01:48 IST",
+    "date_str": "2026-10-05",
     "is_open": false,
-    "is_weekend": true,
+    "is_weekend": false,
     "is_holiday": false,
     "holiday_name": "",
     "last_session_date": "2026-10-01",
-    "status_label": "MARKET CLOSED: WEEKEND",
-    "notice": "MARKET OFF TODAY (MARKET CLOSED: WEEKEND). Baseline established from 2026-10-01 session. Off-market news & global cues monitored with zero weekend decay."
+    "status_label": "MARKET CLOSED: OFF-HOURS",
+    "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-10-01 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 24.0,
+    "score": 23.8,
     "regime": "Fear",
     "en": {
-      "summary": "Nifty at 22421.95 (MARKET CLOSED: WEEKEND). Volatility Index is 14.46 with Put-Call Ratio of 0.771.",
+      "summary": "Nifty at 22421.95 (MARKET CLOSED: OFF-HOURS). Volatility Index is 14.46 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
       "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.26x."
     },
     "hi": {
-      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 22421.95 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: WEEKEND)\u0964 VIX 14.46 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
+      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 22421.95 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 14.46 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
       "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.26x \u0930\u0916\u0947\u0902\u0964"
     }
@@ -64,7 +64,7 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 22,
+      "score": 21,
       "verdict": "Consolidation Corridor",
       "target_range": "21811.3 - 23032.6",
       "downside_prob_pct": 58,
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 27,
+      "score": 26,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "21637.2 - 23608.9",
       "downside_prob_pct": 45,
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.07,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d760.0) + +0.07 = 24.0"
+    "news_vector_delta": -0.08,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d79.2) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d747.9) + (0.1\u00d719.2) + (0.05\u00d760.0) + -0.08 = 23.8"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -312,6 +312,45 @@
       "crude_change_pct": -0.06
     },
     "news_items": [
+      {
+        "title": "Why Oil Is Still Stuck Near $100 a Barrel",
+        "link": "https://www.livemint.com/market/why-oil-is-still-stuck-near-100-a-barrel-11791121957103.html",
+        "source": "Livemint",
+        "published": "Sun, 04 Oct 2026 19:22:36 +0530",
+        "published_timestamp": "2026-10-04T19:22:36+05:30",
+        "summary": "Hundred-dollar oil is hard to leave behind.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Top stocks to watch tomorrow: HDFC Bank, Yes Bank, RVNL, Bajaj Finance shares in focus on Monday, 5 Oct | Full list",
+        "link": "https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-tomorrow-hdfc-bank-yes-bank-rvnl-bajaj-finance-shares-in-focus-on-monday-5-oct-full-list-11791113905735.html",
+        "source": "Livemint",
+        "published": "Sun, 04 Oct 2026 18:06:09 +0530",
+        "published_timestamp": "2026-10-04T18:06:09+05:30",
+        "summary": "Top stocks to watch on Monday, 5 October, 2026: HDFC Bank, Yes Bank, Bajaj Finance, DLF, IDBI Bank are among the shares that will remain in focus on Monday.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "LTM, Cyient, Zen, Birlasoft share price target, stop-loss - IT stocks to buy for over 32% returns ahead of Q2 results",
+        "link": "https://www.livemint.com/market/stock-market-news/ltm-cyient-zen-birlasoft-share-price-target-stop-loss-it-stocks-to-buy-for-over-32-returns-ahead-of-q2-results-11791111110434.html",
+        "source": "Livemint",
+        "published": "Sun, 04 Oct 2026 17:06:21 +0530",
+        "published_timestamp": "2026-10-04T17:06:21+05:30",
+        "summary": "IT stocks to buy: The brokerage has retained a positive stance on most of the IT stocks, with Larsen &amp; Toubro Technology Services (LTTS), Mphasis and Coforge among the picks offering meaningful up",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
       {
         "title": "Sensex, Nifty, Bank Nifty prediction: What will happen in the Indian stock market on Monday? 3 reasons tell the scene",
         "link": "https://www.livemint.com/market/stock-market-news/sensex-nifty-bank-nifty-prediction-what-will-happen-in-the-indian-stock-market-on-monday-3-reasons-tell-the-scene-11791107343487.html",
@@ -792,45 +831,6 @@
         "raw_sentiment": -1.0,
         "beta_decay": 1.0,
         "effective_impact": -0.9
-      },
-      {
-        "title": "Bitcoin holds near $84,000, Ethereum moves towards $2,700 as buyers remain active",
-        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-holds-near-84000-ethereum-moves-towards-2700-as-buyers-remain-active/articleshow/134654918.cms",
-        "source": "Economic Times",
-        "published": "Sat, 03 Oct 2026 13:31:37 +0530",
-        "published_timestamp": "2026-10-03T13:31:37+05:30",
-        "summary": "In the past 24 hours, Bitcoin and Ethereum were down 1.6% and 1.5% respectively. Among the major altcoins, BNB, Dogecoin, Solana, Hyperliquid, Dogecoin and Cardano corrected upto 3.1% whereas Tron was",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "F&amp;O Talk: 22,600 is a key Nifty support; Sudeep Shah discusses PB Fintech, Infosys, TCS strategy ahead of Q2",
-        "link": "https://economictimes.indiatimes.com/markets/expert-view/fo-talk-22600-is-a-key-nifty-support-sudeep-shah-discusses-pb-fintech-infosys-tcs-strategy-ahead-of-q2/articleshow/134654760.cms",
-        "source": "Economic Times",
-        "published": "Sat, 03 Oct 2026 13:25:59 +0530",
-        "published_timestamp": "2026-10-03T13:25:59+05:30",
-        "summary": "Analyst Sudeep Shah, Vice President and Head of Technical & Derivatives Research at SBI Securities, interacted with ETMarkets regarding the outlook for the Nifty, options data, and an index strategy f",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Greed and Fear Report: Chris Wood-led Jefferies sees IT earnings soaring 65% on AI boom but flags this as a key risk",
-        "link": "https://www.livemint.com/market/stock-market-news/greed-and-fear-report-chris-wood-led-jefferies-sees-it-earnings-soaring-65-on-ai-boom-but-flags-this-as-a-key-risk-11791011466156.html",
-        "source": "Livemint",
-        "published": "Sat, 03 Oct 2026 13:10:48 +0530",
-        "published_timestamp": "2026-10-03T13:10:48+05:30",
-        "summary": "The technology sector faces a pivotal moment with strong AI-driven earnings growth countered by rising bond yields. Analysts highlight the need to evaluate long-term returns on substantial AI capital ",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
       }
     ]
   }
