@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-06 19:10:30 IST",
+    "ist_time": "2026-10-06 19:50:47 IST",
     "date_str": "2026-10-06",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-10-06 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 31.1,
+    "score": 31.0,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 22776.1 (MARKET CLOSED: OFF-HOURS). Volatility Index is 13.61 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 48.4,
       "S7_Order_Absorption": 31.0,
-      "S8_Lead_Lag_Gap": 69.9
+      "S8_Lead_Lag_Gap": 70.2
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 1.29,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d734.6) + (0.15\u00d737.2) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d748.4) + (0.1\u00d731.0) + (0.05\u00d769.9) + +1.29 = 31.1"
+    "news_vector_delta": 1.19,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d734.6) + (0.15\u00d737.2) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d748.4) + (0.1\u00d731.0) + (0.05\u00d770.2) + +1.19 = 31.0"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.32,
       "parkinson_volatility": 9.26,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 97.98,
-      "brent_1d_pct": -2.33,
+      "brent_crude_usd": 98.2,
+      "brent_1d_pct": -2.11,
       "usdinr": 96.41,
-      "us_10y_yield": 5.28,
-      "sp500_close": 7813.42,
-      "sp500_1d_pct": 0.51,
-      "dxy_close": 101.87,
-      "dxy_1d_pct": -0.29,
+      "us_10y_yield": 5.3,
+      "sp500_close": 7824.21,
+      "sp500_1d_pct": 0.65,
+      "dxy_close": 101.9,
+      "dxy_1d_pct": -0.26,
       "last_active_session_date": "2026-10-06"
     },
     "derivatives": {
@@ -305,13 +305,78 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 100,
-      "net_macro_lead_pct": 0.797,
-      "sp500_change_pct": 0.51,
-      "dxy_change_pct": -0.29,
-      "crude_change_pct": -2.33
+      "expected_gap_points": 101,
+      "net_macro_lead_pct": 0.806,
+      "sp500_change_pct": 0.65,
+      "dxy_change_pct": -0.26,
+      "crude_change_pct": -2.11
     },
     "news_items": [
+      {
+        "title": "Titan Q2FY27 update: Consumer businesses grow 25% YoY, jewellery up 21%",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/titan-q2fy27-update-consumer-businesses-grow-25-yoy-jewellery-up-21/articleshow/134742481.cms",
+        "source": "Economic Times",
+        "published": "Tue, 06 Oct 2026 19:22:56 +0530",
+        "published_timestamp": "2026-10-06T19:22:56+05:30",
+        "summary": "Titan Company\u2019s consumer businesses grew 25% year-on-year in Q2 FY27, led by watches, EyeCare and jewellery. Domestic businesses rose 22%, while international operations surged 97%. Titan added 78 net",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "US stocks: S&amp;P 500 hits intraday record high as AI rally continues",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-sp-500-hits-intraday-record-high-as-ai-rally-continues/articleshow/134742430.cms",
+        "source": "Economic Times",
+        "published": "Tue, 06 Oct 2026 19:22:48 +0530",
+        "published_timestamp": "2026-10-06T19:22:48+05:30",
+        "summary": "On Tuesday, the S&P 500 index reached an all-time high, reflecting optimism in artificial intelligence among investors. This rise was also supported by expectations of strong earnings reports from cor",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Private equity inflow in office assets rises 7 pc to USD 945 million in Apr-Sep: Anarock",
+        "link": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/private-equity-inflow-in-office-assets-rises-7-pc-to-usd-945-million-in-apr-sep-anarock/articleshow/134742450.cms",
+        "source": "Economic Times",
+        "published": "Tue, 06 Oct 2026 19:19:56 +0530",
+        "published_timestamp": "2026-10-06T19:19:56+05:30",
+        "summary": "During the first half of FY27, private equity inflow into Indian office assets surged to USD 945 million. Investors are strategically targeting completed, leased Grade A properties for consistent retu",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Investor awareness key to long-term wealth creation, technology double-edged sword: ANMI President Kamlesh Shroff",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/investor-awareness-key-to-long-term-wealth-creation-technology-double-edged-sword-anmi-president-kamlesh-shroff/articleshow/134742397.cms",
+        "source": "Economic Times",
+        "published": "Tue, 06 Oct 2026 19:17:30 +0530",
+        "published_timestamp": "2026-10-06T19:17:30+05:30",
+        "summary": "Investor education in India is vital for effective market participation and wealth accumulation. The trend of younger investors signifies a promising advantage for early market entry. Nonetheless, the",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "Despite 13% drop in 2026, Antique gives a 'buy' rating to this T&amp;D stock | check target, stop loss, rationale",
+        "link": "https://www.livemint.com/market/stock-market-news/despite-13-drop-in-2026-antique-gives-a-buy-rating-to-this-t-d-stock-check-target-stop-loss-rationale-11791291023365.html",
+        "source": "Livemint",
+        "published": "Tue, 06 Oct 2026 19:10:06 +0530",
+        "published_timestamp": "2026-10-06T19:10:06+05:30",
+        "summary": "Transrail Lighting receives a bullish outlook from Antique Stock Broking despite a 13.5% stock decline in 2026. The brokerage anticipates strong demand in the power T&amp;D sector, bolstered by a dive",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
       {
         "title": "Utkarsh Small Finance Bank Q2 disbursements jump 55% YoY to Rs 3,525 crore; loan portfolio rises over 7%",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/utkarsh-small-finance-bank-q2-disbursements-jump-55-yoy-to-rs-3525-crore-loan-portfolio-rises-over-7/articleshow/134741617.cms",
@@ -582,8 +647,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.88,
-        "effective_impact": 0.791
+        "beta_decay": 0.87,
+        "effective_impact": 0.781
       },
       {
         "title": "Despite an over 80% rise in less than 2 months, Motilal Oswal says buy this newly-listed stock - Reason, target price",
@@ -595,7 +660,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.88,
+        "beta_decay": 0.87,
         "effective_impact": 0.0
       },
       {
@@ -608,8 +673,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.87,
-        "effective_impact": 0.828
+        "beta_decay": 0.86,
+        "effective_impact": 0.817
       },
       {
         "title": "Viceroy Hotels shares rise 2% as Zerodha founders Nithin, Nikhil Kamath pick 6.72% stake",
@@ -621,7 +686,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.87,
+        "beta_decay": 0.86,
         "effective_impact": 0.0
       },
       {
@@ -634,8 +699,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.87,
-        "effective_impact": 0.784
+        "beta_decay": 0.86,
+        "effective_impact": 0.774
       },
       {
         "title": "Rupee slips to over 2-month low on portfolio outflows, RBI likely steps in",
@@ -647,8 +712,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.87,
-        "effective_impact": -0.826
+        "beta_decay": 0.86,
+        "effective_impact": -0.815
       },
       {
         "title": "HFCL shares hit 5% upper circuit again: Up 338% from 52-week low | Buy? Check target, stop loss",
@@ -660,8 +725,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.87,
-        "effective_impact": 0.782
+        "beta_decay": 0.86,
+        "effective_impact": 0.771
       },
       {
         "title": "Jio IPO: Latest GMP today, launch date, Reliance shareholder quota, expected share price band, size, valuation - Details",
@@ -673,7 +738,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.87,
+        "beta_decay": 0.86,
         "effective_impact": 0.0
       },
       {
@@ -686,8 +751,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.87,
-        "effective_impact": 0.78
+        "beta_decay": 0.85,
+        "effective_impact": 0.769
       },
       {
         "title": "NSE shares wipe off Rs 41,000 crore after listing day pop as stock slips below IPO price. Why are analysts still bullish?",
@@ -699,8 +764,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.86,
-        "effective_impact": 0.819
+        "beta_decay": 0.85,
+        "effective_impact": 0.808
       },
       {
         "title": "AWL Agri Business shares climb 4% as Q2 revenue rises 24% YoY,  Food &amp; FMCG posts record quarterly revenue",
@@ -712,8 +777,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.86,
-        "effective_impact": 0.818
+        "beta_decay": 0.85,
+        "effective_impact": 0.807
       },
       {
         "title": "Newly-listed Steamhouse India shares hit 10% circuit after Q1 net profit rises 80% to Rs 18 crore",
@@ -725,8 +790,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.86,
-        "effective_impact": 0.817
+        "beta_decay": 0.85,
+        "effective_impact": 0.806
       },
       {
         "title": "How Jefferies is reshuffling its portfolio as soaring bond yields give Nifty bulls sleepless nights",
@@ -738,7 +803,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.86,
+        "beta_decay": 0.85,
         "effective_impact": 0.0
       },
       {
@@ -751,8 +816,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.86,
-        "effective_impact": 0.772
+        "beta_decay": 0.85,
+        "effective_impact": 0.762
       },
       {
         "title": "Rs 17,540 crore added to Trent mcap, but Citi stays bearish. Why Morgan Stanley disagrees",
@@ -764,73 +829,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.86,
-        "effective_impact": 0.814
-      },
-      {
-        "title": "Festive season bets: Analysts see upside in Lenskart, Arvind, Varun Beverages and 3 other stocks",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/festive-season-bets-analysts-see-upside-in-lenskart-arvind-varun-beverages-and-3-other-stocks/slideshow/134725734.cms",
-        "source": "Economic Times",
-        "published": "Tue, 06 Oct 2026 11:19:21 +0530",
-        "published_timestamp": "2026-10-06T11:19:21+05:30",
-        "summary": "As the festive season approaches, savvy investors should keep an eye on six promising stocks that analysts highlight. Notable mentions include Lenskart, Arvind, and Varun Beverages, which present nota",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
         "beta_decay": 0.85,
-        "effective_impact": 0.812
-      },
-      {
-        "title": "Jefferies, Nomura and  Macquarie initiate coverage on 5 stocks with up to 30% upside potential. See full list",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/jefferies-nomura-and-macquarie-initiate-coverage-on-5-stocks-with-up-to-30-upside-potential-see-full-list/slideshow/134724689.cms",
-        "source": "Economic Times",
-        "published": "Tue, 06 Oct 2026 11:14:50 +0530",
-        "published_timestamp": "2026-10-06T11:14:50+05:30",
-        "summary": "Analysts are bullish on names including Trent and IndiGo and see strong upside from current levels.  ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.85,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Global Market: Hong Kong stocks rise as pharma, tech shares lead gains",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-hong-kong-stocks-rise-as-pharma-tech-shares-lead-gains/articleshow/134724322.cms",
-        "source": "Economic Times",
-        "published": "Tue, 06 Oct 2026 11:08:11 +0530",
-        "published_timestamp": "2026-10-06T11:08:11+05:30",
-        "summary": "Hong Kong stocks gained on Tuesday, led by pharmaceutical and technology shares, with the Hang Seng rising 0.78% and Hang Seng Tech Index advancing 0.87%. Biotech firms WuXi Biologics and Sino Biophar",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.85,
-        "effective_impact": 0.809
-      },
-      {
-        "title": "Honasa Consumer share price up 60% in 6 months - What's behind the rally in shares of Mamaearth parent? What lies ahead?",
-        "link": "https://www.livemint.com/market/stock-market-news/honasa-consumer-share-price-up-60-in-6-months-whats-behind-the-rally-in-shares-of-mamaearth-parent-what-lies-ahead-11791263899888.html",
-        "source": "Livemint",
-        "published": "Tue, 06 Oct 2026 11:05:03 +0530",
-        "published_timestamp": "2026-10-06T11:05:03+05:30",
-        "summary": "Shares of Honasa Consumer, the parent of the personal care brand Mamaearth jumped over 11% intraday. The stock is up more than 61% over the last six months, while year-to-date, it is up over 73%.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.85,
-        "effective_impact": 0.766
-      },
-      {
-        "title": "Can SpaceX\u2019s latest rally take Musk\u2019s fortune even higher?",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/can-spacexs-latest-rally-take-musks-fortune-even-higher/slideshow/134724382.cms",
-        "source": "Economic Times",
-        "published": "Tue, 06 Oct 2026 11:04:47 +0530",
-        "published_timestamp": "2026-10-06T11:04:47+05:30",
-        "summary": "SpaceX shares surged 8% to a June-high close after Morgan Stanley reiterated its bullish outlook, citing AI, chipmaking and Starship opportunities. Elon Musk confirmed ongoing TSMC talks for potential",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.85,
-        "effective_impact": 0.808
+        "effective_impact": 0.803
       }
     ]
   }
