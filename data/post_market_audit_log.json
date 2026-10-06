@@ -1,5 +1,30 @@
 [
   {
+    "timestamp": "2026-10-06 10:17:30",
+    "audit_data": {
+      "date": "2026-10-06",
+      "morning_predictions": {
+        "mood_score": 28.2,
+        "expected_opening_gap_bias": "Neutral Opening",
+        "expected_gap_points": 27,
+        "options_max_pain_pin_target": 22600,
+        "trap_warning_flagged": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)"
+      },
+      "actual_market_outcome": {
+        "actual_session_high": 22667.35,
+        "actual_session_low": 22561.6,
+        "actual_session_close": 22663.1,
+        "net_session_change_pts": 1.55
+      }
+    },
+    "ai_evaluation": {
+      "audit_verdict": "PARTIAL_DEVIATION",
+      "root_cause_analysis": "Settlement occurred near Max Pain gravity strike with controlled intraday volatility.",
+      "institutional_divergence_summary": "Retail longs were absorbed by institutional limit order queues near the upper boundary.",
+      "adaptive_parameter_adjustment": "Maintain balanced 6-factor weighting with standard VWAP bands."
+    }
+  },
+  {
     "timestamp": "2026-10-06 09:59:31",
     "audit_data": {
       "date": "2026-10-06",
@@ -705,31 +730,6 @@
       "date": "2026-10-04",
       "morning_predictions": {
         "mood_score": 24.4,
-        "expected_opening_gap_bias": "Bullish Gap-Up",
-        "expected_gap_points": 50,
-        "options_max_pain_pin_target": 22350,
-        "trap_warning_flagged": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)"
-      },
-      "actual_market_outcome": {
-        "actual_session_high": 22610.6,
-        "actual_session_low": 22217.3,
-        "actual_session_close": 22421.95,
-        "net_session_change_pts": 0.0
-      }
-    },
-    "ai_evaluation": {
-      "audit_verdict": "PARTIAL_DEVIATION",
-      "root_cause_analysis": "Settlement occurred near Max Pain gravity strike with controlled intraday volatility.",
-      "institutional_divergence_summary": "Retail longs were absorbed by institutional limit order queues near the upper boundary.",
-      "adaptive_parameter_adjustment": "Maintain balanced 6-factor weighting with standard VWAP bands."
-    }
-  },
-  {
-    "timestamp": "2026-10-03 11:53:05",
-    "audit_data": {
-      "date": "2026-10-03",
-      "morning_predictions": {
-        "mood_score": 24.3,
         "expected_opening_gap_bias": "Bullish Gap-Up",
         "expected_gap_points": 50,
         "options_max_pain_pin_target": 22350,
