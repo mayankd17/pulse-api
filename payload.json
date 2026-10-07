@@ -1,7 +1,7 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-06 19:50:47 IST",
-    "date_str": "2026-10-06",
+    "ist_time": "2026-10-07 08:38:42 IST",
+    "date_str": "2026-10-07",
     "is_open": false,
     "is_weekend": false,
     "is_holiday": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-10-06 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 31.0,
+    "score": 30.1,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 22776.1 (MARKET CLOSED: OFF-HOURS). Volatility Index is 13.61 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.19x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.2x."
     },
     "hi": {
       "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 22776.1 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 13.61 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.19x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.2x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.19
+    "multiplier": 1.2
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -64,7 +64,7 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 29,
+      "score": 28,
       "verdict": "Consolidation Corridor",
       "target_range": "22214.7 - 23337.5",
       "downside_prob_pct": 58,
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 34,
+      "score": 33,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "21978.9 - 23766.0",
       "downside_prob_pct": 45,
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.19,
+    "dynamic_sip_multiplier": 1.2,
     "lot_size": 25,
     "nifty_lot_value": 569402,
     "cascade_risk_pct": 95
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 48.4,
       "S7_Order_Absorption": 31.0,
-      "S8_Lead_Lag_Gap": 70.2
+      "S8_Lead_Lag_Gap": 51.9
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 1.19,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d734.6) + (0.15\u00d737.2) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d748.4) + (0.1\u00d731.0) + (0.05\u00d770.2) + +1.19 = 31.0"
+    "news_vector_delta": 1.16,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d734.6) + (0.15\u00d737.2) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d748.4) + (0.1\u00d731.0) + (0.05\u00d751.9) + +1.16 = 30.1"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.32,
       "parkinson_volatility": 9.26,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 98.2,
-      "brent_1d_pct": -2.11,
-      "usdinr": 96.41,
-      "us_10y_yield": 5.3,
-      "sp500_close": 7824.21,
-      "sp500_1d_pct": 0.65,
-      "dxy_close": 101.9,
-      "dxy_1d_pct": -0.26,
+      "brent_crude_usd": 101.45,
+      "brent_1d_pct": 1.13,
+      "usdinr": 96.38,
+      "us_10y_yield": 5.27,
+      "sp500_close": 7818.93,
+      "sp500_1d_pct": 0.58,
+      "dxy_close": 102.05,
+      "dxy_1d_pct": -0.12,
       "last_active_session_date": "2026-10-06"
     },
     "derivatives": {
@@ -304,14 +304,274 @@
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
-      "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 101,
-      "net_macro_lead_pct": 0.806,
-      "sp500_change_pct": 0.65,
-      "dxy_change_pct": -0.26,
-      "crude_change_pct": -2.11
+      "gap_bias": "Neutral Opening",
+      "expected_gap_points": 10,
+      "net_macro_lead_pct": 0.077,
+      "sp500_change_pct": 0.58,
+      "dxy_change_pct": -0.12,
+      "crude_change_pct": 1.13
     },
     "news_items": [
+      {
+        "title": "Top stocks to watch today: Inox Green, Meesho, Titan, Ola Electric shares in focus on Wednesday, 7 October | Full list",
+        "link": "https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-inox-wind-meesho-titan-ola-electric-shares-in-focus-on-wednesday-7-october-full-list-11791337997622.html",
+        "source": "Livemint",
+        "published": "Wed, 07 Oct 2026 07:53:46 +0530",
+        "published_timestamp": "2026-10-07T07:53:46+05:30",
+        "summary": "Top stocks to watch today: Inox Green Energy, Meesho, Titan, Ola Electric, Asian Paints, HCL Tech are among the shares that will remain in focus on Wednesday.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Oil Price Today (October 7): Crude oil rises to $101, up 45% in 3 months. Two reasons behind Wednesday\u2019s surge",
+        "link": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-october-7-crude-oil-rises-to-101-up-45-in-3-months-two-reasons-behind-wednesdays-surge/articleshow/134754015.cms",
+        "source": "Economic Times",
+        "published": "Wed, 07 Oct 2026 07:52:22 +0530",
+        "published_timestamp": "2026-10-07T07:52:22+05:30",
+        "summary": "Brent futures gained 93 cents, or 0.92%, to $101.51, while US West Texas Intermediate (WTI) crude rose 90 cents, or 1.01%, to $90.30 a barrel. ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Sensex Today | Nifty 50 | Stock Market Live Updates: GIFT Nifty signals a negative start; Asian shares trade higher",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-titan-hcltech-share-price-07-october-2026/liveblog/134753791.cms",
+        "source": "Economic Times",
+        "published": "Wed, 07 Oct 2026 07:31:06 +0530",
+        "published_timestamp": "2026-10-07T07:31:06+05:30",
+        "summary": " ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Positive Breakout: These 9 stocks cross above their 200 DMAs",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/positive-breakout-these-9-stocks-cross-above-their-200-dmas/slideshow/134753798.cms",
+        "source": "Economic Times",
+        "published": "Wed, 07 Oct 2026 07:30:42 +0530",
+        "published_timestamp": "2026-10-07T07:30:42+05:30",
+        "summary": "As long as the stock is priced above the 200-day SMA on the daily timeframe, it is generally considered to be in an overall uptrend.  ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Gold flat as focus turns to Fed minutes",
+        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-flat-as-focus-turns-to-fed-minutes/articleshow/134753704.cms",
+        "source": "Economic Times",
+        "published": "Wed, 07 Oct 2026 07:28:13 +0530",
+        "published_timestamp": "2026-10-07T07:28:13+05:30",
+        "summary": "Gold prices remained steady as market participants look forward to insights from the Federal Reserve's upcoming meeting minutes. Spot gold hovered at $4,159.62 per ounce, while December futures were v",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "Dollar holds losses as markets await Fed minutes, speakers",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-holds-losses-as-markets-await-fed-minutes-speakers/articleshow/134753668.cms",
+        "source": "Economic Times",
+        "published": "Wed, 07 Oct 2026 07:25:14 +0530",
+        "published_timestamp": "2026-10-07T07:25:14+05:30",
+        "summary": "The US dollar faced a downturn while European bond markets began to stabilize, affecting overall currency landscapes. Traders are eyeing the forthcoming Federal Reserve minutes and speeches from key f",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "Oil prices rise as storms and air strikes threaten supply",
+        "link": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rise-as-storms-and-air-strikes-threaten-supply/articleshow/134753652.cms",
+        "source": "Economic Times",
+        "published": "Wed, 07 Oct 2026 07:22:50 +0530",
+        "published_timestamp": "2026-10-07T07:22:50+05:30",
+        "summary": "As a storm approaches key oil-producing areas in the US and tensions heighten in Saudi Arabia, oil prices are on the rise. The impending storm threatens to disrupt both production and refining process",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Stock market outlook today, 7 Oct: Sensex, Nifty prediction - DJIA, S&amp;P, NASDAQ, GIFT Nifty, Nikkei, Kospi, Taiwan cues",
+        "link": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-7-oct-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-nikkei-kospitaiwan-cue-11791335357616.html",
+        "source": "Livemint",
+        "published": "Wed, 07 Oct 2026 07:15:54 +0530",
+        "published_timestamp": "2026-10-07T07:15:54+05:30",
+        "summary": "Stock market prediction for Wednesday, 7 October, 2026: Gift Nifty was trading around the 22,760.50 level, down nearly 35 points from the Nifty futures\u2019 previous close, indicating a negative start for",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Pimco touts diversification need as yields lure at 24-year high",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/pimco-bets-on-bonds-as-24-year-high-yields-lure/articleshow/134753343.cms",
+        "source": "Economic Times",
+        "published": "Wed, 07 Oct 2026 06:52:44 +0530",
+        "published_timestamp": "2026-10-07T06:52:44+05:30",
+        "summary": "According to Pimco, bond yields are at unprecedented peaks, offering lucrative income opportunities for investors. The firm recommends allocating funds across both developed and emerging markets to le",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Trent surges 13% to 2-year high after strong Q2 update",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/trent-shares-surge-nearly-13-on-robust-q2-updates/articleshow/134753290.cms",
+        "source": "Economic Times",
+        "published": "Wed, 07 Oct 2026 06:43:02 +0530",
+        "published_timestamp": "2026-10-07T06:43:02+05:30",
+        "summary": "Trent, the prominent Tata Group retailer, experienced a notable spike in share prices as it unveiled impressive second-quarter results. The company reported a significant 23% year-on-year revenue grow",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "RBI MPC meeting LIVE: Governor speech at 10 AM, hopes high for 25 bps rate hike",
+        "link": "https://www.livemint.com/market/stock-market-news/rbi-mpc-meeting-live-repo-rate-crr-slr-reverse-rr-in-focus-as-governor-sanjay-malhotra-to-declare-outcome-today-11791306808901.html",
+        "source": "Livemint",
+        "published": "Wed, 07 Oct 2026 06:37:24 +0530",
+        "published_timestamp": "2026-10-07T06:37:24+05:30",
+        "summary": "RBI MPC meeting LIVE: The Indian Central Bank kept the rate unchanged through 2023\u201324 before beginning its rate-cut cycle in 2025",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "RBI MPC Meeting October 2026 outcome announcement today at 10 am: When, where to watch LIVE Guv Sanjay Malhotra\u2019s speech",
+        "link": "https://www.livemint.com/market/stock-market-news/rbi-mpc-meeting-october-2026-outcome-announcement-today-at-10-am-when-where-to-watch-live-guv-sanjay-malhotra-s-speech-11791333371101.html",
+        "source": "Livemint",
+        "published": "Wed, 07 Oct 2026 06:34:02 +0530",
+        "published_timestamp": "2026-10-07T06:34:02+05:30",
+        "summary": "RBI MPC Meeting October 2026: The RBI has maintained the repo rate at 5.25% for four consecutive policy reviews, following a cumulative 125 basis point reduction in 2025.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Nvidia soars near $6 trillion market cap with stock back at high",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-nears-6-trillion-valuation-on-ai-optimism/articleshow/134753250.cms",
+        "source": "Economic Times",
+        "published": "Wed, 07 Oct 2026 06:33:04 +0530",
+        "published_timestamp": "2026-10-07T06:33:04+05:30",
+        "summary": "Nvidia has witnessed a remarkable surge in its stock price, propelled by a promising revenue forecast and a robust buyback initiative. The company\u2019s shares have soared by 28% in 2026, contributing nea",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "The case for buying the long bond\u2014and what to know before you do",
+        "link": "https://www.livemint.com/market/the-case-for-buying-the-long-bond-and-what-to-know-before-you-do-11791334428686.html",
+        "source": "Livemint",
+        "published": "Wed, 07 Oct 2026 06:24:53 +0530",
+        "published_timestamp": "2026-10-07T06:24:53+05:30",
+        "summary": "Bond yields are juicy now, and some market mavens believe this is the right time to step in.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Global Market Today: Asian stocks hold near record highs, oil climbs",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-edge-lower-as-korean-shares-lag-oil-gains/articleshow/134753210.cms",
+        "source": "Economic Times",
+        "published": "Wed, 07 Oct 2026 06:23:43 +0530",
+        "published_timestamp": "2026-10-07T06:23:43+05:30",
+        "summary": "MSCI\u2019s Asia Pacific equities gauge edged up 0.1%, helped by advances in Japan, while South Korean shares reversed an early decline to rise 0.2%. The regional benchmark is less than 2% from its peak. ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Raja Venkatraman recommends three stocks for 7 October",
+        "link": "https://www.livemint.com/market/stock-market-news/raja-venkatraman-recommends-three-stocks-for-7-october-11791332912237.html",
+        "source": "Livemint",
+        "published": "Wed, 07 Oct 2026 06:15:22 +0530",
+        "published_timestamp": "2026-10-07T06:15:22+05:30",
+        "summary": "Market expert Raja Venkatraman shares his top stock picks for 7 October. Here\u2019s his technical outlook and trade strategy.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Taiwan Dethrones Korea Atop Global Markets as AI Trade Widens",
+        "link": "https://www.livemint.com/market/taiwan-dethrones-korea-atop-global-markets-as-ai-trade-widens-11791333134255.html",
+        "source": "Livemint",
+        "published": "Wed, 07 Oct 2026 06:02:13 +0530",
+        "published_timestamp": "2026-10-07T06:02:13+05:30",
+        "summary": "As equity investors enter the final stretch of a pivotal year that\u2019s propelled South Korea and Taiwan to the forefront of the global AI trade, the latter is emerging as the stronger bet.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Gold Steady as More Oil and Falling Yields Ease Rate-Hike Bets",
+        "link": "https://www.livemint.com/market/gold-steady-as-more-oil-and-falling-yields-ease-rate-hike-bets-11791333075934.html",
+        "source": "Livemint",
+        "published": "Wed, 07 Oct 2026 06:01:15 +0530",
+        "published_timestamp": "2026-10-07T06:01:15+05:30",
+        "summary": "Gold held gains as increasing oil supplies from the Middle East and a decline in bond yields eased pressure on the US Federal Reserve to hike interest rates this month.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Stock recommendations for 7 October from MarketSmith India",
+        "link": "https://www.livemint.com/market/stock-market-news/stock-recommendations-for-7-october-from-marketsmith-india-11791287749212.html",
+        "source": "Livemint",
+        "published": "Wed, 07 Oct 2026 06:01:14 +0530",
+        "published_timestamp": "2026-10-07T06:01:14+05:30",
+        "summary": "MarketSmith India reveals its top stock recommendations for today, 7 October. Get expert insights into the best-performing stocks to guide your investment decisions.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Retail investors chased small-caps. Now they\u2019re nursing losses",
+        "link": "https://www.livemint.com/market/stock-market-news/retail-investors-chased-small-caps-now-they-re-nursing-losses-11791263994165.html",
+        "source": "Livemint",
+        "published": "Wed, 07 Oct 2026 06:00:33 +0530",
+        "published_timestamp": "2026-10-07T06:00:33+05:30",
+        "summary": "Small-cap stocks with the highest retail shareholding have performed poorly compared with those with the highest mutual fund shareholding",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "Titan Q2FY27 update: Consumer businesses grow 25% YoY, jewellery up 21%",
         "link": "https://economictimes.indiatimes.com/markets/stocks/news/titan-q2fy27-update-consumer-businesses-grow-25-yoy-jewellery-up-21/articleshow/134742481.cms",
@@ -571,266 +831,6 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.9
-      },
-      {
-        "title": "Why Kotak Mahindra Bank shares are outperforming Nifty 50 and Bank Nifty in the last two months? Experts explain",
-        "link": "https://www.livemint.com/market/stock-market-news/why-kotak-mahindra-bank-shares-are-outperforming-nifty-50-and-bank-nifty-in-the-last-two-months-experts-explain-11791281103828.html",
-        "source": "Livemint",
-        "published": "Tue, 06 Oct 2026 16:05:38 +0530",
-        "published_timestamp": "2026-10-06T16:05:38+05:30",
-        "summary": "Kotak Mahindra Bank outperformed despite market decline, gaining 10% over two months due to strong loan growth, leadership clarity, and improving asset quality. Analysts see positive catalysts, includ",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "Gold-Silver ratio hits 68: What it means? Should investors switch from gold to silver? Here's what experts suggest",
-        "link": "https://www.livemint.com/market/commodities/goldsilver-ratio-hits-68-what-it-means-should-investors-switch-from-gold-to-silver-heres-what-experts-suggest-11791275528883.html",
-        "source": "Livemint",
-        "published": "Tue, 06 Oct 2026 16:05:04 +0530",
-        "published_timestamp": "2026-10-06T16:05:04+05:30",
-        "summary": "The gold-silver ratio was volatile in 2026 amid geopolitical risks and changing investor sentiment. It rose to 68, indicating gold's relative strength. Central bank purchases and industrial demand inf",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Stock market prediction for tomorrow: Sensex, Nifty outlook for Wednesday | Kospi, Taiwan cues to watch | 7 Oct 2026",
-        "link": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-for-tomorrow-sensex-nifty-outlook-for-wednesday-kospi-taiwan-cues-to-watch-7-oct-2026-11791281204468.html",
-        "source": "Livemint",
-        "published": "Tue, 06 Oct 2026 15:49:05 +0530",
-        "published_timestamp": "2026-10-06T15:49:05+05:30",
-        "summary": "The Indian stock market showed positive momentum on October 6, with the Nifty 50 and Sensex both gaining 0.72%. The rally was supported by banks and global sentiment, as attention shifted to the upcom",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "Gold corrects 26% from January record high | Is this a buying opportunity ahead of Diwali?",
-        "link": "https://www.livemint.com/market/commodities/gold-corrects-26-from-record-high-is-this-a-buying-opportunity-ahead-of-diwali-11791276934945.html",
-        "source": "Livemint",
-        "published": "Tue, 06 Oct 2026 14:59:43 +0530",
-        "published_timestamp": "2026-10-06T14:59:43+05:30",
-        "summary": "Gold rate today: Market analysts believe that this downturn has made valuations relatively more attractive, with prices now around $4,136/oz and MCX gold trading below the  \u20b91.50 lakh mark.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "India is cheaper. Why are foreign investors still selling?",
-        "link": "https://www.livemint.com/market/stock-market-news/fpi-selling-indian-stocks-2026-india-valuations-11791265250132.html",
-        "source": "Livemint",
-        "published": "Tue, 06 Oct 2026 14:40:54 +0530",
-        "published_timestamp": "2026-10-06T14:40:54+05:30",
-        "summary": "FPIs invested  \u20b955,524 crore through the primary market despite heavy secondary-market selling. Lower valuations have yet to offset concerns over earnings and dollar returns.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Nykaa's Q2 business update brings a fresh bout of optimism",
-        "link": "https://www.livemint.com/market/mark-to-market/nykaa-q2-business-update-nykaa-share-price-beauty-personal-care-india-11791268138208.html",
-        "source": "Livemint",
-        "published": "Tue, 06 Oct 2026 12:44:48 +0530",
-        "published_timestamp": "2026-10-06T12:44:48+05:30",
-        "summary": "Nykaa stock has gained 5% following the 4 October business update, bringing the 2026 return to 29% despite pessimistic sentiment in the broader market",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.87,
-        "effective_impact": 0.781
-      },
-      {
-        "title": "Despite an over 80% rise in less than 2 months, Motilal Oswal says buy this newly-listed stock - Reason, target price",
-        "link": "https://www.livemint.com/market/stock-market-news/despite-an-over-80-rise-in-less-than-2-months-motilal-oswal-says-buy-this-newly-listed-stock-reason-target-price-11791268504455.html",
-        "source": "Livemint",
-        "published": "Tue, 06 Oct 2026 12:36:02 +0530",
-        "published_timestamp": "2026-10-06T12:36:02+05:30",
-        "summary": "Molbio Diagnostics share price was listed on the Indian bourses on 17 August this year. At the current market price of  \u20b91,475.50, it is up 83% from its IPO price of  \u20b9807 in less than two months.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.87,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "CAS U-turn ahead? BSE, Groww, NSE, other capital market stocks jump up to 4% amid buzz around Sebi tweaking F&amp;O settlement rules",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/cas-u-turn-ahead-bse-groww-nse-other-capital-market-stocks-jump-up-to-4-amid-buzz-around-sebi-tweaking-fo-settlement-rules/articleshow/134725833.cms",
-        "source": "Economic Times",
-        "published": "Tue, 06 Oct 2026 12:19:08 +0530",
-        "published_timestamp": "2026-10-06T12:19:08+05:30",
-        "summary": "Capital market stocks rallied after a Reuters report said Sebi may partly reverse its new Closing Auction Session rules for derivatives settlement. BSE, NSE, Groww and Angel One gained as options volu",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.86,
-        "effective_impact": 0.817
-      },
-      {
-        "title": "Viceroy Hotels shares rise 2% as Zerodha founders Nithin, Nikhil Kamath pick 6.72% stake",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/viceroy-hotels-shares-rise-2-as-zerodha-founders-nithin-nikhil-kamath-pick-6-72-stake/articleshow/134725913.cms",
-        "source": "Economic Times",
-        "published": "Tue, 06 Oct 2026 12:18:18 +0530",
-        "published_timestamp": "2026-10-06T12:18:18+05:30",
-        "summary": "Viceroy Hotels shares witnessed an uptick on Tuesday after Zerodha founders Nithin and Nikhil Kamath acquired a 6.72% stake in the company during the September quarter. The hotel operator, which emerg",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.86,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Weak equity returns may test India\u2019s SIP momentum",
-        "link": "https://www.livemint.com/market/stock-market-news/sip-investment-market-correction-india-11791209860080.html",
-        "source": "Livemint",
-        "published": "Tue, 06 Oct 2026 12:16:55 +0530",
-        "published_timestamp": "2026-10-06T12:16:55+05:30",
-        "summary": "SIPs continue to surge, but record numbers mask a churn.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.86,
-        "effective_impact": 0.774
-      },
-      {
-        "title": "Rupee slips to over 2-month low on portfolio outflows, RBI likely steps in",
-        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-slips-to-over-2-month-low-on-portfolio-outflows-rbi-likely-steps-in/articleshow/134725847.cms",
-        "source": "Economic Times",
-        "published": "Tue, 06 Oct 2026 12:11:41 +0530",
-        "published_timestamp": "2026-10-06T12:11:41+05:30",
-        "summary": "The Indian rupee faced a setback on Tuesday, falling to its weakest position in more than two months. Continuous foreign divestment in local assets heightened pressure on the currency, igniting discus",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.86,
-        "effective_impact": -0.815
-      },
-      {
-        "title": "HFCL shares hit 5% upper circuit again: Up 338% from 52-week low | Buy? Check target, stop loss",
-        "link": "https://www.livemint.com/market/stock-market-news/hfcl-shares-hit-5-upper-circuit-again-up-338-from-52-week-low-buy-check-target-stop-loss-11791264874355.html",
-        "source": "Livemint",
-        "published": "Tue, 06 Oct 2026 12:08:01 +0530",
-        "published_timestamp": "2026-10-06T12:08:01+05:30",
-        "summary": "HFCL shares rallied sharply, hitting a new 52-week high of  \u20b9262.25, up 338% from its low. The company reported a net profit of  \u20b9245.64 crore in Q1FY27 and has a record order book of  \u20b926,665 crore.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.86,
-        "effective_impact": 0.771
-      },
-      {
-        "title": "Jio IPO: Latest GMP today, launch date, Reliance shareholder quota, expected share price band, size, valuation - Details",
-        "link": "https://www.livemint.com/market/ipo/jio-ipo-latest-gmp-today-launch-date-reliance-shareholder-quota-expected-share-price-band-size-valuation-details-11791264947786.html",
-        "source": "Livemint",
-        "published": "Tue, 06 Oct 2026 12:04:47 +0530",
-        "published_timestamp": "2026-10-06T12:04:47+05:30",
-        "summary": "Jio Platforms is nearing India's largest IPO, expected to file final documents with SEBI around 12 October. The offering could raise $3.8 billion by issuing 27 crore shares, amid a robust primary mark",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.86,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "\u20b935 per share dividend stock: 15% down in 2026 but cash reward announced - Check record date",
-        "link": "https://www.livemint.com/market/stock-market-news/35-per-share-dividend-stock-accelya-solutions-india-15-down-in-2026-but-cash-reward-announced-check-record-date-11791264378858.html",
-        "source": "Livemint",
-        "published": "Tue, 06 Oct 2026 12:00:32 +0530",
-        "published_timestamp": "2026-10-06T12:00:32+05:30",
-        "summary": "Dividend stock: The IT stock has descended 15.15% year-to-date (YTD) and has declined 25.91% over the past year.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.85,
-        "effective_impact": 0.769
-      },
-      {
-        "title": "NSE shares wipe off Rs 41,000 crore after listing day pop as stock slips below IPO price. Why are analysts still bullish?",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/nse-shares-wipe-off-rs-41000-crore-after-listing-day-pop-as-stock-slips-below-ipo-price-why-are-analysts-still-bullish/articleshow/134725274.cms",
-        "source": "Economic Times",
-        "published": "Tue, 06 Oct 2026 11:43:55 +0530",
-        "published_timestamp": "2026-10-06T11:43:55+05:30",
-        "summary": "NSE shares have slipped below their IPO price after a brief listing-day rally, wiping out nearly Rs 41,000 crore from the exchange\u2019s peak market value. Despite the decline, analysts remain bullish, ci",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.85,
-        "effective_impact": 0.808
-      },
-      {
-        "title": "AWL Agri Business shares climb 4% as Q2 revenue rises 24% YoY,  Food &amp; FMCG posts record quarterly revenue",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/awl-agri-business-shares-climb-4-as-q2-revenue-rises-24-yoy-food-fmcg-posts-record-quarterly-revenue/articleshow/134725098.cms",
-        "source": "Economic Times",
-        "published": "Tue, 06 Oct 2026 11:41:02 +0530",
-        "published_timestamp": "2026-10-06T11:41:02+05:30",
-        "summary": "AWL Agri Business shares rose nearly 4% after Q2 revenue grew 24% year-on-year, driven by strong performance in Food & FMCG and Industry Essentials. Food & FMCG revenue jumped 33%, surpassing Rs 2,000",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.85,
-        "effective_impact": 0.807
-      },
-      {
-        "title": "Newly-listed Steamhouse India shares hit 10% circuit after Q1 net profit rises 80% to Rs 18 crore",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/newly-listed-steamhouse-india-shares-hit-10-circuit-after-q1-net-profit-rises-80-to-rs-18-crore/articleshow/134724996.cms",
-        "source": "Economic Times",
-        "published": "Tue, 06 Oct 2026 11:36:54 +0530",
-        "published_timestamp": "2026-10-06T11:36:54+05:30",
-        "summary": "Newly-listed Steamhouse India shares hit the 10% upper circuit after the company reported an 80.25% year-on-year rise in Q1 FY27 net profit to Rs 18 crore. Revenue from operations rose 13.35% to Rs 12",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.85,
-        "effective_impact": 0.806
-      },
-      {
-        "title": "How Jefferies is reshuffling its portfolio as soaring bond yields give Nifty bulls sleepless nights",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/how-jefferies-is-reshuffling-its-portfolio-as-soaring-bond-yields-give-nifty-bulls-sleepless-nights/articleshow/134724801.cms",
-        "source": "Economic Times",
-        "published": "Tue, 06 Oct 2026 11:31:49 +0530",
-        "published_timestamp": "2026-10-06T11:31:49+05:30",
-        "summary": "Jefferies is favouring largecaps as rising bond yields pressure Indian equities, citing relatively attractive valuations and a narrowing earnings gap with midcaps. The brokerage has added Kotak Mahind",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.85,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "APL Apollo\u2019s Q2 volume growth rebounds. Can it still meet FY27 targets?",
-        "link": "https://www.livemint.com/market/mark-to-market/apl-apollo-tubes-q2-results-stock-price-analysis-11791263847446.html",
-        "source": "Livemint",
-        "published": "Tue, 06 Oct 2026 11:31:02 +0530",
-        "published_timestamp": "2026-10-06T11:31:02+05:30",
-        "summary": "Sustained volume growth, including incremental volumes from new capacities, alongside margins protection would determine APL Apollo\u2019s trajectory hereon",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.85,
-        "effective_impact": 0.762
-      },
-      {
-        "title": "Rs 17,540 crore added to Trent mcap, but Citi stays bearish. Why Morgan Stanley disagrees",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/rs-17540-crore-added-to-trent-mcap-but-citi-stays-bearish-why-morgan-stanley-disagrees/articleshow/134724707.cms",
-        "source": "Economic Times",
-        "published": "Tue, 06 Oct 2026 11:27:41 +0530",
-        "published_timestamp": "2026-10-06T11:27:41+05:30",
-        "summary": "Trent shares surged 13% after the Tata Group retailer reported strong Q2 revenue growth and crossed the 1,000-store milestone for Zudio. Morgan Stanley and HSBC remain bullish, while Citi stays cautio",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.85,
-        "effective_impact": 0.803
       }
     ]
   }
