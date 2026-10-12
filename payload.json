@@ -1,7 +1,7 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-12 17:06:58 IST",
-    "date_str": "2026-10-12",
+    "ist_time": "2026-10-13 03:17:49 IST",
+    "date_str": "2026-10-13",
     "is_open": false,
     "is_weekend": false,
     "is_holiday": false,
@@ -11,38 +11,38 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-10-12 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 30.8,
+    "score": 28.8,
     "regime": "Fear",
     "en": {
-      "summary": "Nifty at 22363.35 (MARKET CLOSED: OFF-HOURS). Volatility Index is 15.25 with Put-Call Ratio of 0.771.",
+      "summary": "Nifty at 22520.45 (MARKET CLOSED: OFF-HOURS). Volatility Index is 14.38 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.19x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.21x."
     },
     "hi": {
-      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 22363.35 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 15.25 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
+      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 22520.45 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 14.38 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.19x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.21x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
     "falling_market_strategy": {
-      "en": "Deploy Bear Put Spreads targeting Max Pain 22300.",
-      "hi": "\u0938\u094d\u091f\u094d\u0930\u093e\u0907\u0915 22300 \u0915\u094b \u0932\u0915\u094d\u0937\u094d\u092f \u0915\u0930\u0924\u0947 \u0939\u0941\u090f \u092c\u0947\u092f\u0930 \u092a\u0941\u091f \u0938\u094d\u092a\u094d\u0930\u0947\u0921 \u0932\u0917\u093e\u090f\u0902\u0964"
+      "en": "Deploy Bear Put Spreads targeting Max Pain 22450.",
+      "hi": "\u0938\u094d\u091f\u094d\u0930\u093e\u0907\u0915 22450 \u0915\u094b \u0932\u0915\u094d\u0937\u094d\u092f \u0915\u0930\u0924\u0947 \u0939\u0941\u090f \u092c\u0947\u092f\u0930 \u092a\u0941\u091f \u0938\u094d\u092a\u094d\u0930\u0947\u0921 \u0932\u0917\u093e\u090f\u0902\u0964"
     },
     "rising_market_strategy": {
       "en": "Ride confirmed momentum with trailing stop under previous 15-min candle.",
       "hi": "15-\u092e\u093f\u0928\u091f \u0915\u0947 \u0915\u0948\u0902\u0921\u0932 \u0932\u094b \u092a\u0930 \u0938\u094d\u091f\u0949\u092a\u0932\u0949\u0938 \u0915\u0947 \u0938\u093e\u0925 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0915\u0930\u0947\u0902\u0964"
     },
     "sideways_market_strategy": {
-      "en": "Sell Iron Condors centered around Max Pain 22300.",
-      "hi": "\u0938\u094d\u091f\u094d\u0930\u093e\u0907\u0915 22300 \u0915\u0947 \u0907\u0930\u094d\u0926-\u0917\u093f\u0930\u094d\u0926 \u0906\u092f\u0930\u0928 \u0915\u094b\u0902\u0921\u094b\u0930 \u092c\u0928\u093e\u090f\u0902\u0964"
+      "en": "Sell Iron Condors centered around Max Pain 22450.",
+      "hi": "\u0938\u094d\u091f\u094d\u0930\u093e\u0907\u0915 22450 \u0915\u0947 \u0907\u0930\u094d\u0926-\u0917\u093f\u0930\u094d\u0926 \u0906\u092f\u0930\u0928 \u0915\u094b\u0902\u0921\u094b\u0930 \u092c\u0928\u093e\u090f\u0902\u0964"
     },
     "allocation_percentages": {
       "cash_liquid_pct": 55,
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.19
+    "multiplier": 1.21
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -59,44 +59,44 @@
   },
   "institutional_microstructure_suite": {
     "large_deals_summary": "Net Flow: -245.5 Cr (Institutional Net Selling)",
-    "max_pain_gravity": "Options pin concentrated at strike 22300 (Gravity Delta: 63 pts)",
-    "order_absorption_status": "Wick-to-Body Skew: 0.51 | Amihud Ratio: 0.0001"
+    "max_pain_gravity": "Options pin concentrated at strike 22450 (Gravity Delta: 70 pts)",
+    "order_absorption_status": "Wick-to-Body Skew: 0.39 | Amihud Ratio: 0.0001"
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 28,
+      "score": 26,
       "verdict": "Consolidation Corridor",
-      "target_range": "21669.9 - 23056.8",
+      "target_range": "21861.8 - 23179.2",
       "downside_prob_pct": 58,
       "upside_prob_pct": 42,
       "en": {
-        "rationale": "ATR (277.38 pts) and Parkinson (10.79%) volatility bounds.",
+        "rationale": "ATR (263.48 pts) and Parkinson (10.33%) volatility bounds.",
         "action": "Avoid chasing breakout spikes; sell premium out-of-the-money."
       },
       "hi": {
-        "rationale": "ATR (277.38) \u0906\u0927\u093e\u0930\u093f\u0924 \u0926\u093e\u092f\u0930\u093e\u0964",
+        "rationale": "ATR (263.48) \u0906\u0927\u093e\u0930\u093f\u0924 \u0926\u093e\u092f\u0930\u093e\u0964",
         "action": "\u090a\u092a\u0930\u0940 \u0938\u094d\u0924\u0930\u094b\u0902 \u092a\u0930 \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902\u0964"
       }
     },
     "30_days": {
-      "score": 33,
+      "score": 31,
       "verdict": "SMA-50 Mean Reversion",
-      "target_range": "21580.6 - 23485.9",
+      "target_range": "21732.2 - 23585.9",
       "downside_prob_pct": 45,
       "upside_prob_pct": 55,
       "en": {
-        "rationale": "Mean-reversion pull towards 50-day moving average (23687.39).",
+        "rationale": "Mean-reversion pull towards 50-day moving average (23726.47).",
         "action": "Rebalance high-beta equities if extension exceeds 3% from SMA-50."
       },
       "hi": {
-        "rationale": "50-\u0926\u093f\u0928 \u0915\u0947 \u0914\u0938\u0924 (23687.39) \u0915\u0940 \u0924\u0930\u092b \u0932\u094c\u091f\u0928\u0947 \u0915\u093e \u0905\u0928\u0941\u092e\u093e\u0928\u0964",
+        "rationale": "50-\u0926\u093f\u0928 \u0915\u0947 \u0914\u0938\u0924 (23726.47) \u0915\u0940 \u0924\u0930\u092b \u0932\u094c\u091f\u0928\u0947 \u0915\u093e \u0905\u0928\u0941\u092e\u093e\u0928\u0964",
         "action": "\u0914\u0938\u0924 \u0938\u0947 \u092c\u0939\u0941\u0924 \u0926\u0942\u0930 \u091c\u093e\u0928\u0947 \u092a\u0930 \u092e\u0941\u0928\u093e\u092b\u093e \u092c\u093e\u0902\u0927\u0947\u0902\u0964"
       }
     },
     "3_months": {
       "score": 54,
       "verdict": "Corporate EPS Horizon",
-      "target_range": "21021.5 - 24040.6",
+      "target_range": "21169.2 - 24209.5",
       "downside_prob_pct": 42,
       "upside_prob_pct": 58,
       "en": {
@@ -111,7 +111,7 @@
     "6_months": {
       "score": 58,
       "verdict": "Monetary Policy Corridor",
-      "target_range": "20350.6 - 25382.4",
+      "target_range": "20493.6 - 25560.7",
       "downside_prob_pct": 38,
       "upside_prob_pct": 62,
       "en": {
@@ -126,7 +126,7 @@
     "1_year": {
       "score": 65,
       "verdict": "Structural GDP 6.5% + EPS Expansion",
-      "target_range": "19679.7 - 27283.3",
+      "target_range": "19818.0 - 27474.9",
       "downside_prob_pct": 30,
       "upside_prob_pct": 70,
       "en": {
@@ -142,21 +142,21 @@
   "sector_analysis": [
     {
       "sector": "BANK",
-      "score": 51,
+      "score": 48,
       "trend": "Bearish",
-      "target": "20D SMA: 55438.27",
-      "why": "5D RS vs Nifty: +0.32%",
+      "target": "20D SMA: 55515.96",
+      "why": "5D RS vs Nifty: -0.31%",
       "en_action": "Underperforming; hold defensive hedges",
       "hi_action": "\u0915\u092e\u091c\u094b\u0930\u0940 \u0939\u0948; \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902"
     },
     {
       "sector": "IT",
-      "score": 55,
-      "trend": "Bearish",
-      "target": "20D SMA: 28415.71",
-      "why": "5D RS vs Nifty: +1.46%",
-      "en_action": "Underperforming; hold defensive hedges",
-      "hi_action": "\u0915\u092e\u091c\u094b\u0930\u0940 \u0939\u0948; \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902"
+      "score": 48,
+      "trend": "Bullish",
+      "target": "20D SMA: 28442.77",
+      "why": "5D RS vs Nifty: -0.33%",
+      "en_action": "Accretive momentum; buy shallow pullbacks",
+      "hi_action": "\u092e\u091c\u092c\u0942\u0924 \u0930\u0941\u091d\u093e\u0928; \u0917\u093f\u0930\u093e\u0935\u091f \u092a\u0930 \u0916\u0930\u0940\u0926\u0947\u0902"
     },
     {
       "sector": "AUTO",
@@ -178,10 +178,10 @@
     },
     {
       "sector": "PHARMA",
-      "score": 46,
+      "score": 43,
       "trend": "Bearish",
-      "target": "20D SMA: 26534.16",
-      "why": "5D RS vs Nifty: -1.07%",
+      "target": "20D SMA: 26558.01",
+      "why": "5D RS vs Nifty: -1.89%",
       "en_action": "Underperforming; hold defensive hedges",
       "hi_action": "\u0915\u092e\u091c\u094b\u0930\u0940 \u0939\u0948; \u0928\u0908 \u0916\u0930\u0940\u0926\u093e\u0930\u0940 \u0938\u0947 \u092c\u091a\u0947\u0902"
     },
@@ -205,22 +205,22 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.19,
+    "dynamic_sip_multiplier": 1.21,
     "lot_size": 25,
-    "nifty_lot_value": 559083,
+    "nifty_lot_value": 563011,
     "cascade_risk_pct": 95
   },
   "master_16_factor_audit": {
     "regime_mode": "Balanced Equilibrium Regime",
     "sub_scores": {
       "S1_Derivatives": 13.2,
-      "S2_Volatility": 19.1,
-      "S3_Options_Gamma": 35.4,
+      "S2_Volatility": 29.8,
+      "S3_Options_Gamma": 35.0,
       "S4_Large_Deals": 25.4,
       "S5_Macro_Stress": 0.0,
-      "S6_Sector_Breadth": 51.0,
-      "S7_Order_Absorption": 62.2,
-      "S8_Lead_Lag_Gap": 48.7
+      "S6_Sector_Breadth": 46.4,
+      "S7_Order_Absorption": 34.8,
+      "S8_Lead_Lag_Gap": 40.4
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,29 +232,29 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 1.1,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d719.1) + (0.15\u00d735.4) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d751.0) + (0.1\u00d762.2) + (0.05\u00d748.7) + +1.10 = 30.8"
+    "news_vector_delta": 1.41,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d729.8) + (0.15\u00d735.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d746.4) + (0.1\u00d734.8) + (0.05\u00d740.4) + +1.41 = 28.8"
   },
   "raw_scraped_data_feed": {
     "macro": {
-      "nifty_close": 22363.35,
-      "nifty_1d_pct": -0.7,
-      "nifty_50_sma": 23687.39,
-      "nifty_200_sma": 24253.97,
-      "atr_14": 277.38,
-      "india_vix": 15.25,
-      "vix_30d_mean": 12.51,
-      "vix_z_score_30d": 1.89,
-      "parkinson_volatility": 10.79,
+      "nifty_close": 22520.45,
+      "nifty_1d_pct": 1.3,
+      "nifty_50_sma": 23726.47,
+      "nifty_200_sma": 24271.24,
+      "atr_14": 263.48,
+      "india_vix": 14.38,
+      "vix_30d_mean": 12.37,
+      "vix_z_score_30d": 1.46,
+      "parkinson_volatility": 10.33,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 105.97,
-      "brent_1d_pct": 1.19,
+      "brent_crude_usd": 105.92,
+      "brent_1d_pct": 1.15,
       "usdinr": 95.76,
       "us_10y_yield": 5.24,
-      "sp500_close": 7811.54,
-      "sp500_1d_pct": 0.59,
-      "dxy_close": 102.44,
-      "dxy_1d_pct": 0.23,
+      "sp500_close": 7807.24,
+      "sp500_1d_pct": -0.06,
+      "dxy_close": 102.58,
+      "dxy_1d_pct": 0.36,
       "last_active_session_date": "2026-10-12"
     },
     "derivatives": {
@@ -271,8 +271,8 @@
       "total_ce_oi": 48640000,
       "pcr_oi": 0.771,
       "pcr_vol": 0.771,
-      "max_pain_strike": 22300,
-      "strike_gravity_delta": 63
+      "max_pain_strike": 22450,
+      "strike_gravity_delta": 70
     },
     "options_microstructure": {
       "is_live_nse": false,
@@ -288,8 +288,8 @@
       "total_ce_oi": 48640000,
       "pcr_oi": 0.771,
       "pcr_vol": 0.771,
-      "max_pain_strike": 22300,
-      "strike_gravity_delta": 63
+      "max_pain_strike": 22450,
+      "strike_gravity_delta": 70
     },
     "large_deals": {
       "net_institutional_flow_cr": -245.5,
@@ -299,19 +299,279 @@
       "recent_deals": []
     },
     "order_absorption": {
-      "wick_to_body_ratio": 0.51,
-      "candle_sign": -1.0,
+      "wick_to_body_ratio": 0.39,
+      "candle_sign": 1.0,
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
-      "gap_bias": "Neutral Opening",
-      "expected_gap_points": -7,
-      "net_macro_lead_pct": -0.053,
-      "sp500_change_pct": 0.59,
-      "dxy_change_pct": 0.23,
-      "crude_change_pct": 1.19
+      "gap_bias": "Bearish Gap-Down",
+      "expected_gap_points": -48,
+      "net_macro_lead_pct": -0.383,
+      "sp500_change_pct": -0.06,
+      "dxy_change_pct": 0.36,
+      "crude_change_pct": 1.15
     },
     "news_items": [
+      {
+        "title": "US stocks: Nasdaq ends lower as oil prices surge ahead of earnings, economic data",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-nasdaq-ends-lower-as-oil-prices-surge-ahead-of-earnings-economic-data/articleshow/134902064.cms",
+        "source": "Economic Times",
+        "published": "Tue, 13 Oct 2026 01:39:06 +0530",
+        "published_timestamp": "2026-10-13T01:39:06+05:30",
+        "summary": "The Nasdaq composite index faced a downturn as oil prices surged following attacks on a Saudi airport. With major banks set to release their earnings reports, investor focus sharpens this week. The S&",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Oil rallies, sending dollar higher on expectations of higher US rates",
+        "link": "https://www.livemint.com/market/oil-rallies-sending-dollar-higher-on-expectations-of-higher-us-rates-11791833490768.html",
+        "source": "Livemint",
+        "published": "Tue, 13 Oct 2026 01:01:30 +0530",
+        "published_timestamp": "2026-10-13T01:01:30+05:30",
+        "summary": "GLOBAL-MARKETS:Oil rallies, sending dollar higher on expectations of higher US rates",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Demand for Crude Oil May Have Peaked Last Year, FGE Says",
+        "link": "https://www.livemint.com/market/demand-for-crude-oil-may-have-peaked-last-year-fge-says-11791832513230.html",
+        "source": "Livemint",
+        "published": "Tue, 13 Oct 2026 00:45:12 +0530",
+        "published_timestamp": "2026-10-13T00:45:12+05:30",
+        "summary": "Demand for crude oil may have peaked in 2025, partly as higher need for fuels is increasingly met by biofuels, according to FGE NexantECA.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Cleveland Fed's Hammack backs restrictive policy, says better if it comes 'relatively quickly'",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/cleveland-feds-hammack-backs-restrictive-policy-says-better-if-it-comes-relatively-quickly/articleshow/134901637.cms",
+        "source": "Economic Times",
+        "published": "Tue, 13 Oct 2026 00:33:57 +0530",
+        "published_timestamp": "2026-10-13T00:33:57+05:30",
+        "summary": "Cleveland Fed President Beth Hammack has stressed the urgency of adopting a strict monetary policy as a response to mounting inflation that now permeates various sectors, not just energy. She advocate",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "Dividend, rights issue record date: Last chance to buy today to qualify for amount- Vedanta, TCS, Continental Controls",
+        "link": "https://www.livemint.com/market/stock-market-news/dividend-rights-issue-record-date-last-chance-to-buy-today-to-qualify-for-amount-vedanta-tcs-continental-controls-11791824752741.html",
+        "source": "Livemint",
+        "published": "Tue, 13 Oct 2026 00:30:26 +0530",
+        "published_timestamp": "2026-10-13T00:30:26+05:30",
+        "summary": "Vedanta, TCS, Continental Controls and Energy Infrastructure Trust have set October 14 as the record date for announced corporate actions.&nbsp;",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "US Stocks: Dating app Bumble shares surge 52% on talks to go private at $1 billion valuation",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-dating-app-bumble-shares-surge-52-on-talks-to-go-private-at-1-billion-valuation-report/articleshow/134901295.cms",
+        "source": "Economic Times",
+        "published": "Tue, 13 Oct 2026 00:11:25 +0530",
+        "published_timestamp": "2026-10-13T00:11:25+05:30",
+        "summary": "Bumble is reportedly in advanced negotiations for a private acquisition by Ithaca Holdings, which values the company at approximately $1 billion. This potential acquisition follows a decline in Bumble",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "HD Fire Protect raises  \u20b9213 crore from anchor investors ahead of  \u20b9712-crore IPO",
+        "link": "https://www.livemint.com/market/hd-fire-protect-raises-213-crore-from-anchor-investors-ahead-of-712-crore-ipo-11791828326020.html",
+        "source": "Livemint",
+        "published": "Mon, 12 Oct 2026 23:56:36 +0530",
+        "published_timestamp": "2026-10-12T23:56:36+05:30",
+        "summary": "Domestic mutual funds account for 71.88% of anchor allocation; public issue opens on October 13",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "US bank stocks near correction as earnings loom, consumer outlook in focus",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-bank-stocks-near-correction-as-earnings-loom-consumer-outlook-in-focus/articleshow/134900177.cms",
+        "source": "Economic Times",
+        "published": "Mon, 12 Oct 2026 23:29:50 +0530",
+        "published_timestamp": "2026-10-12T23:29:50+05:30",
+        "summary": "US bank stocks are nearing correction territory ahead of earnings, with investors watching for clues on consumer resilience amid elevated borrowing costs and rising Treasury yields. While trading reve",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Up 102% in 7 months: Small-cap stock to be in focus on Tuesday after  \u20b935 crore order win",
+        "link": "https://www.livemint.com/market/stock-market-news/up-102-in-7-months-small-cap-stock-to-be-in-focus-on-tuesday-after-rs-35-crore-order-win-11791825707637.html",
+        "source": "Livemint",
+        "published": "Mon, 12 Oct 2026 23:29:05 +0530",
+        "published_timestamp": "2026-10-12T23:29:05+05:30",
+        "summary": "Airfloa Rail Technology secured a  \u20b934.85 crore order from Integral Coach Factory to design interiors for a Vande Bharat Sleeper trainset and develop a mock-up.&nbsp;",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Global shipping stocks hit records: Torm, Hafnia rally as Hormuz disruptions lift freight rates",
+        "link": "https://www.livemint.com/market/stock-market-news/global-shipping-stocks-hit-records-torm-hafnia-rally-as-hormuz-disruptions-lift-freight-rates-11791823083918.html",
+        "source": "Livemint",
+        "published": "Mon, 12 Oct 2026 22:45:36 +0530",
+        "published_timestamp": "2026-10-12T22:45:36+05:30",
+        "summary": "Shipping stocks hit record highs as Middle East tensions disrupted key routes, lifted tanker freight rates and increased oil transportation costs. Tanker companies and shipping funds rallied while att",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "HCL Tech vs TCS Q2 results dividend: Which IT stock offers more? Amount, record date, yield, earnings compared",
+        "link": "https://www.livemint.com/market/stock-market-news/hcl-tech-vs-tcs-q2-results-dividend-which-it-stock-offers-more-amount-record-date-yield-earnings-compared-11791823678417.html",
+        "source": "Livemint",
+        "published": "Mon, 12 Oct 2026 22:20:45 +0530",
+        "published_timestamp": "2026-10-12T22:20:45+05:30",
+        "summary": "HCL Technologies and TCS each announced a  \u20b912 interim dividend alongside their Q2 FY27 results. TCS set October 14 as its record date, while HCL Tech set October 16. Quarterly net profit rose 21% at ",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Polycab India\u2019s F&amp;O exit: NSE sets December 30 deadline; NCLAT stays insolvency order",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/polycab-indias-fo-exit-nse-sets-december-30-deadline-nclat-stays-insolvency-order/articleshow/134898074.cms",
+        "source": "Economic Times",
+        "published": "Mon, 12 Oct 2026 21:54:24 +0530",
+        "published_timestamp": "2026-10-12T21:54:24+05:30",
+        "summary": "NSE will remove Polycab India from the equity derivatives segment from December 30, 2026, with existing contracts available until expiry. Separately, NCLAT has stayed the NCLT order admitting insolven",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "FMCG dividend giants: Colgate, Hindustan Unilever, ITC, Britannia: Which stock offers highest yield?",
+        "link": "https://www.livemint.com/market/stock-market-news/fmcg-dividend-giants-colgate-hindustan-unilever-itc-britannia-which-stock-offers-highest-yield-11791818253859.html",
+        "source": "Livemint",
+        "published": "Mon, 12 Oct 2026 21:28:53 +0530",
+        "published_timestamp": "2026-10-12T21:28:53+05:30",
+        "summary": "ITC led four major FMCG companies in annual dividend yield at 3.63% over the past year. Colgate Palmolive India yielded 2.16%. Check full details",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Indian Gas Exchange secures Sebi's nod to float IPO",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/indian-gas-exchange-secures-sebis-nod-to-float-ipo/articleshow/134897335.cms",
+        "source": "Economic Times",
+        "published": "Mon, 12 Oct 2026 21:19:49 +0530",
+        "published_timestamp": "2026-10-12T21:19:49+05:30",
+        "summary": "Indian Gas Exchange Ltd has received approval from Sebi to launch an initial public offering. The proposed IPO is exclusively an offer for sale of equity shares by promoter Indian Energy Exchange Ltd.",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Singularity AMC pays over Rs 40 lakh to settle AIF rule violation case with Sebi",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/singularity-amc-pays-over-rs-40-lakh-to-settle-aif-rule-violation-case-with-sebi/articleshow/134897222.cms",
+        "source": "Economic Times",
+        "published": "Mon, 12 Oct 2026 21:16:57 +0530",
+        "published_timestamp": "2026-10-12T21:16:57+05:30",
+        "summary": "Singularity AMC, a company rooted in Mumbai, has successfully resolved two significant matters with the Securities and Exchange Board of India (Sebi) concerning violations related to alternative inves",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Nvidia, Micron, SK Hynix shares slump up to 5% as China's CXMT steps up challenge to global chipmakers - What it means",
+        "link": "https://www.livemint.com/market/stock-market-news/nvidia-micron-sk-hynix-shares-slump-up-to-5-as-chinas-cxmt-steps-up-challenge-to-global-chipmakers-what-it-means-11791819024051.html",
+        "source": "Livemint",
+        "published": "Mon, 12 Oct 2026 21:15:03 +0530",
+        "published_timestamp": "2026-10-12T21:15:03+05:30",
+        "summary": "US chip stocks fell as investors reacted to reported advances by Chinese memory maker CXMT, which plans to launch a new server memory product by the end of 2026. Oil prices also rose amid escalating M",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Jubilant Pharmova block deal: Quant Mutual Fund offloads Rs 190 crore stake amid Rs 800 crore fundraising plan; Abakkus buys 11 lakh shares",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/jubilant-pharmova-block-deal-quant-mutual-fund-offloads-rs-190-crore-stake-amid-rs-800-crore-fundraising-plan-abakkus-buys-11-lakh-shares/articleshow/134897154.cms",
+        "source": "Economic Times",
+        "published": "Mon, 12 Oct 2026 21:14:54 +0530",
+        "published_timestamp": "2026-10-12T21:14:54+05:30",
+        "summary": "Quant Mutual Fund sold 20.81 lakh shares of Jubilant Pharmova worth Rs 190.47 crore in bulk deals, while Abakkus Four2Eight Opportunities Fund bought 11 lakh shares. The transactions came as the pharm",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "SBI economists call for scrapping LTCG tax on equities",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sbi-economists-call-for-scrapping-ltcg-tax-on-equities/articleshow/134897107.cms",
+        "source": "Economic Times",
+        "published": "Mon, 12 Oct 2026 21:12:52 +0530",
+        "published_timestamp": "2026-10-12T21:12:52+05:30",
+        "summary": "SBI economists are advocating for the elimination of long-term capital gains tax to stimulate sustained investment in Indian equity markets. This proposal arises amid substantial foreign portfolio inv",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Market Trading Guide: Astra Microwave, Manappuram among 5 stock recommendations for Tuesday",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-astra-microwave-manappuram-among-5-stock-recommendations-for-tuesday/slideshow/134896872.cms",
+        "source": "Economic Times",
+        "published": "Mon, 12 Oct 2026 20:54:15 +0530",
+        "published_timestamp": "2026-10-12T20:54:15+05:30",
+        "summary": "Analysts recommend five stocks for Tuesday, including Astra Microwave, Manappuram and Laurus Labs, citing bullish chart patterns, improving momentum and breakout signals. Here are the targets and stop",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "HCL Tech Q2 Report Card: Rupee boost, record deal wins, hiring rebound and AI boom despite odds - Key numbers decoded",
+        "link": "https://www.livemint.com/market/stock-market-news/hcl-tech-q2-report-card-rupee-boost-record-deal-wins-hiring-rebound-and-ai-boom-despite-odds-key-numbers-decoded-11791813821287.html",
+        "source": "Livemint",
+        "published": "Mon, 12 Oct 2026 20:38:30 +0530",
+        "published_timestamp": "2026-10-12T20:38:30+05:30",
+        "summary": "HCLTech reported September-quarter revenue of  \u20b935,620 crore, up 3% sequentially and 11.5% year-on-year. Deal bookings rose 27% to USD 3.3 billion, while Advanced AI revenue grew 78% year-on-year in c",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
       {
         "title": "IPO lock-in expiry: $24 bn worth of shares set to unlock on D-Street from Oct 2026 to Jan 2027 \u2014What investors must know",
         "link": "https://www.livemint.com/market/ipo/ipo-lock-in-expiry-24-bn-worth-of-shares-set-to-unlock-on-d-street-from-oct-2026-to-jan-2027-what-investors-must-know-11791802055579.html",
@@ -571,266 +831,6 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.9
-      },
-      {
-        "title": "Top NBFC stocks to buy: HDFC Sec recommend 15 shares to add in portfolio ahead of Q2 results | Check rating, target",
-        "link": "https://www.livemint.com/market/stock-market-news/top-nbfc-stocks-to-buy-hdfc-sec-recommend-15-shares-to-add-in-portfolio-ahead-of-q2-results-check-rating-target-11791792673950.html",
-        "source": "Livemint",
-        "published": "Mon, 12 Oct 2026 14:31:52 +0530",
-        "published_timestamp": "2026-10-12T14:31:52+05:30",
-        "summary": "Top NBFC stocks to buy: The brokerage firm highlighted that NBFC credit growth has sustained the growth momentum in Aug-26 (16% YoY), driven largely by retail and services segment.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "HD Fire IPO: a niche business with a demanding price tag?",
-        "link": "https://www.livemint.com/market/ipo/hd-fire-protect-ipo-review-price-valuation-11791783851910.html",
-        "source": "Livemint",
-        "published": "Mon, 12 Oct 2026 14:02:08 +0530",
-        "published_timestamp": "2026-10-12T14:02:08+05:30",
-        "summary": "With no direct listed Indian peer, investors must weigh HD Fire's competitive advantages against cash generation and project dependence.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "Why flexible office space providers are grabbing centre stage",
-        "link": "https://www.livemint.com/market/mark-to-market/flexible-office-space-india-wework-indiqube-spaces-smartworks-share-price-11791790016093.html",
-        "source": "Livemint",
-        "published": "Mon, 12 Oct 2026 13:57:38 +0530",
-        "published_timestamp": "2026-10-12T13:57:38+05:30",
-        "summary": "While supply remains fragmented, scale, landlord relationships and locked-in future supplies are the key differentiators for listed flex operators like WeWork India Management, Indiqube Spaces and Sma",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Why is stock market down today? Sensex, Nifty 50 crash - Top 3 factors behind stock market decline explained",
-        "link": "https://www.livemint.com/market/stock-market-news/why-is-stock-market-down-today-sensex-nifty-50-crash-top-3-factors-behind-stock-market-decline-explained-11791793020226.html",
-        "source": "Livemint",
-        "published": "Mon, 12 Oct 2026 13:55:53 +0530",
-        "published_timestamp": "2026-10-12T13:55:53+05:30",
-        "summary": "The Sensex crashed more than 700 points, or nearly 1%, to an intraday low of 71,742.51, while the NSE counterpart Nifty 50 dropped 0.85% to touch the day's low of 22,331.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
-      },
-      {
-        "title": "US bull market nears four-year milestone as AI boom fuels profits, growth",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-bull-market-nears-four-year-milestone-as-ai-boom-fuels-profits-growth/articleshow/134886825.cms",
-        "source": "Economic Times",
-        "published": "Mon, 12 Oct 2026 13:38:22 +0530",
-        "published_timestamp": "2026-10-12T13:38:22+05:30",
-        "summary": "The US bull market is reaching its four-year milestone as AI infrastructure investments drive a 117% S&P 500 rally. However, market concentration in top tech giants, rising 10-year Treasury yields nea",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "Telecom stocks under fire, sink up to 13% as Elon Musk\u2019s Starlink buys spectrum from Grain Management",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/telecom-stocks-under-fire-sink-up-to-13-as-elon-musks-starlink-buys-spectrum-from-grain-management/articleshow/134886760.cms",
-        "source": "Economic Times",
-        "published": "Mon, 12 Oct 2026 13:34:26 +0530",
-        "published_timestamp": "2026-10-12T13:34:26+05:30",
-        "summary": "SpaceX\u2019s move to acquire low-band spectrum licences has intensified concerns about disruption in the US telecom industry, sending shares of Verizon, AT&T and T-Mobile lower. The company plans to combi",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "FIIs cut stakes in 12 stocks in September quarter; shares fall up to 27% in 3 months",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-cut-stakes-in-12-stocks-in-september-quarter-shares-fall-up-to-27-in-3-months/slideshow/134886941.cms",
-        "source": "Economic Times",
-        "published": "Mon, 12 Oct 2026 13:30:14 +0530",
-        "published_timestamp": "2026-10-12T13:30:14+05:30",
-        "summary": "FIIs reduced stakes in 36 of 68 BSE 500 companies reporting September-quarter shareholding data. Twelve stocks fell up to 27% over three months as foreign investors trimmed holdings. ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "FII ownership hits 17-year low, but foreign holdings in Indian equities rise 3.6 times to $783 billion: Report",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/fii-ownership-hits-17-year-low-but-foreign-holdings-in-indian-equities-rise-3-6-times-to-783-billion-report/articleshow/134886587.cms",
-        "source": "Economic Times",
-        "published": "Mon, 12 Oct 2026 13:26:21 +0530",
-        "published_timestamp": "2026-10-12T13:26:21+05:30",
-        "summary": "Foreign investor ownership in Indian equities has fallen to a 17-year low of 15.1%, but the absolute value of holdings has risen to around $783 billion. OmniScience Capital attributes the decline in o",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.93,
-        "effective_impact": -0.883
-      },
-      {
-        "title": "US Market: Four warning signs that bond selling could intensify",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-market-four-warning-signs-that-bond-selling-could-intensify/articleshow/134886417.cms",
-        "source": "Economic Times",
-        "published": "Mon, 12 Oct 2026 13:22:04 +0530",
-        "published_timestamp": "2026-10-12T13:22:04+05:30",
-        "summary": "US Treasury yields have hit two-decade highs, driven by Middle East conflict risks and fiscal concerns. Key indicators including rising options hedging, record AI-sector corporate borrowing, mortgage ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.881
-      },
-      {
-        "title": "Global Market: Goldman Sachs raises December Brent oil price forecast to $90 on supply risks",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-goldman-sachs-raises-december-brent-oil-price-forecast-to-90-on-supply-risks/articleshow/134886299.cms",
-        "source": "Economic Times",
-        "published": "Mon, 12 Oct 2026 13:15:40 +0530",
-        "published_timestamp": "2026-10-12T13:15:40+05:30",
-        "summary": "Goldman Sachs has raised its December 2026 Brent crude price forecast to $90 per barrel, citing supply risks in the Middle East. While 2027 averages remain at $80, severe Gulf production cuts could dr",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Cheap Venezuelan crude could add up to Rs 12,600 crore to RIL\u2019s EBITDA. What investors should know",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/cheap-venezuelan-crude-could-add-up-to-rs-12600-crore-to-rils-ebitda-what-investors-should-know/articleshow/134886181.cms",
-        "source": "Economic Times",
-        "published": "Mon, 12 Oct 2026 13:13:11 +0530",
-        "published_timestamp": "2026-10-12T13:13:11+05:30",
-        "summary": "Reliance Industries could benefit from renewed access to discounted Venezuelan crude, which may boost refining margins at its Jamnagar complex. YES Securities estimates that every $1-a-barrel expansio",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Global Market: Eurozone bond yields ease as Russia-Ukraine energy truce lifts sentiment",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-eurozone-bond-yields-ease-as-russia-ukraine-energy-truce-lifts-sentiment/articleshow/134886214.cms",
-        "source": "Economic Times",
-        "published": "Mon, 12 Oct 2026 13:08:41 +0530",
-        "published_timestamp": "2026-10-12T13:08:41+05:30",
-        "summary": "Eurozone government bond yields eased as lower energy prices and a Russia-Ukraine energy ceasefire announcement improved investor sentiment. German yields declined, while French and Italian bond sprea",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Arab Spring, Hong Kong protests, Greece anti-austerity unrest: How historic mass protests shook stock markets?",
-        "link": "https://www.livemint.com/market/stock-market-news/arab-spring-hong-kong-protests-greece-anti-austerity-unrest-how-historic-mass-protests-shook-stock-markets-11791736652123.html",
-        "source": "Livemint",
-        "published": "Sun, 11 Oct 2026 22:13:18 +0530",
-        "published_timestamp": "2026-10-11T22:13:18+05:30",
-        "summary": "Mass protests in Egypt, Hong Kong, and Greece coincided with sharp stock market declines. Egypt\u2019s benchmark index fell 10.5% in January 2011, Hong Kong\u2019s Hang Seng dropped nearly 12% in 2019, and Gree",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.69,
-        "effective_impact": -0.617
-      },
-      {
-        "title": "Food delivery stock to buy: Eternal shares - 36% returns in 6 months by Zomato parent | 22% more upside ahead?",
-        "link": "https://www.livemint.com/market/stock-market-news/food-delivery-stock-to-buy-eternal-shares-36-returns-in-6-months-by-zomato-parent-22-more-upside-ahead-11791726764938.html",
-        "source": "Livemint",
-        "published": "Sun, 11 Oct 2026 19:26:40 +0530",
-        "published_timestamp": "2026-10-11T19:26:40+05:30",
-        "summary": "Eternal shares have gained nearly 36% in six months, with analysts citing quick-commerce growth, stronger customer retention and improved efficiency. Joindre Capital rates the stock Buy. Read our full",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.65,
-        "effective_impact": 0.583
-      },
-      {
-        "title": "EV stock to buy: Ather Energy shares - 130% returns in a year, Bank of Baroda Caps sees 19% more upside | Target price",
-        "link": "https://www.livemint.com/market/stock-market-news/ev-stock-to-buy-ather-energy-shares-134-returns-in-a-year-bank-of-baroda-caps-sees-19-more-upside-target-price-11791724539573.html",
-        "source": "Livemint",
-        "published": "Sun, 11 Oct 2026 18:50:58 +0530",
-        "published_timestamp": "2026-10-11T18:50:58+05:30",
-        "summary": "Ather Energy shares have risen sharply since listing in May 2025. BOBCAPS sees further upside and expects the company\u2019s planned move into the  \u20b91\u20131.25 lakh segment to support its expansion into the ma",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.64,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Ola Electric  \u20b91k cr rights issue: Check dates, per share price, face value, premium, record date, ratio - Details",
-        "link": "https://www.livemint.com/market/stock-market-news/ola-electric-rs-1k-cr-rights-issue-check-dates-per-share-price-face-value-premium-record-date-ratio-details-11791723054877.html",
-        "source": "Livemint",
-        "published": "Sun, 11 Oct 2026 18:24:14 +0530",
-        "published_timestamp": "2026-10-11T18:24:14+05:30",
-        "summary": "Ola Electric has approved a rights issue of up to  \u20b91,000 crore, offering 37.03 crore shares at  \u20b927 each. Shareholders holding stock on October 13, 2026, will be eligible for two rights shares for ev",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.63,
-        "effective_impact": 0.571
-      },
-      {
-        "title": "Dividend record date stocks this week: TCS, Vedanta, Anand Rathi Wealth shares - check dates, amount and payment details",
-        "link": "https://www.livemint.com/market/stock-market-news/dividend-record-date-stocks-this-week-tcs-vedanta-anand-rathi-wealth-shares-check-dates-amount-and-payment-details-11791720954556.html",
-        "source": "Livemint",
-        "published": "Sun, 11 Oct 2026 17:50:20 +0530",
-        "published_timestamp": "2026-10-11T17:50:20+05:30",
-        "summary": "Vedanta, TCS and Anand Rathi Wealth have announced interim dividends of  \u20b95,  \u20b912 and  \u20b94 per share, respectively. Vedanta and TCS set October 14 as the record date, while Anand Rathi Wealth set Octob",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.63,
-        "effective_impact": 0.565
-      },
-      {
-        "title": "Should investors buy or sell gold and silver this Navratri week? Commodity Outlook for precious metal traders",
-        "link": "https://www.livemint.com/market/stock-market-news/should-investors-buy-or-sell-gold-and-silver-this-navratri-week-commodity-outlook-for-precious-metal-traders-11791717184316.html",
-        "source": "Livemint",
-        "published": "Sun, 11 Oct 2026 17:30:20 +0530",
-        "published_timestamp": "2026-10-11T17:30:20+05:30",
-        "summary": "Gold, silver recovered late in the week as the dollar and US Treasury yields eased, with a weak rupee offering domestic support. Gold\u2019s technical outlook is mildly positive, while silver remains weake",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.62,
-        "effective_impact": -0.561
-      },
-      {
-        "title": "Hitachi Energy vs CG Power vs Siemens Energy: Which power stock offers best returns? Check target prices",
-        "link": "https://www.livemint.com/market/stock-market-news/hitachi-energy-vs-cg-power-vs-siemens-energy-which-power-stock-offers-best-returns-check-target-prices-11791717480656.html",
-        "source": "Livemint",
-        "published": "Sun, 11 Oct 2026 16:51:52 +0530",
-        "published_timestamp": "2026-10-11T16:51:52+05:30",
-        "summary": "Brokerage forecasts for Q2 FY27 point to growth across the three companies: Hitachi Energy is expected to post a 17% EBITDA margin and  \u20b977.2 EPS; CG Power\u2019s profit and revenue may rise 28.6% and 24.4",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.62,
-        "effective_impact": 0.554
-      },
-      {
-        "title": "Ahead of Market: 10 things that will decide D-Street action on Monday",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-monday/articleshow/134869422.cms",
-        "source": "Economic Times",
-        "published": "Sun, 11 Oct 2026 16:48:54 +0530",
-        "published_timestamp": "2026-10-11T16:48:54+05:30",
-        "summary": "Sensex and Nifty snapped their eight-week losing streak on Friday, surging over 1% as IT stocks rallied and crude prices eased. The rebound added more than Rs 4 lakh crore to BSE-listed companies\u2019 mar",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.62,
-        "effective_impact": 0.584
       }
     ]
   }
