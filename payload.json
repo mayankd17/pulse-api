@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-16 19:02:48 IST",
+    "ist_time": "2026-10-16 23:03:51 IST",
     "date_str": "2026-10-16",
     "is_open": false,
     "is_weekend": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-10-16 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 39.6,
+    "score": 38.0,
     "regime": "Balanced Neutral",
     "en": {
       "summary": "Nifty at 23146.15 (MARKET CLOSED: OFF-HOURS). Volatility Index is 14.02 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 35% liquid cash. Set opportunistic SIP deployment factor to 1.1x."
+      "what_to_do": "Maintain 35% liquid cash. Set opportunistic SIP deployment factor to 1.12x."
     },
     "hi": {
       "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23146.15 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 14.02 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.1x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.12x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 20,
       "selective_equity_pct": 35
     },
-    "multiplier": 1.1
+    "multiplier": 1.12
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -64,7 +64,7 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 37,
+      "score": 36,
       "verdict": "Consolidation Corridor",
       "target_range": "22377.9 - 23914.4",
       "downside_prob_pct": 58,
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 42,
+      "score": 41,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "22336.0 - 23956.3",
       "downside_prob_pct": 45,
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.1,
+    "dynamic_sip_multiplier": 1.12,
     "lot_size": 25,
     "nifty_lot_value": 578653,
     "cascade_risk_pct": 95
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 66.0,
       "S7_Order_Absorption": 72.8,
-      "S8_Lead_Lag_Gap": 54.3
+      "S8_Lead_Lag_Gap": 25.5
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 2.41,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d744.6) + (0.15\u00d736.2) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d766.0) + (0.1\u00d772.8) + (0.05\u00d754.3) + +2.41 = 39.6"
+    "news_vector_delta": 2.27,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d744.6) + (0.15\u00d736.2) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d766.0) + (0.1\u00d772.8) + (0.05\u00d725.5) + +2.27 = 38.0"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 0.77,
       "parkinson_volatility": 11.37,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 105.74,
-      "brent_1d_pct": -0.17,
-      "usdinr": 94.96,
-      "us_10y_yield": 5.12,
-      "sp500_close": 7754.4,
-      "sp500_1d_pct": 0.13,
-      "dxy_close": 101.77,
-      "dxy_1d_pct": -0.23,
+      "brent_crude_usd": 109.0,
+      "brent_1d_pct": 2.91,
+      "usdinr": 94.95,
+      "us_10y_yield": 5.11,
+      "sp500_close": 7669.66,
+      "sp500_1d_pct": -0.96,
+      "dxy_close": 101.9,
+      "dxy_1d_pct": -0.1,
       "last_active_session_date": "2026-10-16"
     },
     "derivatives": {
@@ -304,14 +304,170 @@
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
-      "gap_bias": "Neutral Opening",
-      "expected_gap_points": 22,
-      "net_macro_lead_pct": 0.173,
-      "sp500_change_pct": 0.13,
-      "dxy_change_pct": -0.23,
-      "crude_change_pct": -0.17
+      "gap_bias": "Bearish Gap-Down",
+      "expected_gap_points": -122,
+      "net_macro_lead_pct": -0.979,
+      "sp500_change_pct": -0.96,
+      "dxy_change_pct": -0.1,
+      "crude_change_pct": 2.91
     },
     "news_items": [
+      {
+        "title": "Reliance-backed Jio Platforms IPO:  \u20b91 lakh crore gains for Meta, Google in  \u20b930,213 cr issue by Mukesh Ambani firm?",
+        "link": "https://www.livemint.com/market/stock-market-news/reliancebacked-jio-platforms-ipo-rs-1-lakh-crore-gains-for-meta-google-in-rs-30-213-cr-issue-by-mukesh-ambani-firm-11792168344160.html",
+        "source": "Livemint",
+        "published": "Fri, 16 Oct 2026 22:37:32 +0530",
+        "published_timestamp": "2026-10-16T22:37:32+05:30",
+        "summary": "Meta and Google could hold nearly  \u20b91 lakh crore in paper gains from their Jio Platforms investments, with estimated returns of about 129%.&nbsp;",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "\u20b930 dividend: ICICI Prudential AMC dividend record date ahead! Check yield, payout history, stock performance",
+        "link": "https://www.livemint.com/market/stock-market-news/rs-30-dividend-icici-prudential-amc-dividend-record-date-ahead-check-yield-payout-history-stock-performance-other-d-11792168215358.html",
+        "source": "Livemint",
+        "published": "Fri, 16 Oct 2026 22:04:51 +0530",
+        "published_timestamp": "2026-10-16T22:04:51+05:30",
+        "summary": "ICICI Prudential AMC has declared an interim dividend of  \u20b930 per share for FY27, with October 21, 2026, set as the record date. Investors must own shares by October 20 to qualify. The stock closed 0.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Dividend delight on D-Street: Modison, LTM to Oberoi Realty announce dividends on October 16 | Amount, record dates",
+        "link": "https://www.livemint.com/market/stock-market-news/dividend-delight-on-d-street-modison-ltm-to-oberoi-realty-announce-dividends-on-october-16-amount-record-dates-11792166904111.html",
+        "source": "Livemint",
+        "published": "Fri, 16 Oct 2026 21:41:16 +0530",
+        "published_timestamp": "2026-10-16T21:41:16+05:30",
+        "summary": "Modison, Oberoi Realty and LTM announced dividends, with October 23 set as the record date for all three. Modison approved  \u20b94 per share, Oberoi Realty  \u20b92, and LTM  \u20b925. Modison\u2019s Q2FY27 profit and r",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "CoreWeave stock wipeout exposes divide between AI fear and greed",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/coreweave-stock-wipeout-exposes-divide-between-ai-fear-and-greed/articleshow/134998742.cms",
+        "source": "Economic Times",
+        "published": "Fri, 16 Oct 2026 21:33:56 +0530",
+        "published_timestamp": "2026-10-16T21:33:56+05:30",
+        "summary": "CoreWeave Inc. is navigating turbulent stock trends due to climbing bond yields and investor trepidation over its debt, raising fears of default. Although a temporary boost followed optimistic comment",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "Crompton Greaves Consumer Electricals Ltd Q2 Results: Profit surges 65% to Rs 124 crore",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/crompton-greaves-q2-results-profit-surges-65-to-rs-124-crore/articleshow/134998426.cms",
+        "source": "Economic Times",
+        "published": "Fri, 16 Oct 2026 21:03:01 +0530",
+        "published_timestamp": "2026-10-16T21:03:01+05:30",
+        "summary": "Crompton Greaves Consumer Electricals reported a 65 percent increase in consolidated net profit for the September quarter. The company's revenue from operations also jumped by 18.15 percent compared t",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "This small-cap AI stock has surged 250% in 2026: What is behind its stellar market performance?",
+        "link": "https://www.livemint.com/market/stock-market-news/this-small-cap-ai-stock-has-surged-250-in-2026-what-is-behind-its-stellar-market-performance-11792162057382.html",
+        "source": "Livemint",
+        "published": "Fri, 16 Oct 2026 20:31:04 +0530",
+        "published_timestamp": "2026-10-16T20:31:04+05:30",
+        "summary": "E2E Networks shares have surged 248% this year after falling 50% in 2025, buoyed by demand for AI infrastructure and NVIDIA-related deals. September-quarter revenue rose 411% year-on-year to  \u20b9223.8 c",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Cult.fit IPO alert: Fitness major receives SEBI nod for proposed IPO - Check OFS, fresh issue mix details",
+        "link": "https://www.livemint.com/market/ipo/cultfit-ipo-alert-fitness-major-receives-sebi-nod-for-proposed-ipo-check-ofs-fresh-issue-mix-details-11792158029624.html",
+        "source": "Livemint",
+        "published": "Fri, 16 Oct 2026 20:30:54 +0530",
+        "published_timestamp": "2026-10-16T20:30:54+05:30",
+        "summary": "SEBI has approved Cult.fit\u2019s IPO, which aims to raise up to  \u20b9950 crore through a fresh share issue and an offer for sale of up to 17.86 crore shares. The company plans to use proceeds to expand its f",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Oberoi Realty Q2 results, dividend 2026: Check amount, record date, yield, history, stock returns",
+        "link": "https://www.livemint.com/market/stock-market-news/rs-2-per-share-dividend-stock-do-you-own-this-real-estate-stock-check-record-date-to-qualify-for-cash-reward-11792158360275.html",
+        "source": "Livemint",
+        "published": "Fri, 16 Oct 2026 19:41:32 +0530",
+        "published_timestamp": "2026-10-16T19:41:32+05:30",
+        "summary": "Oberoi Realty declared a second interim dividend of  \u20b92 per share for FY27, with October 23, 2026, set as the record date and payments beginning October 30. Q2 consolidated net profit edged up to  \u20b976",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Cult.fit receives Sebi approval for proposed IPO",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/cult-fit-receives-sebi-approval-for-proposed-ipo/articleshow/134997161.cms",
+        "source": "Economic Times",
+        "published": "Fri, 16 Oct 2026 19:32:27 +0530",
+        "published_timestamp": "2026-10-16T19:32:27+05:30",
+        "summary": "Cult.fit has received Sebi observations for its proposed IPO, comprising a fresh issue of up to Rs 950 crore and an offer for sale. Revenue rose 36.26% in FY26, while adjusted EBITDA margin improved s",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "US stocks: S&amp;P 500 muted as AI concerns hit chip stocks; bank gains lift Dow",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-wall-st-opens-muted-as-tech-jitters-linger-tesla-gains/articleshow/134996865.cms",
+        "source": "Economic Times",
+        "published": "Fri, 16 Oct 2026 19:15:27 +0530",
+        "published_timestamp": "2026-10-16T19:15:27+05:30",
+        "summary": "The S&P 500 showed little movement as semiconductor stocks decreased due to AI-related concerns and market pressures. Gains in banking stocks such as Goldman Sachs and JPMorgan Chase helped offset bro",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "DLF Q2 profit rises to Rs 1,301 crore as luxury project sells out",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/dlf-q2-profit-rises-to-rs-1301-crore-as-luxury-project-sells-out/articleshow/134996827.cms",
+        "source": "Economic Times",
+        "published": "Fri, 16 Oct 2026 19:10:03 +0530",
+        "published_timestamp": "2026-10-16T19:10:03+05:30",
+        "summary": "DLF reported a 11% year-on-year increase in July-September net profit to Rs 1,301 crore, with sales bookings reaching Rs 3,800 crore. Its Aureva luxury retirement project in Gurugram sold out, while t",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Ujjivan SFB to raise Rs 409 crore from IFC, three insurers",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ujjivan-sfb-to-raise-rs-409-crore-from-ifc-three-insurers/articleshow/134996772.cms",
+        "source": "Economic Times",
+        "published": "Fri, 16 Oct 2026 19:07:46 +0530",
+        "published_timestamp": "2026-10-16T19:07:46+05:30",
+        "summary": "Ujjivan Small Finance Bank plans to raise Rs 409 crore through a preferential share allotment to IFC and three insurers at Rs 64.73 per share. The bank also reported a 200% year-on-year jump in Q2 net",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
       {
         "title": "Sebi\u2019s gold fund curbs may have limited impact as ETF route remains open",
         "link": "https://www.livemint.com/market/sebi-gold-price-fund-curbs-may-have-limited-impact-as-etf-route-remains-open-11792144976335.html",
@@ -337,6 +493,19 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.9
+      },
+      {
+        "title": "Rupee rises 1.9% in a week, closes below 95 per dollar",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-rises-1-9-in-a-week-closes-below-95-per-dollar/articleshow/134996292.cms",
+        "source": "Economic Times",
+        "published": "Fri, 16 Oct 2026 18:44:16 +0530",
+        "published_timestamp": "2026-10-16T18:44:16+05:30",
+        "summary": "The Indian rupee strengthened 1.9% this week to close at 94.96 per dollar, its strongest weekly gain in seven months. Aggressive RBI measures curbed dollar demand, while a weaker dollar index supporte",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
       },
       {
         "title": "Federal Bank Q2 profit jumps 45% to record Rs 1,386 crore",
@@ -660,177 +829,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.89,
-        "effective_impact": -0.847
-      },
-      {
-        "title": "From worst to best: How IT stocks staged a Rs 2.6 lakh crore revival this week",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/from-worst-to-best-how-it-stocks-staged-a-rs-2-6-lakh-crore-revival-this-week/articleshow/134986472.cms",
-        "source": "Economic Times",
-        "published": "Fri, 16 Oct 2026 13:07:33 +0530",
-        "published_timestamp": "2026-10-16T13:07:33+05:30",
-        "summary": "Indian IT stocks staged a sharp comeback this week, adding Rs 2.6 lakh crore in market value as the sector gained 12% to become the best-performing index. Better-than-expected Q2 earnings, positive ma",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.89,
-        "effective_impact": 0.844
-      },
-      {
-        "title": "Wipro poised to lag peers in FY27. Can timely deal conversions turn the tables?",
-        "link": "https://www.livemint.com/market/stock-market-news/wipro-poised-to-lag-peers-in-fy27-can-timely-deal-conversions-turn-the-tables-11792128844265.html",
-        "source": "Livemint",
-        "published": "Fri, 16 Oct 2026 12:59:45 +0530",
-        "published_timestamp": "2026-10-16T12:59:45+05:30",
-        "summary": "Wipro\u2019s weak deal bookings and subdued Q3 guidance cloud its FY27 growth outlook. Timely deal conversion could aid a recovery, but persistent underperformance and AI investments remain concerns.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.89,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Reliance Jio IPO latest GMP today: Check share price percentage wise gains stock is expected to make on listing",
-        "link": "https://www.livemint.com/market/ipo/reliance-jio-ipo-latest-gmp-today-check-share-price-percentage-wise-gains-stock-is-expected-to-make-on-listing-11792135316984.html",
-        "source": "Livemint",
-        "published": "Fri, 16 Oct 2026 12:58:02 +0530",
-        "published_timestamp": "2026-10-16T12:58:02+05:30",
-        "summary": "Reliance Jio Platforms\u2019 IPO is scheduled to open October 21 and close October 23, 2026, with a price band of  \u20b91,065\u20131,119 per share. Check its latest IPO GMP",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.89,
-        "effective_impact": 0.797
-      },
-      {
-        "title": "Tips Music shares up 6% today after strong Q2 2026 results, dividend announcement; 27% up in 6 months - key highlights",
-        "link": "https://www.livemint.com/market/stock-market-news/tips-music-shares-up-6-today-after-strong-q2-2026-results-dividend-announcement-27-up-in-6-months-key-highlights-11792132139224.html",
-        "source": "Livemint",
-        "published": "Fri, 16 Oct 2026 12:40:14 +0530",
-        "published_timestamp": "2026-10-16T12:40:14+05:30",
-        "summary": "Tips Music shares opened at  \u20b9700 per share on NSE today, as compared to previous close of  \u20b9684.40 on Thursday and touched an intraday high of  \u20b9731 on 16 October.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.88,
-        "effective_impact": 0.792
-      },
-      {
-        "title": "Global Market: Japanese investors extend foreign bond selling streak to four weeks",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-japanese-investors-extend-foreign-bond-selling-streak-to-four-weeks/articleshow/134985765.cms",
-        "source": "Economic Times",
-        "published": "Fri, 16 Oct 2026 12:37:17 +0530",
-        "published_timestamp": "2026-10-16T12:37:17+05:30",
-        "summary": "Japanese investors sold foreign bonds for a fourth consecutive week, pushing year-to-date net outflows to 5.34 trillion yen, the highest since 2022. Rising domestic bond yields are encouraging capital",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.88,
-        "effective_impact": 0.835
-      },
-      {
-        "title": "Indian Bank reports a Rs 1,388 crore gain from sale of NSE shares",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/indian-bank-reports-a-rs-1388-crore-gain-from-sale-of-nse-shares/articleshow/134985719.cms",
-        "source": "Economic Times",
-        "published": "Fri, 16 Oct 2026 12:34:25 +0530",
-        "published_timestamp": "2026-10-16T12:34:25+05:30",
-        "summary": " Indian Bank gained Rs 1,388 crore from the NSE listing, boosting second-quarter non-interest income by 50% to Rs 3,953 crore. The one-time gain offset pressure from rising bond yields, despite Rs 123",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.88,
-        "effective_impact": 0.835
-      },
-      {
-        "title": "Jio IPO GMP at 20%: Grey market signals Rs 220 premium as brokerages say subscribe",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/jio-ipo-gmp-at-20-grey-market-signals-rs-220-premium-as-brokerages-say-subscribe/articleshow/134985658.cms",
-        "source": "Economic Times",
-        "published": "Fri, 16 Oct 2026 12:33:15 +0530",
-        "published_timestamp": "2026-10-16T12:33:15+05:30",
-        "summary": "Jio Platforms IPO GMP today: Jio Platforms\u2019 Rs 30,200 crore IPO has a grey market premium of Rs 220 ahead of its October 21 opening. Emkay Global and SBI Securities highlight its telecom leadership, e",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.88,
-        "effective_impact": 0.834
-      },
-      {
-        "title": "TCS vs HCL Tech vs Tech Mahindra vs Wipro: Which IT stock won Q2 results 2026? AI revenue, deal wins compared",
-        "link": "https://www.livemint.com/market/stock-market-news/tcs-vs-hcl-tech-vs-tech-mahindra-vs-wipro-which-it-stock-won-q2-results-2026-ai-revenue-deal-wins-compared-11792130967795.html",
-        "source": "Livemint",
-        "published": "Fri, 16 Oct 2026 12:30:17 +0530",
-        "published_timestamp": "2026-10-16T12:30:17+05:30",
-        "summary": "India\u2019s leading IT firms posted mixed Q2FY27 results as AI shaped growth and dealmaking. TCS, HCL Tech and Tech Mahindra reported profit gains, with HCL raising its outlook and Tech Mahindra recording",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.88,
-        "effective_impact": 0.79
-      },
-      {
-        "title": "Rupee relief comes with disruptions in financial markets",
-        "link": "https://economictimes.indiatimes.com/markets/forex/rupee-relief-comes-with-disruptions-in-financial-markets/articleshow/134985296.cms",
-        "source": "Economic Times",
-        "published": "Fri, 16 Oct 2026 12:27:02 +0530",
-        "published_timestamp": "2026-10-16T12:27:02+05:30",
-        "summary": "The Reserve Bank of India took decisive steps to stabilize the rupee, significantly affecting financial markets. New constraints led to skyrocketing hedging costs and dwindled liquidity in the forex s",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.88,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "HFCL\u2019s AI, data centre exposure drives Nuvama\u2019s Buy call; target implies 56% upside",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/hfcls-ai-data-centre-exposure-drives-nuvamas-buy-call-target-implies-56-upside/articleshow/134985229.cms",
-        "source": "Economic Times",
-        "published": "Fri, 16 Oct 2026 12:23:32 +0530",
-        "published_timestamp": "2026-10-16T12:23:32+05:30",
-        "summary": " Nuvama has initiated coverage on HFCL with a \u2018Buy\u2019 rating and a target price of Rs 380, implying a 56% upside from its reference price of Rs 244. The brokerage expects the company\u2019s shift towards tel",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.88,
-        "effective_impact": -0.832
-      },
-      {
-        "title": "Mint Explainer| How Sebi\u2019s changes to bonds could help NBFCs",
-        "link": "https://www.livemint.com/market/stock-market-news/sebi-nbfc-changes-isin-corporate-bond-market-india-11792124357016.html",
-        "source": "Livemint",
-        "published": "Fri, 16 Oct 2026 12:23:22 +0530",
-        "published_timestamp": "2026-10-16T12:23:22+05:30",
-        "summary": "Sebi's changes should give NBFCs greater flexibility to stagger repayments and align their borrowing schedules with the monthly cash flows from their loan portfolios",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.88,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "US Market: Fed's Goolsbee says latest US inflation data is discouraging",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-market-feds-goolsbee-says-latest-us-inflation-data-is-discouraging/articleshow/134985186.cms",
-        "source": "Economic Times",
-        "published": "Fri, 16 Oct 2026 12:19:45 +0530",
-        "published_timestamp": "2026-10-16T12:19:45+05:30",
-        "summary": "Federal Reserve Bank of Chicago President Austan Goolsbee called the latest US consumer and producer inflation data discouraging, raising concerns about persistent price pressures. While temporary fac",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.87,
-        "effective_impact": -0.831
-      },
-      {
-        "title": "Nilesh Shah of Kotak says easing tax burden may help attract foreign flows, but won't be enough",
-        "link": "https://www.livemint.com/market/stock-market-news/tax-stt-ltcg-foreign-investment-nilesh-shah-kotak-11792126801638.html",
-        "source": "Livemint",
-        "published": "Fri, 16 Oct 2026 12:00:00 +0530",
-        "published_timestamp": "2026-10-16T12:00:00+05:30",
-        "summary": "According to Shah, global investors are reallocating their portfolios rather than exiting India.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.87,
-        "effective_impact": 0.0
+        "beta_decay": 0.82,
+        "effective_impact": -0.782
       }
     ]
   }
