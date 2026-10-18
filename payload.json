@@ -1,27 +1,27 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-18 22:41:12 IST",
-    "date_str": "2026-10-18",
+    "ist_time": "2026-10-19 03:49:17 IST",
+    "date_str": "2026-10-19",
     "is_open": false,
-    "is_weekend": true,
+    "is_weekend": false,
     "is_holiday": false,
     "holiday_name": "",
     "last_session_date": "2026-10-16",
-    "status_label": "MARKET CLOSED: WEEKEND",
-    "notice": "MARKET OFF TODAY (MARKET CLOSED: WEEKEND). Baseline established from 2026-10-16 session. Off-market news & global cues monitored with zero weekend decay."
+    "status_label": "MARKET CLOSED: OFF-HOURS",
+    "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-10-16 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 36.6,
+    "score": 37.5,
     "regime": "Balanced Neutral",
     "en": {
-      "summary": "Nifty at 23146.15 (MARKET CLOSED: WEEKEND). Volatility Index is 14.06 with Put-Call Ratio of 0.771.",
+      "summary": "Nifty at 23146.15 (MARKET CLOSED: OFF-HOURS). Volatility Index is 14.06 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 35% liquid cash. Set opportunistic SIP deployment factor to 1.13x."
+      "what_to_do": "Maintain 35% liquid cash. Set opportunistic SIP deployment factor to 1.12x."
     },
     "hi": {
-      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23146.15 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: WEEKEND)\u0964 VIX 14.06 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
+      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23146.15 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 14.06 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.13x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.12x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 20,
       "selective_equity_pct": 35
     },
-    "multiplier": 1.13
+    "multiplier": 1.12
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -64,7 +64,7 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 34,
+      "score": 35,
       "verdict": "Consolidation Corridor",
       "target_range": "22377.9 - 23914.4",
       "downside_prob_pct": 58,
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 39,
+      "score": 40,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "22336.0 - 23956.3",
       "downside_prob_pct": 45,
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.13,
+    "dynamic_sip_multiplier": 1.12,
     "lot_size": 25,
     "nifty_lot_value": 578653,
     "cascade_risk_pct": 95
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 66.0,
       "S7_Order_Absorption": 72.8,
-      "S8_Lead_Lag_Gap": 20.5
+      "S8_Lead_Lag_Gap": 37.3
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 1.21,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d744.0) + (0.15\u00d736.2) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d766.0) + (0.1\u00d772.8) + (0.05\u00d720.5) + +1.21 = 36.6"
+    "news_vector_delta": 1.2,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d744.0) + (0.15\u00d736.2) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d766.0) + (0.1\u00d772.8) + (0.05\u00d737.3) + +1.20 = 37.5"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -248,13 +248,13 @@
       "parkinson_volatility": 11.37,
       "amihud_illiquidity": 0.0001,
       "brent_crude_usd": 109.86,
-      "brent_1d_pct": 3.72,
+      "brent_1d_pct": 0.0,
       "usdinr": 94.95,
       "us_10y_yield": 5.1,
       "sp500_close": 7659.44,
       "sp500_1d_pct": -1.09,
-      "dxy_close": 101.84,
-      "dxy_1d_pct": -0.16,
+      "dxy_close": 101.89,
+      "dxy_1d_pct": 0.05,
       "last_active_session_date": "2026-10-16"
     },
     "derivatives": {
@@ -305,13 +305,52 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bearish Gap-Down",
-      "expected_gap_points": -147,
-      "net_macro_lead_pct": -1.179,
+      "expected_gap_points": -64,
+      "net_macro_lead_pct": -0.508,
       "sp500_change_pct": -1.09,
-      "dxy_change_pct": -0.16,
-      "crude_change_pct": 3.72
+      "dxy_change_pct": 0.05,
+      "crude_change_pct": 0.0
     },
     "news_items": [
+      {
+        "title": "Q2 results 2026 today Oct 19 Monday: Hindustan Zinc, IREDA, L&amp;T Tech, Union Bank among 35 firms to announce earnings",
+        "link": "https://www.livemint.com/market/stock-market-news/q2-results-today-hindustan-zinc-ireda-l-t-tech-union-bank-bajaj-finance-among-35-companies-to-announce-earnings-11792333351897.html",
+        "source": "Livemint",
+        "published": "Mon, 19 Oct 2026 01:00:21 +0530",
+        "published_timestamp": "2026-10-19T01:00:21+05:30",
+        "summary": "Indian benchmarks posted a second straight week of gains, with the Nifty and Sensex rising after a sharp recovery. Investors will watch quarterly earnings from 35 companies on October 19, including Ba",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Dividend record date: Last chance to buy today to qualify, Elecon, ICICI Prudential AMC, MRPL - Who pays max amount?",
+        "link": "https://www.livemint.com/market/stock-market-news/dividend-record-date-last-chance-to-buy-today-to-qualify-elecon-icici-prudential-amc-mrpl-who-pays-max-amount-11792336666965.html",
+        "source": "Livemint",
+        "published": "Mon, 19 Oct 2026 00:15:40 +0530",
+        "published_timestamp": "2026-10-19T00:15:40+05:30",
+        "summary": "Elecon Engineering, ICICI Prudential AMC and MRPL set October 21 as the record date for their dividends. With Tuesday a market holiday and India following T+1 settlement, Monday, October 19, is the la",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Vaishali Parekh recommends 3 stocks to buy today: Coforge, Lalithaa Jewellery, Titan; target, stop-loss, market outlook",
+        "link": "https://www.livemint.com/market/stock-market-news/vaishali-parekh-recommends-3-stocks-to-buy-today-coforge-lalithaa-jewellery-titan-target-stop-loss-market-outlook-11792342947926.html",
+        "source": "Livemint",
+        "published": "Mon, 19 Oct 2026 00:02:53 +0530",
+        "published_timestamp": "2026-10-19T00:02:53+05:30",
+        "summary": "Stock market today: Vaishali Parekkh believes Dalal Street bias has improved, but the Nifty 50 index would have the important 50-EMA level in the 23,300 zone, which needs to be decisively breached to ",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
       {
         "title": "What\u2019s next for IDBI Bank stock after Q2 net profit slumps 39%, massive Fairfax deal? Key factors investors should watch",
         "link": "https://www.livemint.com/market/stock-market-news/whats-next-for-idbi-bank-stock-after-q2-net-profit-slumps-39-massive-fairfax-deal-key-factors-investors-should-watch-11792335797516.html",
@@ -792,45 +831,6 @@
         "raw_sentiment": -1.0,
         "beta_decay": 1.0,
         "effective_impact": -0.95
-      },
-      {
-        "title": "ixigo Q2 profit at Rs 63 cr on robust show in hotel booking biz",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/ixigo-q2-profit-at-rs-63-cr-on-robust-show-in-hotel-booking-biz/articleshow/135012396.cms",
-        "source": "Economic Times",
-        "published": "Sat, 17 Oct 2026 16:21:46 +0530",
-        "published_timestamp": "2026-10-17T16:21:46+05:30",
-        "summary": "Ixigo reported a remarkable turnaround with a consolidated net profit of Rs 63.42 crore for the September quarter, bouncing back from a net loss of Rs 3.46 crore from last year. The surge in hotel boo",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "Reliance Jio IPO GMP today: Listing-day jackpot or long-term bet? How should investors play Mukesh Ambani\u2019s mega IPO?",
-        "link": "https://www.livemint.com/market/ipo/reliance-jio-ipo-gmp-today-listing-day-jackpot-or-long-term-bet-how-should-investors-play-mukesh-ambani-s-mega-ipo-11792233746569.html",
-        "source": "Livemint",
-        "published": "Sat, 17 Oct 2026 16:17:00 +0530",
-        "published_timestamp": "2026-10-17T16:17:00+05:30",
-        "summary": "Reliance Jio Platforms plans a  \u20b930,213 crore IPO, offering 27 crore shares at  \u20b91,065\u2013 \u20b91,119 each. Its grey market premium of  \u20b9221 suggests a potential 19.75% listing gain, though GMP is not a reli",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "ICICI Bank Q2 Results: Net profit jumps 20% YoY to Rs 14,843 crore, NII rises 18%",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/icici-bank-q2-results-net-profit-jumps-20-to-rs-14843-crore-nii-rises-18-yoy/articleshow/135011810.cms",
-        "source": "Economic Times",
-        "published": "Sat, 17 Oct 2026 15:47:31 +0530",
-        "published_timestamp": "2026-10-17T15:47:31+05:30",
-        "summary": "ICICI Bank Q2 Results: Private lender ICICI Bank reported a net profit of Rs 14,843 crore in the second quarter of financial year 2027, marking 20.1% year-on-year increase from Rs 12,359 crore posted ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
       }
     ]
   }
