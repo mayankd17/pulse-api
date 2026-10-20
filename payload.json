@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-20 13:37:05 IST",
+    "ist_time": "2026-10-20 14:35:05 IST",
     "date_str": "2026-10-20",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Dussehra). Baseline established from 2026-10-19 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 34.9,
+    "score": 34.7,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 22888.95 (MARKET CLOSED: Dussehra). Volatility Index is 14.77 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 60.3,
       "S7_Order_Absorption": 68.5,
-      "S8_Lead_Lag_Gap": 51.0
+      "S8_Lead_Lag_Gap": 49.4
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.68,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d734.1) + (0.15\u00d736.6) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d760.3) + (0.1\u00d768.5) + (0.05\u00d751.0) + +0.68 = 34.9"
+    "news_vector_delta": 0.51,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d734.1) + (0.15\u00d736.6) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d760.3) + (0.1\u00d768.5) + (0.05\u00d749.4) + +0.51 = 34.7"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.2,
       "parkinson_volatility": 11.74,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 110.76,
-      "brent_1d_pct": 1.1,
+      "brent_crude_usd": 111.04,
+      "brent_1d_pct": 1.36,
       "usdinr": 94.92,
       "us_10y_yield": 5.14,
       "sp500_close": 7690.73,
       "sp500_1d_pct": 0.41,
-      "dxy_close": 101.77,
-      "dxy_1d_pct": -0.21,
+      "dxy_close": 101.8,
+      "dxy_1d_pct": -0.18,
       "last_active_session_date": "2026-10-19"
     },
     "derivatives": {
@@ -305,13 +305,91 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Neutral Opening",
-      "expected_gap_points": 5,
-      "net_macro_lead_pct": 0.038,
+      "expected_gap_points": -3,
+      "net_macro_lead_pct": -0.025,
       "sp500_change_pct": 0.41,
-      "dxy_change_pct": -0.21,
-      "crude_change_pct": 1.1
+      "dxy_change_pct": -0.18,
+      "crude_change_pct": 1.36
     },
     "news_items": [
+      {
+        "title": "Dussehra 2026 special: Top 3 stocks to buy; ICICI Bank, Adani Ports, Reliance Industries | Target price by Mahesh M Ojha",
+        "link": "https://www.livemint.com/market/stock-market-news/dussehra-2026-special-top-3-stocks-to-buy-icici-bank-adani-ports-reliance-industries-target-price-by-mahesh-m-ojha-11792481678492.html",
+        "source": "Livemint",
+        "published": "Tue, 20 Oct 2026 14:21:42 +0530",
+        "published_timestamp": "2026-10-20T14:21:42+05:30",
+        "summary": "Dussehra 2026 special: Mahesh M Ojha of KC Securities has recommmended these three stocks with one year time horizon",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "IPO bound Paras Healthcare raises Rs 652.50 crore from anchor investors as issue set to open on October 21",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-bound-paras-healthcare-raises-rs-652-50-crore-from-anchor-investors-as-issue-set-to-open-on-october-21/articleshow/135065506.cms",
+        "source": "Economic Times",
+        "published": "Tue, 20 Oct 2026 14:14:06 +0530",
+        "published_timestamp": "2026-10-20T14:14:06+05:30",
+        "summary": "The investors included Abu Dhabi Investment Authority, BlackRock Global Funds, Eastspring Investments, Government Pension Fund Global, Natixis International Funds, Integrated Core Strategies (Asia) an",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "China flags APEC's role as key for a challenged global economy",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/update-1-china-flags-apecs-role-as-key-for-a-challenged-global-economy/articleshow/135065449.cms",
+        "source": "Economic Times",
+        "published": "Tue, 20 Oct 2026 14:11:01 +0530",
+        "published_timestamp": "2026-10-20T14:11:01+05:30",
+        "summary": "During the opening of the APEC Finance Ministers' meeting in Hong Kong, China's Finance Minister Lan Foan highlighted the importance of the APEC forum for promoting economic cooperation. He urged the ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "French bond yields edge down, but investors stay on alert",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/french-bond-yields-edge-down-but-investors-stay-on-alert/articleshow/135065370.cms",
+        "source": "Economic Times",
+        "published": "Tue, 20 Oct 2026 14:09:18 +0530",
+        "published_timestamp": "2026-10-20T14:09:18+05:30",
+        "summary": "On Tuesday, French government bond yields lowered after a significant increase observed on the previous day. Investors are remaining cautious as they await a crucial vote on the budget bill. Recent pr",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "EAS Sarma IDBI disinvestment letter: What he wrote? IDBI Bank shares in focus after massive  \u20b952,878 crore Fairfax deal",
+        "link": "https://www.livemint.com/market/stock-market-news/eas-sarma-idbi-disinvestment-letter-what-he-wrote-idbi-bank-shares-in-focus-after-massive-52-878-crore-fairfax-deal-11792480203630.html",
+        "source": "Livemint",
+        "published": "Tue, 20 Oct 2026 13:49:24 +0530",
+        "published_timestamp": "2026-10-20T13:49:24+05:30",
+        "summary": "EAS Sarma IDBI disinvestment letter: IDBI Bank shares ended Monday's session on a negative note, closed 2.23% lower at  \u20b984.12 apiece on 19 October.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "European stocks extend slide as French protests dent risk appetite",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/european-stocks-extend-slide-as-french-protests-dent-risk-appetite/articleshow/135064923.cms",
+        "source": "Economic Times",
+        "published": "Tue, 20 Oct 2026 13:45:41 +0530",
+        "published_timestamp": "2026-10-20T13:45:41+05:30",
+        "summary": "Political turmoil in France has cast a shadow over European markets, leading investors to adopt a more cautious stance. The STOXX 600 index slid by 0.27% following a prior drop of 0.8%. Widespread pro",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
       {
         "title": "Analysis ahead of Reliance Jio IPO: Bharti Airtel is better or Mukesh Ambani shares? Top value things before bid opens",
         "link": "https://www.livemint.com/market/ipo/analysis-ahead-of-reliance-jio-ipo-bharti-airtel-is-better-or-mukesh-ambani-shares-top-value-things-before-bid-opens-11792481253599.html",
@@ -324,6 +402,19 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.9
+      },
+      {
+        "title": "EAAA India Alternatives to float Rs 1,200-cr IPO on Oct 26",
+        "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/eaaa-india-alternatives-to-float-rs-1200-cr-ipo-on-oct-26/articleshow/135064394.cms",
+        "source": "Economic Times",
+        "published": "Tue, 20 Oct 2026 13:21:09 +0530",
+        "published_timestamp": "2026-10-20T13:21:09+05:30",
+        "summary": "EAAA India Alternatives Ltd will open its initial public offering worth Rs 1,200 crore on October 26. The IPO will close for subscription on October 28, following anchor investor bidding on October 23",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
       },
       {
         "title": "Jio IPO opens tomorrow: How can investors maximise allotment chances under Rs 2,500 crore RIL shareholders quota",
@@ -740,97 +831,6 @@
         "raw_sentiment": 0.0,
         "beta_decay": 1.0,
         "effective_impact": 0.0
-      },
-      {
-        "title": "Bajaj Finance Q2 consolidated net profit rises 29% to Rs 6,367 crore",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/bajaj-finance-q2-consolidated-net-profit-rises-29-to-rs-6367-crore/articleshow/135051459.cms",
-        "source": "Economic Times",
-        "published": "Mon, 19 Oct 2026 20:43:16 +0530",
-        "published_timestamp": "2026-10-19T20:43:16+05:30",
-        "summary": "Bajaj Finance expects AUM to grow 26-27% in FY27 as it accelerates customer acquisition and loan disbursements. The lender plans to book 60-62 million new loans and add 18-20 million customers during ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "Waaree Renewable Technologies Q2 Results: Net profit falls 29% to Rs 81 crore",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/waaree-renewable-technologies-q2-results-net-profit-falls-29-to-rs-81-crore/articleshow/135051423.cms",
-        "source": "Economic Times",
-        "published": "Mon, 19 Oct 2026 20:41:32 +0530",
-        "published_timestamp": "2026-10-19T20:41:32+05:30",
-        "summary": "Waaree Renewable Technologies experienced a notable 29 percent drop in net profit for the quarter ending September. Their consolidated profit stood at Rs 81.48 crore, a decrease from Rs 116.36 crore y",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "What\u2019s wrong with Indonesian stock market? Why it lost nearly 40% in a year and can Jakarta win back investors? Decoded",
-        "link": "https://www.livemint.com/market/whats-wrong-with-indonesian-stock-market-why-it-lost-nearly-40-in-a-year-and-can-jakarta-win-back-investors-decoded-11792416925940.html",
-        "source": "Livemint",
-        "published": "Mon, 19 Oct 2026 20:37:37 +0530",
-        "published_timestamp": "2026-10-19T20:37:37+05:30",
-        "summary": "Indonesia\u2019s stock market has lost nearly 40% this year after MSCI warned it could downgrade the country to standalone status, citing concerns over transparency and trading practices. The move risks bi",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
-      },
-      {
-        "title": "Diwali Muhurat trading 2026: NSE declares date, time for special trading session. Details here",
-        "link": "https://www.livemint.com/market/stock-market-news/diwali-muhurat-trading-2026-nse-declares-date-time-for-special-trading-session-details-here-11792417487197.html",
-        "source": "Livemint",
-        "published": "Mon, 19 Oct 2026 19:23:21 +0530",
-        "published_timestamp": "2026-10-19T19:23:21+05:30",
-        "summary": "BSE and NSE will hold Muhurat Trading on Sunday, November 8, 2026, from 2:20 pm to 3:30 pm, with a 15-minute pre-opening session. The Diwali session spans multiple market segments and marks the start ",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Titan redeems Rs 1,000 crore commercial paper",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/titan-redeems-rs-1000-crore-commercial-paper/articleshow/135050383.cms",
-        "source": "Economic Times",
-        "published": "Mon, 19 Oct 2026 19:21:12 +0530",
-        "published_timestamp": "2026-10-19T19:21:12+05:30",
-        "summary": "Titan Company Ltd has successfully fulfilled its obligation by redeeming commercial papers worth Rs 1,000 crore, originally issued on July 21, 2026. As the maturity date has arrived, all investors hav",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Piramal Finance Q2 net profit soars 67% to Rs 545 crore",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/piramal-finance-q2-net-profit-soars-67-to-rs-545-crore/articleshow/135050351.cms",
-        "source": "Economic Times",
-        "published": "Mon, 19 Oct 2026 19:19:35 +0530",
-        "published_timestamp": "2026-10-19T19:19:35+05:30",
-        "summary": "Piramal Finance\u2019s assets under management grew 24% to Rs 1.13 lakh crore, led by a 30% rise in retail AUM. Net interest income increased 35%, while its net interest margin expanded 35 basis points to ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "PC Jeweller among 8 stocks that hit 52-week high and rallied up to 42% in a month",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/pc-jeweller-among-8-stocks-that-hit-52-week-high-and-rallied-up-to-42-in-a-month/slideshow/135050343.cms",
-        "source": "Economic Times",
-        "published": "Mon, 19 Oct 2026 19:14:25 +0530",
-        "published_timestamp": "2026-10-19T19:14:25+05:30",
-        "summary": "The Sensex plunged 876 points to close at 73,852, even as eight BSE 1000 stocks touched fresh 52-week highs. PC Jeweller led monthly gains at 42%, followed by Sky Gold and Diamonds at 31%, highlightin",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
       }
     ]
   }
