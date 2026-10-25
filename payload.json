@@ -1,27 +1,27 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-10-25 23:01:47 IST",
-    "date_str": "2026-10-25",
+    "ist_time": "2026-10-26 03:53:26 IST",
+    "date_str": "2026-10-26",
     "is_open": false,
-    "is_weekend": true,
+    "is_weekend": false,
     "is_holiday": false,
     "holiday_name": "",
     "last_session_date": "2026-10-23",
-    "status_label": "MARKET CLOSED: WEEKEND",
-    "notice": "MARKET OFF TODAY (MARKET CLOSED: WEEKEND). Baseline established from 2026-10-23 session. Off-market news & global cues monitored with zero weekend decay."
+    "status_label": "MARKET CLOSED: OFF-HOURS",
+    "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-10-23 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 21.9,
+    "score": 22.7,
     "regime": "Fear",
     "en": {
-      "summary": "Nifty at 22600.0 (MARKET CLOSED: WEEKEND). Volatility Index is 16.86 with Put-Call Ratio of 0.771.",
+      "summary": "Nifty at 22600.0 (MARKET CLOSED: OFF-HOURS). Volatility Index is 16.86 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.28x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.27x."
     },
     "hi": {
-      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 22600.0 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: WEEKEND)\u0964 VIX 16.86 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
+      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 22600.0 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 16.86 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.28x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.27x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.28
+    "multiplier": 1.27
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -64,7 +64,7 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 19,
+      "score": 20,
       "verdict": "Consolidation Corridor",
       "target_range": "21784.1 - 23415.9",
       "downside_prob_pct": 58,
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 24,
+      "score": 25,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "21809.0 - 23461.9",
       "downside_prob_pct": 45,
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.28,
+    "dynamic_sip_multiplier": 1.27,
     "lot_size": 25,
     "nifty_lot_value": 565000,
     "cascade_risk_pct": 95
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 22.2,
       "S7_Order_Absorption": 27.0,
-      "S8_Lead_Lag_Gap": 48.9
+      "S8_Lead_Lag_Gap": 69.7
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 1.26,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d710.4) + (0.15\u00d736.1) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d722.2) + (0.1\u00d727.0) + (0.05\u00d748.9) + +1.26 = 21.9"
+    "news_vector_delta": 1.07,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d710.4) + (0.15\u00d736.1) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d722.2) + (0.1\u00d727.0) + (0.05\u00d769.7) + +1.07 = 22.7"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,8 +247,8 @@
       "vix_z_score_30d": 2.12,
       "parkinson_volatility": 13.06,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 111.7,
-      "brent_1d_pct": -1.3,
+      "brent_crude_usd": 110.36,
+      "brent_1d_pct": -5.45,
       "usdinr": 94.93,
       "us_10y_yield": 4.99,
       "sp500_close": 7623.68,
@@ -304,14 +304,27 @@
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
-      "gap_bias": "Neutral Opening",
-      "expected_gap_points": -6,
-      "net_macro_lead_pct": -0.044,
+      "gap_bias": "Bullish Gap-Up",
+      "expected_gap_points": 98,
+      "net_macro_lead_pct": 0.786,
       "sp500_change_pct": -0.52,
       "dxy_change_pct": 0.2,
-      "crude_change_pct": -1.3
+      "crude_change_pct": -5.45
     },
     "news_items": [
+      {
+        "title": "US Stock Markets this week: Wall Street gears up for Fed rate decision; Q3 earnings from Alphabet, Microsoft, Amazon",
+        "link": "https://www.livemint.com/market/us-stock-markets-this-week-wall-street-gears-up-for-fed-rate-decision-q3-earnings-from-alphabet-microsoft-amazon-11792944787786.html",
+        "source": "Livemint",
+        "published": "Sun, 25 Oct 2026 23:30:39 +0530",
+        "published_timestamp": "2026-10-25T23:30:39+05:30",
+        "summary": "Alphabet, Microsoft and Amazon results to test AI investment optimism as rising oil prices and inflation weigh on markets",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
       {
         "title": "PSU Q2 results 2026 preview: BEL, Coal India, IGL - Earnings estimate, brokerage target price, returns potential",
         "link": "https://www.livemint.com/market/stock-market-news/psu-q2-results-2026-preview-bel-coal-india-igl-earnings-estimate-brokerage-target-price-returns-potential-11792946740816.html",
@@ -818,19 +831,6 @@
         "raw_sentiment": 0.0,
         "beta_decay": 1.0,
         "effective_impact": 0.0
-      },
-      {
-        "title": "IT stocks Q2 results analysis: Infosys vs TCS vs Wipro vs HCL vs TechM: Who wins profit, revenue, dividend, AI race?",
-        "link": "https://www.livemint.com/market/stock-market-news/it-stocks-q2-results-analysis-infosys-vs-tcs-vs-wipro-vs-hcl-vs-techm-who-wins-profit-revenue-dividend-ai-race-11792836774239.html",
-        "source": "Livemint",
-        "published": "Sat, 24 Oct 2026 16:22:04 +0530",
-        "published_timestamp": "2026-10-24T16:22:04+05:30",
-        "summary": "Q2FY27 results showed diverging fortunes among India\u2019s largest IT firms. Tech Mahindra topped profit and revenue growth, HCLTech improved its outlook, and TCS led in deal wins and AI revenue scale. In",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
       }
     ]
   }
