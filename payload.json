@@ -1,27 +1,27 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-11-01 18:26:48 IST",
-    "date_str": "2026-11-01",
+    "ist_time": "2026-11-02 00:18:10 IST",
+    "date_str": "2026-11-02",
     "is_open": false,
-    "is_weekend": true,
+    "is_weekend": false,
     "is_holiday": false,
     "holiday_name": "",
     "last_session_date": "2026-10-30",
-    "status_label": "MARKET CLOSED: WEEKEND",
-    "notice": "MARKET OFF TODAY (MARKET CLOSED: WEEKEND). Baseline established from 2026-10-30 session. Off-market news & global cues monitored with zero weekend decay."
+    "status_label": "MARKET CLOSED: OFF-HOURS",
+    "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-10-30 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 34.5,
+    "score": 34.7,
     "regime": "Fear",
     "en": {
-      "summary": "Nifty at 23053.1 (MARKET CLOSED: WEEKEND). Volatility Index is 15.3 with Put-Call Ratio of 0.771.",
+      "summary": "Nifty at 23053.1 (MARKET CLOSED: OFF-HOURS). Volatility Index is 15.3 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.16x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.15x."
     },
     "hi": {
-      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23053.1 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: WEEKEND)\u0964 VIX 15.3 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
+      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 23053.1 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 15.3 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.16x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.15x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.16
+    "multiplier": 1.15
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.16,
+    "dynamic_sip_multiplier": 1.15,
     "lot_size": 25,
     "nifty_lot_value": 576327,
     "cascade_risk_pct": 95
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.54,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d743.1) + (0.15\u00d735.9) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d760.4) + (0.1\u00d760.0) + (0.05\u00d737.2) + +0.54 = 34.5"
+    "news_vector_delta": 0.75,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d743.1) + (0.15\u00d735.9) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d760.4) + (0.1\u00d760.0) + (0.05\u00d737.2) + +0.75 = 34.7"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -249,7 +249,7 @@
       "amihud_illiquidity": 0.0001,
       "brent_crude_usd": 113.43,
       "brent_1d_pct": -1.26,
-      "usdinr": 94.95,
+      "usdinr": 94.94,
       "us_10y_yield": 4.93,
       "sp500_close": 7580.07,
       "sp500_1d_pct": -1.82,
@@ -312,6 +312,58 @@
       "crude_change_pct": -1.26
     },
     "news_items": [
+      {
+        "title": "Crash! Gold price suffers worst October in years: Did silver and platinum suffer too? Check monthly performance",
+        "link": "https://www.livemint.com/market/commodities/crash-gold-price-suffers-worst-october-in-years-did-silver-and-platinum-suffer-too-check-monthly-performance-11793549898014.html",
+        "source": "Livemint",
+        "published": "Sun, 01 Nov 2026 21:54:04 +0530",
+        "published_timestamp": "2026-11-01T21:54:04+05:30",
+        "summary": "Precious metals fell sharply in October as energy prices, inflation concerns and expectations of higher US interest rates weighed on markets. Silver recorded the steepest monthly decline at 19.17%, fo",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Emami vs Dabur FMCG shares Q2 results preview: Profit, revenue expectations; Dividend announcements in focus",
+        "link": "https://www.livemint.com/market/stock-market-news/emami-vs-dabur-fmcg-shares-q2-results-preview-profit-revenue-expectations-dividend-announcements-in-focus-11793546880029.html",
+        "source": "Livemint",
+        "published": "Sun, 01 Nov 2026 21:00:41 +0530",
+        "published_timestamp": "2026-11-01T21:00:41+05:30",
+        "summary": "Emami and Dabur are set to announce Q2FY27 results on November 5 and 4, respectively, and may declare interim dividends. Analysts expect revenue growth of 20% for Emami and 11% for Dabur, while adjust",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "ITC Q2 results 2026 preview: Will cigarette business drive growth? Profit, revenue expectations - share price target",
+        "link": "https://www.livemint.com/market/stock-market-news/itc-q2-results-2026-preview-will-cigarette-business-drive-growth-profit-revenue-expectations-share-price-target-11793540718182.html",
+        "source": "Livemint",
+        "published": "Sun, 01 Nov 2026 20:03:07 +0530",
+        "published_timestamp": "2026-11-01T20:03:07+05:30",
+        "summary": "ITC is set to report its Q2 FY2026-27 results, with analysts expecting FMCG revenue growth but flat margins and weaker cigarette performance. Forecasts point to declines in consolidated earnings and c",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Cash rewards coming? PFC, CONCOR, RITES, to Sonata- These firms to announce dividend with Q2 results 2026 this week",
+        "link": "https://www.livemint.com/market/stock-market-news/cash-rewards-coming-pfc-concor-rites-pfc-to-sonata-these-firms-to-announce-dividend-with-q2-results-2026-this-week-11793537407103.html",
+        "source": "Livemint",
+        "published": "Sun, 01 Nov 2026 19:03:08 +0530",
+        "published_timestamp": "2026-11-01T19:03:08+05:30",
+        "summary": "At least 20 companies are scheduled to report Q2FY27 results this week, alongside dividend announcements. Companies to watch include Power Finance Corporation, CONCOR, RITES, Sonata Software, NLC Indi",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "Sun Pharma shares gain despite Q2 profit slips 36% YoY | Should you buy, sell or hold? What brokerage says, target price",
         "link": "https://www.livemint.com/market/stock-market-news/sun-pharma-shares-gain-despite-q2-profit-slips-36-yoy-should-you-buy-sell-or-hold-what-brokerage-says-target-price-11793533331740.html",
@@ -779,58 +831,6 @@
         "raw_sentiment": 0.0,
         "beta_decay": 0.1,
         "effective_impact": 0.0
-      },
-      {
-        "title": "Top dividend stocks to buy: PTC India, CESC, Vedanta, Coal India, HPCL offer up to 24% yield. Check full list here",
-        "link": "https://www.livemint.com/market/stock-market-news/top-dividend-stocks-to-buy-ptc-india-cesc-vedanta-coal-india-hpcl-offer-up-to-24-yield-check-full-list-here-11793085342244.html",
-        "source": "Livemint",
-        "published": "Tue, 27 Oct 2026 13:18:51 +0530",
-        "published_timestamp": "2026-10-27T13:18:51+05:30",
-        "summary": "Axis Securities' dividend-yield report highlights PTC India at 24% and CESC at 10% among small-cap stocks. Vedanta and Coal India each yielded 7% among large caps, while HPCL led the PSU category at 7",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.1,
-        "effective_impact": 0.09
-      },
-      {
-        "title": "Gold eases on firmer dollar ahead of Fed decision",
-        "link": "https://www.livemint.com/market/gold-eases-on-firmer-dollar-ahead-of-fed-decision-11793087285993.html",
-        "source": "Livemint",
-        "published": "Tue, 27 Oct 2026 13:18:05 +0530",
-        "published_timestamp": "2026-10-27T13:18:05+05:30",
-        "summary": "GLOBAL-PRECIOUS:Gold eases on firmer dollar ahead of Fed decision",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.1,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "CG Power has rallied 29% in 2026, but analysts are still raising their bets",
-        "link": "https://www.livemint.com/market/stock-market-news/cg-power-share-price-q2-results-brokerage-targets-11793076393653.html",
-        "source": "Livemint",
-        "published": "Tue, 27 Oct 2026 13:12:54 +0530",
-        "published_timestamp": "2026-10-27T13:12:54+05:30",
-        "summary": "India's push to modernise its power grid, expand transmission networks and ramp up industrial capital expenditure is creating a multi-year growth opportunity for electrical equipment makers, with CG P",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.1,
-        "effective_impact": 0.09
-      },
-      {
-        "title": "UK\u2019s Renewed Appeal Runs Into a Tough Budget Test",
-        "link": "https://www.livemint.com/market/uks-renewed-appeal-runs-into-a-tough-budget-test-11793086915417.html",
-        "source": "Livemint",
-        "published": "Tue, 27 Oct 2026 13:11:54 +0530",
-        "published_timestamp": "2026-10-27T13:11:54+05:30",
-        "summary": "This week\u2019s UK budget looms as a major test for the country\u2019s stocks, just as the market gains renewed appeal among global investors.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.1,
-        "effective_impact": 0.09
       }
     ]
   }
