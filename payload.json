@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-11-09 00:13:37 IST",
+    "ist_time": "2026-11-09 05:00:39 IST",
     "date_str": "2026-11-09",
     "is_open": false,
     "is_weekend": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-11-06 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 28.3,
+    "score": 28.9,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 24986.4 (MARKET CLOSED: OFF-HOURS). Volatility Index is 18.43 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.22x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.21x."
     },
     "hi": {
       "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 24986.4 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 18.43 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.22x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.21x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.22
+    "multiplier": 1.21
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.22,
+    "dynamic_sip_multiplier": 1.21,
     "lot_size": 25,
     "nifty_lot_value": 624660,
     "cascade_risk_pct": 95
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 90.3,
       "S7_Order_Absorption": 56.5,
-      "S8_Lead_Lag_Gap": 46.9
+      "S8_Lead_Lag_Gap": 59.0
     },
     "active_weights": {
       "w1_Derivatives": "25%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 2.59,
-    "final_formula_proof": "Score = (0.25\u00d713.2) + (0.2\u00d70.0) + (0.2\u00d736.7) + (0.1\u00d725.4) + (0.05\u00d70.0) + (0.05\u00d790.3) + (0.1\u00d756.5) + (0.05\u00d746.9) + +2.59 = 28.3"
+    "news_vector_delta": 2.56,
+    "final_formula_proof": "Score = (0.25\u00d713.2) + (0.2\u00d70.0) + (0.2\u00d736.7) + (0.1\u00d725.4) + (0.05\u00d70.0) + (0.05\u00d790.3) + (0.1\u00d756.5) + (0.05\u00d759.0) + +2.56 = 28.9"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 2.47,
       "parkinson_volatility": 13.84,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 98.32,
-      "brent_1d_pct": 0.03,
+      "brent_crude_usd": 97.36,
+      "brent_1d_pct": -0.98,
       "usdinr": 93.89,
       "us_10y_yield": 4.86,
       "sp500_close": 7376.86,
       "sp500_1d_pct": 0.31,
-      "dxy_close": 102.3,
-      "dxy_1d_pct": 0.74,
+      "dxy_close": 102.23,
+      "dxy_1d_pct": -0.07,
       "last_active_session_date": "2026-11-06"
     },
     "derivatives": {
@@ -304,12 +304,12 @@
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
-      "gap_bias": "Neutral Opening",
-      "expected_gap_points": -16,
-      "net_macro_lead_pct": -0.126,
+      "gap_bias": "Bullish Gap-Up",
+      "expected_gap_points": 45,
+      "net_macro_lead_pct": 0.36,
       "sp500_change_pct": 0.31,
-      "dxy_change_pct": 0.74,
-      "crude_change_pct": 0.03
+      "dxy_change_pct": -0.07,
+      "crude_change_pct": -0.98
     },
     "news_items": [
       {
