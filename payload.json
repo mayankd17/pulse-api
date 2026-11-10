@@ -1,27 +1,27 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-11-10 17:32:15 IST",
-    "date_str": "2026-11-10",
+    "ist_time": "2026-11-11 02:01:19 IST",
+    "date_str": "2026-11-11",
     "is_open": false,
     "is_weekend": false,
-    "is_holiday": true,
-    "holiday_name": "Diwali Balipratipada",
+    "is_holiday": false,
+    "holiday_name": "",
     "last_session_date": "2026-11-09",
-    "status_label": "MARKET CLOSED: Diwali Balipratipada",
-    "notice": "MARKET OFF TODAY (MARKET CLOSED: Diwali Balipratipada). Baseline established from 2026-11-09 session. Off-market news & global cues monitored with zero weekend decay."
+    "status_label": "MARKET CLOSED: OFF-HOURS",
+    "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-11-09 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 30.8,
+    "score": 28.3,
     "regime": "Fear",
     "en": {
-      "summary": "Nifty at 25044.65 (MARKET CLOSED: Diwali Balipratipada). Volatility Index is 17.42 with Put-Call Ratio of 0.771.",
+      "summary": "Nifty at 25044.65 (MARKET CLOSED: OFF-HOURS). Volatility Index is 17.42 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.19x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.22x."
     },
     "hi": {
-      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 25044.65 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: Diwali Balipratipada)\u0964 VIX 17.42 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
+      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 25044.65 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 17.42 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.19x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.22x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.19
+    "multiplier": 1.22
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -64,7 +64,7 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 28,
+      "score": 26,
       "verdict": "Consolidation Corridor",
       "target_range": "24146.6 - 25942.7",
       "downside_prob_pct": 58,
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 33,
+      "score": 31,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "23671.6 - 25921.2",
       "downside_prob_pct": 55,
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.19,
+    "dynamic_sip_multiplier": 1.22,
     "lot_size": 25,
     "nifty_lot_value": 626116,
     "cascade_risk_pct": 95
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 91.0,
       "S7_Order_Absorption": 0.0,
-      "S8_Lead_Lag_Gap": 85.6
+      "S8_Lead_Lag_Gap": 42.8
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.06,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d714.4) + (0.15\u00d736.3) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d791.0) + (0.1\u00d70.0) + (0.05\u00d785.6) + +0.06 = 30.8"
+    "news_vector_delta": -0.27,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d714.4) + (0.15\u00d736.3) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d791.0) + (0.1\u00d70.0) + (0.05\u00d742.8) + -0.27 = 28.3"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.85,
       "parkinson_volatility": 13.94,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 90.68,
-      "brent_1d_pct": -2.04,
+      "brent_crude_usd": 91.98,
+      "brent_1d_pct": -0.64,
       "usdinr": 93.92,
-      "us_10y_yield": 4.86,
-      "sp500_close": 7549.94,
-      "sp500_1d_pct": 2.35,
-      "dxy_close": 101.77,
-      "dxy_1d_pct": 0.12,
+      "us_10y_yield": 4.98,
+      "sp500_close": 7514.76,
+      "sp500_1d_pct": -0.47,
+      "dxy_close": 102.25,
+      "dxy_1d_pct": 0.59,
       "last_active_session_date": "2026-11-09"
     },
     "derivatives": {
@@ -304,14 +304,274 @@
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
-      "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 178,
-      "net_macro_lead_pct": 1.424,
-      "sp500_change_pct": 2.35,
-      "dxy_change_pct": 0.12,
-      "crude_change_pct": -2.04
+      "gap_bias": "Bearish Gap-Down",
+      "expected_gap_points": -36,
+      "net_macro_lead_pct": -0.29,
+      "sp500_change_pct": -0.47,
+      "dxy_change_pct": 0.59,
+      "crude_change_pct": -0.64
     },
     "news_items": [
+      {
+        "title": "Dangote Refinery Gets $4.1 Billion Orders in Top Africa IPO",
+        "link": "https://www.livemint.com/market/dangote-refinery-gets-4-1-billion-orders-in-top-africa-ipo-11794341424038.html",
+        "source": "Livemint",
+        "published": "Wed, 11 Nov 2026 01:40:23 +0530",
+        "published_timestamp": "2026-11-11T01:40:23+05:30",
+        "summary": "Africa\u2019s biggest refinery attracted about 5.85 trillion naira ($4.1 billion) of applications for shares in the continent\u2019s largest public offering to date, almost three times the amount it sought to r",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Wall St retreats as hot inflation data, Fed comments fuel rate worries",
+        "link": "https://www.livemint.com/market/wall-st-retreats-as-hot-inflation-data-fed-comments-fuel-rate-worries-11794339875709.html",
+        "source": "Livemint",
+        "published": "Wed, 11 Nov 2026 01:14:35 +0530",
+        "published_timestamp": "2026-11-11T01:14:35+05:30",
+        "summary": "USA-STOCKS/ (UPDATE 6, GRAPHIC):US STOCKS-Wall St retreats as hot inflation data, Fed comments fuel rate worries",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "Corn Soars After USDA Cuts American Yield in Another Surprise",
+        "link": "https://www.livemint.com/market/corn-soars-after-usda-cuts-american-yield-in-another-surprise-11794339085566.html",
+        "source": "Livemint",
+        "published": "Wed, 11 Nov 2026 01:01:25 +0530",
+        "published_timestamp": "2026-11-11T01:01:25+05:30",
+        "summary": "Corn surged the most in three months after the US Department of Agriculture surprised traders with a bigger-than-expected cut to yield and production of America\u2019s most widely grown crop.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Gold falls nearly 3% as CPI tops forecasts, lifting dollar and yields",
+        "link": "https://www.livemint.com/market/gold-falls-nearly-3-as-cpi-tops-forecasts-lifting-dollar-and-yields-11794337899940.html",
+        "source": "Livemint",
+        "published": "Wed, 11 Nov 2026 00:41:39 +0530",
+        "published_timestamp": "2026-11-11T00:41:39+05:30",
+        "summary": "GLOBAL-PRECIOUS:Gold falls nearly 3% as CPI tops forecasts, lifting dollar and yields",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "US stocks: Five things to know about Anthropic",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-five-things-to-know-about-anthropic/articleshow/135718802.cms",
+        "source": "Economic Times",
+        "published": "Wed, 11 Nov 2026 00:23:44 +0530",
+        "published_timestamp": "2026-11-11T00:23:44+05:30",
+        "summary": "Founded by former OpenAI researchers, Anthropic has grown into a major AI company backed by Amazon, Alphabet, Microsoft and Nvidia. As the Claude developer prepares for a landmark IPO, its safety-focu",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Soybeans, corn rally after USDA pegs US harvest, stocks below expectations",
+        "link": "https://www.livemint.com/market/soybeans-corn-rally-after-usda-pegs-us-harvest-stocks-below-expectations-11794336087036.html",
+        "source": "Livemint",
+        "published": "Wed, 11 Nov 2026 00:11:26 +0530",
+        "published_timestamp": "2026-11-11T00:11:26+05:30",
+        "summary": "GLOBAL-GRAINS/ (UPDATE 2):GRAINS-Soybeans, corn rally after USDA pegs US harvest, stocks below expectations",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Chipmakers warn AI demand is creating bottlenecks in automotive supply chain",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/chipmakers-warn-ai-demand-is-creating-bottlenecks-in-automotive-supply-chain/articleshow/135718403.cms",
+        "source": "Economic Times",
+        "published": "Tue, 10 Nov 2026 23:55:20 +0530",
+        "published_timestamp": "2026-11-10T23:55:20+05:30",
+        "summary": "Nexperia says it is heavily oversubscribed as chipmakers redirect capacity towards higher-margin AI data-centre products, creating shortages of mature semiconductors used in vehicles and industrial eq",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "US Fed's Logan calls for two more rate hikes, possibly rapidly",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-feds-logan-calls-for-two-more-rate-hikes-possibly-rapidly/articleshow/135718142.cms",
+        "source": "Economic Times",
+        "published": "Tue, 10 Nov 2026 23:35:16 +0530",
+        "published_timestamp": "2026-11-10T23:35:16+05:30",
+        "summary": "Dallas Fed President Lorie Logan said the central bank needs at least two more quarter-point rate increases to curb persistent inflation and prevent price pressures from becoming entrenched. She sugge",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "Nvidia sell-off deepens, fall 6.3%; wipes $10 billion off Jensen Huang's wealth, slips to 12th on Forbes rich list",
+        "link": "https://www.livemint.com/market/stock-market-news/nvidia-sell-off-deepens-fall-6-3-wipes-10-billion-off-jensen-huangs-wealth-slips-to-12th-on-forbes-rich-list-11794327860453.html",
+        "source": "Livemint",
+        "published": "Tue, 10 Nov 2026 23:10:01 +0530",
+        "published_timestamp": "2026-11-10T23:10:01+05:30",
+        "summary": "The latest crash in Nvidia shares has dealt a major blow to Jensen Huang's net worth, which is on track to decline by another $10 billion to $145.6 billion from $154 billion at the previous close, acc",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "Nifty PSU Bank Index Performance: Bank of India, UCO Bank among 7 stocks rebound 15\u201356% from 1-yr lows - here\u2019s why",
+        "link": "https://www.livemint.com/market/stock-market-news/nifty-psu-bank-index-performance-bank-of-india-uco-bank-among-7-stocks-rebound-15-56-from-1-yr-lows-here-s-why-11794321816668.html",
+        "source": "Livemint",
+        "published": "Tue, 10 Nov 2026 21:16:36 +0530",
+        "published_timestamp": "2026-11-10T21:16:36+05:30",
+        "summary": "State-owned bank stocks have rallied sharply, with the Nifty PSU Bank index posting its biggest one-day gain in nearly two years. Strong quarterly profits, improving asset quality and returning foreig",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Traders raise odds of 50 bps Fed rate hike as CPI rise exceeds expectations",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/traders-raise-odds-of-50-bps-fed-rate-hike-as-cpi-rise-exceeds-expectations/articleshow/135714586.cms",
+        "source": "Economic Times",
+        "published": "Tue, 10 Nov 2026 20:45:45 +0530",
+        "published_timestamp": "2026-11-10T20:45:45+05:30",
+        "summary": "New data has revealed that US consumer prices rose faster than anticipated, prompting speculation about interest rate changes. Fed Governor Christopher Waller suggested a half percentage point hike ma",
+        "is_rumor": true,
+        "credibility_weight": 0.47,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "US stocks: Dow Jones falls 200 points as hot inflation revives rate-hike fears; Nvidia sinks",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-lower-after-octobers-hot-inflation-print/articleshow/135714411.cms",
+        "source": "Economic Times",
+        "published": "Tue, 10 Nov 2026 20:40:03 +0530",
+        "published_timestamp": "2026-11-10T20:40:03+05:30",
+        "summary": "On Tuesday, Wall Street faced a downturn as inflation figures surpassed projections, raising worries about potential interest rate hikes. The declines were evident across the Dow Jones Industrial Aver",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "Anthropic's potential mega IPO joins ranks of world's biggest stock market listings",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-potential-mega-ipo-joins-ranks-of-worlds-biggest-stock-market-listings/articleshow/135714028.cms",
+        "source": "Economic Times",
+        "published": "Tue, 10 Nov 2026 20:25:20 +0530",
+        "published_timestamp": "2026-11-10T20:25:20+05:30",
+        "summary": "Anthropic has kicked off its U.S. IPO roadshow, seeking to raise up to $64.4 billion by offering 825 million shares. This latest valuation stands at roughly $1.4 trillion, representing a drop from ear",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "TSMC to invest up to $1 billion in Anthropic, OpenAI",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/tsmc-to-invest-up-to-1-billion-in-anthropic-openai/articleshow/135713301.cms",
+        "source": "Economic Times",
+        "published": "Tue, 10 Nov 2026 19:52:30 +0530",
+        "published_timestamp": "2026-11-10T19:52:30+05:30",
+        "summary": "TSMC is set to invest up to $1 billion in the AI landscape, directing $500 million each to Anthropic and OpenAI. As Anthropic prepares for its IPO, this financial move by TSMC underscores its belief i",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "FPIs return to Dalal Street amid AI sell-off and oil slump; Can proposed tax cuts sustain inflows?",
+        "link": "https://www.livemint.com/market/stock-market-news/fpis-return-to-dalal-street-amid-ai-sell-off-and-oil-slump-can-proposed-tax-cuts-sustain-inflows-11794315705620.html",
+        "source": "Livemint",
+        "published": "Tue, 10 Nov 2026 19:48:12 +0530",
+        "published_timestamp": "2026-11-10T19:48:12+05:30",
+        "summary": "FPIs have poured  \u20b953,739 crore into Indian equities in November so far. The inflows have helped the Nifty 50 extend its winning streak to seven consecutive sessions, enabling the benchmark index to p",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "US consumer prices rise above expectations in October",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-consumer-prices-rise-above-expectations-in-october/articleshow/135712897.cms",
+        "source": "Economic Times",
+        "published": "Tue, 10 Nov 2026 19:31:53 +0530",
+        "published_timestamp": "2026-11-10T19:31:53+05:30",
+        "summary": "Consumer prices in the US experienced a larger-than-expected increase in October, affecting future Federal Reserve interest rates. The Consumer Price Index rose by 0.4%, following a 0.6% increase in S",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "US stocks edge lower amid tech-led rout; Nvidia drops 6%: Stock Market Live Updates",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-anthropic-ipo-nvidia-intel-marvell-tech-ai-chip-stocks-inflation-fed-rate-hike-treasury-bond-yield-news-10th-november-2026/liveblog/135712173.cms",
+        "source": "Economic Times",
+        "published": "Tue, 10 Nov 2026 18:33:22 +0530",
+        "published_timestamp": "2026-11-10T18:33:22+05:30",
+        "summary": " ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "Nasdaq futures slip with Nvidia woes, Anthropic IPO in focus",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-futures-slip-with-nvidia-woes-anthropic-ipo-in-focus/articleshow/135711347.cms",
+        "source": "Economic Times",
+        "published": "Tue, 10 Nov 2026 18:19:57 +0530",
+        "published_timestamp": "2026-11-10T18:19:57+05:30",
+        "summary": "Nvidia's CEO Jensen Huang is facing scrutiny, impacting investor sentiment in the tech sector. Anthropic is preparing for a huge initial public offering, potentially raising $64.4 billion. The market ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "OMC stocks: Brent slips below $90 to hit over 2-month low amid Iran peace hopes; Will HPCL, BPCL and IOC benefit?",
+        "link": "https://www.livemint.com/market/stock-market-news/omc-stocks-brent-slips-below-90-to-hit-over-2-month-low-amid-iran-peace-hopes-will-hpcl-bpcl-and-ioc-benefit-11794312198955.html",
+        "source": "Livemint",
+        "published": "Tue, 10 Nov 2026 18:10:46 +0530",
+        "published_timestamp": "2026-11-10T18:10:46+05:30",
+        "summary": "Oil marketing companies may draw investor attention as Brent crude falls to a three-month low amid hopes of easing Middle East tensions. HPCL, BPCL and IOC have gained 10%\u201313.5% so far in November. Lo",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Anthropic sets IPO price band at $70-$78, targets valuation of up to $1.4 trillion",
+        "link": "https://www.livemint.com/market/ipo/anthropic-sets-ipo-price-band-at-70-78-targets-valuation-of-up-to-1-4-trillion-11794311891604.html",
+        "source": "Livemint",
+        "published": "Tue, 10 Nov 2026 18:08:20 +0530",
+        "published_timestamp": "2026-11-10T18:08:20+05:30",
+        "summary": "AI company Anthropic plans to offer 825 million shares in Nasdaq listing; IPO could raise up to $64.35 billion.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "\u20b918 dividend per share: Check record date, payment timeline, stock performance, dividend yield, Q2 results highlights",
         "link": "https://www.livemint.com/market/stock-market-news/rs-18-dividend-per-share-check-record-date-payment-timeline-stock-performance-dividend-yield-q2-results-highlights-11794307552019.html",
@@ -571,266 +831,6 @@
         "raw_sentiment": 0.0,
         "beta_decay": 1.0,
         "effective_impact": 0.0
-      },
-      {
-        "title": "Why The Trade Desk stock surged 15% despite revenue decline",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-the-trade-desk-stock-surged-15-despite-revenue-decline/slideshow/135701057.cms",
-        "source": "Economic Times",
-        "published": "Tue, 10 Nov 2026 11:01:01 +0530",
-        "published_timestamp": "2026-11-10T11:01:01+05:30",
-        "summary": "The Trade Desk shares surged 15.5% following stronger-than-expected Q3 earnings and revenue, as AI innovations, Netflix integration, strong customer retention and optimistic Q4 guidance boosted invest",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "Anthropic plans IPO live stream with Amodei, JPMorgan CEO Dimon",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-plans-ipo-live-stream-with-amodei-jpmorgan-ceo-dimon/articleshow/135699137.cms",
-        "source": "Economic Times",
-        "published": "Tue, 10 Nov 2026 09:54:56 +0530",
-        "published_timestamp": "2026-11-10T09:54:56+05:30",
-        "summary": "Anthropic PBC is preparing for a live-streamed event featuring CEO Dario Amodei and JPMorgan Chase CEO Jamie Dimon. This event is aimed at marketing their upcoming initial public offering, which might",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Anthropic retracts details of $69 billion IPO filing sent to bankers. Why analysts are raising worries over valuations",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-sends-out-then-retracts-details-of-ipo-filing-emails-show/articleshow/135696816.cms",
-        "source": "Economic Times",
-        "published": "Tue, 10 Nov 2026 07:48:28 +0530",
-        "published_timestamp": "2026-11-10T07:48:28+05:30",
-        "summary": "Anthropic initially shared its IPO filing details but later retracted the information due to inaccuracies. The company aimed to sell approximately 867 million shares priced between $70 and $80 each. A",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "RBI said to query bank valuations of some bond derivative trades",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/rbi-said-to-query-bank-valuations-of-some-bond-derivative-trades/articleshow/135696624.cms",
-        "source": "Economic Times",
-        "published": "Tue, 10 Nov 2026 07:32:12 +0530",
-        "published_timestamp": "2026-11-10T07:32:12+05:30",
-        "summary": "India's central bank has informed some lenders about the need to adjust bond forward accounting practices. This change could impact billions of dollars in assets across the banking sector. The Reserve",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Oil falls as Trump downplays prospect of escalation with Iran",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran/articleshow/135696497.cms",
-        "source": "Economic Times",
-        "published": "Tue, 10 Nov 2026 07:15:29 +0530",
-        "published_timestamp": "2026-11-10T07:15:29+05:30",
-        "summary": "Oil prices fell due to President Trump's announcement regarding US military action against Iran, easing supply concerns. Brent crude futures dropped to $92.33 per barrel while WTI futures reached $86.",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Gold dips ahead of US inflation data",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/gold-dips-ahead-of-us-inflation-data/articleshow/135696094.cms",
-        "source": "Economic Times",
-        "published": "Tue, 10 Nov 2026 06:26:50 +0530",
-        "published_timestamp": "2026-11-10T06:26:50+05:30",
-        "summary": "Gold prices edged lower in early Asian trade on Tuesday as investors awaited US inflation data later in the day for clues on the Federal Reserve's next policy move. ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Dollar sellers hit pause for US inflation data",
-        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-sellers-hit-pause-for-us-inflation-data/articleshow/135696077.cms",
-        "source": "Economic Times",
-        "published": "Tue, 10 Nov 2026 06:21:32 +0530",
-        "published_timestamp": "2026-11-10T06:21:32+05:30",
-        "summary": "The trade and sentiment-sensitive Australian dollar rose by nearly 1% through Monday to sit at $0.6921 early on Tuesday and the New Zealand dollar rose even further to trade at $0.5624, with both stea",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Global Market Today: Asian stocks rally after US tech surge, oil slump",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rally-after-us-tech-surge-oil-slump/articleshow/135696042.cms",
-        "source": "Economic Times",
-        "published": "Tue, 10 Nov 2026 06:15:50 +0530",
-        "published_timestamp": "2026-11-10T06:15:50+05:30",
-        "summary": "South Korea\u2019s Kospi Index jumped more than 5% in early trading while Japan\u2019s Nikkei 225 rose nearly 3%. A broader gauge of Asian shares advanced 1.5% while futures for US benchmarks edged higher. ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "JPMorgan Weighs Big Discount to Lure Lenders for Software Debt",
-        "link": "https://www.livemint.com/market/jpmorgan-weighs-big-discount-to-lure-lenders-for-software-debt-11794262406093.html",
-        "source": "Livemint",
-        "published": "Tue, 10 Nov 2026 03:43:25 +0530",
-        "published_timestamp": "2026-11-10T03:43:25+05:30",
-        "summary": "Banks led by JPMorgan Chase & Co. could offer one of the year\u2019s biggest discounts to sell some of the $5 billion in debt for software firm Qualtrics International Inc. that the underwriters were stuck",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
-      },
-      {
-        "title": "EIB\u2019s Calvino Says US Turmoil Is Driving Capital to Europe",
-        "link": "https://www.livemint.com/market/eibs-calvino-says-us-turmoil-is-driving-capital-to-europe-11794262213745.html",
-        "source": "Livemint",
-        "published": "Tue, 10 Nov 2026 03:40:13 +0530",
-        "published_timestamp": "2026-11-10T03:40:13+05:30",
-        "summary": "Europe is set to benefit from recent market turmoil in the US as investors seek a safe haven, according to European Investment Bank President Nadia Calvino.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Top Yen Forecaster Predicts 147 Per Dollar as Rate Gap Narrows",
-        "link": "https://www.livemint.com/market/top-yen-forecaster-predicts-147-per-dollar-as-rate-gap-narrows-11794259355721.html",
-        "source": "Livemint",
-        "published": "Tue, 10 Nov 2026 02:52:35 +0530",
-        "published_timestamp": "2026-11-10T02:52:35+05:30",
-        "summary": "Neil Parker has spent nearly three decades tracking the yen, through financial crises and sharp currency swings. Now, the top dollar-yen forecaster in Bloomberg\u2019s latest rankings sees the Japanese cur",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Viking Loses 1.2% in October After Eschewing Many Big AI Bets",
-        "link": "https://www.livemint.com/market/viking-loses-1-2-in-october-after-eschewing-many-big-ai-bets-11794256428481.html",
-        "source": "Livemint",
-        "published": "Tue, 10 Nov 2026 02:03:48 +0530",
-        "published_timestamp": "2026-11-10T02:03:48+05:30",
-        "summary": "Viking Global Investors\u2019 flagship hedge fund dropped 1.2% last month, faring better than many of its rivals after largely avoiding high-flying artificial-intelligence stocks.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Oil down more than $7 a barrel in post settlement trade as Trump signals restraint on Iran",
-        "link": "https://www.livemint.com/market/oil-down-more-than-7-a-barrel-in-post-settlement-trade-as-trump-signals-restraint-on-iran-11794254623929.html",
-        "source": "Livemint",
-        "published": "Tue, 10 Nov 2026 01:33:43 +0530",
-        "published_timestamp": "2026-11-10T01:33:43+05:30",
-        "summary": "GLOBAL-OIL:Oil down more than $7 a barrel in post settlement trade as Trump signals restraint on Iran",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Canadian dollar underperforms most G10 currencies as oil falls",
-        "link": "https://www.livemint.com/market/canadian-dollar-underperforms-most-g10-currencies-as-oil-falls-11794252780817.html",
-        "source": "Livemint",
-        "published": "Tue, 10 Nov 2026 01:03:00 +0530",
-        "published_timestamp": "2026-11-10T01:03:00+05:30",
-        "summary": "CANADA-FOREX/:CANADA FX DEBT-Canadian dollar underperforms most G10 currencies as oil falls",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
-      },
-      {
-        "title": "Upcoming IPO: Veritas Finance gets Sebi nod to launch public issue \u2013 Top things for investors",
-        "link": "https://www.livemint.com/market/upcoming-ipo-veritas-finance-gets-sebi-nod-to-launch-public-issue-top-things-for-investors-11794247367964.html",
-        "source": "Livemint",
-        "published": "Tue, 10 Nov 2026 00:00:48 +0530",
-        "published_timestamp": "2026-11-10T00:00:48+05:30",
-        "summary": "Veritas Finance plans to use fresh issue proceeds to strengthen capital base and support future lending operations",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Broadcom shares pop over 9%, on track for biggest one-day surge in a year. What's driving the rebound?",
-        "link": "https://www.livemint.com/market/stock-market-news/broadcom-shares-pop-over-9-on-track-for-biggest-one-day-surge-in-a-year-whats-driving-the-rebound-11794246529114.html",
-        "source": "Livemint",
-        "published": "Mon, 09 Nov 2026 23:33:05 +0530",
-        "published_timestamp": "2026-11-09T23:33:05+05:30",
-        "summary": "Broadcom shares rose 9.5% to $321 after it announced Kubernetes initiatives at KubeCon North America 2026, including its VM API project entering the CNCF Sandbox, a new workload standards role, and mo",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "Trump administration's embrace of \"perp\" futures sets off risk alarms for Wall Street stalwarts",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/trump-administrations-embrace-of-perp-futures-sets-off-risk-alarms-for-wall-street-stalwarts/articleshow/135688561.cms",
-        "source": "Economic Times",
-        "published": "Mon, 09 Nov 2026 22:28:59 +0530",
-        "published_timestamp": "2026-11-09T22:28:59+05:30",
-        "summary": "The decision by the Trump administration to launch perpetual futures has sparked significant worry among market stakeholders. Leaders from established exchanges contend that these offerings might disr",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "AMD stock rallies 12% as Google Cloud taps its EPYC processors for next-generation AI infrastructure",
-        "link": "https://www.livemint.com/market/stock-market-news/amd-stock-rallies-12-as-google-cloud-taps-its-epyc-processors-for-next-generation-ai-infrastructure-11794242504072.html",
-        "source": "Livemint",
-        "published": "Mon, 09 Nov 2026 22:24:24 +0530",
-        "published_timestamp": "2026-11-09T22:24:24+05:30",
-        "summary": "AMD shares rose 12.5% after the company announced its fifth-generation EPYC processors will power Google Cloud TPU 8tx systems. The partnership combines AMD CPUs and security technology with Google\u2019s ",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "US dollar dips as easing AI and Mideast worries limit its appeal",
-        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/us-dollar-dips-as-easing-ai-and-mideast-worries-limit-its-appeal/articleshow/135687593.cms",
-        "source": "Economic Times",
-        "published": "Mon, 09 Nov 2026 21:46:36 +0530",
-        "published_timestamp": "2026-11-09T21:46:36+05:30",
-        "summary": "After a six-month high, the US dollar is now on a downward trend, largely spurred by impressive job growth figures. Investors are eagerly awaiting the upcoming consumer price index data, a key factor ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "Wall Street bounces back from AI sell-off, Nasdaq rallies over 3%, but Nvidia plunges 9% on Jensen Huang controversy",
-        "link": "https://www.livemint.com/market/stock-market-news/wall-street-bounces-back-from-ai-sell-off-nasdaq-rallies-over-3-but-nvidia-plunges-9-on-jensen-huang-controversy-11794238373887.html",
-        "source": "Livemint",
-        "published": "Mon, 09 Nov 2026 21:19:00 +0530",
-        "published_timestamp": "2026-11-09T21:19:00+05:30",
-        "summary": "US stocks rebounded Monday after their worst weekly performance in nearly two years, with the Dow, S&amp;P 500 and Nasdaq rising as lower oil prices and bargain-buying lifted sentiment. Investors turn",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
       }
     ]
   }
