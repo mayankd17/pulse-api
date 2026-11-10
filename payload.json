@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-11-10 16:11:34 IST",
+    "ist_time": "2026-11-10 17:32:15 IST",
     "date_str": "2026-11-10",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: Diwali Balipratipada). Baseline established from 2026-11-09 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 31.5,
+    "score": 30.8,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 25044.65 (MARKET CLOSED: Diwali Balipratipada). Volatility Index is 17.42 with Put-Call Ratio of 0.771.",
@@ -64,7 +64,7 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 29,
+      "score": 28,
       "verdict": "Consolidation Corridor",
       "target_range": "24146.6 - 25942.7",
       "downside_prob_pct": 58,
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 34,
+      "score": 33,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "23671.6 - 25921.2",
       "downside_prob_pct": 55,
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 91.0,
       "S7_Order_Absorption": 0.0,
-      "S8_Lead_Lag_Gap": 87.1
+      "S8_Lead_Lag_Gap": 85.6
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.66,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d714.4) + (0.15\u00d736.3) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d791.0) + (0.1\u00d70.0) + (0.05\u00d787.1) + +0.66 = 31.5"
+    "news_vector_delta": 0.06,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d714.4) + (0.15\u00d736.3) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d791.0) + (0.1\u00d70.0) + (0.05\u00d785.6) + +0.06 = 30.8"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.85,
       "parkinson_volatility": 13.94,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 90.48,
-      "brent_1d_pct": -2.26,
+      "brent_crude_usd": 90.68,
+      "brent_1d_pct": -2.04,
       "usdinr": 93.92,
       "us_10y_yield": 4.86,
       "sp500_close": 7549.94,
       "sp500_1d_pct": 2.35,
-      "dxy_close": 101.72,
-      "dxy_1d_pct": 0.07,
+      "dxy_close": 101.77,
+      "dxy_1d_pct": 0.12,
       "last_active_session_date": "2026-11-09"
     },
     "derivatives": {
@@ -305,13 +305,117 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 186,
-      "net_macro_lead_pct": 1.485,
+      "expected_gap_points": 178,
+      "net_macro_lead_pct": 1.424,
       "sp500_change_pct": 2.35,
-      "dxy_change_pct": 0.07,
-      "crude_change_pct": -2.26
+      "dxy_change_pct": 0.12,
+      "crude_change_pct": -2.04
     },
     "news_items": [
+      {
+        "title": "\u20b918 dividend per share: Check record date, payment timeline, stock performance, dividend yield, Q2 results highlights",
+        "link": "https://www.livemint.com/market/stock-market-news/rs-18-dividend-per-share-check-record-date-payment-timeline-stock-performance-dividend-yield-q2-results-highlights-11794307552019.html",
+        "source": "Livemint",
+        "published": "Tue, 10 Nov 2026 17:16:44 +0530",
+        "published_timestamp": "2026-11-10T17:16:44+05:30",
+        "summary": "Galaxy Surfactants declared an interim dividend of  \u20b918 per share for FY27, with 11 November 2026 set as the record date. Eligible shareholders will receive payment within 30 days of the declaration.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Huang\u2019s affair: Nvidia shares rebound in premarket trade after sharp sell-off, $1.57 trillion in market value wiped out",
+        "link": "https://www.livemint.com/market/stock-market-news/huangs-affair-nvidia-shares-rebound-in-premarket-trade-after-sharp-sell-off-1-57-trillion-in-market-value-wiped-out-11794304912609.html",
+        "source": "Livemint",
+        "published": "Tue, 10 Nov 2026 17:11:20 +0530",
+        "published_timestamp": "2026-11-10T17:11:20+05:30",
+        "summary": "Nvidia stock rises 1.8% after falling more than 4% on Monday amid controversy surrounding CEO Jensen Huang\u2019s affair; FBI reportedly investigating allegations involving suspected Chinese intelligence o",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "SoftBank shares climb 14% despite investment giant posting $7 billion quarterly loss on data-centre costs",
+        "link": "https://www.livemint.com/market/stock-market-news/softbank-shares-climb-14-despite-investment-giant-posting-7-billion-quarterly-loss-on-data-centre-costs-11794307614054.html",
+        "source": "Livemint",
+        "published": "Tue, 10 Nov 2026 16:58:03 +0530",
+        "published_timestamp": "2026-11-10T16:58:03+05:30",
+        "summary": "SoftBank shares rose 14% Tuesday before the company reported a $7 billion quarterly net loss, announced after markets closed. The loss reflected costly US data-centre investments, rising financing exp",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "US Treasury yields rise as Fed's Waller presses rate hike case",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/us-treasury-yields-rise-as-feds-waller-presses-rate-hike-case/articleshow/135708551.cms",
+        "source": "Economic Times",
+        "published": "Tue, 10 Nov 2026 16:25:56 +0530",
+        "published_timestamp": "2026-11-10T16:25:56+05:30",
+        "summary": "Following remarks from Federal Reserve Governor Christopher Waller, short-dated Treasury yields saw an uptick, as he proposed the necessity of action despite seemingly moderated inflation data. Waller",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "Bajaj Finance issues 5.74 crore warrants to promoter for Rs 5,799 crore",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/bajaj-finance-issues-5-74-crore-warrants-to-promoter-for-rs-5799-crore/articleshow/135708439.cms",
+        "source": "Economic Times",
+        "published": "Tue, 10 Nov 2026 16:22:44 +0530",
+        "published_timestamp": "2026-11-10T16:22:44+05:30",
+        "summary": "Bajaj Finance has allotted 5.74 crore warrants to its promoter, Bajaj Finserv, for Rs 5,799 crore. The special committee of the board approved the issue at an issue price of Rs 1,010 per warrant. Each",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "FPIs turn net buyers; pour Rs 53,739 crore in D-Street in Nov so far",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-turn-net-buyers-pour-rs-53739-crore-in-d-street-in-nov-so-far/articleshow/135708381.cms",
+        "source": "Economic Times",
+        "published": "Tue, 10 Nov 2026 16:19:34 +0530",
+        "published_timestamp": "2026-11-10T16:19:34+05:30",
+        "summary": "In November, foreign investors reversed a trend of selling by making substantial purchases of Indian equities. This shift followed a global sell-off triggered by AI developments affecting markets worl",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Balrampur Chini Mills shares: Over 50% returns in 1 year, sugar stock in focus with new  \u20b93100 cr plant - check target",
+        "link": "https://www.livemint.com/market/stock-market-news/balrampur-chini-mills-shares-over-50-returns-in-1-year-sugar-stock-in-focus-with-new-rs-3100-cr-plant-check-target-11794306339768.html",
+        "source": "Livemint",
+        "published": "Tue, 10 Nov 2026 16:15:09 +0530",
+        "published_timestamp": "2026-11-10T16:15:09+05:30",
+        "summary": "Balrampur Chini expects its  \u20b93,080-crore, 80,000-tonne-per-year PLA plant in Uttar Pradesh to begin commercial operations in Q4FY27. The project could add about  \u20b92,000 crore in annual revenue. Septe",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Stocks to watch tomorrow 11 November Wednesday: Why Data Patterns, MRF, Cochin Shipyard, IRB Infra, others are in focus",
+        "link": "https://www.livemint.com/market/stock-market-news/stocks-to-watch-tomorrow-11-november-wednesday-why-data-patterns-mrf-cochin-shipyard-irb-infra-others-are-in-focus-11794304295254.html",
+        "source": "Livemint",
+        "published": "Tue, 10 Nov 2026 16:14:40 +0530",
+        "published_timestamp": "2026-11-10T16:14:40+05:30",
+        "summary": "Stocks to watch Wednesday include Data Patterns, MRF, Cochin Shipyard, GPT Infraprojects, Ashoka Buildcon, IRB Infrastructure and HLE Glascoat, following analyst commentary, quarterly results, order w",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "This multibagger small-cap stock surges 485% in a year, but retail investors keep trimming stake; what are they missing?",
         "link": "https://www.livemint.com/market/stock-market-news/this-multibagger-small-cap-stock-surges-485-in-a-year-but-retail-investors-keep-trimming-stake-what-are-they-missing-11794303226235.html",
@@ -727,110 +831,6 @@
         "raw_sentiment": 1.0,
         "beta_decay": 1.0,
         "effective_impact": 0.9
-      },
-      {
-        "title": "US stocks: Dow Jones rallies 500 points, Nasdaq over 2% as chip stocks rebound; Nvidia probe weighs",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-higher-after-last-weeks-ai-rout/articleshow/135685663.cms",
-        "source": "Economic Times",
-        "published": "Mon, 09 Nov 2026 20:35:56 +0530",
-        "published_timestamp": "2026-11-09T20:35:56+05:30",
-        "summary": "Wall Street's indexes climbed as investors honed in on Nvidia CEO Jensen Huang's investigation and awaited crucial inflation data. Nvidia's shares faced declines due to worries over foreign intelligen",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Nvidia sell-off continues: Chipmaker stock plunges 9% as Jensen Huang faces espionage controversy",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nvidia-stock-crashes-8-after-a-foreign-intelligence-probe-initiated-by-ai-company-into-ceo-jensen-huang/articleshow/135685302.cms",
-        "source": "Economic Times",
-        "published": "Mon, 09 Nov 2026 20:14:09 +0530",
-        "published_timestamp": "2026-11-09T20:14:09+05:30",
-        "summary": "Nvidia has opened an investigation following CEO Jensen Huang's connection with an executive linked to intelligence efforts. The company announced this after Huang acknowledged his relationship with t",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Dow Jones| Nasdaq | US Stock Market Today | Highlights: Dow rockets 1,200 pts after last week's tech-led rout; oil prices swing",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-iran-war-hormuz-deal-brent-crude-oil-inflation-fed-rate-nvidia-jensen-huang-marvell-tech-qualcomm-meta-micrsoft-ai-chip-stock-price-news-9th-november-2026/liveblog/135683531.cms",
-        "source": "Economic Times",
-        "published": "Mon, 09 Nov 2026 18:41:00 +0530",
-        "published_timestamp": "2026-11-09T18:41:00+05:30",
-        "summary": " ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "Top 3 stocks to buy this week: Union Bank, Ather Energy, Laurus Labs by market expert; check stop-loss, target price",
-        "link": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-this-week-union-bank-ather-energy-laurus-labs-by-market-expert-check-stop-loss-target-price-11794224157187.html",
-        "source": "Livemint",
-        "published": "Mon, 09 Nov 2026 17:52:10 +0530",
-        "published_timestamp": "2026-11-09T17:52:10+05:30",
-        "summary": "Indian benchmarks rose to their highest levels in over eight months, with the Nifty gaining 0.23% and Sensex 0.13%, as crude prices eased. Markets close Tuesday for Diwali. Analyst Chandan Taparia rec",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "700% return in 5 years: KP Energy share price rallies 20% to hit upper circuit ahead of Q2 results 2026- Check details",
-        "link": "https://www.livemint.com/market/stock-market-news/700-return-in-5-years-kp-energy-share-price-rallies-20-to-hit-upper-circuit-ahead-of-q2-results-2026-check-key-detai-11794223729241.html",
-        "source": "Livemint",
-        "published": "Mon, 09 Nov 2026 17:48:55 +0530",
-        "published_timestamp": "2026-11-09T17:48:55+05:30",
-        "summary": "KP Energy shares surged 19.99% to  \u20b9204.95 on Monday, hitting the upper circuit as trading volume rose more than tenfold ahead of the company\u2019s Q2 FY27 results. Its board is scheduled to review the re",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.9
-      },
-      {
-        "title": "India bonds continue rally ahead of inflation data",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-continue-rally-ahead-of-inflation-data/articleshow/135681750.cms",
-        "source": "Economic Times",
-        "published": "Mon, 09 Nov 2026 17:41:27 +0530",
-        "published_timestamp": "2026-11-09T17:41:27+05:30",
-        "summary": "Indian government bond yields extended their rally on Monday, with the benchmark 10-year yield falling nearly 4 basis points as easing crude oil prices and hopes of a US-Iran peace deal improved senti",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Uno Minda among 7 stocks hitting 52-week highs; rally up to 26% in a month",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/uno-minda-among-7-stocks-hitting-52-week-highs-rally-up-to-26-in-a-month/slideshow/135681703.cms",
-        "source": "Economic Times",
-        "published": "Mon, 09 Nov 2026 17:19:40 +0530",
-        "published_timestamp": "2026-11-09T17:19:40+05:30",
-        "summary": " ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "Nvidia shares drop nearly 6% in pre-market as alleged China spy links put Jensen Huang under board scrutiny",
-        "link": "https://www.livemint.com/market/stock-market-news/nvidia-shares-drop-nearly-6-in-pre-market-as-alleged-china-spy-links-put-jensen-huang-under-board-scrutiny-11794222872171.html",
-        "source": "Livemint",
-        "published": "Mon, 09 Nov 2026 17:10:40 +0530",
-        "published_timestamp": "2026-11-09T17:10:40+05:30",
-        "summary": "Nvidia shares fell 6% in pre-market trading after the company\u2019s board launched an investigation into CEO Jensen Huang following reports of an affair with a woman suspected by US authorities of spying ",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.9
       }
     ]
   }
