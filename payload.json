@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-11-11 15:42:18 IST",
+    "ist_time": "2026-11-11 17:09:35 IST",
     "date_str": "2026-11-11",
     "is_open": false,
     "is_weekend": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-11-11 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 28.1,
+    "score": 29.1,
     "regime": "Fear",
     "en": {
-      "summary": "Nifty at 25255.05 (MARKET CLOSED: OFF-HOURS). Volatility Index is 17.58 with Put-Call Ratio of 0.771.",
+      "summary": "Nifty at 25255.05 (MARKET CLOSED: OFF-HOURS). Volatility Index is 17.56 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.22x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.21x."
     },
     "hi": {
-      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 25255.05 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 17.58 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
+      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 25255.05 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 17.56 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.22x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.21x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.22
+    "multiplier": 1.21
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -64,7 +64,7 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 26,
+      "score": 27,
       "verdict": "Consolidation Corridor",
       "target_range": "24373.3 - 26136.8",
       "downside_prob_pct": 58,
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 31,
+      "score": 32,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "23786.1 - 26139.0",
       "downside_prob_pct": 55,
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.22,
+    "dynamic_sip_multiplier": 1.21,
     "lot_size": 25,
     "nifty_lot_value": 631376,
     "cascade_risk_pct": 95
@@ -214,13 +214,13 @@
     "regime_mode": "Balanced Equilibrium Regime",
     "sub_scores": {
       "S1_Derivatives": 13.2,
-      "S2_Volatility": 13.1,
+      "S2_Volatility": 13.5,
       "S3_Options_Gamma": 35.8,
       "S4_Large_Deals": 25.4,
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 81.6,
       "S7_Order_Absorption": 0.5,
-      "S8_Lead_Lag_Gap": 36.0
+      "S8_Lead_Lag_Gap": 36.1
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 1.54,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d713.1) + (0.15\u00d735.8) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d781.6) + (0.1\u00d70.5) + (0.05\u00d736.0) + +1.54 = 28.1"
+    "news_vector_delta": 2.43,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d713.5) + (0.15\u00d735.8) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d781.6) + (0.1\u00d70.5) + (0.05\u00d736.1) + +2.43 = 29.1"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -242,19 +242,19 @@
       "nifty_50_sma": 23288.04,
       "nifty_200_sma": 23993.63,
       "atr_14": 352.7,
-      "india_vix": 17.58,
+      "india_vix": 17.56,
       "vix_30d_mean": 15.23,
-      "vix_z_score_30d": 1.9,
+      "vix_z_score_30d": 1.88,
       "parkinson_volatility": 13.83,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 92.9,
-      "brent_1d_pct": 1.54,
+      "brent_crude_usd": 92.81,
+      "brent_1d_pct": 1.44,
       "usdinr": 93.68,
       "us_10y_yield": 4.98,
       "sp500_close": 7520.93,
       "sp500_1d_pct": -0.38,
-      "dxy_close": 102.47,
-      "dxy_1d_pct": 0.23,
+      "dxy_close": 102.52,
+      "dxy_1d_pct": 0.28,
       "last_active_session_date": "2026-11-11"
     },
     "derivatives": {
@@ -306,12 +306,116 @@
     "lead_lag_forecast": {
       "gap_bias": "Bearish Gap-Down",
       "expected_gap_points": -70,
-      "net_macro_lead_pct": -0.56,
+      "net_macro_lead_pct": -0.557,
       "sp500_change_pct": -0.38,
-      "dxy_change_pct": 0.23,
-      "crude_change_pct": 1.54
+      "dxy_change_pct": 0.28,
+      "crude_change_pct": 1.44
     },
     "news_items": [
+      {
+        "title": "This EPC stock under  \u20b915 hits 20% upper circuit after  \u20b9510 crore bank guarantee release boosts order execution",
+        "link": "https://www.livemint.com/market/stock-market-news/this-epc-stock-under-rs-15-hits-20-upper-circuit-after-rs-510-crore-bank-guarantee-release-boosts-order-execution-11794395143697.html",
+        "source": "Livemint",
+        "published": "Wed, 11 Nov 2026 17:02:28 +0530",
+        "published_timestamp": "2026-11-11T17:02:28+05:30",
+        "summary": "Jyoti Structures shares surged 20% to  \u20b913 after lenders began releasing  \u20b9510.59 crore in bank guarantees and letters of credit under its NCLT-approved resolution plan.&nbsp;",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Gold or Silver? Which investment will offer higher returns after rates correction? What experts say; key levels to watch",
+        "link": "https://www.livemint.com/market/gold-or-silver-which-investment-will-offer-higher-returns-after-rates-correction-what-experts-say-key-levels-to-watch-11794394141742.html",
+        "source": "Livemint",
+        "published": "Wed, 11 Nov 2026 16:50:51 +0530",
+        "published_timestamp": "2026-11-11T16:50:51+05:30",
+        "summary": "MCX gold and silver rose on Wednesday, led by a 2.47% gain in silver. Experts recommend gold for conservative investors and portfolio diversification, while viewing silver as a riskier opportunity wit",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Eternal's IPO investors sitting on 375% gains as stock hits new record high; from  \u20b976 price to  \u20b9361, what changed?",
+        "link": "https://www.livemint.com/market/stock-market-news/eternals-ipo-investors-sitting-on-375-gains-as-stock-hits-new-record-high-from-rs-76-price-to-rs-361-what-changed-11794391062630.html",
+        "source": "Livemint",
+        "published": "Wed, 11 Nov 2026 16:11:57 +0530",
+        "published_timestamp": "2026-11-11T16:11:57+05:30",
+        "summary": "Eternal shares hit a record  \u20b9372 on Wednesday before closing 1% lower at  \u20b9361. The stock has gained 30% so far this year and rebounded 71% from its March low, supported by improving profitability an",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "These 12 midcap stocks rally up to 30% in just one month",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/these-12-midcap-stocks-rally-up-to-30-in-just-one-month/slideshow/135734690.cms",
+        "source": "Economic Times",
+        "published": "Wed, 11 Nov 2026 16:10:03 +0530",
+        "published_timestamp": "2026-11-11T16:10:03+05:30",
+        "summary": "While the Nifty 50 has rallied nearly 11% in a month, several midcap stocks have outperformed the broader index. Here are 12 midcap stocks that have surged between 15% and 30% during this period, acco",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Apollo Micro Systems shares surge 10%: Defence multibagger stock rallies 3,640% in 5 years; can it rise further?",
+        "link": "https://www.livemint.com/market/stock-market-news/apollo-micro-systems-shares-surge-10-defence-multibagger-stock-rallies-3-640-in-5-years-can-it-rise-further-11794390982550.html",
+        "source": "Livemint",
+        "published": "Wed, 11 Nov 2026 16:09:46 +0530",
+        "published_timestamp": "2026-11-11T16:09:46+05:30",
+        "summary": "Apollo Micro Systems shares rose as much as 10.5% on Wednesday, outperforming the defence index. The company reported strong Q2 FY27 results, with profit up 54%, revenue up 72% and a record  \u20b91,765 cr",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Rupee touches strongest since April as foreign inflows offset firm dollar",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-touches-strongest-since-april-as-foreign-inflows-offset-firm-dollar/articleshow/135734005.cms",
+        "source": "Economic Times",
+        "published": "Wed, 11 Nov 2026 16:07:51 +0530",
+        "published_timestamp": "2026-11-11T16:07:51+05:30",
+        "summary": "On Wednesday, the Indian rupee surged to its healthiest value since April, closing at 93.69 against the dollar. This upswing was driven by a remarkable influx of foreign investments in local stocks, t",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "More investors stopped SIPs than started new ones in October",
+        "link": "https://www.livemint.com/market/stock-market-news/sip-stoppage-ratio-october-2026-hits-18-month-high-amfi-data-11794386284354.html",
+        "source": "Livemint",
+        "published": "Wed, 11 Nov 2026 15:51:49 +0530",
+        "published_timestamp": "2026-11-11T15:51:49+05:30",
+        "summary": "Discontinuations and completed tenures pushed the SIP stoppage ratio to a six-month high of 116%, even as monthly contributions held steady above  \u20b932,000 crore.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "MSCI Rejig: Adani Green, LIC, Coforge, Meesho shares set to enter India Standard Index; ICICI Life, PI Industries out?",
+        "link": "https://www.livemint.com/market/stock-market-news/msci-rejig-adani-green-lic-coforge-meesho-shares-set-to-enter-india-standard-index-icici-life-pi-industries-out-11794390119879.html",
+        "source": "Livemint",
+        "published": "Wed, 11 Nov 2026 15:49:55 +0530",
+        "published_timestamp": "2026-11-11T15:49:55+05:30",
+        "summary": "Nuvama expects Coforge, LIC, Adani Green Energy and Meesho to join the MSCI Global Standard Index in November 2026, potentially attracting about $1.7 billion in passive inflows. ICICI Prudential Life ",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "India equity mutual fund fund inflows cool as stocks sink to 18-month low",
         "link": "https://www.livemint.com/market/stock-market-news/india-equity-mutual-fund-fund-inflows-cool-as-stocks-sink-to-18-month-low-11794390045561.html",
@@ -413,7 +517,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.95,
+        "beta_decay": 0.93,
         "effective_impact": 0.0
       },
       {
@@ -426,8 +530,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.95,
-        "effective_impact": 0.858
+        "beta_decay": 0.93,
+        "effective_impact": 0.834
       },
       {
         "title": "Bajaj Finance to launch share sale worth up to Rs 11,700 cr this week: Report",
@@ -439,7 +543,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.95,
+        "beta_decay": 0.92,
         "effective_impact": 0.0
       },
       {
@@ -452,8 +556,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.94,
-        "effective_impact": 0.85
+        "beta_decay": 0.92,
+        "effective_impact": 0.826
       },
       {
         "title": "CoreWeave stock jumps after earnings: 7 things driving the AI cloud company's rally",
@@ -465,8 +569,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.94,
-        "effective_impact": 0.891
+        "beta_decay": 0.91,
+        "effective_impact": 0.866
       },
       {
         "title": "Nvidia Stock Sell-Off Deepens: Spy scandal, price target cuts put AI giant under pressure",
@@ -478,8 +582,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.93,
-        "effective_impact": -0.885
+        "beta_decay": 0.9,
+        "effective_impact": -0.86
       },
       {
         "title": "India bonds slip as Treasury rout offsets oil slide",
@@ -491,8 +595,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.91,
-        "effective_impact": -0.867
+        "beta_decay": 0.89,
+        "effective_impact": -0.842
       },
       {
         "title": "Rupee rises 7 paise to 93.70 against US dollar in early trade",
@@ -504,8 +608,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.91,
-        "effective_impact": 0.861
+        "beta_decay": 0.88,
+        "effective_impact": 0.836
       },
       {
         "title": "Positive Breakout: These 5 stocks rose above their 200 DMAs",
@@ -517,8 +621,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.89,
-        "effective_impact": 0.849
+        "beta_decay": 0.87,
+        "effective_impact": 0.824
       },
       {
         "title": "UltraTech Cem Share Price Live Updates: UltraTech Cement's Price Update",
@@ -530,7 +634,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.89,
+        "beta_decay": 0.87,
         "effective_impact": 0.0
       },
       {
@@ -543,7 +647,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.89,
+        "beta_decay": 0.86,
         "effective_impact": 0.0
       },
       {
@@ -556,7 +660,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.88,
+        "beta_decay": 0.86,
         "effective_impact": 0.0
       },
       {
@@ -569,7 +673,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.88,
+        "beta_decay": 0.85,
         "effective_impact": 0.0
       },
       {
@@ -582,7 +686,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.76,
+        "beta_decay": 0.73,
         "effective_impact": 0.0
       },
       {
@@ -595,8 +699,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.75,
-        "effective_impact": -0.674
+        "beta_decay": 0.73,
+        "effective_impact": -0.655
       },
       {
         "title": "Corn Soars After USDA Cuts American Yield in Another Surprise",
@@ -608,8 +712,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.75,
-        "effective_impact": 0.671
+        "beta_decay": 0.72,
+        "effective_impact": 0.652
       },
       {
         "title": "Gold falls nearly 3% as CPI tops forecasts, lifting dollar and yields",
@@ -621,8 +725,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.74,
-        "effective_impact": -0.667
+        "beta_decay": 0.72,
+        "effective_impact": -0.647
       },
       {
         "title": "US stocks: Five things to know about Anthropic",
@@ -634,7 +738,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.74,
+        "beta_decay": 0.72,
         "effective_impact": 0.0
       },
       {
@@ -647,8 +751,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.73,
-        "effective_impact": 0.66
+        "beta_decay": 0.71,
+        "effective_impact": 0.641
       },
       {
         "title": "Chipmakers warn AI demand is creating bottlenecks in automotive supply chain",
@@ -660,7 +764,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.73,
+        "beta_decay": 0.71,
         "effective_impact": 0.0
       },
       {
@@ -673,8 +777,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.72,
-        "effective_impact": -0.688
+        "beta_decay": 0.7,
+        "effective_impact": -0.668
       },
       {
         "title": "Nvidia sell-off deepens, fall 6.3%; wipes $10 billion off Jensen Huang's wealth, slips to 12th on Forbes rich list",
@@ -686,8 +790,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.72,
-        "effective_impact": -0.647
+        "beta_decay": 0.7,
+        "effective_impact": -0.628
       },
       {
         "title": "Nifty PSU Bank Index Performance: Bank of India, UCO Bank among 7 stocks rebound 15\u201356% from 1-yr lows - here\u2019s why",
@@ -699,8 +803,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.69,
-        "effective_impact": 0.623
+        "beta_decay": 0.67,
+        "effective_impact": 0.605
       },
       {
         "title": "Traders raise odds of 50 bps Fed rate hike as CPI rise exceeds expectations",
@@ -712,7 +816,7 @@
         "is_rumor": true,
         "credibility_weight": 0.47,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.68,
+        "beta_decay": 0.67,
         "effective_impact": 0.0
       },
       {
@@ -725,112 +829,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.68,
-        "effective_impact": -0.649
-      },
-      {
-        "title": "Anthropic's potential mega IPO joins ranks of world's biggest stock market listings",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-potential-mega-ipo-joins-ranks-of-worlds-biggest-stock-market-listings/articleshow/135714028.cms",
-        "source": "Economic Times",
-        "published": "Tue, 10 Nov 2026 20:25:20 +0530",
-        "published_timestamp": "2026-11-10T20:25:20+05:30",
-        "summary": "Anthropic has kicked off its U.S. IPO roadshow, seeking to raise up to $64.4 billion by offering 825 million shares. This latest valuation stands at roughly $1.4 trillion, representing a drop from ear",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.68,
-        "effective_impact": -0.646
-      },
-      {
-        "title": "TSMC to invest up to $1 billion in Anthropic, OpenAI",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/tsmc-to-invest-up-to-1-billion-in-anthropic-openai/articleshow/135713301.cms",
-        "source": "Economic Times",
-        "published": "Tue, 10 Nov 2026 19:52:30 +0530",
-        "published_timestamp": "2026-11-10T19:52:30+05:30",
-        "summary": "TSMC is set to invest up to $1 billion in the AI landscape, directing $500 million each to Anthropic and OpenAI. As Anthropic prepares for its IPO, this financial move by TSMC underscores its belief i",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.67,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "FPIs return to Dalal Street amid AI sell-off and oil slump; Can proposed tax cuts sustain inflows?",
-        "link": "https://www.livemint.com/market/stock-market-news/fpis-return-to-dalal-street-amid-ai-sell-off-and-oil-slump-can-proposed-tax-cuts-sustain-inflows-11794315705620.html",
-        "source": "Livemint",
-        "published": "Tue, 10 Nov 2026 19:48:12 +0530",
-        "published_timestamp": "2026-11-10T19:48:12+05:30",
-        "summary": "FPIs have poured  \u20b953,739 crore into Indian equities in November so far. The inflows have helped the Nifty 50 extend its winning streak to seven consecutive sessions, enabling the benchmark index to p",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.67,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "US consumer prices rise above expectations in October",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-consumer-prices-rise-above-expectations-in-october/articleshow/135712897.cms",
-        "source": "Economic Times",
-        "published": "Tue, 10 Nov 2026 19:31:53 +0530",
-        "published_timestamp": "2026-11-10T19:31:53+05:30",
-        "summary": "Consumer prices in the US experienced a larger-than-expected increase in October, affecting future Federal Reserve interest rates. The Consumer Price Index rose by 0.4%, following a 0.6% increase in S",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.67,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "US stocks edge lower amid tech-led rout; Nvidia drops 6%: Stock Market Live Updates",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-anthropic-ipo-nvidia-intel-marvell-tech-ai-chip-stocks-inflation-fed-rate-hike-treasury-bond-yield-news-10th-november-2026/liveblog/135712173.cms",
-        "source": "Economic Times",
-        "published": "Tue, 10 Nov 2026 18:33:22 +0530",
-        "published_timestamp": "2026-11-10T18:33:22+05:30",
-        "summary": " ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
         "beta_decay": 0.66,
-        "effective_impact": -0.622
-      },
-      {
-        "title": "Nasdaq futures slip with Nvidia woes, Anthropic IPO in focus",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-futures-slip-with-nvidia-woes-anthropic-ipo-in-focus/articleshow/135711347.cms",
-        "source": "Economic Times",
-        "published": "Tue, 10 Nov 2026 18:19:57 +0530",
-        "published_timestamp": "2026-11-10T18:19:57+05:30",
-        "summary": "Nvidia's CEO Jensen Huang is facing scrutiny, impacting investor sentiment in the tech sector. Anthropic is preparing for a huge initial public offering, potentially raising $64.4 billion. The market ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.65,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "OMC stocks: Brent slips below $90 to hit over 2-month low amid Iran peace hopes; Will HPCL, BPCL and IOC benefit?",
-        "link": "https://www.livemint.com/market/stock-market-news/omc-stocks-brent-slips-below-90-to-hit-over-2-month-low-amid-iran-peace-hopes-will-hpcl-bpcl-and-ioc-benefit-11794312198955.html",
-        "source": "Livemint",
-        "published": "Tue, 10 Nov 2026 18:10:46 +0530",
-        "published_timestamp": "2026-11-10T18:10:46+05:30",
-        "summary": "Oil marketing companies may draw investor attention as Brent crude falls to a three-month low amid hopes of easing Middle East tensions. HPCL, BPCL and IOC have gained 10%\u201313.5% so far in November. Lo",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.65,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Anthropic sets IPO price band at $70-$78, targets valuation of up to $1.4 trillion",
-        "link": "https://www.livemint.com/market/ipo/anthropic-sets-ipo-price-band-at-70-78-targets-valuation-of-up-to-1-4-trillion-11794311891604.html",
-        "source": "Livemint",
-        "published": "Tue, 10 Nov 2026 18:08:20 +0530",
-        "published_timestamp": "2026-11-10T18:08:20+05:30",
-        "summary": "AI company Anthropic plans to offer 825 million shares in Nasdaq listing; IPO could raise up to $64.35 billion.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.65,
-        "effective_impact": 0.0
+        "effective_impact": -0.631
       }
     ]
   }
