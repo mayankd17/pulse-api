@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-11-12 16:04:16 IST",
+    "ist_time": "2026-11-12 17:36:40 IST",
     "date_str": "2026-11-12",
     "is_open": false,
     "is_weekend": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-11-12 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 37.9,
+    "score": 37.3,
     "regime": "Balanced Neutral",
     "en": {
       "summary": "Nifty at 25299.35 (MARKET CLOSED: OFF-HOURS). Volatility Index is 16.62 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 35% liquid cash. Set opportunistic SIP deployment factor to 1.12x."
+      "what_to_do": "Maintain 35% liquid cash. Set opportunistic SIP deployment factor to 1.13x."
     },
     "hi": {
       "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 25299.35 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 16.62 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.12x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.13x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 20,
       "selective_equity_pct": 35
     },
-    "multiplier": 1.12
+    "multiplier": 1.13
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.12,
+    "dynamic_sip_multiplier": 1.13,
     "lot_size": 25,
     "nifty_lot_value": 632483,
     "cascade_risk_pct": 95
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 68.4,
       "S7_Order_Absorption": 70.5,
-      "S8_Lead_Lag_Gap": 69.1
+      "S8_Lead_Lag_Gap": 68.0
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 1.66,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d732.2) + (0.15\u00d736.1) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d768.4) + (0.1\u00d770.5) + (0.05\u00d769.1) + +1.66 = 37.9"
+    "news_vector_delta": 1.14,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d732.2) + (0.15\u00d736.1) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d768.4) + (0.1\u00d770.5) + (0.05\u00d768.0) + +1.14 = 37.3"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.06,
       "parkinson_volatility": 13.36,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 92.06,
-      "brent_1d_pct": -0.75,
+      "brent_crude_usd": 92.17,
+      "brent_1d_pct": -0.64,
       "usdinr": 94.04,
       "us_10y_yield": 5.0,
       "sp500_close": 7619.38,
       "sp500_1d_pct": 1.31,
-      "dxy_close": 102.84,
-      "dxy_1d_pct": -0.07,
+      "dxy_close": 102.9,
+      "dxy_1d_pct": -0.01,
       "last_active_session_date": "2026-11-12"
     },
     "derivatives": {
@@ -305,13 +305,117 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 96,
-      "net_macro_lead_pct": 0.764,
+      "expected_gap_points": 90,
+      "net_macro_lead_pct": 0.721,
       "sp500_change_pct": 1.31,
-      "dxy_change_pct": -0.07,
-      "crude_change_pct": -0.75
+      "dxy_change_pct": -0.01,
+      "crude_change_pct": -0.64
     },
     "news_items": [
+      {
+        "title": "Foreign inflows lift Indian stocks' dollar returns above rupee gains as currency rebounds",
+        "link": "https://www.livemint.com/market/foreign-inflows-lift-indian-stocks-dollar-returns-above-rupee-gains-as-currency-rebounds-11794465568691.html",
+        "source": "Livemint",
+        "published": "Thu, 12 Nov 2026 17:32:25 +0530",
+        "published_timestamp": "2026-11-12T17:32:25+05:30",
+        "summary": "Foreign portfolio investors have net bought shares worth  \u20b960,698 crore in the first 11 days of November, the highest monthly inflow so far since December 2023, NSDL data.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Page Industries shares plunge 13% as higher RM costs hit Q2 profitability; can festive demand drive a recovery?",
+        "link": "https://www.livemint.com/market/stock-market-news/page-industries-shares-plunge-13-as-higher-rm-costs-hit-q2-profitability-can-festive-demand-drive-a-recovery-11794483364778.html",
+        "source": "Livemint",
+        "published": "Thu, 12 Nov 2026 17:29:19 +0530",
+        "published_timestamp": "2026-11-12T17:29:19+05:30",
+        "summary": "Page Industries shares fell 13% to their lowest level since April after higher input costs limited profit growth in Q2 FY27. Revenue rose 11.5% to  \u20b91,439.6 crore, while profit after tax increased 4% ",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "UPI MDR rollout after Diwali: What it means for Paytm, MobiKwik and Pine Labs | What investors should know",
+        "link": "https://www.livemint.com/market/stock-market-news/upi-mdr-rollout-after-diwali-what-it-means-for-paytm-mobikwik-and-pine-labs-what-investors-should-know-11794477959612.html",
+        "source": "Livemint",
+        "published": "Thu, 12 Nov 2026 17:19:09 +0530",
+        "published_timestamp": "2026-11-12T17:19:09+05:30",
+        "summary": "A new MDR framework for some UPI merchant payments could give payment companies a recurring revenue stream, replacing reliance on discretionary incentives. Eligible transactions above  \u20b92,000 will gen",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Zee Entertainment approves Rs 600-crore share buyback at Rs 91 apiece; promoters to stay out",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/zee-entertainment-approves-rs-600-crore-share-buyback-at-rs-91-apiece-promoters-to-stay-out/articleshow/135767979.cms",
+        "source": "Economic Times",
+        "published": "Thu, 12 Nov 2026 17:16:29 +0530",
+        "published_timestamp": "2026-11-12T17:16:29+05:30",
+        "summary": "Zee Entertainment has approved a Rs 600 crore share buyback at Rs 91 per share, a 24% premium over its latest NSE closing price. The company will repurchase up to 6.59 crore shares through the tender ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Maritime PSU face-off: SCI vs GRSE - Which PSU stock to buy after Q2 results? Profit, dividend, and technical targets",
+        "link": "https://www.livemint.com/market/stock-market-news/maritime-psu-face-off-shipping-corporation-vs-garden-reach-stock-to-buy-q2-results-profit-dividend-technical-target-11794482491171.html",
+        "source": "Livemint",
+        "published": "Thu, 12 Nov 2026 16:59:39 +0530",
+        "published_timestamp": "2026-11-12T16:59:39+05:30",
+        "summary": "Shipping Corporation of India\u2019s Q2 FY27 net profit rose 205% to  \u20b9577.76 crore, while Garden Reach Shipbuilders &amp; Engineers\u2019 profit increased 12% to  \u20b9172 crore. Both PSU stocks rallied recently, ",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Up 85% YTD! Circuit-to-circuit penny stock under  \u20b92 hits 5% upper circuit for the third straight session; do you own?",
+        "link": "https://www.livemint.com/market/stock-market-news/up-85-ytd-circuit-to-circuit-penny-stock-under-rs-2-hits-5-upper-circuit-for-the-third-straight-session-do-you-own-11794478097571.html",
+        "source": "Livemint",
+        "published": "Thu, 12 Nov 2026 16:37:39 +0530",
+        "published_timestamp": "2026-11-12T16:37:39+05:30",
+        "summary": "Penny stock under  \u20b92: The FMCG share has been hitting 5% upper circuit since Monday",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "AI stock Nvidia resumes losing run as brokerages turn bearish; Jensen Huang exit fears, board probe spook investors",
+        "link": "https://www.livemint.com/market/stock-market-news/ai-stock-nvidia-resumes-losing-run-as-brokerages-turn-bearish-jensen-huang-exit-fears-board-probe-spook-investors-11794480078621.html",
+        "source": "Livemint",
+        "published": "Thu, 12 Nov 2026 16:19:20 +0530",
+        "published_timestamp": "2026-11-12T16:19:20+05:30",
+        "summary": "Brokerages have cut Nvidia price targets and downgraded the stock amid an investigation into allegations involving CEO Jensen Huang and uncertainty over his future.&nbsp;",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "Rupee slips with traders clinging to equity cues, awaiting inflation data",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-slips-with-traders-clinging-to-equity-cues-awaiting-inflation-data/articleshow/135765691.cms",
+        "source": "Economic Times",
+        "published": "Thu, 12 Nov 2026 16:08:06 +0530",
+        "published_timestamp": "2026-11-12T16:08:06+05:30",
+        "summary": "The Indian rupee faced a setback on Thursday, dipping to 94.0425 against the dollar amidst rising oil prices and escalating inflation fears. Previously, it had seen a peak of 93.62 thanks to foreign p",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
       {
         "title": "Bitcoin slips below $74,000 mark, experts explain the factors influencing the cryptocurrency this week",
         "link": "https://www.livemint.com/market/cryptocurrency/bitcoin-slips-below-74000-mark-experts-explain-factors-influence-cryptocurrency-markets-week-us-inflation-risk-investors-11794473906813.html",
@@ -465,8 +569,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.887
+        "beta_decay": 0.91,
+        "effective_impact": 0.86
       },
       {
         "title": "Mahindra &amp; Mahindra among 5 stocks showing White Marubozu Pattern",
@@ -478,7 +582,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
+        "beta_decay": 0.89,
         "effective_impact": 0.0
       },
       {
@@ -491,7 +595,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
+        "beta_decay": 0.89,
         "effective_impact": 0.0
       },
       {
@@ -504,7 +608,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.91,
+        "beta_decay": 0.88,
         "effective_impact": 0.0
       },
       {
@@ -517,8 +621,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.91,
-        "effective_impact": 0.86
+        "beta_decay": 0.88,
+        "effective_impact": 0.834
       },
       {
         "title": "Vishal Mega Mart among 5 stocks showing RSI trending up",
@@ -530,8 +634,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.89,
-        "effective_impact": 0.843
+        "beta_decay": 0.86,
+        "effective_impact": 0.818
       },
       {
         "title": "Oil India among 6 stocks closing above VWAP",
@@ -543,7 +647,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.88,
+        "beta_decay": 0.85,
         "effective_impact": 0.0
       },
       {
@@ -556,7 +660,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.88,
+        "beta_decay": 0.85,
         "effective_impact": 0.0
       },
       {
@@ -569,7 +673,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.87,
+        "beta_decay": 0.85,
         "effective_impact": 0.0
       },
       {
@@ -582,7 +686,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.75,
+        "beta_decay": 0.73,
         "effective_impact": 0.0
       },
       {
@@ -595,8 +699,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.73,
-        "effective_impact": -0.656
+        "beta_decay": 0.71,
+        "effective_impact": -0.636
       },
       {
         "title": "Multibagger Cupid to be in focus on Thursday after Q2 net profit more than doubles to  \u20b956 crore; raises FY27 guidance",
@@ -608,8 +712,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.72,
-        "effective_impact": 0.652
+        "beta_decay": 0.7,
+        "effective_impact": 0.632
       },
       {
         "title": "Bought Indo Thai Securities shares in 2026? Stock crashes 90% after two years of multibagger gains; what went wrong?",
@@ -621,8 +725,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.71,
-        "effective_impact": -0.642
+        "beta_decay": 0.69,
+        "effective_impact": -0.623
       },
       {
         "title": "Yes Bank bondholders press for compliance with Supreme Court's AT-1 order",
@@ -634,7 +738,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.7,
+        "beta_decay": 0.68,
         "effective_impact": 0.0
       },
       {
@@ -647,7 +751,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.7,
+        "beta_decay": 0.67,
         "effective_impact": 0.0
       },
       {
@@ -660,7 +764,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.69,
+        "beta_decay": 0.67,
         "effective_impact": 0.0
       },
       {
@@ -673,8 +777,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.68,
-        "effective_impact": 0.645
+        "beta_decay": 0.66,
+        "effective_impact": 0.626
       },
       {
         "title": "MRF share price target after Q2: Tyre maker faces margin pressure, but Citi sees 30% upside; sets  \u20b91,65,238 target",
@@ -686,8 +790,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.68,
-        "effective_impact": 0.61
+        "beta_decay": 0.66,
+        "effective_impact": 0.591
       },
       {
         "title": "US stocks: S&amp;P 500, Nasdaq rise as CoreWeave results ease AI spending concerns",
@@ -699,8 +803,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.68,
-        "effective_impact": 0.642
+        "beta_decay": 0.65,
+        "effective_impact": 0.622
       },
       {
         "title": "Baird downgrades Nvidia on China curbs, AI demand worries",
@@ -712,7 +816,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.67,
+        "beta_decay": 0.65,
         "effective_impact": 0.0
       },
       {
@@ -725,112 +829,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.67,
-        "effective_impact": -0.633
-      },
-      {
-        "title": "Nifty 50 target: Index in sweet spot? 28,000 soon? HSBC, Citi and Bernstein raise targets after sharp 13.5% recovery",
-        "link": "https://www.livemint.com/market/stock-market-news/nifty-50-target-index-in-sweet-spot-28-000-soon-hsbc-citi-and-bernstein-raise-targets-after-sharp-13-5-recovery-11794402943483.html",
-        "source": "Livemint",
-        "published": "Wed, 11 Nov 2026 19:45:59 +0530",
-        "published_timestamp": "2026-11-11T19:45:59+05:30",
-        "summary": "Citi raised its Nifty 50 target to 28,000, while HSBC upgraded Indian equities to overweight and Bernstein lifted its target to 26,100.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.67,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "India to switch bonds worth 250 billion rupees next week",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/india-to-switch-bonds-worth-250-billion-rupees-next-week/articleshow/135740426.cms",
-        "source": "Economic Times",
-        "published": "Wed, 11 Nov 2026 19:43:38 +0530",
-        "published_timestamp": "2026-11-11T19:43:38+05:30",
-        "summary": "On November 16, the Reserve Bank of India will initiate a significant switch auction worth 250 billion rupees. This maneuver involves replacing six bonds that are set to mature between 2027 and 2029 w",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.67,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Dollar firms as hot inflation, hawkish Fed talk lift rate-hike bets",
-        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-firms-as-hot-inflation-hawkish-fed-talk-lift-rate-hike-bets/articleshow/135739033.cms",
-        "source": "Economic Times",
-        "published": "Wed, 11 Nov 2026 18:47:36 +0530",
-        "published_timestamp": "2026-11-11T18:47:36+05:30",
-        "summary": "The US dollar has gained against multiple currencies due to expectations of Federal Reserve interest rate hikes. Inflation data revealed an increase in consumer prices, prompting trader speculation ab",
-        "is_rumor": true,
-        "credibility_weight": 0.47,
-        "raw_sentiment": 0.0,
         "beta_decay": 0.65,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Nasdaq futures rise nearly 2% as CoreWeave earnings calm AI spending fears",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-futures-rise-nearly-2-as-coreweave-earnings-calm-ai-spending-fears/articleshow/135738901.cms",
-        "source": "Economic Times",
-        "published": "Wed, 11 Nov 2026 18:43:58 +0530",
-        "published_timestamp": "2026-11-11T18:43:58+05:30",
-        "summary": "Futures for the S&P 500 and Nasdaq 100 have shown gains following CoreWeave's impressive earnings announcement. Investors reacted positively as CoreWeave predicts profitability by the first half of 20",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.65,
-        "effective_impact": 0.62
-      },
-      {
-        "title": "Nasdaq surges over 1% as rebounding AI stocks lift Wall Street: Stock Market Live Updates",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-fed-anthropic-ipo-coreweave-nvidia-marvell-ai-chip-fed-rate-inflation-treasury-yield-news-11th-november-2026/liveblog/135739245.cms",
-        "source": "Economic Times",
-        "published": "Wed, 11 Nov 2026 18:42:11 +0530",
-        "published_timestamp": "2026-11-11T18:42:11+05:30",
-        "summary": " ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.65,
-        "effective_impact": 0.62
-      },
-      {
-        "title": "EAAA India Alternatives Q2 results 2026: Net profit jumps 27%; 140% interim dividend of  \u20b97/share; check record date",
-        "link": "https://www.livemint.com/market/stock-market-news/eaaa-india-alternatives-q2-results-2026-net-profit-jumps-27-140-interim-dividend-of-rs-7-share-check-record-date-11794399717392.html",
-        "source": "Livemint",
-        "published": "Wed, 11 Nov 2026 18:36:42 +0530",
-        "published_timestamp": "2026-11-11T18:36:42+05:30",
-        "summary": "EAAA India Alternatives reported a 26.9% year-on-year rise in Q2 FY27 net profit to  \u20b988.10 crore, while revenue grew 12.9% to  \u20b9251.49 crore. Funds managed increased 28% to  \u20b949,164 crore. The compan",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.65,
-        "effective_impact": 0.586
-      },
-      {
-        "title": "Top 2 stocks to buy for short-term: Canara Bank, Pine Labs by Nagaraj Shetti - Check stop loss, targets",
-        "link": "https://www.livemint.com/market/stock-market-news/top-2-stocks-to-buy-for-short-term-canara-bank-pine-labs-by-nagaraj-shetti-check-stop-loss-targets-11794397280619.html",
-        "source": "Livemint",
-        "published": "Wed, 11 Nov 2026 17:23:08 +0530",
-        "published_timestamp": "2026-11-11T17:23:08+05:30",
-        "summary": "Indian benchmark indices rose on Wednesday, with the Nifty 50 up 0.84% and Sensex up 0.95%, supported by lower crude prices and expectations of foreign inflows. Analysts see resistance near 25,400\u201325,",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.64,
-        "effective_impact": -0.572
-      },
-      {
-        "title": "PC Jeweller vs Kalyan Jewellers shares: Both delivered strong Q2 results but what to buy for better returns? Key levels",
-        "link": "https://www.livemint.com/market/stock-market-news/pc-jeweller-vs-kalyan-jewellers-shares-both-delivered-strong-q2-results-but-what-to-buy-for-better-returns-key-levels-11794394181636.html",
-        "source": "Livemint",
-        "published": "Wed, 11 Nov 2026 17:12:22 +0530",
-        "published_timestamp": "2026-11-11T17:12:22+05:30",
-        "summary": "PC Jeweller and Kalyan Jewellers posted strong Q2 FY27 results, with profits rising 58% and 64%, respectively. Kalyan\u2019s shares show stronger near-term momentum, with analysts identifying  \u20b9750\u2013790 as ",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.63,
-        "effective_impact": 0.57
+        "effective_impact": -0.614
       }
     ]
   }
