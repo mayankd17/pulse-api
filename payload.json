@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-11-13 15:56:54 IST",
+    "ist_time": "2026-11-13 17:19:14 IST",
     "date_str": "2026-11-13",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-11-13 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 35.8,
+    "score": 35.7,
     "regime": "Balanced Neutral",
     "en": {
       "summary": "Nifty at 25144.3 (MARKET CLOSED: OFF-HOURS). Volatility Index is 15.49 with Put-Call Ratio of 0.771.",
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 61.8,
       "S7_Order_Absorption": 26.8,
-      "S8_Lead_Lag_Gap": 47.4
+      "S8_Lead_Lag_Gap": 45.0
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -233,7 +233,7 @@
       "w8_Lead_Lag_Gap": "5%"
     },
     "news_vector_delta": 2.7,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d754.5) + (0.15\u00d736.3) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d761.8) + (0.1\u00d726.8) + (0.05\u00d747.4) + +2.70 = 35.8"
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d754.5) + (0.15\u00d736.3) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d761.8) + (0.1\u00d726.8) + (0.05\u00d745.0) + +2.70 = 35.7"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 0.09,
       "parkinson_volatility": 13.33,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 95.53,
-      "brent_1d_pct": -0.3,
+      "brent_crude_usd": 95.92,
+      "brent_1d_pct": 0.1,
       "usdinr": 94.23,
       "us_10y_yield": 5.1,
       "sp500_close": 7592.4,
       "sp500_1d_pct": -0.35,
-      "dxy_close": 103.19,
-      "dxy_1d_pct": 0.02,
+      "dxy_close": 103.23,
+      "dxy_1d_pct": 0.06,
       "last_active_session_date": "2026-11-13"
     },
     "derivatives": {
@@ -305,13 +305,65 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Neutral Opening",
-      "expected_gap_points": -13,
-      "net_macro_lead_pct": -0.105,
+      "expected_gap_points": -25,
+      "net_macro_lead_pct": -0.199,
       "sp500_change_pct": -0.35,
-      "dxy_change_pct": 0.02,
-      "crude_change_pct": -0.3
+      "dxy_change_pct": 0.06,
+      "crude_change_pct": 0.1
     },
     "news_items": [
+      {
+        "title": "Dividend stocks Shipping Corporation vs Cochin Shipyard: Record date on Nov 16 - what to buy? Amount, yield, returns",
+        "link": "https://www.livemint.com/market/stock-market-news/dividend-stocks-shipping-corporation-vs-cochin-shipyard-record-date-on-nov-16-what-to-buy-amount-yield-returns-11794567075247.html",
+        "source": "Livemint",
+        "published": "Fri, 13 Nov 2026 17:10:03 +0530",
+        "published_timestamp": "2026-11-13T17:10:03+05:30",
+        "summary": "Dividend stocks Shipping Corporation and Cochin Shipyard have declared interim dividends of  \u20b94 and  \u20b93 per share respectively",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Diwali gains often last. Will this year\u2019s Sensex rally hold?",
+        "link": "https://www.livemint.com/market/stock-market-news/diwali-gains-this-year-sensex-rally-muhurat-11794459314013.html",
+        "source": "Livemint",
+        "published": "Fri, 13 Nov 2026 16:42:33 +0530",
+        "published_timestamp": "2026-11-13T16:42:33+05:30",
+        "summary": "The Sensex has risen in the week after Muhurat in almost two-thirds of the past 30 years. Earnings and foreign buying will determine whether this year\u2019s rally has further to go",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Nifty PSU Bank logs biggest weekly surge in 7 months; PNB, Bank of India, Bank of Baroda among top performers",
+        "link": "https://www.livemint.com/market/stock-market-news/nifty-psu-bank-logs-biggest-weekly-surge-in-two-years-pnb-bank-of-india-bank-of-baroda-among-top-performers-11794563569958.html",
+        "source": "Livemint",
+        "published": "Fri, 13 Nov 2026 16:19:00 +0530",
+        "published_timestamp": "2026-11-13T16:19:00+05:30",
+        "summary": "PSU banking stocks rallied for a third straight week, lifting the Nifty PSU Bank index 8% to its highest level since March. &nbsp;Among individual stocks, Punjab National Bank emerged as the top perfo",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Indian rupee snaps rising streak on hawkish Fed, oil rise",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/indian-rupee-snaps-rising-streak-on-hawkish-fed-oil-rise/articleshow/135798564.cms",
+        "source": "Economic Times",
+        "published": "Fri, 13 Nov 2026 15:41:52 +0530",
+        "published_timestamp": "2026-11-13T15:41:52+05:30",
+        "summary": "In the past week, the Indian rupee faced downward pressure due to escalating oil prices. Although foreign investments offered some relief, they were insufficient to trigger a notable rebound. The Rese",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "Circuit-to-circuit stock SC Agrotech declares 4:5 bonus, 1:10 stock split, dividend update; record date, other details",
         "link": "https://www.livemint.com/market/stock-market-news/circuittocircuit-stock-sc-agrotech-declares-4-5-bonus-1-10-stock-split-dividend-update-record-date-other-details-11794564352785.html",
@@ -426,7 +478,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.95,
+        "beta_decay": 0.92,
         "effective_impact": 0.0
       },
       {
@@ -439,7 +491,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.95,
+        "beta_decay": 0.92,
         "effective_impact": 0.0
       },
       {
@@ -452,8 +504,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.95,
-        "effective_impact": 0.899
+        "beta_decay": 0.92,
+        "effective_impact": 0.874
       },
       {
         "title": "Tesla-SpaceX Merger: Musk eyes December deal announcement",
@@ -465,7 +517,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.93,
+        "beta_decay": 0.91,
         "effective_impact": 0.0
       },
       {
@@ -478,7 +530,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.92,
+        "beta_decay": 0.89,
         "effective_impact": 0.0
       },
       {
@@ -491,7 +543,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.9,
+        "beta_decay": 0.88,
         "effective_impact": 0.0
       },
       {
@@ -504,8 +556,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.9,
-        "effective_impact": 0.852
+        "beta_decay": 0.87,
+        "effective_impact": 0.829
       },
       {
         "title": "India bonds under pressure before debt supply; hot inflation prints pinch further",
@@ -517,8 +569,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.89,
-        "effective_impact": -0.848
+        "beta_decay": 0.87,
+        "effective_impact": -0.825
       },
       {
         "title": "Asian Paints Share Price Live Updates: Asian Paints Volume and Price Insights",
@@ -530,7 +582,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.89,
+        "beta_decay": 0.86,
         "effective_impact": 0.0
       },
       {
@@ -543,7 +595,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.88,
+        "beta_decay": 0.85,
         "effective_impact": 0.0
       },
       {
@@ -556,7 +608,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.87,
+        "beta_decay": 0.85,
         "effective_impact": 0.0
       },
       {
@@ -569,8 +621,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.87,
-        "effective_impact": 0.829
+        "beta_decay": 0.85,
+        "effective_impact": 0.806
       },
       {
         "title": "Trafigura Is Key Player in LME Aluminum Squeeze With China Trade",
@@ -582,8 +634,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.76,
-        "effective_impact": -0.687
+        "beta_decay": 0.74,
+        "effective_impact": -0.668
       },
       {
         "title": "US stocks: Retail buyers limit Nvidia stock rout",
@@ -595,7 +647,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.76,
+        "beta_decay": 0.74,
         "effective_impact": 0.0
       },
       {
@@ -608,8 +660,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.75,
-        "effective_impact": -0.715
+        "beta_decay": 0.73,
+        "effective_impact": -0.695
       },
       {
         "title": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears",
@@ -621,8 +673,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.74,
-        "effective_impact": -0.665
+        "beta_decay": 0.72,
+        "effective_impact": -0.647
       },
       {
         "title": "Kalshi ends Donald Trump Jr's advisory contract due to Polymarket conflict",
@@ -634,7 +686,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.73,
+        "beta_decay": 0.71,
         "effective_impact": 0.0
       },
       {
@@ -647,8 +699,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.73,
-        "effective_impact": 0.657
+        "beta_decay": 0.71,
+        "effective_impact": 0.639
       },
       {
         "title": "Analysis-From SpaceX to Anthropic, markets have a new playbook for mega-share debuts",
@@ -660,7 +712,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.73,
+        "beta_decay": 0.71,
         "effective_impact": 0.0
       },
       {
@@ -673,7 +725,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.73,
+        "beta_decay": 0.71,
         "effective_impact": 0.0
       },
       {
@@ -686,8 +738,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.71,
-        "effective_impact": -0.64
+        "beta_decay": 0.69,
+        "effective_impact": -0.623
       },
       {
         "title": "Paytm shares at  \u20b91,925, close in on IPO listing-day high after 100% rally from March lows. What drove the recovery?",
@@ -699,8 +751,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.7,
-        "effective_impact": 0.633
+        "beta_decay": 0.68,
+        "effective_impact": 0.616
       },
       {
         "title": "Laurus Labs, Gland Pharma, Piramal, Divi's Labs: 4 drug manufacturing stocks rally up to 89% in 6 months - Upside ahead?",
@@ -712,8 +764,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.7,
-        "effective_impact": 0.633
+        "beta_decay": 0.68,
+        "effective_impact": 0.615
       },
       {
         "title": "October retail inflation surge may weigh on housing demand, raise rate hike concerns: Knight Frank, PHDCCI",
@@ -725,8 +777,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.69,
-        "effective_impact": -0.659
+        "beta_decay": 0.67,
+        "effective_impact": -0.641
       },
       {
         "title": "Nvidia default risk nears record high as board weighs CEO\u2019s fate",
@@ -738,8 +790,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.69,
-        "effective_impact": 0.657
+        "beta_decay": 0.67,
+        "effective_impact": 0.639
       },
       {
         "title": "Anthropic IPO: Who is Krishna Rao? Meet the CFO whose $1.30 stock options could unlock a  \u20b97,000 crore fortune",
@@ -751,8 +803,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.69,
-        "effective_impact": 0.618
+        "beta_decay": 0.67,
+        "effective_impact": 0.601
       },
       {
         "title": "US stocks: S&amp;P 500, Nasdaq fall as Nvidia CEO exit rattles AI stocks",
@@ -764,8 +816,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.68,
-        "effective_impact": -0.644
+        "beta_decay": 0.66,
+        "effective_impact": -0.627
       },
       {
         "title": "Meesho block deal: SVF II Meerkat to offload 1% stake at  \u20b9246 apiece; deal size  \u20b91,174 crore",
@@ -777,59 +829,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.67,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Nebius beats quarterly revenue estimates on strong AI demand",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nebius-beats-quarterly-revenue-estimates-on-strong-ai-demand/articleshow/135771184.cms",
-        "source": "Economic Times",
-        "published": "Thu, 12 Nov 2026 18:47:09 +0530",
-        "published_timestamp": "2026-11-12T18:47:09+05:30",
-        "summary": "In the latest quarterly report, Nebius achieved impressive revenue of $981 million, exceeding analyst projections of $907.5 million. The company is optimistic about future sales, forecasting between $",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.65,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Nasdaq, S&amp;P 500 futures fall as Nvidia turbulence unsettles AI stocks",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-sp-500-futures-fall-as-nvidia-turbulence-unsettles-ai-stocks/articleshow/135771074.cms",
-        "source": "Economic Times",
-        "published": "Thu, 12 Nov 2026 18:44:54 +0530",
-        "published_timestamp": "2026-11-12T18:44:54+05:30",
-        "summary": "Futures tracking the Nasdaq 100 fell significantly after Nvidia shares plummeted due to leadership concerns. Reports about CEO Jensen Huang led to a decline in investor sentiment towards AI-linked sto",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.65,
-        "effective_impact": -0.622
-      },
-      {
-        "title": "Clean Max Enviro Energy pledges Rs 50,000 crore investment in Andhra Pradesh",
-        "link": "https://economictimes.indiatimes.com/markets/companies/clean-max-enviro-energy-pledges-rs-50000-crore-investment-in-andhra-pradesh/articleshow/135771043.cms",
-        "source": "Economic Times",
-        "published": "Thu, 12 Nov 2026 18:41:57 +0530",
-        "published_timestamp": "2026-11-12T18:41:57+05:30",
-        "summary": "Clean Max Enviro Energy Solutions has signed an MoU to invest Rs 50,000 crore in Andhra Pradesh. This investment will focus on developing 3GW of integrated power generation facilities using wind and s",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.65,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "US stocks edge lower as Nvidia, oil volatility weighs on sentiment: Stock Market Live Updates",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-intel-micron-ai-stocks-marvell-coreweave-ai-chip-stocks-treasury-yield-news-12th-november-2026/liveblog/135771380.cms",
-        "source": "Economic Times",
-        "published": "Thu, 12 Nov 2026 18:40:17 +0530",
-        "published_timestamp": "2026-11-12T18:40:17+05:30",
-        "summary": " ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.65,
+        "beta_decay": 0.66,
         "effective_impact": 0.0
       }
     ]
