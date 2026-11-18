@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-11-18 16:29:27 IST",
+    "ist_time": "2026-11-18 18:06:03 IST",
     "date_str": "2026-11-18",
     "is_open": false,
     "is_weekend": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-11-18 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 33.7,
+    "score": 33.3,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 25227.95 (MARKET CLOSED: OFF-HOURS). Volatility Index is 15.52 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.16x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.17x."
     },
     "hi": {
       "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 25227.95 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 15.52 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.16x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.17x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.16
+    "multiplier": 1.17
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.16,
+    "dynamic_sip_multiplier": 1.17,
     "lot_size": 25,
     "nifty_lot_value": 630698,
     "cascade_risk_pct": 95
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 41.4,
       "S7_Order_Absorption": 34.5,
-      "S8_Lead_Lag_Gap": 56.0
+      "S8_Lead_Lag_Gap": 50.4
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 2.0,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d756.4) + (0.15\u00d737.2) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d741.4) + (0.1\u00d734.5) + (0.05\u00d756.0) + +2.00 = 33.7"
+    "news_vector_delta": 1.95,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d756.4) + (0.15\u00d737.2) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d741.4) + (0.1\u00d734.5) + (0.05\u00d750.4) + +1.95 = 33.3"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": -0.01,
       "parkinson_volatility": 12.59,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 89.45,
-      "brent_1d_pct": -3.96,
-      "usdinr": 93.44,
+      "brent_crude_usd": 90.41,
+      "brent_1d_pct": -2.93,
+      "usdinr": 93.43,
       "us_10y_yield": 5.1,
       "sp500_close": 7340.53,
       "sp500_1d_pct": -1.03,
-      "dxy_close": 103.75,
-      "dxy_1d_pct": 0.25,
+      "dxy_close": 103.81,
+      "dxy_1d_pct": 0.31,
       "last_active_session_date": "2026-11-18"
     },
     "derivatives": {
@@ -305,13 +305,65 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Neutral Opening",
-      "expected_gap_points": 30,
-      "net_macro_lead_pct": 0.241,
+      "expected_gap_points": 2,
+      "net_macro_lead_pct": 0.014,
       "sp500_change_pct": -1.03,
-      "dxy_change_pct": 0.25,
-      "crude_change_pct": -3.96
+      "dxy_change_pct": 0.31,
+      "crude_change_pct": -2.93
     },
     "news_items": [
+      {
+        "title": "Crystal Crop Protection IPO 1-lot profit calculator basis GMP: What will the listing gains be if you get an allotment",
+        "link": "https://www.livemint.com/market/stock-market-news/crystal-crop-protection-ipo-1-lot-profit-calculator-basis-gmp-what-will-the-listing-gains-be-if-you-get-an-allotment-11794994698224.html",
+        "source": "Livemint",
+        "published": "Wed, 18 Nov 2026 17:49:25 +0530",
+        "published_timestamp": "2026-11-18T17:49:25+05:30",
+        "summary": "Crystal Crop Protection\u2019s IPO was subscribed 1.15 times on its first day, led by demand from employees and retail investors. Its grey market premium of  \u20b918 suggests a potential listing price of  \u20b9290",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "India bonds reverse intraday gains to end lower as profit booking takes center stage",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-reverse-intraday-gains-to-end-lower-as-profit-booking-takes-center-stage/articleshow/135962385.cms",
+        "source": "Economic Times",
+        "published": "Wed, 18 Nov 2026 17:22:22 +0530",
+        "published_timestamp": "2026-11-18T17:22:22+05:30",
+        "summary": "Indian government bonds faced a setback as profit-seeking traders reacted to earlier gains, with the benchmark bond yield increasing to 7.2858% compared to the previous closure. The fluctuations in cr",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Nifty Bank crosses 62,000, jumps 20% from 52-week low: What's driving rally? Check performance; best bank stock to buy?",
+        "link": "https://www.livemint.com/market/stock-market-news/nifty-bank-crosses-62-000-jumps-20-from-52-week-low-whats-driving-rally-check-performance-best-bank-stock-to-buy-11794997522430.html",
+        "source": "Livemint",
+        "published": "Wed, 18 Nov 2026 17:01:43 +0530",
+        "published_timestamp": "2026-11-18T17:01:43+05:30",
+        "summary": "Indian banking stocks surged in November, with the Nifty Bank rising more than 13% to a record high and outperforming the Nifty 50. Strong credit growth, stable asset quality and easing funding pressu",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "PI Industries among 5 stocks hitting 52-week low; slipped up to 26% in a month",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/pi-industries-among-5-stocks-hitting-52-week-low-slipped-up-to-26-in-a-month/slideshow/135961979.cms",
+        "source": "Economic Times",
+        "published": "Wed, 18 Nov 2026 17:01:06 +0530",
+        "published_timestamp": "2026-11-18T17:01:06+05:30",
+        "summary": "Five BSE 500 stocks, including PI Industries, Aditya Birla Fashion and Retail and Thermax, hit fresh 52-week lows as the market weakened, with losses reaching 26% in a month. ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
       {
         "title": "Rupee ends flat after hitting seven-month high as firmer dollar offsets inflows",
         "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-ends-flat-after-hitting-seven-month-high-as-firmer-dollar-offsets-inflows/articleshow/135959732.cms",
@@ -465,8 +517,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.94,
-        "effective_impact": -0.847
+        "beta_decay": 0.91,
+        "effective_impact": -0.82
       },
       {
         "title": "Govt weighs tax tweaks to boost stock trading, curb derivatives: Report",
@@ -478,8 +530,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.93,
-        "effective_impact": -0.884
+        "beta_decay": 0.9,
+        "effective_impact": -0.856
       },
       {
         "title": "How Ashish Kacholia, Radhakishan Damani, Madhusudan Kela and other ace investors reshuffled their portfolios in Q2",
@@ -491,8 +543,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.93,
-        "effective_impact": 0.88
+        "beta_decay": 0.9,
+        "effective_impact": 0.852
       },
       {
         "title": "16 microcap stocks surge up to 390% in CY26, emerge as multibaggers",
@@ -504,8 +556,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.92,
-        "effective_impact": 0.873
+        "beta_decay": 0.89,
+        "effective_impact": 0.845
       },
       {
         "title": "India bonds rise tracking easing crude oil, US Treasury yields",
@@ -517,8 +569,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.92,
-        "effective_impact": -0.87
+        "beta_decay": 0.89,
+        "effective_impact": -0.843
       },
       {
         "title": "Anthropic IPO: Why Wall Street is betting big on Claude AI maker",
@@ -530,7 +582,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.91,
+        "beta_decay": 0.88,
         "effective_impact": 0.0
       },
       {
@@ -543,8 +595,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.91,
-        "effective_impact": -0.86
+        "beta_decay": 0.88,
+        "effective_impact": -0.833
       },
       {
         "title": "Max Healthcare among 10 Nifty stocks rallied up to 22% in 1 month. Did you miss the rally?",
@@ -556,8 +608,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.9,
-        "effective_impact": 0.858
+        "beta_decay": 0.87,
+        "effective_impact": 0.831
       },
       {
         "title": "Global money rushes back into Indian stocks at record pace",
@@ -569,8 +621,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.9,
-        "effective_impact": 0.853
+        "beta_decay": 0.87,
+        "effective_impact": 0.826
       },
       {
         "title": "JPMorgan Warns Leveraged-Loan Defaults Set to Double in 2027",
@@ -582,8 +634,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.76,
-        "effective_impact": -0.683
+        "beta_decay": 0.73,
+        "effective_impact": -0.661
       },
       {
         "title": "Treasuries\u2019 Big Short Sets Up \u2018Pain Trade\u2019 as Haven Bid Ramps Up",
@@ -595,7 +647,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.76,
+        "beta_decay": 0.73,
         "effective_impact": 0.0
       },
       {
@@ -608,7 +660,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.76,
+        "beta_decay": 0.73,
         "effective_impact": 0.0
       },
       {
@@ -621,8 +673,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.75,
-        "effective_impact": -0.679
+        "beta_decay": 0.73,
+        "effective_impact": -0.657
       },
       {
         "title": "US 10-Year Yield Set for Historic Run Above 5% on Fed Cycle",
@@ -634,8 +686,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.75,
-        "effective_impact": -0.677
+        "beta_decay": 0.73,
+        "effective_impact": -0.655
       },
       {
         "title": "Crypto Treasury Stocks Fall Anew as Ex-Citadel Securities Trader Nets Gains",
@@ -647,7 +699,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.75,
+        "beta_decay": 0.73,
         "effective_impact": 0.0
       },
       {
@@ -660,7 +712,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.73,
+        "beta_decay": 0.71,
         "effective_impact": 0.0
       },
       {
@@ -673,8 +725,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.73,
-        "effective_impact": 0.657
+        "beta_decay": 0.71,
+        "effective_impact": 0.636
       },
       {
         "title": "Upcoming IPO: Advanced Sys-Tek gets Sebi nod for public issue \u2013 fundraising, fresh equity issue, OFS &amp; other key facts",
@@ -686,7 +738,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.72,
+        "beta_decay": 0.7,
         "effective_impact": 0.0
       },
       {
@@ -699,8 +751,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.68,
-        "effective_impact": 0.615
+        "beta_decay": 0.66,
+        "effective_impact": 0.595
       },
       {
         "title": "Nike targets $5 billion more in revenue growth by 2031 in latest turnaround push",
@@ -712,8 +764,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.67,
-        "effective_impact": 0.636
+        "beta_decay": 0.65,
+        "effective_impact": 0.616
       },
       {
         "title": "Signature Global-led consortium buys 194 acre land via auction for Rs 194 cr",
@@ -725,7 +777,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.67,
+        "beta_decay": 0.64,
         "effective_impact": 0.0
       },
       {
@@ -738,7 +790,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.67,
+        "beta_decay": 0.64,
         "effective_impact": 0.0
       },
       {
@@ -751,7 +803,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.66,
+        "beta_decay": 0.64,
         "effective_impact": 0.0
       },
       {
@@ -764,7 +816,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.66,
+        "beta_decay": 0.64,
         "effective_impact": 0.0
       },
       {
@@ -777,60 +829,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.66,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Dow plunges over 850 points as Nvidia turmoil deepens selloff in AI stocks: Stock Market Highlights",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-ai-stocks-intel-coreweave-meta-tesla-nvidia-earnings-anthropic-ipo-treasury-fed-rate-treasury-bond-yield-brent-oil-news-17th-november-2026/liveblog/135927419.cms",
-        "source": "Economic Times",
-        "published": "Tue, 17 Nov 2026 18:37:43 +0530",
-        "published_timestamp": "2026-11-17T18:37:43+05:30",
-        "summary": " ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.65,
-        "effective_impact": -0.614
-      },
-      {
-        "title": "Centricity WealthTech launches private clients business for NRIs",
-        "link": "https://economictimes.indiatimes.com/markets/companies/centricity-wealthtech-launches-private-clients-business-for-nris/articleshow/135926555.cms",
-        "source": "Economic Times",
-        "published": "Tue, 17 Nov 2026 18:27:57 +0530",
-        "published_timestamp": "2026-11-17T18:27:57+05:30",
-        "summary": "Centricity WealthTech has launched its new global private clients business tailored for NRIs, aspiring to generate roughly Rs 60 crore in revenue by 2027-28. The company aims to elevate this target to",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
         "beta_decay": 0.64,
         "effective_impact": 0.0
-      },
-      {
-        "title": "M3M India to invest Rs 1,650 cr to build luxury homes under Jacob &amp; Co brand in Gurugram",
-        "link": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/m3m-india-to-invest-rs-1650-cr-to-build-luxury-homes-under-jacob-co-brand-in-gurugram/articleshow/135926381.cms",
-        "source": "Economic Times",
-        "published": "Tue, 17 Nov 2026 18:20:25 +0530",
-        "published_timestamp": "2026-11-17T18:20:25+05:30",
-        "summary": "M3M India is set to invest Rs 1,650 crore in the luxurious M3M Jacob & Co Residences, located in the prime Sector 111 on the Dwarka Expressway in Gurugram. This lavish development will feature 120 exc",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.64,
-        "effective_impact": -0.61
-      },
-      {
-        "title": "Nifty 50 hits 9-month high, crosses 25,500: Can the rally extend towards 25,800? Here's what analysts say",
-        "link": "https://www.livemint.com/market/stock-market-news/nifty-50-hits-9-month-high-crosses-25-500-can-the-rally-extend-towards-25-800-heres-what-analysts-say-11794916441623.html",
-        "source": "Livemint",
-        "published": "Tue, 17 Nov 2026 17:36:52 +0530",
-        "published_timestamp": "2026-11-17T17:36:52+05:30",
-        "summary": "The Nifty 50 rose 0.38% to a nine-month high on Tuesday, briefly crossing 25,500, as banking and realty shares gained and easing oil prices and foreign inflows lifted sentiment. Analysts see further u",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.63,
-        "effective_impact": 0.57
       }
     ]
   }
