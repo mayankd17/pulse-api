@@ -1,25 +1,25 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-11-22 19:51:32 IST",
-    "date_str": "2026-11-22",
+    "ist_time": "2026-11-23 06:09:28 IST",
+    "date_str": "2026-11-23",
     "is_open": false,
-    "is_weekend": true,
+    "is_weekend": false,
     "is_holiday": false,
     "holiday_name": "",
     "last_session_date": "2026-11-20",
-    "status_label": "MARKET CLOSED: WEEKEND",
-    "notice": "MARKET OFF TODAY (MARKET CLOSED: WEEKEND). Baseline established from 2026-11-20 session. Off-market news & global cues monitored with zero weekend decay."
+    "status_label": "MARKET CLOSED: OFF-HOURS",
+    "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-11-20 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 25.1,
+    "score": 25.2,
     "regime": "Fear",
     "en": {
-      "summary": "Nifty at 25800.6 (MARKET CLOSED: WEEKEND). Volatility Index is 17.32 with Put-Call Ratio of 0.771.",
+      "summary": "Nifty at 25800.6 (MARKET CLOSED: OFF-HOURS). Volatility Index is 17.32 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
       "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.25x."
     },
     "hi": {
-      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 25800.6 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: WEEKEND)\u0964 VIX 17.32 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
+      "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 25800.6 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 17.32 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
       "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.25x \u0930\u0916\u0947\u0902\u0964"
     }
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 51.4,
       "S7_Order_Absorption": 26.8,
-      "S8_Lead_Lag_Gap": 20.2
+      "S8_Lead_Lag_Gap": 26.3
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 0.04,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d720.7) + (0.15\u00d736.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d751.4) + (0.1\u00d726.8) + (0.05\u00d720.2) + +0.04 = 25.1"
+    "news_vector_delta": -0.16,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d720.7) + (0.15\u00d736.0) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d751.4) + (0.1\u00d726.8) + (0.05\u00d726.3) + -0.16 = 25.2"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.55,
       "parkinson_volatility": 12.7,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 89.95,
-      "brent_1d_pct": -2.21,
-      "usdinr": 92.67,
+      "brent_crude_usd": 89.28,
+      "brent_1d_pct": -3.55,
+      "usdinr": 92.66,
       "us_10y_yield": 4.91,
       "sp500_close": 6910.39,
       "sp500_1d_pct": -3.7,
-      "dxy_close": 103.81,
-      "dxy_1d_pct": -0.09,
+      "dxy_close": 103.79,
+      "dxy_1d_pct": -0.02,
       "last_active_session_date": "2026-11-20"
     },
     "derivatives": {
@@ -305,13 +305,104 @@
     },
     "lead_lag_forecast": {
       "gap_bias": "Bearish Gap-Down",
-      "expected_gap_points": -149,
-      "net_macro_lead_pct": -1.192,
+      "expected_gap_points": -118,
+      "net_macro_lead_pct": -0.948,
       "sp500_change_pct": -3.7,
-      "dxy_change_pct": -0.09,
-      "crude_change_pct": -2.21
+      "dxy_change_pct": -0.02,
+      "crude_change_pct": -3.55
     },
     "news_items": [
+      {
+        "title": "Raja Venkatraman recommends three stocks for 23 November",
+        "link": "https://www.livemint.com/market/stock-market-news/raja-venkatraman-recommends-three-stocks-for-23-november-11795350488392.html",
+        "source": "Livemint",
+        "published": "Mon, 23 Nov 2026 06:01:06 +0530",
+        "published_timestamp": "2026-11-23T06:01:06+05:30",
+        "summary": "Market expert Raja Venkatraman shares his top stock picks for 23 November. Here\u2019s his technical outlook and trade strategy.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Rupee rally may extend, but foreign inflows and global sentiment pose risks",
+        "link": "https://www.livemint.com/market/stock-market-news/rupee-vs-dollar-fii-inflows-india-11795342250728.html",
+        "source": "Livemint",
+        "published": "Mon, 23 Nov 2026 06:00:23 +0530",
+        "published_timestamp": "2026-11-23T06:00:23+05:30",
+        "summary": "Analysts caution against interpreting the record foreign inflows into Indian equity as evidence of a fundamental shift in foreign investors' perception of India.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "US futures bounce while Asia markets brace for AI wipeout",
+        "link": "https://www.livemint.com/market/us-futures-bounce-while-asia-markets-brace-for-ai-wipeout-11795390974416.html",
+        "source": "Livemint",
+        "published": "Mon, 23 Nov 2026 05:12:53 +0530",
+        "published_timestamp": "2026-11-23T05:12:53+05:30",
+        "summary": "GLOBAL-MARKETS/:GLOBAL MARKETS-US futures bounce while Asia markets brace for AI wipeout",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Dollar edges off 19-month high after market rout; yen softens",
+        "link": "https://www.livemint.com/market/dollar-edges-off-19-month-high-after-market-rout-yen-softens-11795390913779.html",
+        "source": "Livemint",
+        "published": "Mon, 23 Nov 2026 05:11:53 +0530",
+        "published_timestamp": "2026-11-23T05:11:53+05:30",
+        "summary": "GLOBAL-FOREX/:FOREX-Dollar edges off 19-month high after market rout; yen softens",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Beijing to bar young red-chip firms from listing outside mainland China, sources say",
+        "link": "https://www.livemint.com/market/beijing-to-bar-young-red-chip-firms-from-listing-outside-mainland-china-sources-say-11795389145365.html",
+        "source": "Livemint",
+        "published": "Mon, 23 Nov 2026 04:42:24 +0530",
+        "published_timestamp": "2026-11-23T04:42:24+05:30",
+        "summary": "CHINA-REGULATION-OFFSHORE-LISTINGS:Beijing to bar young 'red-chip' firms from listing outside mainland China, sources say",
+        "is_rumor": true,
+        "credibility_weight": 0.45,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Taiwan Mulls Lowering Margin Requirement to Support Stock Market",
+        "link": "https://www.livemint.com/market/taiwan-mulls-lowering-margin-requirement-to-support-stock-market-11795359097624.html",
+        "source": "Livemint",
+        "published": "Sun, 22 Nov 2026 20:21:37 +0530",
+        "published_timestamp": "2026-11-22T20:21:37+05:30",
+        "summary": "Taiwan is considering lowering the margin requirement ratio for stock investors using borrowed funds as it tries to stem a selloff after the benchmark equity index\u2019s worst week in 35 years.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
+      {
+        "title": "Gold, silver, copper, aluminium, platinum to zinc: Why are metal prices crashing to multi-month lows? Key reasons",
+        "link": "https://www.livemint.com/market/commodities/gold-silver-copper-aluminium-platinum-to-zinc-why-are-metal-prices-crashing-to-multi-month-lows-key-reasons-11795357679178.html",
+        "source": "Livemint",
+        "published": "Sun, 22 Nov 2026 20:01:47 +0530",
+        "published_timestamp": "2026-11-22T20:01:47+05:30",
+        "summary": "Precious metals extended their selloff, with gold near a 14-month low and silver at its lowest since September 2025. Inflation concerns, stronger US yields and the dollar, Fed rate-hike expectations, ",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.9
+      },
       {
         "title": "Wall St Week Ahead-Black Friday brings consumer spending into focus for AI-rocked market",
         "link": "https://www.livemint.com/market/wall-st-week-ahead-black-friday-brings-consumer-spending-into-focus-for-ai-rocked-market-11795356076825.html",
@@ -740,97 +831,6 @@
         "raw_sentiment": 0.0,
         "beta_decay": 1.0,
         "effective_impact": 0.0
-      },
-      {
-        "title": "Concurrent Gainers: These 13 stocks gained for 5 days in a row, all rose over 27%",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-these-13-stocks-gained-for-5-days-in-a-row-all-rose-over-27/slideshow/136047969.cms",
-        "source": "Economic Times",
-        "published": "Sat, 21 Nov 2026 12:27:10 +0530",
-        "published_timestamp": "2026-11-21T12:27:10+05:30",
-        "summary": "The Sensex gained 1.08% during the five sessions ending November 20, while 99 BSE 200 stocks advanced consecutively. Thirteen shortlisted stocks delivered impressive cumulative returns ranging from 27",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "AI to lead investment strategy in 2027; Energy and borrowing costs shape macro outlook: Barclays",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/ai-to-lead-investment-strategy-in-2027-energy-and-borrowing-costs-shape-macro-outlook-barclays/articleshow/136046648.cms",
-        "source": "Economic Times",
-        "published": "Sat, 21 Nov 2026 11:39:54 +0530",
-        "published_timestamp": "2026-11-21T11:39:54+05:30",
-        "summary": "According to the latest report from Barclays Private Bank, the impending year 2027 calls for a stronger investment focus on artificial intelligence. While infrastructure is steadily developing, the ri",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Market winners: Max Healthcare, Deepak Fertilisers among 10 stocks that surged up to 14% in last week",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/market-winners-max-healthcare-deepak-fertilisers-among-10-stocks-that-surged-up-to-14-in-last-week/slideshow/136046616.cms",
-        "source": "Economic Times",
-        "published": "Sat, 21 Nov 2026 11:21:22 +0530",
-        "published_timestamp": "2026-11-21T11:21:22+05:30",
-        "summary": "Max Healthcare, Deepak Fertilisers and Blue Star led Nifty 500 weekly gainers, surging 14.14%, 13.90% and 12.84%, respectively. Ten stocks outperformed the broader index, which gained 1.5%, highlighti",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.95
-      },
-      {
-        "title": "US Treasury yields drop for day and week; AI trade concern spurs safe-haven bid",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/us-treasury-yields-drop-for-day-and-week-ai-trade-concern-spurs-safe-haven-bid/articleshow/136045682.cms",
-        "source": "Economic Times",
-        "published": "Sat, 21 Nov 2026 10:53:49 +0530",
-        "published_timestamp": "2026-11-21T10:53:49+05:30",
-        "summary": "US Treasury yields experienced a significant decline due to heightened investor concerns surrounding the AI trade. As a result, investors shifted their focus towards safe-haven assets such as Treasury",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
-      },
-      {
-        "title": "Dollar weaker as Fed-fueled rally stalls; lower US yields help yen",
-        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-weaker-as-fed-fueled-rally-stalls-lower-us-yields-help-yen/articleshow/136045620.cms",
-        "source": "Economic Times",
-        "published": "Sat, 21 Nov 2026 10:50:04 +0530",
-        "published_timestamp": "2026-11-21T10:50:04+05:30",
-        "summary": "The US dollar has encountered a modest downturn, sliding to 103.86 as investor confidence wavers in the currency market. Despite this pullback, traders expect the Federal Reserve to maintain a hawkish",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Crude prices may normalise to USD 70 by end-2027 as global oil market moves into surplus: Report",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/crude-prices-may-normalise-to-usd-70-by-end-2027-as-global-oil-market-moves-into-surplus-report/articleshow/136045576.cms",
-        "source": "Economic Times",
-        "published": "Sat, 21 Nov 2026 10:46:52 +0530",
-        "published_timestamp": "2026-11-21T10:46:52+05:30",
-        "summary": "Global crude oil prices are projected to normalize around USD 70 per barrel by the end of 2027. Rising non-OPEC+ supplies and declining Chinese oil demand are expected to lead to a market surplus. Ref",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 1.0,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Gold's slide deepens as AI rout, rate-hike bets hurt bullion",
-        "link": "https://economictimes.indiatimes.com/markets/commodities/news/golds-slide-deepens-as-ai-rout-rate-hike-bets-hurt-bullion/articleshow/136045549.cms",
-        "source": "Economic Times",
-        "published": "Sat, 21 Nov 2026 10:44:11 +0530",
-        "published_timestamp": "2026-11-21T10:44:11+05:30",
-        "summary": "Gold prices plummeted by 3% on Friday, settling at a 14-month low of $3,502.49 per ounce. This sharp decline is largely due to a hawkish interest rate forecast and a significant selloff within AI stoc",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 1.0,
-        "effective_impact": -0.95
       }
     ]
   }
