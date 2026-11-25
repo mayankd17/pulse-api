@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-11-25 17:30:17 IST",
+    "ist_time": "2026-11-25 19:20:04 IST",
     "date_str": "2026-11-25",
     "is_open": false,
     "is_weekend": false,
@@ -11,17 +11,17 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-11-25 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 30.7,
+    "score": 29.9,
     "regime": "Fear",
     "en": {
       "summary": "Nifty at 25819.25 (MARKET CLOSED: OFF-HOURS). Volatility Index is 17.7 with Put-Call Ratio of 0.771.",
       "why": "FII futures long ratio is suppressed at 11.2% vs Retail at 83.9%. Net institutional flow shows -245.5 Cr distribution.",
-      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.19x."
+      "what_to_do": "Maintain 55% liquid cash. Set opportunistic SIP deployment factor to 1.2x."
     },
     "hi": {
       "summary": "\u0928\u093f\u092b\u094d\u091f\u0940 25819.25 \u092a\u0930 \u0939\u0948 (MARKET CLOSED: OFF-HOURS)\u0964 VIX 17.7 \u0914\u0930 \u092a\u0941\u091f-\u0915\u0949\u0932 \u0930\u0947\u0936\u093f\u092f\u094b 0.771 \u092a\u0930 \u0939\u0948\u0964",
       "why": "FII \u0932\u0949\u0928\u094d\u0917 \u0905\u0928\u0941\u092a\u093e\u0924 \u0915\u0947\u0935\u0932 11.2% \u0939\u0948 \u091c\u092c\u0915\u093f \u0930\u093f\u091f\u0947\u0932 83.9% \u0932\u0949\u0928\u094d\u0917 \u0939\u0948\u0964 \u0938\u0902\u0938\u094d\u0925\u093e\u0917\u0924 \u092c\u093f\u0915\u0935\u093e\u0932\u0940 -245.5 Cr \u0939\u0948\u0964",
-      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.19x \u0930\u0916\u0947\u0902\u0964"
+      "what_to_do": "\u0915\u0948\u0936 \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u0916\u0947\u0902 \u0914\u0930 SIP \u092e\u0932\u094d\u091f\u0940\u092a\u094d\u0932\u093e\u092f\u0930 1.2x \u0930\u0916\u0947\u0902\u0964"
     }
   },
   "action_playbook": {
@@ -42,7 +42,7 @@
       "defensive_hedges_pct": 30,
       "selective_equity_pct": 15
     },
-    "multiplier": 1.19
+    "multiplier": 1.2
   },
   "trap_radar": {
     "active_trap": "CRITICAL: Severe Bull Trap (Retail Long vs Institutional Short)",
@@ -64,7 +64,7 @@
   },
   "detailed_multi_horizon": {
     "7_days": {
-      "score": 28,
+      "score": 27,
       "verdict": "Consolidation Corridor",
       "target_range": "24848.2 - 26790.3",
       "downside_prob_pct": 58,
@@ -79,7 +79,7 @@
       }
     },
     "30_days": {
-      "score": 33,
+      "score": 32,
       "verdict": "SMA-50 Mean Reversion",
       "target_range": "24199.7 - 26722.9",
       "downside_prob_pct": 55,
@@ -205,7 +205,7 @@
     }
   ],
   "portfolio_gps": {
-    "dynamic_sip_multiplier": 1.19,
+    "dynamic_sip_multiplier": 1.2,
     "lot_size": 25,
     "nifty_lot_value": 645481,
     "cascade_risk_pct": 95
@@ -220,7 +220,7 @@
       "S5_Macro_Stress": 0.0,
       "S6_Sector_Breadth": 49.9,
       "S7_Order_Absorption": 51.8,
-      "S8_Lead_Lag_Gap": 59.9
+      "S8_Lead_Lag_Gap": 54.5
     },
     "active_weights": {
       "w1_Derivatives": "20%",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 1.82,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d718.3) + (0.15\u00d735.1) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d749.9) + (0.1\u00d751.8) + (0.05\u00d759.9) + +1.82 = 30.7"
+    "news_vector_delta": 1.37,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d718.3) + (0.15\u00d735.1) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d749.9) + (0.1\u00d751.8) + (0.05\u00d754.5) + +1.37 = 29.9"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 1.62,
       "parkinson_volatility": 13.06,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 88.26,
-      "brent_1d_pct": -3.44,
+      "brent_crude_usd": 89.35,
+      "brent_1d_pct": -2.24,
       "usdinr": 92.22,
-      "us_10y_yield": 4.9,
+      "us_10y_yield": 4.84,
       "sp500_close": 7201.09,
       "sp500_1d_pct": -0.5,
-      "dxy_close": 104.01,
-      "dxy_1d_pct": 0.19,
+      "dxy_close": 103.94,
+      "dxy_1d_pct": 0.13,
       "last_active_session_date": "2026-11-25"
     },
     "derivatives": {
@@ -304,14 +304,196 @@
       "amihud_ratio": 0.0001
     },
     "lead_lag_forecast": {
-      "gap_bias": "Bullish Gap-Up",
-      "expected_gap_points": 50,
-      "net_macro_lead_pct": 0.397,
+      "gap_bias": "Neutral Opening",
+      "expected_gap_points": 22,
+      "net_macro_lead_pct": 0.178,
       "sp500_change_pct": -0.5,
-      "dxy_change_pct": 0.19,
-      "crude_change_pct": -3.44
+      "dxy_change_pct": 0.13,
+      "crude_change_pct": -2.24
     },
     "news_items": [
+      {
+        "title": "Corporate bond fundraising set for record in FY27 despite rising borrowing costs",
+        "link": "https://www.livemint.com/market/corporate-bond-fundraising-set-to-hit-record-high-in-fy27-despite-higher-costs-11795603193070.html",
+        "source": "Livemint",
+        "published": "Wed, 25 Nov 2026 18:54:15 +0530",
+        "published_timestamp": "2026-11-25T18:54:15+05:30",
+        "summary": "As of 23 November, corporate bond issuances through private placements had already touched  \u20b97.16 trillion in FY27, according to Prime Database. With over four months remaining in the financial year, ",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "RBI net buyer of dollars for fourth straight month in September, data shows",
+        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-net-buyer-of-dollars-for-fourth-straight-month-in-september-data-shows/articleshow/136163192.cms",
+        "source": "Economic Times",
+        "published": "Wed, 25 Nov 2026 18:49:28 +0530",
+        "published_timestamp": "2026-11-25T18:49:28+05:30",
+        "summary": "The Reserve Bank of India recorded net purchases of $6.94 billion in the foreign exchange market during September. It bought a total of $82.18 billion while selling $75.25 billion in currency transact",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Schaeffler India block deal: Schaeffler AG likely to sell 6% stake at  \u20b93,400 apiece; deal size  \u20b93,188 crore: Report",
+        "link": "https://www.livemint.com/market/stock-market-news/schaeffler-india-block-deal-schaeffler-ag-to-offload-6-stake-at-rs-3-400-apiece-deal-size-rs-3-188-crore-report-11795612021351.html",
+        "source": "Livemint",
+        "published": "Wed, 25 Nov 2026 18:46:55 +0530",
+        "published_timestamp": "2026-11-25T18:46:55+05:30",
+        "summary": "Schaeffler AG is reportedly planning to sell a 6% stake in Schaeffler India through a block deal worth about  \u20b93,188 crore, at a 5.6% discount to the previous close. The proposed sale comes as the sto",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "US Stock Market Live Updates: Nasdaq futures fall over 2% as AI selloff deepens; inflation data looms",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-alphabet-amazon-anthropic-dell-inflation-fed-rate-hike-gold-treasury-yield-news-25th-november-2026/liveblog/136163404.cms",
+        "source": "Economic Times",
+        "published": "Wed, 25 Nov 2026 18:42:55 +0530",
+        "published_timestamp": "2026-11-25T18:42:55+05:30",
+        "summary": " ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "SEBI eases KYC norms, centralises supplementary client data to simplify onboarding",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-eases-kyc-norms-centralises-supplementary-client-data-to-simplify-onboarding/articleshow/136162936.cms",
+        "source": "Economic Times",
+        "published": "Wed, 25 Nov 2026 18:41:00 +0530",
+        "published_timestamp": "2026-11-25T18:41:00+05:30",
+        "summary": "SEBI has revealed new measures aimed at simplifying the client onboarding process for investors. By centralising supplementary KYC details with KYC Registration Agencies, investors can avoid repetitio",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Sebi mulls early payout of up to 80% of sale proceeds to FPOs in commodity derivatives market",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-mulls-early-payout-of-up-to-80-of-sale-proceeds-to-fpos-in-commodity-derivatives-market/articleshow/136162861.cms",
+        "source": "Economic Times",
+        "published": "Wed, 25 Nov 2026 18:39:04 +0530",
+        "published_timestamp": "2026-11-25T18:39:04+05:30",
+        "summary": "Sebi introduced a proposal for an early pay-out framework designed to assist Farmer Producer Organisations. This framework would allow FPOs to access up to 80 percent of sale proceeds before contract ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "RBI may opt for 25 bps rate hike as oil eases, inflation risks persist: Baroda BNP Paribas MF CIO",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/rbi-may-opt-for-25-bps-rate-hike-as-oil-eases-inflation-risks-persist-baroda-bnp-paribas-mf-cio/articleshow/136162711.cms",
+        "source": "Economic Times",
+        "published": "Wed, 25 Nov 2026 18:36:00 +0530",
+        "published_timestamp": "2026-11-25T18:36:00+05:30",
+        "summary": "The Reserve Bank of India is projected to implement a 0.25 percent interest rate hike in December. While decreasing crude oil prices could alleviate some inflation worries, many senior executives advo",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "BSE, Eternal, Titan, SBI among 18 Nifty 50 stocks that rallied 10\u201343% in 2026; what's driving gains?",
+        "link": "https://www.livemint.com/market/stock-market-news/bse-eternal-titan-sbi-among-18-nifty-50-stocks-that-rallied-10-43-in-2026-whats-driving-gains-11795607425766.html",
+        "source": "Livemint",
+        "published": "Wed, 25 Nov 2026 17:58:30 +0530",
+        "published_timestamp": "2026-11-25T17:58:30+05:30",
+        "summary": "Indian equities rebounded in November as lower oil prices, stronger earnings and renewed foreign investment improved sentiment. Eighteen Nifty 50 stocks rose 10% to 43% in 2026, led by BSE, while the ",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Small-cap stock under  \u20b9100 sets board meeting date to announce  \u20b960 crore fund raise | Record date, other details",
+        "link": "https://www.livemint.com/market/stock-market-news/smallcap-stock-under-rs-100-sets-board-meeting-date-to-announce-rs-60-crore-fund-raise-record-date-other-details-11795607702327.html",
+        "source": "Livemint",
+        "published": "Wed, 25 Nov 2026 17:55:56 +0530",
+        "published_timestamp": "2026-11-25T17:55:56+05:30",
+        "summary": "Small-cap stock that has doubled shareholders's money in one year by delivering 105% return has a history of 1:10 stock split and 3:1 bonus shares",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "US Treasury gains lift India bonds ahead of RBI meet",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/us-treasury-gains-lift-india-bonds-ahead-of-rbi-meet/articleshow/136161527.cms",
+        "source": "Economic Times",
+        "published": "Wed, 25 Nov 2026 17:55:47 +0530",
+        "published_timestamp": "2026-11-25T17:55:47+05:30",
+        "summary": "On Wednesday, Indian government bonds rallied, influenced by a decrease in US Treasury yields. The benchmark 10-year bond yield fell to 7.1641%, marking a two-week low. The Indian rupee strengthened t",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Global convulsions, courtesy AI stocks, creates a $385 billion winner \u2014 India",
+        "link": "https://www.livemint.com/market/stock-market-news/india-stock-market-sensex-nifty-today-ai-stocks-11795607301635.html",
+        "source": "Livemint",
+        "published": "Wed, 25 Nov 2026 17:31:07 +0530",
+        "published_timestamp": "2026-11-25T17:31:07+05:30",
+        "summary": "The MSCI India index has added nearly $385 billion in value so far in November, as a market long shunned for its lack of AI plays emerges as a bright spot for global investors.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "Fed policymakers at odds over causes of high inflation",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-policymakers-at-odds-over-causes-of-high-inflation/articleshow/136160394.cms",
+        "source": "Economic Times",
+        "published": "Wed, 25 Nov 2026 17:21:51 +0530",
+        "published_timestamp": "2026-11-25T17:21:51+05:30",
+        "summary": "US inflation is expected to increase again in October, with potential implications for Federal Reserve interest rate decisions. Economists predict the Personal Consumption Expenditures Price Index to ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Shapoor Mistry lobbied Modi twice for Tata Sons IPO as battle over listing intensifies",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/shapoor-mistry-lobbied-modi-twice-for-tata-sons-ipo-as-battle-over-listing-intensifies/articleshow/136160206.cms",
+        "source": "Economic Times",
+        "published": "Wed, 25 Nov 2026 17:19:18 +0530",
+        "published_timestamp": "2026-11-25T17:19:18+05:30",
+        "summary": "Shapoor Mistry, the head of the Shapoorji Pallonji Group, has reached out to Prime Minister Modi regarding the listing troubles faced by Tata Sons. He claims that Tata Trusts are obstructing the publi",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "PhonePe resumes IPO process; targets February-March listing at $12-15 billion valuation",
+        "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/phonepe-resumes-ipo-process-targets-listing-in-feb-mar-at-usd-12-15-bn-valuation/articleshow/136160163.cms",
+        "source": "Economic Times",
+        "published": "Wed, 25 Nov 2026 17:15:14 +0530",
+        "published_timestamp": "2026-11-25T17:15:14+05:30",
+        "summary": "PhonePe has resumed its initial public offering plans after deferring them due to market uncertainties. The company aims for a stock market listing valued between USD 12-15 billion in early 2024. It e",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
       {
         "title": "Gold price prediction: Despite 27% decline from January peak, UBS still retains  \u20b91.50 lakh/10 gram target for 2027",
         "link": "https://www.livemint.com/market/commodities/gold-price-prediction-despite-27-decline-from-january-peak-ubs-still-retains-rs-1-50-lakh-10-gram-target-for-2027-11795601553956.html",
@@ -452,8 +634,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.92,
-        "effective_impact": -0.828
+        "beta_decay": 0.89,
+        "effective_impact": -0.798
       },
       {
         "title": "Why are investors betting on Abercrombie's growth story?",
@@ -465,8 +647,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.88,
-        "effective_impact": 0.837
+        "beta_decay": 0.85,
+        "effective_impact": 0.807
       },
       {
         "title": "India bonds inch higher as oil steadies ahead of RBI verdict",
@@ -478,8 +660,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.88,
-        "effective_impact": 0.834
+        "beta_decay": 0.85,
+        "effective_impact": 0.804
       },
       {
         "title": "HPE shares crash 17%, stock suffers its worst-ever single-day fall. Here's why",
@@ -491,8 +673,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.86,
-        "effective_impact": -0.82
+        "beta_decay": 0.83,
+        "effective_impact": -0.79
       },
       {
         "title": "Maruti Suzuki Share Price Live Updates: Maruti Suzuki Bonus Updates",
@@ -504,7 +686,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.86,
+        "beta_decay": 0.83,
         "effective_impact": 0.0
       },
       {
@@ -517,7 +699,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.86,
+        "beta_decay": 0.83,
         "effective_impact": 0.0
       },
       {
@@ -530,7 +712,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.86,
+        "beta_decay": 0.83,
         "effective_impact": 0.0
       },
       {
@@ -543,7 +725,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.86,
+        "beta_decay": 0.83,
         "effective_impact": 0.0
       },
       {
@@ -556,7 +738,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.86,
+        "beta_decay": 0.83,
         "effective_impact": 0.0
       },
       {
@@ -569,8 +751,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.86,
-        "effective_impact": 0.818
+        "beta_decay": 0.83,
+        "effective_impact": 0.788
       },
       {
         "title": "US stocks slide as Nvidia rally fizzles out, dollar falls",
@@ -582,7 +764,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.77,
+        "beta_decay": 0.74,
         "effective_impact": 0.0
       },
       {
@@ -595,8 +777,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.75,
-        "effective_impact": -0.677
+        "beta_decay": 0.72,
+        "effective_impact": -0.652
       },
       {
         "title": "Nvidia Option Trader Scores 1,984% Gain After CEO Huang\u2019s Return",
@@ -608,8 +790,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.75,
-        "effective_impact": 0.675
+        "beta_decay": 0.72,
+        "effective_impact": 0.651
       },
       {
         "title": "Nasdaq, S&amp;P 500 end lower as investors assess Jensen Huang's return to Nvidia",
@@ -621,8 +803,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.74,
-        "effective_impact": -0.706
+        "beta_decay": 0.72,
+        "effective_impact": -0.681
       },
       {
         "title": "Bitcoin Surrenders Most Gains Amid Sustained ETF Outflows",
@@ -634,8 +816,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.74,
-        "effective_impact": 0.668
+        "beta_decay": 0.72,
+        "effective_impact": 0.644
       },
       {
         "title": "US yields little changed as AI rally fades",
@@ -647,190 +829,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.73,
-        "effective_impact": 0.654
-      },
-      {
-        "title": "Hewlett Packard Enterprise shares crash 16%, set for biggest 1-day fall in 18 months; what went wrong?",
-        "link": "https://www.livemint.com/market/stock-market-news/hewlett-packard-enterprise-shares-crash-16-set-for-biggest-1-day-fall-in-18-months-what-went-wrong-11795542211868.html",
-        "source": "Livemint",
-        "published": "Tue, 24 Nov 2026 23:42:39 +0530",
-        "published_timestamp": "2026-11-24T23:42:39+05:30",
-        "summary": "Hewlett Packard Enterprise shares fell 16% Tuesday, erasing much of the prior day\u2019s rally, despite beating quarterly estimates and issuing stronger-than-expected fiscal 2027 guidance.&nbsp;",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
         "beta_decay": 0.7,
-        "effective_impact": -0.631
-      },
-      {
-        "title": "Nvidia shares tumble 9% after biggest rally in over two decades as AI-related concerns return",
-        "link": "https://www.livemint.com/market/stock-market-news/nvidia-shares-tumble-9-after-biggest-rally-in-over-two-decades-as-ai-related-concerns-return-11795537721863.html",
-        "source": "Livemint",
-        "published": "Tue, 24 Nov 2026 22:36:21 +0530",
-        "published_timestamp": "2026-11-24T22:36:21+05:30",
-        "summary": "Nvidia shares fell 9% on Tuesday, surrendering some of their record rally after investors reassessed AI investment returns, regulatory risks and the prospect of higher interest rates.&nbsp;",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.69,
-        "effective_impact": 0.617
-      },
-      {
-        "title": "Beware! Fraudsters impersonating as Sebi-registered intermediaries: How can investors avoid traps - Experts explain",
-        "link": "https://www.livemint.com/market/stock-market-news/beware-fraudsters-impersonating-as-sebi-registered-intermediaries-how-can-investors-avoid-traps-experts-explain-11795535116795.html",
-        "source": "Livemint",
-        "published": "Tue, 24 Nov 2026 22:09:36 +0530",
-        "published_timestamp": "2026-11-24T22:09:36+05:30",
-        "summary": "Fraudsters impersonating Sebi-registered intermediaries are luring investors into unauthorised trading platforms and siphoning off money; regulator advises investors to verify intermediaries, avoid as",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.68,
-        "effective_impact": -0.611
-      },
-      {
-        "title": "Anthropic shares crash below IPO price of $83 after record Nasdaq debut, down 31% from peak. What is spooking investors?",
-        "link": "https://www.livemint.com/market/stock-market-news/anthropic-shares-crash-below-ipo-price-of-83-after-record-nasdaq-debut-down-31-from-peak-what-is-spooking-investors-11795533362689.html",
-        "source": "Livemint",
-        "published": "Tue, 24 Nov 2026 21:32:54 +0530",
-        "published_timestamp": "2026-11-24T21:32:54+05:30",
-        "summary": "Anthropic shares fell below their $83 IPO price, dropping to $79.42 after an early post-listing rally faded. The reversal has renewed concerns about AI valuations, infrastructure costs, competition an",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.67,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Who is Lori Huang? How Jensen Huang\u2019s wife holds the keys to Nvidia founder\u2019s $109 billion fortune through family trusts",
-        "link": "https://www.livemint.com/market/stock-market-news/who-is-lori-huang-how-jensen-huang-s-wife-holds-the-keys-to-nvidia-founder-s-109-billion-fortune-through-family-trusts-11795533775799.html",
-        "source": "Livemint",
-        "published": "Tue, 24 Nov 2026 21:03:54 +0530",
-        "published_timestamp": "2026-11-24T21:03:54+05:30",
-        "summary": "Jensen Huang and his wife, Lori, jointly control about 870 million Nvidia shares worth more than $109 billion, with much of the family's stake held through trusts and LLCs. Lori is a co-trustee of sev",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.66,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "South Indian Bank shares in focus as RBI approves SBI Mutual Fund to acquire up to 9.99% stake; stock up 612% in 5 years",
-        "link": "https://www.livemint.com/market/stock-market-news/south-indian-bank-shares-in-focus-as-rbi-approves-sbi-mutual-fund-to-acquire-up-to-9-99-stake-stock-up-612-in-5-years-11795526894476.html",
-        "source": "Livemint",
-        "published": "Tue, 24 Nov 2026 19:21:37 +0530",
-        "published_timestamp": "2026-11-24T19:21:37+05:30",
-        "summary": "The RBI approved SBI Mutual Fund\u2019s proposal to acquire up to a 9.99% stake in South Indian Bank, subject to regulatory conditions. The approval comes as the bank\u2019s shares hit record highs; it also rep",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.64,
-        "effective_impact": 0.578
-      },
-      {
-        "title": "PE/VC investments in India surge to USD 8.7 billion in October, highest monthly level in five years: EY-IVCA report",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/pe/vc-investments-in-india-surge-to-usd-8-7-billion-in-october-highest-monthly-level-in-five-years-ey-ivca-report/articleshow/136132831.cms",
-        "source": "Economic Times",
-        "published": "Tue, 24 Nov 2026 19:17:50 +0530",
-        "published_timestamp": "2026-11-24T19:17:50+05:30",
-        "summary": "Private equity and venture capital investments in India surged to USD 8.7 billion in October 2026. This monthly figure is the highest recorded in the past five years, supported by eight large deals to",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.64,
-        "effective_impact": 0.609
-      },
-      {
-        "title": "830% jump in five years! RMC Switchgears receives  \u20b9522 crore LoI, 3 times its market cap; will shares rebound?",
-        "link": "https://www.livemint.com/market/stock-market-news/830-jump-in-five-years-rmc-switchgears-receives-rs-522-crore-loi-3-times-its-market-cap-will-shares-rebound-11795524825577.html",
-        "source": "Livemint",
-        "published": "Tue, 24 Nov 2026 18:35:23 +0530",
-        "published_timestamp": "2026-11-24T18:35:23+05:30",
-        "summary": "RMC Switchgears received a Letter of Intent for an estimated  \u20b9522 crore turnkey distribution-infrastructure project in Maharashtra\u2014nearly three times its  \u20b9173 crore market capitalisation.",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.63,
-        "effective_impact": 0.569
-      },
-      {
-        "title": "Nasdaq futures drop as AI stocks cool after Nvidia-fueled rally: US Stock Market Live Updates",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-anthropic-iphone-google-meta-tesla-earnings-treasury-yield-news-24-nov-2026/liveblog/136131363.cms",
-        "source": "Economic Times",
-        "published": "Tue, 24 Nov 2026 18:30:48 +0530",
-        "published_timestamp": "2026-11-24T18:30:48+05:30",
-        "summary": " ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.63,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Shift in pension and insurance money to equities dampens long-term G-sec demand: RBI DG",
-        "link": "https://economictimes.indiatimes.com/markets/bonds/shift-in-pension-and-insurance-money-to-equities-dampens-long-term-g-sec-demand-rbi-dg/articleshow/136130860.cms",
-        "source": "Economic Times",
-        "published": "Tue, 24 Nov 2026 18:09:55 +0530",
-        "published_timestamp": "2026-11-24T18:09:55+05:30",
-        "summary": "The demand for long-term government securities has seen a marginal decline recently. Insurance companies and pension funds are increasingly focusing on equities instead of sovereign debt. This change ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.63,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "A 50 bps jumbo rate hike can lead to financial stability concerns, hurt growth: Report",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/a-50-bps-jumbo-rate-hike-can-lead-to-financial-stability-concerns-hurt-growth-report/articleshow/136130764.cms",
-        "source": "Economic Times",
-        "published": "Tue, 24 Nov 2026 18:08:23 +0530",
-        "published_timestamp": "2026-11-24T18:08:23+05:30",
-        "summary": "SBI economists have lowered their rate hike expectations for the upcoming RBI policy review. They now anticipate a 0.25 per cent increase rather than the previously expected 0.50 per cent. This adjust",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.63,
-        "effective_impact": 0.595
-      },
-      {
-        "title": "Explained: Why Gold prices gained and extended a rebound from a 14-month low - 3 reasons",
-        "link": "https://www.livemint.com/market/stock-market-news/explained-why-gold-prices-gained-and-extended-a-rebound-from-a-14-month-low-3-reasons-11795514651749.html",
-        "source": "Livemint",
-        "published": "Tue, 24 Nov 2026 18:01:45 +0530",
-        "published_timestamp": "2026-11-24T18:01:45+05:30",
-        "summary": "Gold recovered after last week\u2019s sharp selloff, trading near $3,630 an ounce on Tuesday. Augmont\u2019s Renisha Chainani sees potential gains toward $3,700\u2013$3,750 if $3,500 support holds. US inflation data",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.63,
-        "effective_impact": -0.563
-      },
-      {
-        "title": "Should you buy IDBI shares? Is it a good banking stock to bet on amid Fairfax stake sale deal \u2014 what market experts say",
-        "link": "https://www.livemint.com/market/stock-market-news/should-you-buy-idbi-shares-is-it-a-good-banking-stock-to-bet-on-amid-fairfax-stake-sale-deal-what-market-experts-say-11795518804386.html",
-        "source": "Livemint",
-        "published": "Tue, 24 Nov 2026 17:56:52 +0530",
-        "published_timestamp": "2026-11-24T17:56:52+05:30",
-        "summary": "IDBI share price today is  \u20b978.48 per share, slightly below the approved acquisition price of  \u20b981 per share to Canada's Fairfax Financial Holdings",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.62,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Nvidia's 37% rally wipes out gains for bearish investors; leveraged short ETFs plunge up to 92%",
-        "link": "https://www.livemint.com/market/nvidias-37-rally-wipes-out-gains-for-bearish-investors-leveraged-short-etfs-plunge-up-to-92-11795515861134.html",
-        "source": "Livemint",
-        "published": "Tue, 24 Nov 2026 17:46:43 +0530",
-        "published_timestamp": "2026-11-24T17:46:43+05:30",
-        "summary": "GraniteShares' 2x Short Nvidia ETF crashes 63% as chipmaker's sharp rebound triggers massive losses for traders betting against the stock",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.62,
-        "effective_impact": 0.0
+        "effective_impact": 0.63
       }
     ]
   }
