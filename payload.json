@@ -1,6 +1,6 @@
 {
   "exchange_timing": {
-    "ist_time": "2026-11-26 17:18:51 IST",
+    "ist_time": "2026-11-26 18:59:34 IST",
     "date_str": "2026-11-26",
     "is_open": false,
     "is_weekend": false,
@@ -11,7 +11,7 @@
     "notice": "MARKET OFF TODAY (MARKET CLOSED: OFF-HOURS). Baseline established from 2026-11-26 session. Off-market news & global cues monitored with zero weekend decay."
   },
   "speedometer": {
-    "score": 40.2,
+    "score": 40.1,
     "regime": "Balanced Neutral",
     "en": {
       "summary": "Nifty at 25884.5 (MARKET CLOSED: OFF-HOURS). Volatility Index is 16.83 with Put-Call Ratio of 0.771.",
@@ -232,8 +232,8 @@
       "w7_Order_Absorption": "10%",
       "w8_Lead_Lag_Gap": "5%"
     },
-    "news_vector_delta": 1.98,
-    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d737.3) + (0.15\u00d736.8) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d758.1) + (0.1\u00d7100.0) + (0.05\u00d764.1) + +1.98 = 40.2"
+    "news_vector_delta": 1.92,
+    "final_formula_proof": "Score = (0.2\u00d713.2) + (0.15\u00d737.3) + (0.15\u00d736.8) + (0.1\u00d725.4) + (0.1\u00d70.0) + (0.15\u00d758.1) + (0.1\u00d7100.0) + (0.05\u00d764.1) + +1.92 = 40.1"
   },
   "raw_scraped_data_feed": {
     "macro": {
@@ -247,14 +247,14 @@
       "vix_z_score_30d": 0.78,
       "parkinson_volatility": 13.09,
       "amihud_illiquidity": 0.0001,
-      "brent_crude_usd": 91.22,
-      "brent_1d_pct": -3.58,
+      "brent_crude_usd": 91.29,
+      "brent_1d_pct": -3.51,
       "usdinr": 92.54,
       "us_10y_yield": 4.85,
       "sp500_close": 7182.78,
       "sp500_1d_pct": -0.25,
-      "dxy_close": 103.78,
-      "dxy_1d_pct": 0.11,
+      "dxy_close": 103.74,
+      "dxy_1d_pct": 0.07,
       "last_active_session_date": "2026-11-26"
     },
     "derivatives": {
@@ -308,10 +308,88 @@
       "expected_gap_points": 71,
       "net_macro_lead_pct": 0.565,
       "sp500_change_pct": -0.25,
-      "dxy_change_pct": 0.11,
-      "crude_change_pct": -3.58
+      "dxy_change_pct": 0.07,
+      "crude_change_pct": -3.51
     },
     "news_items": [
+      {
+        "title": "NSE is now world's third-largest listed exchange by market cap, overtakes Nasdaq, LSE: Which two exchanges are ahead?",
+        "link": "https://www.livemint.com/market/stock-market-news/nse-is-now-worlds-third-largest-listed-exchange-by-market-cap-overtakes-nasdaq-lse-which-two-exchanges-are-ahead-11795697484423.html",
+        "source": "Livemint",
+        "published": "Thu, 26 Nov 2026 18:55:46 +0530",
+        "published_timestamp": "2026-11-26T18:55:46+05:30",
+        "summary": "NSE's market capitalisation stood at approximately $64.1 billion, placing it ahead of Deutsche Boerse, valued at $63.4 billion, London Stock Exchange Group at $62.4 billion, Nasdaq at $59.4 billion an",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 0.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "India bonds tumble as Brent tops $95 per barrel, RBI flags food inflation risks",
+        "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-tumble-as-brent-tops-95-per-barrel-rbi-flags-food-inflation-risks/articleshow/136193320.cms",
+        "source": "Economic Times",
+        "published": "Thu, 26 Nov 2026 18:41:40 +0530",
+        "published_timestamp": "2026-11-26T18:41:40+05:30",
+        "summary": "Indian government bonds experienced a decline as oil prices increased due to geopolitical tensions in the Middle East. The Reserve Bank of India emphasized broad-based food inflation pressures, compli",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": -1.0,
+        "beta_decay": 1.0,
+        "effective_impact": -0.95
+      },
+      {
+        "title": "NSE among 6 stocks hitting 52-week highs; stock rallies up to 35% in a month",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/news/nse-among-6-stocks-hitting-52-week-highs-stock-rallies-up-to-35-in-a-month/slideshow/136192775.cms",
+        "source": "Economic Times",
+        "published": "Thu, 26 Nov 2026 17:58:07 +0530",
+        "published_timestamp": "2026-11-26T17:58:07+05:30",
+        "summary": "Six BSE 100 stocks, including NSE, DLF and Prestige Estates, hit fresh 52-week highs on Thursday. NSE led monthly gains, surging 35%, followed by Prestige Estates at 32%. ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.95
+      },
+      {
+        "title": "Circuit-to-circuit stock finds no seller for 21 days in a row | Bonus, stock split, dividend record date awaited",
+        "link": "https://www.livemint.com/market/stock-market-news/circuittocircuit-stock-sc-agrotech-finds-no-seller-for-21-days-in-a-row-bonus-stock-split-dividend-record-date-11795694308081.html",
+        "source": "Livemint",
+        "published": "Thu, 26 Nov 2026 17:54:12 +0530",
+        "published_timestamp": "2026-11-26T17:54:12+05:30",
+        "summary": "Circuit-to-circuit stock: The stock hit a fresh all-time high of  \u20b992.09 on Thursday, November 26, after rising 4.99% during the session.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Nifty surges over 12% in November, eyes biggest monthly gain in six years; BSE, Eternal, Trent among top gainers",
+        "link": "https://www.livemint.com/market/stock-market-news/nifty-surges-over-12-in-november-eyes-biggest-monthly-gain-in-six-years-bse-eternal-trent-among-top-gainers-11795694066553.html",
+        "source": "Livemint",
+        "published": "Thu, 26 Nov 2026 17:50:20 +0530",
+        "published_timestamp": "2026-11-26T17:50:20+05:30",
+        "summary": "The Nifty 50 has rebounded 12.3% in November, putting it on track for its strongest monthly gain since April 2020. Lower oil prices, changing global AI investment sentiment and improved earnings prosp",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
+      {
+        "title": "Swami Ramdev fame company announces 2nd interim dividend; check amount, record date, history",
+        "link": "https://www.livemint.com/market/stock-market-news/swami-ramdev-fame-company-patanjali-foods-announces-2nd-interim-dividend-check-amount-record-date-history-11795691413030.html",
+        "source": "Livemint",
+        "published": "Thu, 26 Nov 2026 17:22:20 +0530",
+        "published_timestamp": "2026-11-26T17:22:20+05:30",
+        "summary": "Patanjali Foods dividend 2026: Patanjali Foods has maintained a consistent dividend-paying track record, having rewarded shareholders with regular payouts since 2022.",
+        "is_rumor": false,
+        "credibility_weight": 0.9,
+        "raw_sentiment": 1.0,
+        "beta_decay": 1.0,
+        "effective_impact": 0.9
+      },
       {
         "title": "Check Nifty target, Top Stocks to Buy: PL Capital adds HUL, Astral, Grindwell to high-conviction list | Full List",
         "link": "https://www.livemint.com/market/stock-market-news/check-nifty-target-top-stocks-to-buy-pl-capital-adds-hul-astral-grindwell-to-high-conviction-list-full-list-11795685183310.html",
@@ -456,6 +534,32 @@
         "effective_impact": 0.9
       },
       {
+        "title": "HDFC Bank Share Price Live Updates: HDFC Bank Stock Price History",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hdfc-bank-share-price-live-26-nov-2026/liveblog/136181934.cms",
+        "source": "Economic Times",
+        "published": "Thu, 26 Nov 2026 12:21:53 +0530",
+        "published_timestamp": "2026-11-26T12:21:53+05:30",
+        "summary": " ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.88,
+        "effective_impact": 0.0
+      },
+      {
+        "title": "SBI Life Share Price Live Updates: SBI Life Stock Price History",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sbi-life-stock-price-live-updates-26-nov-2026/liveblog/136181870.cms",
+        "source": "Economic Times",
+        "published": "Thu, 26 Nov 2026 12:20:36 +0530",
+        "published_timestamp": "2026-11-26T12:20:36+05:30",
+        "summary": " ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 0.0,
+        "beta_decay": 0.88,
+        "effective_impact": 0.0
+      },
+      {
         "title": "Rupee falls 20 paise to 92.40 against US dollar in early trade",
         "link": "https://economictimes.indiatimes.com/markets/forex/rupee-falls-20-paise-to-92-40-against-us-dollar-in-early-trade/articleshow/136179591.cms",
         "source": "Economic Times",
@@ -465,8 +569,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.88,
-        "effective_impact": 0.836
+        "beta_decay": 0.85,
+        "effective_impact": 0.808
       },
       {
         "title": "India bonds tumble as Brent tops $95 per barrel, RBI flags food inflation risks",
@@ -478,7 +582,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.88,
+        "beta_decay": 0.85,
         "effective_impact": 0.0
       },
       {
@@ -491,8 +595,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.87,
-        "effective_impact": -0.83
+        "beta_decay": 0.84,
+        "effective_impact": -0.802
       },
       {
         "title": "Adani firms plan public bond sale to raise at least Rs 2,000 crore",
@@ -504,8 +608,21 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.87,
+        "beta_decay": 0.84,
         "effective_impact": 0.0
+      },
+      {
+        "title": "ITC Share Price Highlights: ITC Stock Price History",
+        "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/itc-stock-price-live-updates-26-nov-2026/liveblog/136178775.cms",
+        "source": "Economic Times",
+        "published": "Thu, 26 Nov 2026 10:07:02 +0530",
+        "published_timestamp": "2026-11-26T10:07:02+05:30",
+        "summary": " ",
+        "is_rumor": false,
+        "credibility_weight": 0.95,
+        "raw_sentiment": 1.0,
+        "beta_decay": 0.84,
+        "effective_impact": 0.795
       },
       {
         "title": "Eternal, Adani Enterprises among 10 stocks with highest FII buying in Q2. How many do you have?",
@@ -517,8 +634,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.87,
-        "effective_impact": 0.823
+        "beta_decay": 0.84,
+        "effective_impact": 0.795
       },
       {
         "title": "Eicher Motors Share Price Live Updates: Eicher Motors Bonus Updates",
@@ -530,7 +647,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.87,
+        "beta_decay": 0.84,
         "effective_impact": 0.0
       },
       {
@@ -543,8 +660,8 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.86,
-        "effective_impact": -0.819
+        "beta_decay": 0.83,
+        "effective_impact": -0.792
       },
       {
         "title": "Jupiter Wagons among 8 stocks showing White Marubozu pattern",
@@ -556,7 +673,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.85,
+        "beta_decay": 0.82,
         "effective_impact": 0.0
       },
       {
@@ -569,7 +686,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.85,
+        "beta_decay": 0.82,
         "effective_impact": 0.0
       },
       {
@@ -582,7 +699,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.76,
+        "beta_decay": 0.73,
         "effective_impact": 0.0
       },
       {
@@ -595,8 +712,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.76,
-        "effective_impact": 0.681
+        "beta_decay": 0.73,
+        "effective_impact": 0.658
       },
       {
         "title": "Yen, Swiss franc gain as dollar slips in volatile AI-driven session",
@@ -608,8 +725,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.74,
-        "effective_impact": 0.663
+        "beta_decay": 0.71,
+        "effective_impact": 0.641
       },
       {
         "title": "Bitcoin Miners Hammered Again as Price Rout Squeezes Margins",
@@ -621,7 +738,7 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.73,
+        "beta_decay": 0.71,
         "effective_impact": 0.0
       },
       {
@@ -634,7 +751,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.73,
+        "beta_decay": 0.71,
         "effective_impact": 0.0
       },
       {
@@ -647,7 +764,7 @@
         "is_rumor": false,
         "credibility_weight": 0.95,
         "raw_sentiment": 0.0,
-        "beta_decay": 0.73,
+        "beta_decay": 0.7,
         "effective_impact": 0.0
       },
       {
@@ -660,8 +777,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.72,
-        "effective_impact": -0.652
+        "beta_decay": 0.7,
+        "effective_impact": -0.631
       },
       {
         "title": "Soybeans rebound ahead of holiday as soymeal futures climb",
@@ -673,8 +790,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.71,
-        "effective_impact": 0.638
+        "beta_decay": 0.69,
+        "effective_impact": 0.617
       },
       {
         "title": "Nasdaq 100 plunges nearly 5%, briefly enters bear-market zone as AI fears and fresh tariffs hit sentiment",
@@ -686,8 +803,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.7,
-        "effective_impact": -0.627
+        "beta_decay": 0.67,
+        "effective_impact": -0.606
       },
       {
         "title": "MCX gold plunges  \u20b94,420/10g, silver sheds nearly  \u20b98,800/kg as PCE data fuels December Fed rate hike bets",
@@ -699,8 +816,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": -1.0,
-        "beta_decay": 0.68,
-        "effective_impact": -0.611
+        "beta_decay": 0.66,
+        "effective_impact": -0.591
       },
       {
         "title": "Nifty recovers Monday's losses, moves within reach of record high",
@@ -712,125 +829,8 @@
         "is_rumor": false,
         "credibility_weight": 0.9,
         "raw_sentiment": 1.0,
-        "beta_decay": 0.66,
-        "effective_impact": 0.597
-      },
-      {
-        "title": "Nvidia stock loses momentum after Huang's return as CEO, down another 9%; why are investors dumping AI stocks again?",
-        "link": "https://www.livemint.com/market/stock-market-news/nvidia-stock-loses-momentum-after-huangs-return-as-ceo-down-another-9-why-are-investors-dumping-ai-stocks-again-11795618514162.html",
-        "source": "Livemint",
-        "published": "Wed, 25 Nov 2026 20:43:42 +0530",
-        "published_timestamp": "2026-11-25T20:43:42+05:30",
-        "summary": "Nvidia shares fell 9% at Wednesday\u2019s open, extending a two-day decline to 14.5% as investors weighed rising AI infrastructure costs, higher borrowing costs, governance uncertainty and potential regula",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.66,
-        "effective_impact": 0.596
-      },
-      {
-        "title": "Carlyle pares 7.4% stake in Piramal Pharma for over Rs 2,211 crore",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/carlyle-pares-7-4-stake-in-piramal-pharma-for-over-rs-2211-crore/articleshow/136165837.cms",
-        "source": "Economic Times",
-        "published": "Wed, 25 Nov 2026 20:32:44 +0530",
-        "published_timestamp": "2026-11-25T20:32:44+05:30",
-        "summary": "The Carlyle Group has divested 7.4 percent of its stake in Piramal Pharma through an open market deal, selling approximately 9.86 crore shares at an average rate of Rs 224.17 each. As a result, its st",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.66,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "RBI raises share of domestically held gold reserves, data shows",
-        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-raises-share-of-domestically-held-gold-reserves-data-shows/articleshow/136165807.cms",
-        "source": "Economic Times",
-        "published": "Wed, 25 Nov 2026 20:30:14 +0530",
-        "published_timestamp": "2026-11-25T20:30:14+05:30",
-        "summary": "As of September, the Reserve Bank of India has expanded its domestic gold reserves to 880.52 metric tonnes. This figure comprises 740.13 metric tonnes held in the country and 140.39 metric tonnes stor",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.66,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "Two in five Indian family offices, UHNIs have engaged with crypto amid regulatory caution",
-        "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/two-in-five-indian-family-offices-uhnis-have-engaged-with-crypto-amid-regulatory-caution/articleshow/136163899.cms",
-        "source": "Economic Times",
-        "published": "Wed, 25 Nov 2026 19:19:47 +0530",
-        "published_timestamp": "2026-11-25T19:19:47+05:30",
-        "summary": "Around 41 percent of high-net-worth investors in India are delving into the world of cryptocurrencies and virtual digital assets, despite many only possessing a fundamental comprehension of this evolv",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
         "beta_decay": 0.64,
-        "effective_impact": 0.612
-      },
-      {
-        "title": "Corporate bond fundraising set for record in FY27 despite rising borrowing costs",
-        "link": "https://www.livemint.com/market/corporate-bond-fundraising-set-to-hit-record-high-in-fy27-despite-higher-costs-11795603193070.html",
-        "source": "Livemint",
-        "published": "Wed, 25 Nov 2026 18:54:15 +0530",
-        "published_timestamp": "2026-11-25T18:54:15+05:30",
-        "summary": "As of 23 November, corporate bond issuances through private placements had already touched  \u20b97.16 trillion in FY27, according to Prime Database. With over four months remaining in the financial year, ",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.64,
-        "effective_impact": 0.575
-      },
-      {
-        "title": "RBI net buyer of dollars for fourth straight month in September, data shows",
-        "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-net-buyer-of-dollars-for-fourth-straight-month-in-september-data-shows/articleshow/136163192.cms",
-        "source": "Economic Times",
-        "published": "Wed, 25 Nov 2026 18:49:28 +0530",
-        "published_timestamp": "2026-11-25T18:49:28+05:30",
-        "summary": "The Reserve Bank of India recorded net purchases of $6.94 billion in the foreign exchange market during September. It bought a total of $82.18 billion while selling $75.25 billion in currency transact",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 1.0,
-        "beta_decay": 0.64,
-        "effective_impact": 0.606
-      },
-      {
-        "title": "Schaeffler India block deal: Schaeffler AG likely to sell 6% stake at  \u20b93,400 apiece; deal size  \u20b93,188 crore: Report",
-        "link": "https://www.livemint.com/market/stock-market-news/schaeffler-india-block-deal-schaeffler-ag-to-offload-6-stake-at-rs-3-400-apiece-deal-size-rs-3-188-crore-report-11795612021351.html",
-        "source": "Livemint",
-        "published": "Wed, 25 Nov 2026 18:46:55 +0530",
-        "published_timestamp": "2026-11-25T18:46:55+05:30",
-        "summary": "Schaeffler AG is reportedly planning to sell a 6% stake in Schaeffler India through a block deal worth about  \u20b93,188 crore, at a 5.6% discount to the previous close. The proposed sale comes as the sto",
-        "is_rumor": false,
-        "credibility_weight": 0.9,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.64,
-        "effective_impact": 0.0
-      },
-      {
-        "title": "US Stock Market Live Updates: Nasdaq futures fall over 2% as AI selloff deepens; inflation data looms",
-        "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-alphabet-amazon-anthropic-dell-inflation-fed-rate-hike-gold-treasury-yield-news-25th-november-2026/liveblog/136163404.cms",
-        "source": "Economic Times",
-        "published": "Wed, 25 Nov 2026 18:42:55 +0530",
-        "published_timestamp": "2026-11-25T18:42:55+05:30",
-        "summary": " ",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": -1.0,
-        "beta_decay": 0.64,
-        "effective_impact": -0.605
-      },
-      {
-        "title": "SEBI eases KYC norms, centralises supplementary client data to simplify onboarding",
-        "link": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-eases-kyc-norms-centralises-supplementary-client-data-to-simplify-onboarding/articleshow/136162936.cms",
-        "source": "Economic Times",
-        "published": "Wed, 25 Nov 2026 18:41:00 +0530",
-        "published_timestamp": "2026-11-25T18:41:00+05:30",
-        "summary": "SEBI has revealed new measures aimed at simplifying the client onboarding process for investors. By centralising supplementary KYC details with KYC Registration Agencies, investors can avoid repetitio",
-        "is_rumor": false,
-        "credibility_weight": 0.95,
-        "raw_sentiment": 0.0,
-        "beta_decay": 0.64,
-        "effective_impact": 0.0
+        "effective_impact": 0.578
       }
     ]
   }
